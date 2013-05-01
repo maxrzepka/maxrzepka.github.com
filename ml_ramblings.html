@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Machine Learning Ramblings</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="Machine Learning Ramblings"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-05-01T11:37+0200"/>
+<meta name="author" content="Maximilien"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+
+<link rel="stylesheet" type="text/css" href="worg-classic.css" />
+
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">Machine Learning Ramblings</h1>
+
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Introduction</a></li>
+<li><a href="#sec-2">Forrest of Terms</a></li>
+<li><a href="#sec-3">Regression in the Wild = Supervised Learning</a>
+<ul>
+<li><a href="#sec-3-1">Linear regression</a></li>
+<li><a href="#sec-3-2">Logistic regression</a></li>
+<li><a href="#sec-3-3">Classification</a></li>
+<li><a href="#sec-3-4">Probabilistic Approach</a>
+<ul>
+<li><a href="#sec-3-4-1">Likelihood</a></li>
+</ul>
+</li>
+<li><a href="#sec-3-5">Feature / Model Selection</a></li>
+<li><a href="#sec-3-6">Regularization</a></li>
+<li><a href="#sec-3-7">Algorithms</a>
+<ul>
+<li><a href="#sec-3-7-1">Gradient Descent</a></li>
+<li><a href="#sec-3-7-2">Newton's Method</a></li>
+</ul>
+</li>
+<li><a href="#sec-3-8"></a>
+<ul>
+<li><a href="#sec-3-8-1">Normal equation</a></li>
+<li><a href="#sec-3-8-2">Advanced optimization</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-4">Unsupervised Learning</a></li>
+<li><a href="#sec-5">Reinforcement Learning</a></li>
+<li><a href="#sec-6">Glossary</a>
+<ul>
+<li><a href="#sec-6-1">underfit = high bias</a></li>
+<li><a href="#sec-6-2">overfit = high variance</a></li>
+<li><a href="#sec-6-3">non inversible matrice = degenerated = singular</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Introduction</h2>
+<div class="outline-text-2" id="text-1">
+
+<p>My presentation of Machine learning with the intention to give intuition rather than rigor.
+I found that this new hyper-active field called Machine Learning is full of terms
+</p>
+<p>
+The purpose of this small text is to clarify the concepts and vocabulary used in the literature, to get the full picture and deep intuition of them
+</p>
+<p>
+I must thanks Andrew Ng that showed me the path tough it was already in me since long time :
+</p>
+<ul>
+<li>Knowledge should be accessible to all without friction.
+</li>
+<li>Education open for all is a condition to have great and living elite.
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Forrest of Terms</h2>
+<div class="outline-text-2" id="text-2">
+
+
+<p>
+Let's take the 3 following notions : Pattern Recognition , Machine Learning , Data Mining. Are they equivalent, disjoint notions ?
+</p>
+<p>
+Like English Language having several words of different origin meaning the same thing. On contrary of French where an instance were fixing rules
+</p>
+<p>
+Data Science is also a mix (crossing) of various discipline approaching same problem or just naming differently the same concepts.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Regression in the Wild = Supervised Learning</h2>
+<div class="outline-text-2" id="text-3">
+
+
+<p>
+The problem is to predict unknow data from know data (training set). The approach is to find a set of functions
+Under this section, repression regression classification
+</p>
+
+</div>
+
+<div id="outline-container-3-1" class="outline-3">
+<h3 id="sec-3-1">Linear regression</h3>
+<div class="outline-text-3" id="text-3-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-3-2" class="outline-3">
+<h3 id="sec-3-2">Logistic regression</h3>
+<div class="outline-text-3" id="text-3-2">
+
+<p>It's a particular case of linear regression to do classification.
+</p></div>
+
+</div>
+
+<div id="outline-container-3-3" class="outline-3">
+<h3 id="sec-3-3">Classification</h3>
+<div class="outline-text-3" id="text-3-3">
+
+<p>Sub case of regression
+</p></div>
+
+</div>
+
+<div id="outline-container-3-4" class="outline-3">
+<h3 id="sec-3-4">Probabilistic Approach</h3>
+<div class="outline-text-3" id="text-3-4">
+
+
+</div>
+
+<div id="outline-container-3-4-1" class="outline-4">
+<h4 id="sec-3-4-1">Likelihood</h4>
+<div class="outline-text-4" id="text-3-4-1">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3-5" class="outline-3">
+<h3 id="sec-3-5">Feature / Model Selection</h3>
+<div class="outline-text-3" id="text-3-5">
+
+</div>
+
+</div>
+
+<div id="outline-container-3-6" class="outline-3">
+<h3 id="sec-3-6">Regularization</h3>
+<div class="outline-text-3" id="text-3-6">
+
+<ul>
+<li>keep all features but reduce magnitude of theta
+</li>
+<li>work well when lot of features
+</li>
+</ul>
+
+
+<p>
+make small theta ( simpler hypothesis , less prone to overfitting) by penalizing high order polynomial thetas :
+   regularized cost function 1/2m sum ( cost(theta) + lambda * norm(theta)) , last term is the regularization parameter
+</p>
+<p>
+Regularization make normal equation always possible because XX' - lambda * eye is always inversible
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3-7" class="outline-3">
+<h3 id="sec-3-7">Algorithms</h3>
+<div class="outline-text-3" id="text-3-7">
+
+
+</div>
+
+<div id="outline-container-3-7-1" class="outline-4">
+<h4 id="sec-3-7-1">Gradient Descent</h4>
+<div class="outline-text-4" id="text-3-7-1">
+
+
+<p>
+Given a data set of m points (yi,xi) gradien descent is an algorithm to estimate the best weights s0 s1 such as y = s0 + s1*x :
+</p><ul>
+<li>s0 and s1 should minimize the function Cost J(s0,s1) = 1/2m * sum ( ( s0 + s1*xi - yi )<sup>2</sup> )
+</li>
+<li>iteration step s = s - a * deriv ( J(s) ) where a is the learning rate
+</li>
+<li>This algorithm is also called "batch" gradient descnet as at each iteration is needs the entire dataset.
+</li>
+<li>derivative along s1 : 1/m * sum ( (s0 + s1*xi - yi) * xi )
+</li>
+<li>derivative along s0 : 1/m * sum ( s0 + s1*xi - yi)
+</li>
+</ul>
+
+
+<ul>
+<li id="sec-3-7-1-1">tuning<br/>
+
+<p>
+In case of multiple variable make all variables on same scale : divide variable with greatest value ie  -1 &lt; new var &lt; 1
+</p><ul>
+<li>Feature scaling x / range of x
+</li>
+<li>mean normalization : (x - mean) / range of x
+</li>
+<li>?? Better scaling : (x - mean ) / standard deviation
+</li>
+</ul>
+
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3-7-2" class="outline-4">
+<h4 id="sec-3-7-2">Newton's Method</h4>
+<div class="outline-text-4" id="text-3-7-2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3-8" class="outline-3">
+<h3 id="sec-3-8"></h3>
+<div class="outline-text-3" id="text-3-8">
+
+
+</div>
+
+<div id="outline-container-3-8-1" class="outline-4">
+<h4 id="sec-3-8-1">Normal equation</h4>
+<div class="outline-text-4" id="text-3-8-1">
+
+
+<p>
+ s = (X'X)<sup>-1</sup> * X'Y where X' = transpose of X
+ m = # of dataset
+ n =  # of features
+ X is a m * (n + 1) matrix where a data point is (xo , x1 ,.., xn) and x0 = 1
+</p></div>
+
+</div>
+
+<div id="outline-container-3-8-2" class="outline-4">
+<h4 id="sec-3-8-2">Advanced optimization</h4>
+<div class="outline-text-4" id="text-3-8-2">
+
+<p>No need to manual choose the learning rate alpha
+</p><ul>
+<li>conjugate Gradient
+</li>
+<li>BFGS L-BFGS : quasi newton method
+</li>
+</ul>
+
+
+<ul>
+<li id="sec-3-7-4-1">Resources<br/>
+<ul>
+<li>ALGLIB is a cross-platform numerical analysis and data processing library <a href="http://www.alglib.net/optimization/lbfgsandcg.php">http://www.alglib.net/optimization/lbfgsandcg.php</a>
+</li>
+<li>R library for optimization <a href="http://stat.ethz.ch/R-manual/R-devel/library/stats/html/optim.html">http://stat.ethz.ch/R-manual/R-devel/library/stats/html/optim.html</a>
+</li>
+</ul>
+
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">Unsupervised Learning</h2>
+<div class="outline-text-2" id="text-4">
+
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Reinforcement Learning</h2>
+<div class="outline-text-2" id="text-5">
+
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6">Glossary</h2>
+<div class="outline-text-2" id="text-6">
+
+<p>List as complete as possible of terms with short explanation and their relation between them (equivalance , subset)
+</p>
+
+</div>
+
+<div id="outline-container-6-1" class="outline-3">
+<h3 id="sec-6-1">underfit = high bias</h3>
+<div class="outline-text-3" id="text-6-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-6-2" class="outline-3">
+<h3 id="sec-6-2">overfit = high variance</h3>
+<div class="outline-text-3" id="text-6-2">
+
+</div>
+
+</div>
+
+<div id="outline-container-6-3" class="outline-3">
+<h3 id="sec-6-3">non inversible matrice = degenerated = singular</h3>
+<div class="outline-text-3" id="text-6-3">
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author: Maximilien</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>

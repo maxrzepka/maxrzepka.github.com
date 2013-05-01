@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Cloudera Data Essentials DS200</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="title" content="Cloudera Data Essentials DS200"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-05-01T11:36+0200"/>
+<meta name="author" content="Maximilien"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+
+<link rel="stylesheet" type="text/css" href="worg-classic.css" />
+
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">Cloudera Data Essentials DS200</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Installation</a>
+<ul>
+<li><a href="#sec-1-1">Useful links to install hadoop :</a>
+<ul>
+<li><a href="#sec-1-1-1">Other install resources</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-2">Data Acquisition</a>
+<ul>
+<li><a href="#sec-2-1">Objectives</a></li>
+<li><a href="#sec-2-2">Resources</a></li>
+<li><a href="#sec-2-3">Access and load data from a variety of sources into a Hadoop cluster</a>
+<ul>
+<li><a href="#sec-2-3-1">TODOC  OLTP OLAP</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">Deploy acquisition techniques</a>
+<ul>
+<li><a href="#sec-2-4-1">java code read JDBC &ndash;&gt; write HFS</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-5">Use command line tools such wget and curl</a></li>
+<li><a href="#sec-2-6">HDFS command-line</a></li>
+<li><a href="#sec-2-7">Use Hadoop tools such as Sqoop and Flume</a>
+<ul>
+<li><a href="#sec-2-7-1">Sqoop</a></li>
+<li><a href="#sec-2-7-2">Flume</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-3">Data Evaluation</a>
+<ul>
+<li><a href="#sec-3-1">Objectives</a></li>
+<li><a href="#sec-3-2">Resources</a></li>
+<li><a href="#sec-3-3">Avro , SequenceFiles :</a></li>
+<li><a href="#sec-3-4">Serialization</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">Data Transformation</a>
+<ul>
+<li><a href="#sec-4-1">Objectives</a></li>
+<li><a href="#sec-4-2">Resources</a></li>
+<li><a href="#sec-4-3">streaming</a></li>
+<li><a href="#sec-4-4">hive</a>
+<ul>
+<li><a href="#sec-4-4-1">migrate mysql tables follows, person to hive table</a></li>
+<li><a href="#sec-4-4-2">resources</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-5">Machine Learning Tools</a>
+<ul>
+<li><a href="#sec-5-1">Mahout</a>
+<ul>
+<li><a href="#sec-5-1-1">Running mahout</a></li>
+<li><a href="#sec-5-1-2">Jar mahout code and run on hadoop cluster</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-6">Machine Learning Basics</a>
+<ul>
+<li><a href="#sec-6-1">Objectives</a></li>
+<li><a href="#sec-6-2">Resources</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">Classification</a>
+<ul>
+<li><a href="#sec-7-1">Objectives</a></li>
+<li><a href="#sec-7-2">Resources</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">Optimization</a>
+<ul>
+<li><a href="#sec-8-1">Objectives</a></li>
+</ul>
+</li>
+<li><a href="#sec-9">Model/Feature Selection</a>
+<ul>
+<li><a href="#sec-9-1">Objectives</a></li>
+<li><a href="#sec-9-2">Resources</a></li>
+</ul>
+</li>
+<li><a href="#sec-10">Clustering</a>
+<ul>
+<li><a href="#sec-10-1">Objectives</a></li>
+<li><a href="#sec-10-2">Resources</a></li>
+</ul>
+</li>
+<li><a href="#sec-11">Collaborative Filtering</a>
+<ul>
+<li><a href="#sec-11-1">Objectives</a></li>
+<li><a href="#sec-11-2">Resources</a></li>
+</ul>
+</li>
+<li><a href="#sec-12">Probability</a>
+<ul>
+<li><a href="#sec-12-1">Objectives</a></li>
+</ul>
+</li>
+<li><a href="#sec-13">Visualization</a>
+<ul>
+<li><a href="#sec-13-1">Objectives</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Installation</h2>
+<div class="outline-text-2" id="text-1">
+
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1">Useful links to install hadoop :</h3>
+<div class="outline-text-3" id="text-1-1">
+
+
+<ul>
+<li>to follow <a href="http://trochee.net/2013/04/cdh3-on-ubuntu-precise-pangolin/">http://trochee.net/2013/04/cdh3-on-ubuntu-precise-pangolin/</a>
+</li>
+</ul>
+
+
+<p>
+wget <a href="http://ftp.ch.debian.org/debian/pool/main/libz/libzip/libzip1_0.9.3-1_i386.deb">http://ftp.ch.debian.org/debian/pool/main/libz/libzip/libzip1_0.9.3-1_i386.deb</a>
+</p>
+
+<ul>
+<li>To correct name node startup failure
+</li>
+</ul>
+
+<p>$ sudo rm -rf /var/lib/hadoop-0.20/cache/hadoop/dfs
+$ sudo mkdir -p /var/lib/hadoop-0.20/cache/hadoop/dfs/{name,data}
+$ sudo chown hdfs:hdfs /var/lib/hadoop-0.20/cache/hadoop/dfs/{name,data}
+$ sudo -u hdfs hadoop namenode -format
+</p>
+
+<p>
+for service in /etc/init.d/hadoop-0.20-*; do sudo $service start; done
+</p>
+
+</div>
+
+<div id="outline-container-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1">Other install resources</h4>
+<div class="outline-text-4" id="text-1-1-1">
+
+<ul>
+<li>low-level instructions to install hadoop <a href="http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/">http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/</a>
+</li>
+<li>install Hadoop in pseudo-distributed mode <a href="http://oodlestechnologies.com/blogs/Installing-Hadoop">http://oodlestechnologies.com/blogs/Installing-Hadoop</a>-(Pseudo-Mode)-on-ubuntu-and-other-Linux-environments)
+</li>
+<li>same as above <a href="http://www.mylearning.in/2012/10/installing-hadoop-on-ubuntu-1204-single.html">http://www.mylearning.in/2012/10/installing-hadoop-on-ubuntu-1204-single.html</a>
+</li>
+<li>cloudera install CDH3 <a href="http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH3/CDH3u6/CDH3-Installation-Guide/cdh3ig_topic_4_4.html">http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH3/CDH3u6/CDH3-Installation-Guide/cdh3ig_topic_4_4.html</a>
+</li>
+<li>full 64bit virtual box hadoop install with screenshots <a href="http://blogr-cs.blogspot.ch/2012/12/integration-of-r-rstudio-and-hadoop-in.html">http://blogr-cs.blogspot.ch/2012/12/integration-of-r-rstudio-and-hadoop-in.html</a>
+</li>
+<li>VMware image for CDH3 32bit <a href="https://groups.google.com/a/cloudera.org/group/cdh-user/browse_thread/thread/56bc678ff473a15f">https://groups.google.com/a/cloudera.org/group/cdh-user/browse_thread/thread/56bc678ff473a15f</a>
+        <a href="https://downloads.cloudera.com/cloudera-demo-0.3.7.vmwarevm.tar.bz2">https://downloads.cloudera.com/cloudera-demo-0.3.7.vmwarevm.tar.bz2</a>
+</li>
+<li><a href="http://cloudblog.8kmiles.com/2011/12/06/hadoop-cdh3-setup-in-ubuntu/">http://cloudblog.8kmiles.com/2011/12/06/hadoop-cdh3-setup-in-ubuntu/</a>
+</li>
+<li>name of hadoop packages <a href="http://noobergeek.blogspot.ch/2012/04/easiest-way-to-download-hadoop-in-linux.html">http://noobergeek.blogspot.ch/2012/04/easiest-way-to-download-hadoop-in-linux.html</a>
+</li>
+<li>how to use VMware image to virtualbox <a href="http://blog.cloudera.com/blog/2009/07/cloudera-training-vm-virtualbox/">http://blog.cloudera.com/blog/2009/07/cloudera-training-vm-virtualbox/</a>
+</li>
+<li>Setting up a Hadoop Virtual Cluster with Vagrant <a href="http://java.dzone.com/articles/setting-hadoop-virtual-cluster">http://java.dzone.com/articles/setting-hadoop-virtual-cluster</a>
+</li>
+<li>Chef Cookbook Cloudera for Ubuntu <a href="https://github.com/danielpoe/cloudera">https://github.com/danielpoe/cloudera</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Data Acquisition</h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+<div id="outline-container-2-1" class="outline-3">
+<h3 id="sec-2-1">Objectives</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<ul>
+<li>Access and load data from a variety of sources into a Hadoop cluster, including from databases and systems such as OLTP and OLAP as well as log files and documents.
+</li>
+<li>Deploy a variety of acquisition techniques for acquiring data, including database integration, working with APIs
+</li>
+<li>Use command line tools such wget and curl
+</li>
+<li>Use Hadoop tools such as Sqoop and Flume
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-2-2" class="outline-3">
+<h3 id="sec-2-2">Resources</h3>
+<div class="outline-text-3" id="text-2-2">
+
+<ul>
+<li>Apache Sqoop is a tool for acquiring data from structured datastores. Cloudera’s blogs on Apache Sqoop. Aaron Kimball on Sqoop.
+</li>
+<li>Apache Flume, built for ingesting streaming data into HDFS. Cloudera's blogs on Apache Flume. Cloudera's blogs on data collection.
+</li>
+<li>HDFS File System Shell Guide
+</li>
+<li>Hadoop: The Definitive Guide, 3rd Edition: Chapter 15.
+</li>
+<li>Hadoop In Practice: Chapter 2.
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-2-3" class="outline-3">
+<h3 id="sec-2-3">Access and load data from a variety of sources into a Hadoop cluster</h3>
+<div class="outline-text-3" id="text-2-3">
+
+<p>Possible sources : RDMS log files documents
+</p>
+</div>
+
+<div id="outline-container-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1">TODOC  OLTP OLAP</h4>
+<div class="outline-text-4" id="text-2-3-1">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2-4" class="outline-3">
+<h3 id="sec-2-4">Deploy acquisition techniques</h3>
+<div class="outline-text-3" id="text-2-4">
+
+<p>for acquiring data, including database integration, working with APIs
+</p>
+</div>
+
+<div id="outline-container-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1"><span class="todo TODO">TODO</span> java code read JDBC &ndash;&gt; write HFS</h4>
+<div class="outline-text-4" id="text-2-4-1">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2-5" class="outline-3">
+<h3 id="sec-2-5">Use command line tools such wget and curl</h3>
+<div class="outline-text-3" id="text-2-5">
+
+<p>simple usages : difference between wget and curl ?
+</p></div>
+
+</div>
+
+<div id="outline-container-2-6" class="outline-3">
+<h3 id="sec-2-6">HDFS command-line</h3>
+<div class="outline-text-3" id="text-2-6">
+
+
+<p>
+$ hadoop dfs -mkdir /user/max/input/ncdc/all
+$ hadoop dfs -put  input/ncdc/all/190* /user/max/input/ncdc/all
+$ hadoop dfs -lsr
+drwxr-xr-x   - max supergroup          0 2013-04-16 14:34 /user/max/input
+drwxr-xr-x   - max supergroup          0 2013-04-16 14:34 /user/max/input/ncdc
+drwxr-xr-x   - max supergroup          0 2013-04-16 14:34 /user/max/input/ncdc/all
+-rw-r&ndash;r&ndash;   1 max supergroup      73867 2013-04-16 14:34 /user/max/input/ncdc/all/1901.gz
+-rw-r&ndash;r&ndash;   1 max supergroup      74105 2013-04-16 14:34 /user/max/input/ncdc/all/1902.gz
+$ hadoop fs -get /user/max/output/part-00000 test.txt
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2-7" class="outline-3">
+<h3 id="sec-2-7">Use Hadoop tools such as Sqoop and Flume</h3>
+<div class="outline-text-3" id="text-2-7">
+
+
+</div>
+
+<div id="outline-container-2-7-1" class="outline-4">
+<h4 id="sec-2-7-1">Sqoop</h4>
+<div class="outline-text-4" id="text-2-7-1">
+
+
+<p>
+Need to add mysql jdbc jar under /usr/lib/sqoop/lib
+</p>
+<p>
+$ sqoop import &ndash;connect jdbc:mysql://localhost/test &ndash;table person -m 1 &ndash;username test &ndash;password test &ndash;verbose
+$ sqoop codegen &ndash;class-name Person &ndash;connect jdbc:mysql://localhost/test &ndash;table person &ndash;username test &ndash;password test
+</p></div>
+
+</div>
+
+<div id="outline-container-2-7-2" class="outline-4">
+<h4 id="sec-2-7-2">Flume</h4>
+<div class="outline-text-4" id="text-2-7-2">
+
+<p>scribe is a similar project
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Data Evaluation</h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3-1" class="outline-3">
+<h3 id="sec-3-1">Objectives</h3>
+<div class="outline-text-3" id="text-3-1">
+
+<ul>
+<li>Knowledge of the file types commonly used for input and output and the advantages and disadvantages of each
+</li>
+<li>Methods for working with various file formats including binary files, JSON, XML, and .csv
+</li>
+<li>Tools, techniques, and utilities for evaluating data from the command line and at scale
+</li>
+<li>An understanding of sampling and filtering techniques
+</li>
+<li>A familiarity with Hadoop SequenceFiles and serialization using Avro
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-3-2" class="outline-3">
+<h3 id="sec-3-2">Resources</h3>
+<div class="outline-text-3" id="text-3-2">
+
+<ul>
+<li>Hadoop: The Definitive Guide, 3rd Edition: Chapter 4.
+</li>
+<li>Hadoop In Practice: Chapter 3.
+</li>
+<li>Learn more about Apache Avro. Cloudera’s blogs on Apache Avro.
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-3-3" class="outline-3">
+<h3 id="sec-3-3">Avro , SequenceFiles :</h3>
+<div class="outline-text-3" id="text-3-3">
+
+
+<p>
+Both Avro datafiles and SequenceFiles provide the most precise representation possible of the imported data.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3-4" class="outline-3">
+<h3 id="sec-3-4">Serialization</h3>
+<div class="outline-text-3" id="text-3-4">
+
+<ul>
+<li>XML JSON are not splittable hence not best solution for mapreduce jobs
+</li>
+<li>avro thrift proto buffer <a href="http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html">http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">Data Transformation</h2>
+<div class="outline-text-2" id="text-4">
+
+
+</div>
+
+<div id="outline-container-4-1" class="outline-3">
+<h3 id="sec-4-1">Objectives</h3>
+<div class="outline-text-3" id="text-4-1">
+
+<ul>
+<li>Write a map-only Hadoop Streaming job
+</li>
+<li>Write a script that receives records on stdin and write them to stdout
+</li>
+<li>Invoke Unix tools to convert file formats
+</li>
+<li>Join data sets
+</li>
+<li>Write scripts to anonymize data sets
+</li>
+<li>Write a Mapper using Python and invoke via Hadoop streaming
+</li>
+<li>Write a custom subclass of FileOutputFormat
+</li>
+<li>Write records into a new format such AvroOutputFormat or SequenceFileOutputFormat
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-4-2" class="outline-3">
+<h3 id="sec-4-2">Resources</h3>
+<div class="outline-text-3" id="text-4-2">
+
+<ul>
+<li>Read up on Hadoop Streaming
+</li>
+<li>Hadoop Streaming wiki
+</li>
+<li>Apache Hive facilitates easy analysis of large datasets stored in HDFS providing a SQL-like query language called HiveQL. Hive Tutorial, and Language Manual. Hive Joins documentation
+</li>
+<li>Apache Pig facilitates analysis of large datasets stored in HDFS providing a high-level language called Pig Latin. Pig’s Relational Operators
+</li>
+<li>Cloudera blog post: A guide to Python Frameworks for Hadoop by data scientist Uri Laserson
+</li>
+<li>Hadoop: The Definitive Guide, 3rd Edition: Chapters 7, 12
+</li>
+<li>Hadoop In Practice: Chapter 8, 10
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-4-3" class="outline-3">
+<h3 id="sec-4-3">streaming</h3>
+<div class="outline-text-3" id="text-4-3">
+
+<ul>
+<li>use external script (ruby, python) as mapper and reducer (possible with snappy : native hadoop part)
+</li>
+<li>chap02 from Tom White's book
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-4-4" class="outline-3">
+<h3 id="sec-4-4">hive</h3>
+<div class="outline-text-3" id="text-4-4">
+
+
+
+</div>
+
+<div id="outline-container-4-4-1" class="outline-4">
+<h4 id="sec-4-4-1"><span class="todo TODO">TODO</span> migrate mysql tables follows, person to hive table</h4>
+<div class="outline-text-4" id="text-4-4-1">
+
+
+</div>
+
+</div>
+
+<div id="outline-container-4-4-2" class="outline-4">
+<h4 id="sec-4-4-2">resources</h4>
+<div class="outline-text-4" id="text-4-4-2">
+
+<ul>
+<li>User Defined Function for hive in clj  <a href="http://eigenjoy.com/2011/04/29/custom-hive-udfs-in-clojure/">http://eigenjoy.com/2011/04/29/custom-hive-udfs-in-clojure/</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Machine Learning Tools</h2>
+<div class="outline-text-2" id="text-5">
+
+
+</div>
+
+<div id="outline-container-5-1" class="outline-3">
+<h3 id="sec-5-1">Mahout</h3>
+<div class="outline-text-3" id="text-5-1">
+
+
+</div>
+
+<div id="outline-container-5-1-1" class="outline-4">
+<h4 id="sec-5-1-1">Running mahout</h4>
+<div class="outline-text-4" id="text-5-1-1">
+
+<p>Plain librairies
+</p><ul>
+<li>mahout from clojure <a href="http://pseudofish.com/calling-mahout-from-clojure.html">http://pseudofish.com/calling-mahout-from-clojure.html</a>
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-5-1-2" class="outline-4">
+<h4 id="sec-5-1-2"><span class="todo TODO">TODO</span> Jar mahout code and run on hadoop cluster</h4>
+<div class="outline-text-4" id="text-5-1-2">
+
+
+<p>
+Data Acquisition
+Data Evaluation
+Data Transformation
+</p></div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6">Machine Learning Basics</h2>
+<div class="outline-text-2" id="text-6">
+
+
+</div>
+
+<div id="outline-container-6-1" class="outline-3">
+<h3 id="sec-6-1">Objectives</h3>
+<div class="outline-text-3" id="text-6-1">
+
+<ul>
+<li>Understand how to use Mappers and Reducers to create predictive models
+</li>
+<li>Understand the different kinds of machine learning, including supervised and unsupervised learning
+</li>
+<li>Recognize appropriate uses of the following: parametric/non-parametric algorithms, support vector machines, kernels, neural networks, clustering, dimensionality reduction, and recommender systems
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-6-2" class="outline-3">
+<h3 id="sec-6-2">Resources</h3>
+<div class="outline-text-3" id="text-6-2">
+
+<ul>
+<li>Apache Mahout. Check out the Mahout wiki
+</li>
+<li>Cloudera’s blog category on Mahout
+</li>
+<li>Hadoop In Practice: Chapter 9
+</li>
+<li>Hadoop: The Definitive Guide, 3rd Edition: Chapters 16 - Case Studies
+</li>
+<li>Algorithms of the Intelligent Web: Chapter 7 - (Use Cases)
+</li>
+<li>A Programmers Guide to Data Mining
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-7" class="outline-2">
+<h2 id="sec-7">Classification</h2>
+<div class="outline-text-2" id="text-7">
+
+
+</div>
+
+<div id="outline-container-7-1" class="outline-3">
+<h3 id="sec-7-1">Objectives</h3>
+<div class="outline-text-3" id="text-7-1">
+
+<ul>
+<li>Describe the steps for training a set of data in order to identify new data based on known data
+</li>
+<li>Identify the use cases for logistic regression, Bayes theorem
+</li>
+<li>Define classification techniques and formulas
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-7-2" class="outline-3">
+<h3 id="sec-7-2">Resources</h3>
+<div class="outline-text-3" id="text-7-2">
+
+<ul>
+<li>Programming Collective Intelligence: Chapters 6, 7, 8, 9, 12
+</li>
+<li>Algorithms of the Intelligent Web: Chapters 5, 6
+</li>
+<li>Mahout In Action: Part 3
+</li>
+</ul>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-8" class="outline-2">
+<h2 id="sec-8">Optimization</h2>
+<div class="outline-text-2" id="text-8">
+
+
+</div>
+
+<div id="outline-container-8-1" class="outline-3">
+<h3 id="sec-8-1">Objectives</h3>
+<div class="outline-text-3" id="text-8-1">
+
+<ul>
+<li>Understand optimization methods
+</li>
+<li>Identify 1st order and 2nd order optimization techniques
+</li>
+<li>Determine the learning rate for a particular algorithm
+</li>
+<li>Determine the sources of errors in a model
+</li>
+</ul>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-9" class="outline-2">
+<h2 id="sec-9">Model/Feature Selection</h2>
+<div class="outline-text-2" id="text-9">
+
+
+</div>
+
+<div id="outline-container-9-1" class="outline-3">
+<h3 id="sec-9-1">Objectives</h3>
+<div class="outline-text-3" id="text-9-1">
+
+<ul>
+<li>Describe the role and function of feature selection
+</li>
+<li>Analyze a scenario and determine the appropriate features and attributes to select
+</li>
+<li>Analyze a scenario and determine the methods to deploy for optimal feature selection
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-9-2" class="outline-3">
+<h3 id="sec-9-2">Resources</h3>
+<div class="outline-text-3" id="text-9-2">
+
+<ul>
+<li>Programming Collective Intelligence: Chapter 10
+</li>
+<li>Pattern Recognition and Machine Learning: Chapter 1.3
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-10" class="outline-2">
+<h2 id="sec-10">Clustering</h2>
+<div class="outline-text-2" id="text-10">
+
+
+</div>
+
+<div id="outline-container-10-1" class="outline-3">
+<h3 id="sec-10-1">Objectives</h3>
+<div class="outline-text-3" id="text-10-1">
+
+<ul>
+<li>Define clustering and identify appropriate use cases
+</li>
+<li>Identify appropriate uses of various models including centroid, distribution, density, group, and graph
+</li>
+<li>Describe the value and use of similarity metrics including Pearson correlation, Euclidean distance, and block distance
+</li>
+<li>Identify the algorithms applicable to each model (k-means, SVD/PCA, etc.)
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-10-2" class="outline-3">
+<h3 id="sec-10-2">Resources</h3>
+<div class="outline-text-3" id="text-10-2">
+
+<ul>
+<li>Programming Collective Intelligence: Chapter 3
+</li>
+<li>Algorithms of the Intelligent Web: Chapter 4
+</li>
+<li>Mahout In Action: Part 2
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-11" class="outline-2">
+<h2 id="sec-11">Collaborative Filtering</h2>
+<div class="outline-text-2" id="text-11">
+
+
+</div>
+
+<div id="outline-container-11-1" class="outline-3">
+<h3 id="sec-11-1">Objectives</h3>
+<div class="outline-text-3" id="text-11-1">
+
+<ul>
+<li>Identify the use of user-based and item-based collaborative filtering techniques
+</li>
+<li>describe the limitations and strengths of collaborative filtering techniques
+</li>
+<li>Given a scenario, determine the appropriate collaborative filtering implementation
+</li>
+<li>Given a scenario, determine the metrics one should use to evaluate the accuracy of a reccomender system
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-11-2" class="outline-3">
+<h3 id="sec-11-2">Resources</h3>
+<div class="outline-text-3" id="text-11-2">
+
+<ul>
+<li>Recommendation engines with Apache Mahout
+</li>
+<li>Programming Collective Intelligence: Chapter 2
+</li>
+<li>Algorithms of the Intelligent Web: Chapter 3
+</li>
+<li>Mahout In Action: Part 1
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-12" class="outline-2">
+<h2 id="sec-12">Probability</h2>
+<div class="outline-text-2" id="text-12">
+
+
+</div>
+
+<div id="outline-container-12-1" class="outline-3">
+<h3 id="sec-12-1">Objectives</h3>
+<div class="outline-text-3" id="text-12-1">
+
+<ul>
+<li>Analyze a scenario and determine the likelihood of a particular outcome
+</li>
+<li>Determine sample percentiles
+</li>
+<li>Determine a range of items based on a sample probability density function
+</li>
+<li>Summarize a distribution of sample numbers
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-13" class="outline-2">
+<h2 id="sec-13">Visualization</h2>
+<div class="outline-text-2" id="text-13">
+
+
+</div>
+
+<div id="outline-container-13-1" class="outline-3">
+<h3 id="sec-13-1">Objectives</h3>
+<div class="outline-text-3" id="text-13-1">
+
+<ul>
+<li>Determine the most effective visualization for a given problem
+</li>
+<li>Analyze a data visualization and interpret its meaning
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author: Maximilien</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>
