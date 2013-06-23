@@ -161,6 +161,10 @@
       padding: 1em;
    }
 
+   #postamble p { display:none; visibility:hidden; }
+   #postamble p.author { display:block; visibility:visible; }
+   #postamble p.date { display:block; visibility:visible; }
+
   .org-info-box {
     clear:both;
     margin-left:auto;
