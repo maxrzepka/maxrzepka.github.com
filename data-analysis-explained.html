@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Data Analysis Explained While Kaggling</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="Data Analysis Explained While Kaggling"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-07-10T12:34+0200"/>
+<meta name="author" content="Maximilien"/>
+<meta name="description" content="Data Analysis Explained While Kaggling"/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="worg-classic.css" />
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">Data Analysis Explained While Kaggling</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Goal</a></li>
+<li><a href="#sec-2">Cross Validation</a></li>
+<li><a href="#sec-3">Simple classifier : kNN</a></li>
+<li><a href="#sec-4">SVM optimization</a></li>
+<li><a href="#sec-5">Other Models</a></li>
+<li><a href="#sec-6">With Dimension reduction</a></li>
+<li><a href="#sec-7">How to get even better performance</a></li>
+<li><a href="#sec-8">Conclusion</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Goal</h2>
+<div class="outline-text-2" id="text-1">
+
+<p>Find the best model for the kaggle competition <a href="https://www.kaggle.com/c/data-science-london-scikit-learn">data-science-london-scikit-learn</a>
+</p>
+<p>
+Initial data setup :
+</p>
+
+
+
+<pre class="example">import numpy as np
+
+data  = np.loadtxt('train.csv', delimiter=',')
+label = np.loadtxt('trainLabels.csv', delimiter=',')
+test  = np.loadtxt('test.csv',delimiter=',')
+</pre>
+
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Cross Validation</h2>
+<div class="outline-text-2" id="text-2">
+
+
+<p>
+To determine the performance of any supervised model, known dataset is split into 2 parts : 
+</p><ul>
+<li>a training part for the model.
+</li>
+<li>a test part to compute the model's preformance.
+</li>
+</ul>
+
+
+<p>
+More sophisticated validation called <a href="http://en.wikipedia.org/wiki/Cross-validation_(statistics)">Cross validation</a> splits dataset in K equal parts :
+</p><ul>
+<li>One is used as test set
+</li>
+<li>Others as training set.
+</li>
+</ul>
+
+
+<p>
+Here the KFold used :
+</p>
+
+
+<pre class="example">from sklearn import cross_validation
+cv = cross_validation.KFold(len(data), n_folds=10,shuffle=True, random_state=0)  
+</pre>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Simple classifier : kNN</h2>
+<div class="outline-text-2" id="text-3">
+
+<p>   For any reasonable k, the model gives similar and reasonable good performance &gt; 80%.
+</p>
+<p>
+   Which one to choose ? Some Kaggle submissions give k=6 (0.88860) is slightly better than k=3 (0.88785) or k=13 (0.88189).
+</p>
+<p>   
+   Below boxplot shows no clear winner 
+</p>
+<div class="figure">
+<p><img src="./boxplot_knn_1_30.png"  alt="./boxplot_knn_1_30.png" /></p>
+<p>10 KFold scores for kNN models (k=1,&hellip;,30)</p>
+</div>
+
+<p>
+  Afterwards average will be used as unique performance indicator.
+</p></div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">SVM optimization</h2>
+<div class="outline-text-2" id="text-4">
+
+<p>SVM is a natural choice with small dataset.
+</p>
+<ul>
+<li>Pro : robust
+</li>
+<li>Cons : computation expensive (quadratic on the size of sample dataset)
+</li>
+</ul>
+
+
+<p>
+Let's optimize C and gamma : 
+Practice shows that gamma should be the first parameter to optimize and then C can be optimize.
+</p>
+<p>
+Below python code snippet to test each value of the parameter with cross-validation, plot the performance and return the best parameter.
+</p>
+
+
+
+<pre class="example">from sklearn import svm
+
+c_values = [1e-1, 1., 1e2, 1e3, 1e4, 1e5, 1e6]
+c_values = [1e-2,0.03,0.09, 0.1,0.6,1,2,3,6,10,20]
+c_values = np.linspace(1,3,20)
+clf = svm.SVC(gamma=0.01)
+
+final_scores = []
+for c in c_values:
+    clf.C = c
+    scores = cross_validation.cross_val_score(clf, data,label , cv=cv)
+    final_scores.append(np.average(scores))
+plot(c_values,final_scores)
+max(zip(final_scores,c_values))
+</pre>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Other Models</h2>
+<div class="outline-text-2" id="text-5">
+
+<p> NeuralNetworks, Boosting and boostrap models give poor result as dataset is rather small.
+</p></div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6">With Dimension reduction</h2>
+<div class="outline-text-2" id="text-6">
+
+<p>   Having 40 features, it's reasonable to reduce them and having a
+   dataset less noisy.
+</p>
+<p>
+They are linear combinations of orginal ones. 
+</p>
+<p>
+PCA variance of 40 orthogonal components shows than last 3 are very small compared to other ones.
+But the empirical best number of PCA components for SCM is 12.  
+There is no obvious threshold on orthogonal components
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-7" class="outline-2">
+<h2 id="sec-7">How to get even better performance</h2>
+<div class="outline-text-2" id="text-7">
+
+<ul>
+<li>Train the model on a well-truncated dataset ? Because some data points biaised the model ?
+</li>
+<li>Refine parameters optimization not simply one at the time ?
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-8" class="outline-2">
+<h2 id="sec-8">Conclusion</h2>
+<div class="outline-text-2" id="text-8">
+
+<p>   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a decent score 0.94635.
+</p></div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author: Maximilien</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>

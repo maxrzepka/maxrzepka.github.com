@@ -1,0 +1,91 @@
+#+TITLE: Data Analysis Explained While Kaggling
+#+DESCRIPTION: Data Analysis Explained While Kaggling
+#+KEYWORDS:
+#+LANGUAGE:  en
+# -*- org-export-html-postamble:t; -*-
+#+OPTIONS:   H:3 num:nil creator:nil timestamp:nil
+#+STYLE: <link rel="stylesheet" type="text/css" href="worg-classic.css" />
+
+* Goal
+Find the best model for the kaggle competition [[https://www.kaggle.com/c/data-science-london-scikit-learn][data-science-london-scikit-learn]]
+
+Initial data setup :
+
+#+BEGIN_SRC python
+import numpy as np
+
+data  = np.loadtxt('train.csv', delimiter=',')
+label = np.loadtxt('trainLabels.csv', delimiter=',')
+test  = np.loadtxt('test.csv',delimiter=',')
+#+END_SRC 
+* Cross Validation
+
+To determine the performance of any supervised model, known dataset is split into 2 parts : 
+   - a training part for the model.
+   - a test part to compute the model's preformance.
+
+More sophisticated validation called [[http://en.wikipedia.org/wiki/Cross-validation_(statistics)][Cross validation]] splits dataset in K equal parts :
+   - One is used as test set
+   - Others as training set.
+
+Here the KFold used :
+#+BEGIN_SRC python
+from sklearn import cross_validation
+cv = cross_validation.KFold(len(data), n_folds=10,shuffle=True, random_state=0)  
+#+END_SRC
+
+* Simple classifier : kNN
+   For any reasonable k, the model gives similar and reasonable good performance > 80%.
+
+   Which one to choose ? Some Kaggle submissions give k=6 (0.88860) is slightly better than k=3 (0.88785) or k=13 (0.88189).
+   
+   Below boxplot shows no clear winner 
+#+CAPTION: 10 KFold scores for kNN models (k=1,...,30)
+[[./boxplot_knn_1_30.png]]
+
+  Afterwards average will be used as unique performance indicator.
+* SVM optimization
+SVM is a natural choice with small dataset.
+
+   - Pro : robust
+   - Cons : computation expensive (quadratic on the size of sample dataset)
+
+Let's optimize C and gamma : 
+Practice shows that gamma should be the first parameter to optimize and then C can be optimize.
+
+Below python code snippet to test each value of the parameter with cross-validation, plot the performance and return the best parameter.
+
+#+BEGIN_SRC python
+from sklearn import svm
+
+c_values = [1e-1, 1., 1e2, 1e3, 1e4, 1e5, 1e6]
+c_values = [1e-2,0.03,0.09, 0.1,0.6,1,2,3,6,10,20]
+c_values = np.linspace(1,3,20)
+clf = svm.SVC(gamma=0.01)
+
+final_scores = []
+for c in c_values:
+    clf.C = c
+    scores = cross_validation.cross_val_score(clf, data,label , cv=cv)
+    final_scores.append(np.average(scores))
+plot(c_values,final_scores)
+max(zip(final_scores,c_values))
+#+END_SRC
+
+* Other Models
+ NeuralNetworks, Boosting and boostrap models give poor result as dataset is rather small.
+* With Dimension reduction
+   Having 40 features, it's reasonable to reduce them and having a
+   dataset less noisy.
+
+They are linear combinations of orginal ones. 
+
+PCA variance of 40 orthogonal components shows than last 3 are very small compared to other ones.
+But the empirical best number of PCA components for SCM is 12.  
+There is no obvious threshold on orthogonal components
+
+* How to get even better performance
+   - Train the model on a well-truncated dataset ? Because some data points biaised the model ?
+   - Refine parameters optimization not simply one at the time ?
+* Conclusion
+   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a decent score 0.94635.
