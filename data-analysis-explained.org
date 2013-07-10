@@ -89,3 +89,5 @@ There is no obvious threshold on orthogonal components
    - Refine parameters optimization not simply one at the time ?
 * Conclusion
    The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a decent score 0.94635.
+
+   This work was done @ [[http://www.bigdive.eu/][bigdive2013]] and was made possible thanks to all the teachers and bigdivers.
