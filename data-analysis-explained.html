@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
                "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Data Analysis Explained While Kaggling</title>
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Data Analysis Explained While Kaggling"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-07-10T13:29+0200"/>
+<meta name="generated" content="2013-07-11T12:26+0200"/>
 <meta name="author" content="Maximilien"/>
 <meta name="description" content="Data Analysis Explained While Kaggling"/>
 <meta name="keywords" content=""/>
@@ -130,6 +130,20 @@ label = np.loadtxt('trainLabels.csv', delimiter=',')
 test  = np.loadtxt('test.csv',delimiter=',')
 </pre>
 
+
+<p>
+Function to create a kaggle-compliant file :
+</p>
+
+
+<pre class="example">def kaggle_file(path,coll):
+    with open(path,"w") as csvfile:
+        csvfile.write("id,solution\n")
+        i = 0
+        for i,v in enumerate(coll):
+            csvfile.write("%d,%d\n" % (i+1,v))
+</pre>
+
 </div>
 
 </div>
@@ -237,6 +251,25 @@ max(zip(final_scores,c_values))
 </pre>
 
 
+<p>
+In scikit-learn <a href="http://scikit-learn.org/dev/modules/generated/sklearn.grid_search.GridSearchCV.html">GridSearchCV</a> find automatically the best parameters of an estimator :
+</p>
+
+
+
+<pre class="example">import sklearn from grid_search
+
+C_range = np.linspace(2,20,20)
+gamma_range = np.logspace(-3, 0, 5)
+param_grid = {'gamma':gamma_range, 'C':C_range}
+cv = cross_validation.KFold(len(label), n_folds=10, shuffle=True, random_state=0)
+classifier = svm.SVC() 
+gs = grid_search.GridSearchCV(classifier, param_grid=param_grid, cv=cv)
+print gs.best_estimator_
+</pre>
+
+
+
 </div>
 
 </div>
@@ -288,10 +321,10 @@ There is no obvious threshold on orthogonal components
 <h2 id="sec-8">Conclusion</h2>
 <div class="outline-text-2" id="text-8">
 
-<p>   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a decent score 0.94635.
+<p>   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a score of 0.94635 (slight improvement with GridSearchCV : 0.94970).
 </p>
 <p>
-   This work was done @ <a href="http://www.bigdive.eu/">bigdive2013</a> and was made possible thanks to all the teachers and bigdivers.
+   This work was done @ <a href="http://www.bigdive.eu/">bigdive2013</a> with special thanks to <a href="http://twitter.com/apanisson">André Panisson</a> our teacher.
 </p></div>
 </div>
 </div>
