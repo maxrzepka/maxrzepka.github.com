@@ -1,0 +1,118 @@
+#+TITLE:     Maximilien Rzepka : Clojure and Data Enthusiast
+#+EMAIL:     maximilien.rzepka@gmail.com
+#+DESCRIPTION: Bio
+#+KEYWORDS:
+#+LANGUAGE:  en
+# -*- org-export-html-postamble:t; -*-
+#+OPTIONS:   H:3 num:nil creator:nil timestamp:nil
+#+STYLE: <link rel="stylesheet" type="text/css" href="worg-classic.css" />
+
+* Contact
+  - [[www.about.me/maxrzepka][about.me]]
+  - @maxrzepka on twitter, github
+  - [[http://www.linkedin.com/pub/maximilien-rzepka/64/43/947][linkedIn]]
+* 2000 Graduate in Mathematics (Probability) at University Paris Curie VI
+
+I started my education in pure math in Paris VI. But I found pure math very dry.
+I found it difficult to decide which direction to go in for my PhD.
+I needed something more applied.
+
+I chose Geography : looking at maps, understanding how the world is turning around is the most natural thing for me.
+Just one month after starting, we were sent out in the field (Forêt de Fontainebleau studying stampian sand)
+By choosing Geography, I came across new horizons such as Statistics and Unix operating systems.
+
+I went back to math, but this time more applied : statistics and probability.
+
+I did a trainership at INRIA Sophia-Antipolis and enjoyed my first programming experience with C and pointers.
+The algorithm I developed detects roads from satellite maps.
+It was fairly fast, but lacked of well-grounded mathematical proof.
+
+* 2000 - 2002 : PhD in probability University Paris Nanterre X (not completed)
+
+In the meantime I was offered a scholarship for a PhD in probability in Paris.
+After one year I realized that it would not work out as the material was too pure.
+I was more interested in Computer Science but I could not find a bridge between the fields.
+
+However I did get the opportunity to do some teaching and it was a really great experience :
+The best way to learn is by teaching.
+
+* 2003 - 2006 : Java/SQL Contractor in Paris
+
+After a 2 months Java/SQL training, I started a new career inside the enterprise IT world.
+My missions were in Java, SQL, Oracle. Most projects were built on the three-tier architecture (mostly web-apps).
+
+Some projects were using more "advanced" frameworks like Hibernate, Struts.
+I also always kept a personal interest for the Unix world (vi,awk, perl and co).
+
+* 2006 - 2013 : Programmer at Interactive Brokers in Zug
+
+My role was to collect data in order to build reports and more advanced web based applications to ease employee work.
+The technologies in place were restricted : Perl, PHP , Java (Spring, JSF) , Javascript , Oracle/MySQL, still in a complete Unix environment.
+
+This long period in a stable environment allowed me to try new ideas and to find solutions to my day-to-day issues :
+   - Code generation to write boilerplate code in various languages.
+   - Web development in java with Spring and JSF.
+   - Web User Interface in Javascript with JQuery.
+   - Scripting tools : awk , perl...
+
+* 2010 - : Clojure revolution
+
+I discovered Clojure in 2010 and slowly entered the world of data and functions, paradigms that are for me easy to grasp.
+
+I got really enthusiastic about this functional language thanks to Rich Hickey and Stuart Halloway's Talks :
+The clojure version of The bowling scorer [[https://github.com/stuarthalloway/clojure-bowling/blob/master/src/bowling_game.clj][bowling_game.clj]] done by Stuart Halloway's convinced me about the simplicity of Clojure.
+
+"hammock-driven dev" , "data and functions" and other clojure values appealed strongly to me.
+But I had still a long way to go.
+
+I missed [[http://clj-me.cgrand.net/][Christophe Grand]] a clojure core contributor at the first MIX-it (May 2011) in Lyon
+but I found another clojure enthusiast from Geneva [[http://www.linkedin.com/pub/stephane-tavera/1/652/3b][Stephane Tavera]] who initiated the Clojure Geneva User Group, whose meetups I attended.
+
+Then I met finally @cgrand at Geneva Soft Shake (Sep 2011) and also another clojurian [[http://mpenet.github.io/][Max Penet]].
+I had great discussions with both of them : their open-mindness, independence and demanding nature guided me.
+
+In 2012 I followed Grand's training in Geneva based on his book "Clojure Programming" and he showed me the path towards simplicity.
+
+Then [[http://tgk.github.io/][Thomas Kristensen]] came to Zürich and we started weekly informal clojure meetups then we founded the [[http://www.meetup.com/zh-clj-Zurich-Clojure-User-Group/][Zürich Clojure User Group]].
+
+Teaching/sharing is very important for me. 
+Today within our large clojure community, I'm organizing talks for the Clojure Zürich User Group.
+
+Meanwhile, I deliberately travelled to meet other programmers : 
+[[http://euroclojure.com/2012/][EuroClojure 2012]], [[http://clojurewest.org/][Clojure/West March 2013]], [[http://skillsmatter.com/event/scala/clojure-exchange-2012][Clojure Exchange Dec 2012,]] [[http://www.meetup.com/riviera-scala-clojure/][Riviera Scala Clojure]] and various meetups in Switzerland. 
+It's a great source of inspiration and motivation.
+
+* 2013 - : Diving into Data Science
+I prepared and took the [[http://university.cloudera.com/certification/CCP/DS-200.html][Cloudera Data Science essentials DS200 (Beta)]] exam in May 2013.
+This program encompasses :
+   - Hadoop Full Stack (Streaming, Hive, Pig...)
+   - Machine Learning (Clustering, Classification...)
+   
+Then I attended to the BigDive June 2013 in Torino (Italy) a [[http://www.bigdive.eu/program/][Full-stack Data Science Training]] :
+
+   - Visualization with D3js by [[http://www.todo.to.it/][todo.to]]
+   - Network Science by [[http://www.isi.it/][ISI team]]
+   - Python Dev by [[http://www.axant.it/][Axant.it]]
+   - MapReduce with [[https://github.com/Yelp/mrjob/][MrJob]] by @irskep
+   - Machine Learning by [[http://www.isi.it/][ISI team]]
+
+* My Works
+   - Clojure Educational Projects : 
+       - [[https://github.com/maxrzepka/drama/][Drama]] : scrape/query/diplay data with ring, enlive, cascalog.
+       - [[https://github.com/maxrzepka/clojure-by-example][ClojureByExample]] : discover clojure APIs with examples.
+   - [[https://github.com/maxrzepka/dataQuery][Data Query]] : query abstraction on top of cascalog and SQL. Beta Version on [[https://bitbucket.org/maxrzepka/cube][bitbucket]].
+   - Article [[http://maxrzepka.github.io/data-analysis-explained.html][Data Analysis Explained While Kaggling]]
+   - NBA Finals Tweets Analysis (Work in Progress).
+   - Piedmont Heritage (made @BigDive) : open data project.
+   - Talk "Clojure and Data : Introduction to Data Science" (Work in Progress).
+
+* Future Career
+
+I'm very excited about the new challenges in Computer Science 
+and bring along math my first passion to help addressing them. 
+
+Thanks to bigdive 2013, I now enjoy working in Data Science fields.
+
+I know that my future will be a mixture of programming, math and data, where knowledge/ideas can travel without friction.
+
+I have plenty of ideas and my curiosity can be endless. I'm looking forward sharing my enthusiasm with others.
