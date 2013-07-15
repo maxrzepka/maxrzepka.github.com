@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Data Analysis Explained While Kaggling"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-07-11T12:26+0200"/>
+<meta name="generated" content="2013-07-15T14:21+0200"/>
 <meta name="author" content="Maximilien"/>
 <meta name="description" content="Data Analysis Explained While Kaggling"/>
 <meta name="keywords" content=""/>
@@ -103,10 +103,9 @@
 <li><a href="#sec-2">Cross Validation</a></li>
 <li><a href="#sec-3">Simple classifier : kNN</a></li>
 <li><a href="#sec-4">SVM optimization</a></li>
-<li><a href="#sec-5">Other Models</a></li>
-<li><a href="#sec-6">With Dimension reduction</a></li>
-<li><a href="#sec-7">How to get even better performance</a></li>
-<li><a href="#sec-8">Conclusion</a></li>
+<li><a href="#sec-5">Other models</a></li>
+<li><a href="#sec-6">With dimension reduction</a></li>
+<li><a href="#sec-7">Conclusion</a></li>
 </ul>
 </div>
 </div>
@@ -269,13 +268,12 @@ print gs.best_estimator_
 </pre>
 
 
-
 </div>
 
 </div>
 
 <div id="outline-container-5" class="outline-2">
-<h2 id="sec-5">Other Models</h2>
+<h2 id="sec-5">Other models</h2>
 <div class="outline-text-2" id="text-5">
 
 <p> NeuralNetworks, Boosting and boostrap models give poor result as dataset is rather small.
@@ -284,44 +282,43 @@ print gs.best_estimator_
 </div>
 
 <div id="outline-container-6" class="outline-2">
-<h2 id="sec-6">With Dimension reduction</h2>
+<h2 id="sec-6">With dimension reduction</h2>
 <div class="outline-text-2" id="text-6">
 
 <p>   Having 40 features, it's reasonable to reduce them and having a
    dataset less noisy.
 </p>
 <p>
-They are linear combinations of orginal ones. 
+<a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> is one of the most used dimension reduction method.
+From the original features, this method gives a new set of features (called principal components) each one is a linear combinations of the original ones.
 </p>
 <p>
-PCA variance of 40 orthogonal components shows than last 3 are very small compared to other ones.
-But the empirical best number of PCA components for SCM is 12.  
-There is no obvious threshold on orthogonal components
+Reducing the dimension means to keep enough principal components to explain the data and remove useless information (=the noise).
+The Principal componenets are orderd by importance (measeured by their variance).
 </p>
+<p>
+By empirical experiments, 12 is the number of components to keep in order to maximize the performance of the SVM model.
+</p>
+
+
+
+<pre class="example">from sklearn import decomposition
+
+pca = decomposition.PCA(n_components=12, whiten=True)
+pca_data = pca.fit_transform(data,label)
+print pca.explained_variance_
+</pre>
+
+
 </div>
 
 </div>
 
 <div id="outline-container-7" class="outline-2">
-<h2 id="sec-7">How to get even better performance</h2>
+<h2 id="sec-7">Conclusion</h2>
 <div class="outline-text-2" id="text-7">
 
-<ul>
-<li>Train the model on a well-truncated dataset ? Because some data points biaised the model ?
-</li>
-<li>Refine parameters optimization not simply one at the time ?
-</li>
-</ul>
-
-</div>
-
-</div>
-
-<div id="outline-container-8" class="outline-2">
-<h2 id="sec-8">Conclusion</h2>
-<div class="outline-text-2" id="text-8">
-
-<p>   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a score of 0.94635 (slight improvement with GridSearchCV : 0.94970).
+<p>   The SVM (C=3 and gamma=0.28) associated with a PCA 12 components gives a score of 0.94635 (and a slight improvement with GridSearchCV : 0.94970).
 </p>
 <p>
    This work was done @ <a href="http://www.bigdive.eu/">bigdive2013</a> with special thanks to <a href="http://twitter.com/apanisson">André Panisson</a> our teacher.
