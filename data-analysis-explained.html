@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Data Analysis Explained While Kaggling"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-07-15T14:21+0200"/>
+<meta name="generated" content="2013-07-19T17:00+0200"/>
 <meta name="author" content="Maximilien"/>
 <meta name="description" content="Data Analysis Explained While Kaggling"/>
 <meta name="keywords" content=""/>
@@ -138,7 +138,6 @@ Function to create a kaggle-compliant file :
 <pre class="example">def kaggle_file(path,coll):
     with open(path,"w") as csvfile:
         csvfile.write("id,solution\n")
-        i = 0
         for i,v in enumerate(coll):
             csvfile.write("%d,%d\n" % (i+1,v))
 </pre>
@@ -290,7 +289,7 @@ print gs.best_estimator_
 </p>
 <p>
 <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> is one of the most used dimension reduction method.
-From the original features, this method gives a new set of features (called principal components) each one is a linear combinations of the original ones.
+This method gives a new set of features (called principal components) each one is a linear combinations of the original ones.
 </p>
 <p>
 Reducing the dimension means to keep enough principal components to explain the data and remove useless information (=the noise).
