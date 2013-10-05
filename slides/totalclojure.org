@@ -1,0 +1,45 @@
+#+TITLE: Total Clojure 
+#+AUTHOR: Maximilien Rzepka
+#+EMAIL: maximilien.rzepka@gmail.com
+
+* Total Clojure : Pratical Approach to Programming              :slide:title:
+** COMMENT technical todo list
+   - How to split vertically slide : text | image
+   - image with title and on click redirect or view inline a video related to it
+** Slides
+*** Humble Programmer                                                 :slide:
+**** Programmer who learn programming with clojure
+**** Maximilien Rzepka Organizer of Clojure Zürich Meetup
+**** @maxrzepka on twitter, github
+***  Plan                                                             :slide:
+**** List Processing : core.seq
+**** NewSQL : datomic
+**** Big Data : strom, cascalog, lambda architecture 
+**** Web : Ring clojurescript
+**** Logic/constraint Programming : core.logic
+**** Music programming : Overtone
+**** Further : core.async core.typed core.match CinC
+*** Events :slide:
+**** Euro Clojure @ Berlin 14-15 Oct. 2013
+**** Clojure Day and more @ Soft-shake Geneva 24-25 Oct. 2013 
+* Footer
+
+#+TAGS: slide(s)
+
+#+STYLE: <link rel="stylesheet" type="text/css" href="common.css" />
+#+STYLE: <link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+#+STYLE: <link rel="stylesheet" type="text/css" href="projection.css" media="projection" />
+#+STYLE: <link rel="stylesheet" type="text/css" href="presenter.css" media="presenter" />
+#+STYLE: <link rel="stylesheet" type="text/css" href="local.css" />
+
+#+BEGIN_HTML
+<script type="text/javascript" src="org-html-slideshow.js"></script>
+#+END_HTML
+
+# Local Variables:
+# org-export-html-style-include-default: nil
+# org-export-html-style-include-scripts: nil
+# End:
+
+
+
