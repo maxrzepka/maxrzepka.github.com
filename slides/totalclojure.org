@@ -7,12 +7,7 @@
    - How to split vertically slide : text | image
    - image with title and on click redirect or view inline a video related to it
 ** Slides
-*** Speaker
-**** Maximilien Rzepka
-**** Programmer who learn programming with clojure
-**** Organizer of Clojure Zürich Meetup
-**** @maxrzepka on twitter, github
-***  Plan                                                             :slide:
+*** Plan                                                              :slide:
 **** List Processing : core.seq
 **** NewSQL : datomic
 **** Big Data : strom, cascalog, lambda architecture 
@@ -23,6 +18,11 @@
 *** Events :slide:
 **** Euro Clojure @ Berlin 14-15 Oct. 2013
 **** Clojure Day and more @ Soft-shake Geneva 24-25 Oct. 2013 
+*** Speaker                                                           :slide:
+**** Maximilien Rzepka
+**** Programmer who learn programming with clojure
+**** Organizer of Clojure Zürich Meetup
+**** @maxrzepka on twitter, github
 * Footer
 
 #+TAGS: slide(s)
