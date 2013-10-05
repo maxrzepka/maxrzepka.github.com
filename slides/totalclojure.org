@@ -7,9 +7,9 @@
    - How to split vertically slide : text | image
    - image with title and on click redirect or view inline a video related to it
 ** Slides
-*** Humble Programmer                                                 :slide:
+*** Maximilien Rzepka
 **** Programmer who learn programming with clojure
-**** Maximilien Rzepka Organizer of Clojure Zürich Meetup
+**** Organizer of Clojure Zürich Meetup
 **** @maxrzepka on twitter, github
 ***  Plan                                                             :slide:
 **** List Processing : core.seq
