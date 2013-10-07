@@ -161,9 +161,7 @@
       padding: 1em;
    }
 
-   #postamble p { display:none; visibility:hidden; }
-   #postamble p.author { display:block; visibility:visible; }
-   #postamble p.date { display:block; visibility:visible; }
+   #postamble { display:none; visibility:hidden; }
 
   .org-info-box {
     clear:both;
