@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Sur la toile"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-05T11:31+0200"/>
+<meta name="generated" content="2013-10-09T16:53+0200"/>
 <meta name="author" content="Maximilien"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -7649,8 +7649,16 @@ how to write a correct macroexpand-all (which requires a code walker) in Common 
 </div>
 
 <div id="outline-container-45-1" class="outline-3">
-<h3 id="sec-45-1">fold unfold : deep-merge</h3>
+<h3 id="sec-45-1"><a href="https://gist.github.com/ahoy-jon/f15508509e183b5e9bc3">monoid in clj</a> <a href="http://twdkz.wordpress.com/2013/05/31/data-analysis-with-monoids/">http://twdkz.wordpress.com/2013/05/31/data-analysis-with-monoids/</a></h3>
 <div class="outline-text-3" id="text-45-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-2" class="outline-3">
+<h3 id="sec-45-2">fold unfold : deep-merge</h3>
+<div class="outline-text-3" id="text-45-2">
 
 <p>I think functions like this become pretty clear if you pull out
 'unfold' and 'fold' utilites, like:
@@ -7703,16 +7711,8 @@ turns that back into a map.  With these, you can write your functions
 
 </div>
 
-<div id="outline-container-45-2" class="outline-3">
-<h3 id="sec-45-2">List of various clj article <a href="http://blog.safaribooksonline.com/2013/09/12/safaris-clojure-collection-of-post">http://blog.safaribooksonline.com/2013/09/12/safaris-clojure-collection-of-post</a></h3>
-<div class="outline-text-3" id="text-45-2">
-
-</div>
-
-</div>
-
 <div id="outline-container-45-3" class="outline-3">
-<h3 id="sec-45-3">Invariants via Immutability : typed clojure article <a href="http://frenchy64.github.io/typed/clojure,/core.typed,/clojure/2013/08/16/first-steps-with-core-typed.html">http://frenchy64.github.io/typed/clojure,/core.typed,/clojure/2013/08/16/first-steps-with-core-typed.html</a></h3>
+<h3 id="sec-45-3">List of various clj article <a href="http://blog.safaribooksonline.com/2013/09/12/safaris-clojure-collection-of-post">http://blog.safaribooksonline.com/2013/09/12/safaris-clojure-collection-of-post</a></h3>
 <div class="outline-text-3" id="text-45-3">
 
 </div>
@@ -7720,8 +7720,16 @@ turns that back into a map.  With these, you can write your functions
 </div>
 
 <div id="outline-container-45-4" class="outline-3">
-<h3 id="sec-45-4">deep merge <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/UdFLYjLvNRs">https://groups.google.com/forum/?fromgroups=#!topic/clojure/UdFLYjLvNRs</a></h3>
+<h3 id="sec-45-4">Invariants via Immutability : typed clojure article <a href="http://frenchy64.github.io/typed/clojure,/core.typed,/clojure/2013/08/16/first-steps-with-core-typed.html">http://frenchy64.github.io/typed/clojure,/core.typed,/clojure/2013/08/16/first-steps-with-core-typed.html</a></h3>
 <div class="outline-text-3" id="text-45-4">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-5" class="outline-3">
+<h3 id="sec-45-5">deep merge <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/UdFLYjLvNRs">https://groups.google.com/forum/?fromgroups=#!topic/clojure/UdFLYjLvNRs</a></h3>
+<div class="outline-text-3" id="text-45-5">
 
 <p>(defn deep-merge
   "Recursively merges maps. If keys are not maps, the last value wins."
@@ -7734,33 +7742,25 @@ turns that back into a map.  With these, you can write your functions
 
 </div>
 
-<div id="outline-container-45-5" class="outline-3">
-<h3 id="sec-45-5">understanding vars <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/viz1nEURerc">https://groups.google.com/forum/?fromgroups=#!topic/clojure/viz1nEURerc</a></h3>
-<div class="outline-text-3" id="text-45-5">
-
-</div>
-
-</div>
-
 <div id="outline-container-45-6" class="outline-3">
-<h3 id="sec-45-6">Destructuring can expressions as key</h3>
+<h3 id="sec-45-6">understanding vars <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/viz1nEURerc">https://groups.google.com/forum/?fromgroups=#!topic/clojure/viz1nEURerc</a></h3>
 <div class="outline-text-3" id="text-45-6">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-7" class="outline-3">
+<h3 id="sec-45-7">Destructuring can expressions as key</h3>
+<div class="outline-text-3" id="text-45-7">
 
 <p>(let [{x (+ 1 1)} {2 "two"}] x)
 </p></div>
 
 </div>
 
-<div id="outline-container-45-7" class="outline-3">
-<h3 id="sec-45-7">arrows <a href="https://github.com/rplevy/swiss-arrows">https://github.com/rplevy/swiss-arrows</a> to compare with new threading macros as-&gt; some-&gt; cond-&gt;</h3>
-<div class="outline-text-3" id="text-45-7">
-
-</div>
-
-</div>
-
 <div id="outline-container-45-8" class="outline-3">
-<h3 id="sec-45-8"><a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/pRla3_7vqvc">group-by proposition </a></h3>
+<h3 id="sec-45-8">arrows <a href="https://github.com/rplevy/swiss-arrows">https://github.com/rplevy/swiss-arrows</a> to compare with new threading macros as-&gt; some-&gt; cond-&gt;</h3>
 <div class="outline-text-3" id="text-45-8">
 
 </div>
@@ -7768,7 +7768,7 @@ turns that back into a map.  With these, you can write your functions
 </div>
 
 <div id="outline-container-45-9" class="outline-3">
-<h3 id="sec-45-9">use of var in ring apps explained <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/tZpNp0rEBKQ">https://groups.google.com/forum/?fromgroups=#!topic/clojure/tZpNp0rEBKQ</a></h3>
+<h3 id="sec-45-9"><a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/pRla3_7vqvc">group-by proposition </a></h3>
 <div class="outline-text-3" id="text-45-9">
 
 </div>
@@ -7776,25 +7776,33 @@ turns that back into a map.  With these, you can write your functions
 </div>
 
 <div id="outline-container-45-10" class="outline-3">
-<h3 id="sec-45-10">fcts génériques and macros with cgrand <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure-fr/ZoDVW4urFRM">https://groups.google.com/forum/?fromgroups=#!topic/clojure-fr/ZoDVW4urFRM</a></h3>
+<h3 id="sec-45-10">use of var in ring apps explained <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/tZpNp0rEBKQ">https://groups.google.com/forum/?fromgroups=#!topic/clojure/tZpNp0rEBKQ</a></h3>
 <div class="outline-text-3" id="text-45-10">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-11" class="outline-3">
+<h3 id="sec-45-11">fcts génériques and macros with cgrand <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure-fr/ZoDVW4urFRM">https://groups.google.com/forum/?fromgroups=#!topic/clojure-fr/ZoDVW4urFRM</a></h3>
+<div class="outline-text-3" id="text-45-11">
 
 <p><a href="https://github.com/cgrand/parsley/blob/master/src/net/cgrand/parsley/tree.clj#L15">https://github.com/cgrand/parsley/blob/master/src/net/cgrand/parsley/tree.clj#L15</a>
 </p></div>
 
 </div>
 
-<div id="outline-container-45-11" class="outline-3">
-<h3 id="sec-45-11">memoize and concurrency in clj <a href="http://kotka.de/blog/2010/03/memoize_done_right.html">http://kotka.de/blog/2010/03/memoize_done_right.html</a></h3>
-<div class="outline-text-3" id="text-45-11">
-
-</div>
-
-</div>
-
 <div id="outline-container-45-12" class="outline-3">
-<h3 id="sec-45-12">keywordize</h3>
+<h3 id="sec-45-12">memoize and concurrency in clj <a href="http://kotka.de/blog/2010/03/memoize_done_right.html">http://kotka.de/blog/2010/03/memoize_done_right.html</a></h3>
 <div class="outline-text-3" id="text-45-12">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-13" class="outline-3">
+<h3 id="sec-45-13">keywordize</h3>
+<div class="outline-text-3" id="text-45-13">
 
 <p>(into {} (for &hellip;))
 (defn keywordize-keys
@@ -7809,16 +7817,16 @@ turns that back into a map.  With these, you can write your functions
 
 </div>
 
-<div id="outline-container-45-13" class="outline-3">
-<h3 id="sec-45-13">some clj patterns</h3>
-<div class="outline-text-3" id="text-45-13">
+<div id="outline-container-45-14" class="outline-3">
+<h3 id="sec-45-14">some clj patterns</h3>
+<div class="outline-text-3" id="text-45-14">
 
 
 </div>
 
-<div id="outline-container-45-13-1" class="outline-4">
-<h4 id="sec-45-13-1">Union</h4>
-<div class="outline-text-4" id="text-45-13-1">
+<div id="outline-container-45-14-1" class="outline-4">
+<h4 id="sec-45-14-1">Union</h4>
+<div class="outline-text-4" id="text-45-14-1">
 
 <p>(set
   (mapcat #(&hellip;
@@ -7839,9 +7847,9 @@ monadic bind in the set monad ?
 
 </div>
 
-<div id="outline-container-45-13-2" class="outline-4">
-<h4 id="sec-45-13-2">zipmap</h4>
-<div class="outline-text-4" id="text-45-13-2">
+<div id="outline-container-45-14-2" class="outline-4">
+<h4 id="sec-45-14-2">zipmap</h4>
+<div class="outline-text-4" id="text-45-14-2">
 
 <p>(into {}
       (map #(vector &hellip;)))
@@ -7853,9 +7861,9 @@ fmap in the hash-map functor ?
 
 </div>
 
-<div id="outline-container-45-13-3" class="outline-4">
-<h4 id="sec-45-13-3">remove empty?</h4>
-<div class="outline-text-4" id="text-45-13-3">
+<div id="outline-container-45-14-3" class="outline-4">
+<h4 id="sec-45-14-3">remove empty?</h4>
+<div class="outline-text-4" id="text-45-14-3">
 
 
 <p>
@@ -7865,9 +7873,9 @@ fmap in the hash-map functor ?
 
 </div>
 
-<div id="outline-container-45-14" class="outline-3">
-<h3 id="sec-45-14">load optional dependency</h3>
-<div class="outline-text-3" id="text-45-14">
+<div id="outline-container-45-15" class="outline-3">
+<h3 id="sec-45-15">load optional dependency</h3>
+<div class="outline-text-3" id="text-45-15">
 
 <p><a href="https://github.com/sonian/carica/commit/eae079f4bfd1a0d50a75b11cd0f23ca73ec81797">https://github.com/sonian/carica/commit/eae079f4bfd1a0d50a75b11cd0f23ca73ec81797</a>
 (require 'cheshire.core)
@@ -7876,9 +7884,9 @@ fmap in the hash-map functor ?
 
 </div>
 
-<div id="outline-container-45-15" class="outline-3">
-<h3 id="sec-45-15">multimethod usage on config file</h3>
-<div class="outline-text-3" id="text-45-15">
+<div id="outline-container-45-16" class="outline-3">
+<h3 id="sec-45-16">multimethod usage on config file</h3>
+<div class="outline-text-3" id="text-45-16">
 
 <p>(memfn getPath) instead of #(.getPath %)
 (defmulti load-config (comp second
@@ -7891,9 +7899,9 @@ fmap in the hash-map functor ?
 
 </div>
 
-<div id="outline-container-45-16" class="outline-3">
-<h3 id="sec-45-16">load properties file</h3>
-<div class="outline-text-3" id="text-45-16">
+<div id="outline-container-45-17" class="outline-3">
+<h3 id="sec-45-17">load properties file</h3>
+<div class="outline-text-3" id="text-45-17">
 
 <p>(into {} (doto (java.util.Properties.)
            (.load (-&gt; (Thread/currentThread)
@@ -7903,9 +7911,9 @@ fmap in the hash-map functor ?
 
 </div>
 
-<div id="outline-container-45-17" class="outline-3">
-<h3 id="sec-45-17">reduce + lazy seq : blow up ? <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/0pcSxK9reSc">https://groups.google.com/forum/?fromgroups=#!topic/clojure/0pcSxK9reSc</a></h3>
-<div class="outline-text-3" id="text-45-17">
+<div id="outline-container-45-18" class="outline-3">
+<h3 id="sec-45-18">reduce + lazy seq : blow up ? <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/0pcSxK9reSc">https://groups.google.com/forum/?fromgroups=#!topic/clojure/0pcSxK9reSc</a></h3>
+<div class="outline-text-3" id="text-45-18">
 
 <p>user&gt; (defn test1 [coll] (reduce + coll))
 user&gt; (test1 (take 10000000 (iterate inc 0)))
@@ -7929,9 +7937,9 @@ In test2, coll has to be retained, because reduce is called a second time on it.
 
 </div>
 
-<div id="outline-container-45-18" class="outline-3">
-<h3 id="sec-45-18">deep-merge-with <a href="http://clojuredocs.org/clojure_contrib/clojure.contrib.map-utils/deep-merge-with">http://clojuredocs.org/clojure_contrib/clojure.contrib.map-utils/deep-merge-with</a></h3>
-<div class="outline-text-3" id="text-45-18">
+<div id="outline-container-45-19" class="outline-3">
+<h3 id="sec-45-19">deep-merge-with <a href="http://clojuredocs.org/clojure_contrib/clojure.contrib.map-utils/deep-merge-with">http://clojuredocs.org/clojure_contrib/clojure.contrib.map-utils/deep-merge-with</a></h3>
+<div class="outline-text-3" id="text-45-19">
 
 <p>Like merge-with, but merges maps recursively, applying the given fn
 only when there's a non-map at a particular level.
@@ -7944,17 +7952,17 @@ only when there's a non-map at a particular level.
 
 </div>
 
-<div id="outline-container-45-19" class="outline-3">
-<h3 id="sec-45-19">reducers by example <a href="http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/">http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/</a></h3>
-<div class="outline-text-3" id="text-45-19">
-
-</div>
-
-</div>
-
 <div id="outline-container-45-20" class="outline-3">
-<h3 id="sec-45-20">reducers <a href="https://github.com/cgrand/berlin-profiling/blob/master/src/berlin_profiling/life.clj">https://github.com/cgrand/berlin-profiling/blob/master/src/berlin_profiling/life.clj</a></h3>
+<h3 id="sec-45-20">reducers by example <a href="http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/">http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/</a></h3>
 <div class="outline-text-3" id="text-45-20">
+
+</div>
+
+</div>
+
+<div id="outline-container-45-21" class="outline-3">
+<h3 id="sec-45-21">reducers <a href="https://github.com/cgrand/berlin-profiling/blob/master/src/berlin_profiling/life.clj">https://github.com/cgrand/berlin-profiling/blob/master/src/berlin_profiling/life.clj</a></h3>
+<div class="outline-text-3" id="text-45-21">
 
 <p><a href="http://clojure.com/blog/2012/05/15/anatomy-of-reducer.html">http://clojure.com/blog/2012/05/15/anatomy-of-reducer.html</a>
 <a href="http://clj-me.cgrand.net/2013/02/11/from-lazy-seqs-to-reducers-and-back/">http://clj-me.cgrand.net/2013/02/11/from-lazy-seqs-to-reducers-and-back/</a>
@@ -7994,9 +8002,9 @@ only when there's a non-map at a particular level.
 
 </div>
 
-<div id="outline-container-45-21" class="outline-3">
-<h3 id="sec-45-21">clojure.edn/read and clojure.edn/read-string <a href="http://clojuredocs.org/clojure_core/clojure.core/read">http://clojuredocs.org/clojure_core/clojure.core/read</a></h3>
-<div class="outline-text-3" id="text-45-21">
+<div id="outline-container-45-22" class="outline-3">
+<h3 id="sec-45-22">clojure.edn/read and clojure.edn/read-string <a href="http://clojuredocs.org/clojure_core/clojure.core/read">http://clojuredocs.org/clojure_core/clojure.core/read</a></h3>
+<div class="outline-text-3" id="text-45-22">
 
 <p><a href="https://groups.google.com/forum/?fromgroups=#!topic/clojure/YBkUaIaRaow">https://groups.google.com/forum/?fromgroups=#!topic/clojure/YBkUaIaRaow</a>
 </p></div>
@@ -8012,7 +8020,7 @@ only when there's a non-map at a particular level.
 </div>
 
 <div id="outline-container-46-1" class="outline-3">
-<h3 id="sec-46-1">core.async rationale by Rich Hickey <a href="http://clojure.com/blog/2013/06/28/clojure-core-async-channels.html">http://clojure.com/blog/2013/06/28/clojure-core-async-channels.html</a></h3>
+<h3 id="sec-46-1">Pong Game Explained <a href="http://ragnard.github.io/2013/10/01/clojurecup-pong-async.html">http://ragnard.github.io/2013/10/01/clojurecup-pong-async.html</a></h3>
 <div class="outline-text-3" id="text-46-1">
 
 </div>
@@ -8020,8 +8028,16 @@ only when there's a non-map at a particular level.
 </div>
 
 <div id="outline-container-46-2" class="outline-3">
-<h3 id="sec-46-2">promise future agent channels by tbc++ Timothy Baldrigde <a href="https://groups.google.com/forum/#!topic/clojure/e6Tg4wXLcug">https://groups.google.com/forum/#!topic/clojure/e6Tg4wXLcug</a></h3>
+<h3 id="sec-46-2">core.async rationale by Rich Hickey <a href="http://clojure.com/blog/2013/06/28/clojure-core-async-channels.html">http://clojure.com/blog/2013/06/28/clojure-core-async-channels.html</a></h3>
 <div class="outline-text-3" id="text-46-2">
+
+</div>
+
+</div>
+
+<div id="outline-container-46-3" class="outline-3">
+<h3 id="sec-46-3">promise future agent channels by tbc++ Timothy Baldrigde <a href="https://groups.google.com/forum/#!topic/clojure/e6Tg4wXLcug">https://groups.google.com/forum/#!topic/clojure/e6Tg4wXLcug</a></h3>
+<div class="outline-text-3" id="text-46-3">
 
 <p>promise - creates a object that can be deref'd. The result of the
 promise can be delivered once, and deref-ing a undelivered will cause
@@ -8055,16 +8071,8 @@ bounded mutable queue of promises
 
 </div>
 
-<div id="outline-container-46-3" class="outline-3">
-<h3 id="sec-46-3">What is a "state monad binding plan" (referring to code in core.async) <a href="https://groups.google.com/forum/#!searchin/clojure/core.async/clojure/soewFCS8dAI/kaJ09e_eA7gJ">https://groups.google.com/forum/#!searchin/clojure/core.async/clojure/soewFCS8dAI/kaJ09e_eA7gJ</a></h3>
-<div class="outline-text-3" id="text-46-3">
-
-</div>
-
-</div>
-
 <div id="outline-container-46-4" class="outline-3">
-<h3 id="sec-46-4"><a href="http://swannodette.github.io/2013/08/23/make-no-promises/">http://swannodette.github.io/2013/08/23/make-no-promises/</a></h3>
+<h3 id="sec-46-4">What is a "state monad binding plan" (referring to code in core.async) <a href="https://groups.google.com/forum/#!searchin/clojure/core.async/clojure/soewFCS8dAI/kaJ09e_eA7gJ">https://groups.google.com/forum/#!searchin/clojure/core.async/clojure/soewFCS8dAI/kaJ09e_eA7gJ</a></h3>
 <div class="outline-text-3" id="text-46-4">
 
 </div>
@@ -8072,7 +8080,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-5" class="outline-3">
-<h3 id="sec-46-5">In-depth article : CLOJURESCRIPT CORE.ASYNC DOTS GAME <a href="http://rigsomelight.com/2013/08/12/clojurescript-core-async-dots-game.html">http://rigsomelight.com/2013/08/12/clojurescript-core-async-dots-game.html</a></h3>
+<h3 id="sec-46-5"><a href="http://swannodette.github.io/2013/08/23/make-no-promises/">http://swannodette.github.io/2013/08/23/make-no-promises/</a></h3>
 <div class="outline-text-3" id="text-46-5">
 
 </div>
@@ -8080,7 +8088,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-6" class="outline-3">
-<h3 id="sec-46-6">CSP is Responsive Design by David Nolen <a href="http://swannodette.github.io/2013/07/31/extracting-processes/">http://swannodette.github.io/2013/07/31/extracting-processes/</a></h3>
+<h3 id="sec-46-6">In-depth article : CLOJURESCRIPT CORE.ASYNC DOTS GAME <a href="http://rigsomelight.com/2013/08/12/clojurescript-core-async-dots-game.html">http://rigsomelight.com/2013/08/12/clojurescript-core-async-dots-game.html</a></h3>
 <div class="outline-text-3" id="text-46-6">
 
 </div>
@@ -8088,7 +8096,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-7" class="outline-3">
-<h3 id="sec-46-7">The State Machines of core.async <a href="http://hueypetersen.com/posts/2013/08/02/the-state-machines-of-core-async/">http://hueypetersen.com/posts/2013/08/02/the-state-machines-of-core-async/</a></h3>
+<h3 id="sec-46-7">CSP is Responsive Design by David Nolen <a href="http://swannodette.github.io/2013/07/31/extracting-processes/">http://swannodette.github.io/2013/07/31/extracting-processes/</a></h3>
 <div class="outline-text-3" id="text-46-7">
 
 </div>
@@ -8096,7 +8104,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-8" class="outline-3">
-<h3 id="sec-46-8">100k independent go blocks all running at the same time  <a href="http://swannodette.github.io/2013/08/02/100000-processes/">http://swannodette.github.io/2013/08/02/100000-processes/</a></h3>
+<h3 id="sec-46-8">The State Machines of core.async <a href="http://hueypetersen.com/posts/2013/08/02/the-state-machines-of-core-async/">http://hueypetersen.com/posts/2013/08/02/the-state-machines-of-core-async/</a></h3>
 <div class="outline-text-3" id="text-46-8">
 
 </div>
@@ -8104,7 +8112,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-9" class="outline-3">
-<h3 id="sec-46-9">Hoare examples implemente with core.async <a href="https://github.com/nodename/async-plgd">https://github.com/nodename/async-plgd</a></h3>
+<h3 id="sec-46-9">100k independent go blocks all running at the same time  <a href="http://swannodette.github.io/2013/08/02/100000-processes/">http://swannodette.github.io/2013/08/02/100000-processes/</a></h3>
 <div class="outline-text-3" id="text-46-9">
 
 </div>
@@ -8112,7 +8120,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-10" class="outline-3">
-<h3 id="sec-46-10">core.async examples in clojuscript <a href="http://swannodette.github.io/2013/07/12/communicating-sequential-processes/">http://swannodette.github.io/2013/07/12/communicating-sequential-processes/</a> <a href="https://github.com/swannodette/async-tests">https://github.com/swannodette/async-tests</a></h3>
+<h3 id="sec-46-10">Hoare examples implemente with core.async <a href="https://github.com/nodename/async-plgd">https://github.com/nodename/async-plgd</a></h3>
 <div class="outline-text-3" id="text-46-10">
 
 </div>
@@ -8120,7 +8128,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-11" class="outline-3">
-<h3 id="sec-46-11">some games core.async examples <a href="http://tech.puredanger.com/2013/07/10/rps-core-async/">http://tech.puredanger.com/2013/07/10/rps-core-async/</a> <a href="https://github.com/rkneufeld/rouge">https://github.com/rkneufeld/rouge</a></h3>
+<h3 id="sec-46-11">core.async examples in clojuscript <a href="http://swannodette.github.io/2013/07/12/communicating-sequential-processes/">http://swannodette.github.io/2013/07/12/communicating-sequential-processes/</a> <a href="https://github.com/swannodette/async-tests">https://github.com/swannodette/async-tests</a></h3>
 <div class="outline-text-3" id="text-46-11">
 
 </div>
@@ -8128,7 +8136,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-12" class="outline-3">
-<h3 id="sec-46-12">core.async: communicating termination <a href="https://groups.google.com/forum/#!topic/clojure/_KzEoq0XcHQ">https://groups.google.com/forum/#!topic/clojure/_KzEoq0XcHQ</a></h3>
+<h3 id="sec-46-12">some games core.async examples <a href="http://tech.puredanger.com/2013/07/10/rps-core-async/">http://tech.puredanger.com/2013/07/10/rps-core-async/</a> <a href="https://github.com/rkneufeld/rouge">https://github.com/rkneufeld/rouge</a></h3>
 <div class="outline-text-3" id="text-46-12">
 
 </div>
@@ -8136,7 +8144,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-13" class="outline-3">
-<h3 id="sec-46-13">Dining Philosophers in core.async <a href="http://pepijndevos.nl/2013/07/11/dining-philosophers-in-coreasync.html">http://pepijndevos.nl/2013/07/11/dining-philosophers-in-coreasync.html</a></h3>
+<h3 id="sec-46-13">core.async: communicating termination <a href="https://groups.google.com/forum/#!topic/clojure/_KzEoq0XcHQ">https://groups.google.com/forum/#!topic/clojure/_KzEoq0XcHQ</a></h3>
 <div class="outline-text-3" id="text-46-13">
 
 </div>
@@ -8144,8 +8152,16 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-46-14" class="outline-3">
-<h3 id="sec-46-14">Clojure, core.async and the Lisp Advantage <a href="http://www.leonardoborges.com/writings/2013/07/06/clojure-core-dot-async-lisp-advantage/">http://www.leonardoborges.com/writings/2013/07/06/clojure-core-dot-async-lisp-advantage/</a></h3>
+<h3 id="sec-46-14">Dining Philosophers in core.async <a href="http://pepijndevos.nl/2013/07/11/dining-philosophers-in-coreasync.html">http://pepijndevos.nl/2013/07/11/dining-philosophers-in-coreasync.html</a></h3>
 <div class="outline-text-3" id="text-46-14">
+
+</div>
+
+</div>
+
+<div id="outline-container-46-15" class="outline-3">
+<h3 id="sec-46-15">Clojure, core.async and the Lisp Advantage <a href="http://www.leonardoborges.com/writings/2013/07/06/clojure-core-dot-async-lisp-advantage/">http://www.leonardoborges.com/writings/2013/07/06/clojure-core-dot-async-lisp-advantage/</a></h3>
+<div class="outline-text-3" id="text-46-15">
 
 </div>
 </div>
@@ -8957,7 +8973,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-59-1" class="outline-3">
-<h3 id="sec-59-1">CljsFiddle <a href="http://cljsfiddle.net/fiddle/swannodette.test-logic">http://cljsfiddle.net/fiddle/swannodette.test-logic</a> code <a href="http://github.com/jonase/cljsfiddle">http://github.com/jonase/cljsfiddle</a></h3>
+<h3 id="sec-59-1"><a href="http://www.panoramap.org">http://www.panoramap.org</a> web-app with Leaflet  <a href="https://github.com/bzg/wlmmap">https://github.com/bzg/wlmmap</a></h3>
 <div class="outline-text-3" id="text-59-1">
 
 </div>
@@ -8965,7 +8981,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-59-2" class="outline-3">
-<h3 id="sec-59-2">Purnam - AngularJs Language Extensions for Clojurescript Inspired by lispyscript, coffescript and clang <a href="https://github.com/zcaudate/purnam">https://github.com/zcaudate/purnam</a></h3>
+<h3 id="sec-59-2">CljsFiddle <a href="http://cljsfiddle.net/fiddle/swannodette.test-logic">http://cljsfiddle.net/fiddle/swannodette.test-logic</a> code <a href="http://github.com/jonase/cljsfiddle">http://github.com/jonase/cljsfiddle</a></h3>
 <div class="outline-text-3" id="text-59-2">
 
 </div>
@@ -8973,7 +8989,7 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-59-3" class="outline-3">
-<h3 id="sec-59-3">cljs templating <a href="http://blog.getprismatic.com/blog/2013/1/14/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web">http://blog.getprismatic.com/blog/2013/1/14/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web</a> <a href="https://github.com/Prismatic/dommy">https://github.com/Prismatic/dommy</a></h3>
+<h3 id="sec-59-3">Purnam - AngularJs Language Extensions for Clojurescript Inspired by lispyscript, coffescript and clang <a href="https://github.com/zcaudate/purnam">https://github.com/zcaudate/purnam</a></h3>
 <div class="outline-text-3" id="text-59-3">
 
 </div>
@@ -8981,8 +8997,16 @@ bounded mutable queue of promises
 </div>
 
 <div id="outline-container-59-4" class="outline-3">
-<h3 id="sec-59-4">cljs properties access <a href="http://dev.clojure.org/display/design/Unified+ClojureScript+and+Clojure+field+access+syntax">http://dev.clojure.org/display/design/Unified+ClojureScript+and+Clojure+field+access+syntax</a></h3>
+<h3 id="sec-59-4">cljs templating <a href="http://blog.getprismatic.com/blog/2013/1/14/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web">http://blog.getprismatic.com/blog/2013/1/14/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web</a> <a href="https://github.com/Prismatic/dommy">https://github.com/Prismatic/dommy</a></h3>
 <div class="outline-text-3" id="text-59-4">
+
+</div>
+
+</div>
+
+<div id="outline-container-59-5" class="outline-3">
+<h3 id="sec-59-5">cljs properties access <a href="http://dev.clojure.org/display/design/Unified+ClojureScript+and+Clojure+field+access+syntax">http://dev.clojure.org/display/design/Unified+ClojureScript+and+Clojure+field+access+syntax</a></h3>
+<div class="outline-text-3" id="text-59-5">
 
 <p>good (.-MAX<sub>NUMBER</sub> js/Math) and (.ceil js/Math 3.14)
 not clojure compatible js/Math.MAX<sub>NUMBER</sub> and (js/Math.ceil 3.14)
@@ -8990,35 +9014,35 @@ not clojure compatible js/Math.MAX<sub>NUMBER</sub> and (js/Math.ceil 3.14)
 
 </div>
 
-<div id="outline-container-59-5" class="outline-3">
-<h3 id="sec-59-5">testing in cljs <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojurescript/a2WcxJvp8Qo">https://groups.google.com/forum/?fromgroups=#!topic/clojurescript/a2WcxJvp8Qo</a></h3>
-<div class="outline-text-3" id="text-59-5">
+<div id="outline-container-59-6" class="outline-3">
+<h3 id="sec-59-6">testing in cljs <a href="https://groups.google.com/forum/?fromgroups=#!topic/clojurescript/a2WcxJvp8Qo">https://groups.google.com/forum/?fromgroups=#!topic/clojurescript/a2WcxJvp8Qo</a></h3>
+<div class="outline-text-3" id="text-59-6">
 
 <p> <a href="https://github.com/prismatic/cljs-test">https://github.com/prismatic/cljs-test</a> <a href="https://github.com/cemerick/yonder">https://github.com/cemerick/yonder</a>
 </p></div>
 
 </div>
 
-<div id="outline-container-59-6" class="outline-3">
-<h3 id="sec-59-6">clojurescript internal <a href="http://www.infoq.com/presentations/ClojureScript-Optimizations">http://www.infoq.com/presentations/ClojureScript-Optimizations</a></h3>
-<div class="outline-text-3" id="text-59-6">
-
-</div>
-
-</div>
-
 <div id="outline-container-59-7" class="outline-3">
-<h3 id="sec-59-7">FRP <a href="http://tailrecursion.com/blog/2013/02/15/introducing-javelin-an-frp-library-for-clojurescript/">http://tailrecursion.com/blog/2013/02/15/introducing-javelin-an-frp-library-for-clojurescript/</a></h3>
+<h3 id="sec-59-7">clojurescript internal <a href="http://www.infoq.com/presentations/ClojureScript-Optimizations">http://www.infoq.com/presentations/ClojureScript-Optimizations</a></h3>
 <div class="outline-text-3" id="text-59-7">
+
+</div>
+
+</div>
+
+<div id="outline-container-59-8" class="outline-3">
+<h3 id="sec-59-8">FRP <a href="http://tailrecursion.com/blog/2013/02/15/introducing-javelin-an-frp-library-for-clojurescript/">http://tailrecursion.com/blog/2013/02/15/introducing-javelin-an-frp-library-for-clojurescript/</a></h3>
+<div class="outline-text-3" id="text-59-8">
 
 <p><a href="https://github.com/alandipert/enduro-todo">https://github.com/alandipert/enduro-todo</a>
 </p></div>
 
 </div>
 
-<div id="outline-container-59-8" class="outline-3">
-<h3 id="sec-59-8"><a href="https://github.com/cemerick/clojurescript.test">https://github.com/cemerick/clojurescript.test</a></h3>
-<div class="outline-text-3" id="text-59-8">
+<div id="outline-container-59-9" class="outline-3">
+<h3 id="sec-59-9"><a href="https://github.com/cemerick/clojurescript.test">https://github.com/cemerick/clojurescript.test</a></h3>
+<div class="outline-text-3" id="text-59-9">
 
 </div>
 </div>
