@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Total Clojure "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-05T11:53+0200"/>
+<meta name="generated" content="2013-10-19T00:54+0200"/>
 <meta name="author" content="Maximilien Rzepka"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -38,9 +38,31 @@
 <ul>
 <li><a href="#sec-1-1">1.1 Slides</a>
 <ul>
-<li><a href="#sec-1-1-1">1.1.1 Plan</a></li>
-<li><a href="#sec-1-1-2">1.1.2 Events</a></li>
-<li><a href="#sec-1-1-3">1.1.3 Speaker</a></li>
+<li><a href="#sec-1-1-1">1.1.1 Caution</a></li>
+<li><a href="#sec-1-1-2">1.1.2 American Football</a></li>
+<li><a href="#sec-1-1-3">1.1.3 Australian Football</a></li>
+<li><a href="#sec-1-1-4">1.1.4 Carving Ski</a></li>
+<li><a href="#sec-1-1-5">1.1.5 Mogul Ski</a></li>
+<li><a href="#sec-1-1-6">1.1.6 Total Immersion</a></li>
+<li><a href="#sec-1-1-7">1.1.7 Swimming Beauty</a></li>
+<li><a href="#sec-1-1-8">1.1.8 :slide:</a></li>
+<li><a href="#sec-1-1-9">1.1.9 :slide:</a></li>
+<li><a href="#sec-1-1-10">1.1.10 :slide:</a></li>
+<li><a href="#sec-1-1-11">1.1.11 :slide:</a></li>
+<li><a href="#sec-1-1-12">1.1.12 :slide:</a></li>
+<li><a href="#sec-1-1-13">1.1.13 :slide:</a></li>
+<li><a href="#sec-1-1-14">1.1.14 :slide:</a></li>
+<li><a href="#sec-1-1-15">1.1.15 Some Linguistic</a></li>
+<li><a href="#sec-1-1-16">1.1.16 Comparativ Linguistic</a></li>
+<li><a href="#sec-1-1-17">1.1.17 Nothing but List</a></li>
+<li><a href="#sec-1-1-18">1.1.18 Plan (in-progress)</a></li>
+<li><a href="#sec-1-1-19">1.1.19 Clojure Landscape</a></li>
+<li><a href="#sec-1-1-20">1.1.20 seq abstraction</a></li>
+<li><a href="#sec-1-1-21">1.1.21 Bowling Scorer</a></li>
+<li><a href="#sec-1-1-22">1.1.22 No indices</a></li>
+<li><a href="#sec-1-1-23">1.1.23 Clojure Books</a></li>
+<li><a href="#sec-1-1-24">1.1.24 Speaker</a></li>
+<li><a href="#sec-1-1-25">1.1.25 Thanks</a></li>
 </ul></li>
 </ul>
 </li>
@@ -65,35 +87,39 @@
 </div>
 
 <div id="outline-container-1-1-1" class="outline-4">
-<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Plan &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Caution &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
 <div class="outline-text-4" id="text-1-1-1">
 
 <ul>
-<li id="sec-1-1-1-1">List Processing : core.seq<br/>
+<li id="sec-1-1-1-1">Driven by my readings, thoughts and personal experience<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-2">NewSQL : datomic<br/>
+<li id="sec-1-1-1-2">My personal way to (re-)learn programming<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-3">Big Data : strom, cascalog, lambda architecture<br/>
+<li id="sec-1-1-1-3">Not strictly Computer Science Content<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-4">Web : Ring clojurescript<br/>
+<li id="sec-1-1-1-4">Highly Referencial (links available as possible)<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-5">Logic/constraint Programming : core.logic<br/>
+<li id="sec-1-1-1-5">"I don't know what I'm doing" Bret Victor<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-6">Music programming : Overtone<br/>
+<li id="sec-1-1-1-6">First Level of Inspiration : <a href="https://twitter.com/RichHickey">RichHickey</a>  @cgrand @worrydream @nathanMarz<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-7">Further : core.async core.typed core.match CinC<br/>
+<li id="sec-1-1-1-7">Second Level of Inspiration : Friedrich Nietzsche Gilles Deleuze<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-1-8">Third Level of Inspiration : life<br/>
 </li>
 </ul>
 </div>
@@ -101,15 +127,23 @@
 </div>
 
 <div id="outline-container-1-1-2" class="outline-4">
-<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> Events &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> American Football &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
 <div class="outline-text-4" id="text-1-1-2">
 
 <ul>
-<li id="sec-1-1-2-1">Euro Clojure @ Berlin 14-15 Oct. 2013<br/>
+<li id="sec-1-1-2-1">Well Organized<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-2-2">Clojure Day and more @ Soft-shake Geneva 24-25 Oct. 2013<br/>
+<li id="sec-1-1-2-2">Fully Protected<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-2-3">High Mortality Rate<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-2-4"><span class="todo TODO">TODO</span> img + video<br/>
 </li>
 </ul>
 </div>
@@ -117,23 +151,469 @@
 </div>
 
 <div id="outline-container-1-1-3" class="outline-4">
-<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> Speaker &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> Australian Football &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
 <div class="outline-text-4" id="text-1-1-3">
 
 <ul>
-<li id="sec-1-1-3-1">Maximilien Rzepka<br/>
+<li id="sec-1-1-3-1">Blazing fast<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-3-2">Programmer who learn programming with clojure<br/>
+<li id="sec-1-1-3-2">Athletic<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-3-3">Organizer of Clojure Zürich Meetup<br/>
+<li id="sec-1-1-3-3">No Constraints<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-3-4">@maxrzepka on twitter, github<br/>
+<li id="sec-1-1-3-4"><span class="todo TODO">TODO</span> img + video<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-4" class="outline-4">
+<h4 id="sec-1-1-4"><span class="section-number-4">1.1.4</span> Carving Ski &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-4">
+
+<ul>
+<li id="sec-1-1-4-1">Easy to Learn<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-4-2">Speed<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-4-3">Fully protected<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-4-4">High Accident Rate<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-4-5"><span class="todo TODO">TODO</span> img + video<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-5" class="outline-4">
+<h4 id="sec-1-1-5"><span class="section-number-4">1.1.5</span> Mogul Ski &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-5">
+
+<ul>
+<li id="sec-1-1-5-1">Highly Technical<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-5-2">Master in Moguls =&gt; Master Everywhere<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-5-3"><span class="todo TODO">TODO</span> img + video bumps<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-6" class="outline-4">
+<h4 id="sec-1-1-6"><span class="section-number-4">1.1.6</span> Total Immersion &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-6">
+
+<ul>
+<li id="sec-1-1-6-1">Make Complex Things Possible<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-6-2">Swimming is Complex<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-6-3">Total Immersion make everyone a great swimmer<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-6-4"><span class="todo TODO">TODO</span> img an video to total immersion (4x100 )<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-7" class="outline-4">
+<h4 id="sec-1-1-7"><span class="section-number-4">1.1.7</span> Swimming Beauty &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-7">
+
+<ul>
+<li id="sec-1-1-7-1">4x100m Freestly Relay Final World Barcelona 2013<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-7-2">Please watch In particular Jeremy Stravius Underwater Part<br/>
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-8" class="outline-4">
+<h4 id="sec-1-1-8"><span class="section-number-4">1.1.8</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-8">
+
+</div>
+
+</div>
+
+<div id="outline-container-1-1-9" class="outline-4">
+<h4 id="sec-1-1-9"><span class="section-number-4">1.1.9</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-9">
+
+<p>go 
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-10" class="outline-4">
+<h4 id="sec-1-1-10"><span class="section-number-4">1.1.10</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-10">
+
+<p>go to 
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-11" class="outline-4">
+<h4 id="sec-1-1-11"><span class="section-number-4">1.1.11</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-11">
+
+<p>go to Geneva 
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-12" class="outline-4">
+<h4 id="sec-1-1-12"><span class="section-number-4">1.1.12</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-12">
+
+<p>go to Geneva now 
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-13" class="outline-4">
+<h4 id="sec-1-1-13"><span class="section-number-4">1.1.13</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-13">
+
+<p>go to Geneva now by train
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-14" class="outline-4">
+<h4 id="sec-1-1-14"><span class="section-number-4">1.1.14</span> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-14">
+
+<p>(go to Geneva now by train)
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-15" class="outline-4">
+<h4 id="sec-1-1-15"><span class="section-number-4">1.1.15</span> Some Linguistic &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-15">
+
+<ul>
+<li id="sec-1-1-15-1">Verbicid is a myth<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-15-2">Noun and Verb are tied together<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-15-3"><a href="http://www.odilejacob.com/catalogue/by-authors/claude-hagege/">Read Claude Hagège</a><br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-16" class="outline-4">
+<h4 id="sec-1-1-16"><span class="section-number-4">1.1.16</span> Comparativ Linguistic &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-16">
+
+<ul>
+<li id="sec-1-1-16-1">I must go to Geneva<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-16-2">Ich muss nach Berlin<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-16-3">Turn left Right now<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-16-4">More in <a href="http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php">Against Uniform Thinking by claude Hagège</a><br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-17" class="outline-4">
+<h4 id="sec-1-1-17"><span class="section-number-4">1.1.17</span> Nothing but List &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-17">
+
+
+<p>
+The list is the origin of culture. It’s part of the history of art and
+literature. What does culture want? To make infinity comprehensible…
+And how, as a human being, does one face infinity? How does one
+attempt to grasp the incomprehensible? Through lists…
+</p>
+<ul>
+<li>Umberto Eco
+</li>
+</ul>
+
+
+<p>
+from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works">The Origin of The Todo list&hellip; by Buffer</a>
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-18" class="outline-4">
+<h4 id="sec-1-1-18"><span class="section-number-4">1.1.18</span> Plan (in-progress) &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-18">
+
+<ul>
+<li id="sec-1-1-18-1">Data and Functions<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-2">Computation Abstraction<br/>
+<ul>
+<li>for, protocols, some monads and monoids..
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-3">Concurrency and design of systems<br/>
+<ul>
+<li>atom OK, STM ?
+</li>
+<li>core.async
+</li>
+<li>queues
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-4">Datalog (datomic and cascalog)<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-5">cljs and web stuffs<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-6">core.logic<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-19" class="outline-4">
+<h4 id="sec-1-1-19"><span class="section-number-4">1.1.19</span> Clojure Landscape &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-19">
+
+<ul>
+<li id="sec-1-1-19-1">List Processing : core.seq<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-2">NewSQL : datomic<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-3">Big Data : strom, cascalog, lambda architecture.<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-4">Web : ring, clojurescript<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-5">Devops : pallet, riemman<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-6">Logic/Constraint Programming : core.logic<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-7">Creative Programming : overtone, quil<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-8">Further : core.async core.typed core.match CinC&hellip;<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-9">Interop : all the best from java or javascript world<br/>
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-20" class="outline-4">
+<h4 id="sec-1-1-20"><span class="section-number-4">1.1.20</span> seq abstraction &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-20">
+
+<ul>
+<li id="sec-1-1-20-1">Best<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-20-2">One Interface : first, next<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-20-3">Many Functions : map filter reduce keep concat&hellip;<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-21" class="outline-4">
+<h4 id="sec-1-1-21"><span class="section-number-4">1.1.21</span> Bowling Scorer &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-21">
+
+
+
+
+<pre class="example">(defn strike? [rolls] (= 10 (first rolls)))
+
+(defn spare? [rolls]
+  (and
+    (= 10 (apply + (take 2 rolls)))
+    (&gt; 10 (first rolls))))
+
+(defn balls-to-score [rolls]
+  (cond
+    (strike? rolls) 3
+    (spare? rolls) 3
+    :else 2))
+
+(defn frame-advance [rolls] (if (strike? rolls) 1 2))
+
+(defn frames [rolls]
+  (when-let [rolls (seq rolls)]
+    (lazy-seq (cons (take (balls-to-score rolls) rolls)
+                (frames (drop (frame-advance rolls) rolls))))))
+
+(defn score [frames]
+  (reduce + (map (partial reduce + ) frames)))
+</pre>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-1-1-22" class="outline-4">
+<h4 id="sec-1-1-22"><span class="section-number-4">1.1.22</span> No indices</h4>
+<div class="outline-text-4" id="text-1-1-22">
+
+<ul>
+<li id="sec-1-1-22-1">matrix algo with incanter<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-22-2">classical algos (sorting,&hellip;)<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-23" class="outline-4">
+<h4 id="sec-1-1-23"><span class="section-number-4">1.1.23</span> Clojure Books &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-23">
+
+<ul>
+<li id="sec-1-1-23-1">Starter : by @stuartHalloway<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-23-2">Main : by @cgrand, @cemerick<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-23-3">Dessert : joy of clojure by @fogus @chouser (2nd edition almost done)<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-23-4">Coming : clojure cookbook<br/>
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-24" class="outline-4">
+<h4 id="sec-1-1-24"><span class="section-number-4">1.1.24</span> Speaker &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-24">
+
+<ul>
+<li id="sec-1-1-24-1">Maximilien Rzepka<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-24-2">Organizer of Clojure Zürich Meetup<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-24-3">@maxrzepka on twitter, github&hellip;<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-25" class="outline-4">
+<h4 id="sec-1-1-25"><span class="section-number-4">1.1.25</span> Thanks &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-25">
+
+<ul>
+<li id="sec-1-1-25-1">My starred : @cgrand @mpenet<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-25-2">Special Thanks to @tgkristensen<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-25-3"><span class="todo TODO">TODO</span> Listen Sun by Two Door Cinema Club<br/>
 </li>
 </ul>
 </div>
@@ -161,7 +641,7 @@
 </div>
 
 <div id="postamble">
-<p class="date">Date: 2013-10-05T11:53+0200</p>
+<p class="date">Date: 2013-10-19T00:54+0200</p>
 <p class="author">Author: Maximilien Rzepka</p>
 <p class="creator">Org version 7.8.09 with Emacs version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>

@@ -5,27 +5,167 @@
 * Total Clojure : Pratical Approach to Programming              :slide:title:
 ** COMMENT technical todo list
    - How to split vertically slide : text | image
-   - image with title and on click redirect or view inline a video related to it
+   - image with title and on click redirect or view inline a video
+     related to it
 ** Slides
-*** Plan                                                              :slide:
+*** Caution                                                           :slide:
+**** Driven by my readings, thoughts and personal experience  
+**** My personal way to (re-)learn programming 
+**** Not strictly Computer Science Content
+**** Highly Referencial (links available as possible)
+**** "I don't know what I'm doing" Bret Victor
+**** First Level of Inspiration : [[https://twitter.com/RichHickey][RichHickey]]  @cgrand @worrydream @nathanMarz 
+**** Second Level of Inspiration : Friedrich Nietzsche Gilles Deleuze
+**** Third Level of Inspiration : life
+*** American Football                                                 :slide:
+**** Well Organized
+**** Fully Protected
+**** High Mortality Rate
+**** TODO img + video 
+*** Australian Football                                               :slide:
+**** Blazing fast
+**** Athletic
+**** No Constraints
+**** TODO img + video 
+*** Carving Ski                                                       :slide:
+**** Easy to Learn
+**** Speed
+**** Fully protected
+**** High Accident Rate
+**** TODO img + video 
+*** Mogul Ski                                                         :slide:
+**** Highly Technical
+**** Master in Moguls => Master Everywhere
+**** TODO img + video bumps 
+*** Total Immersion                                                   :slide:
+**** Make Complex Things Possible
+**** Swimming is Complex 
+**** Total Immersion make everyone a great swimmer
+**** TODO img an video to total immersion (4x100 )
+*** Swimming Beauty                                                   :slide:
+**** 4x100m Freestly Relay Final World Barcelona 2013
+**** Please watch In particular Jeremy Stravius Underwater Part
+*** COMMENT Coder Meditation
+    - To start the journey we need to forget everything to start from scratch.
+    - Slow travel to the past :
+      - forget about your mobile, tablet, laptop, Internet
+      - forget about your favourite Operating System : Mac Windows Linux Unix
+      - forget about your favourite editor : intelJ Eclipse Emacs Vi Ed
+      - forget about your favourite programming language : Scala Haskell Ruby Java C++ Smalltalk Prolog C Lisp Fortran Assembler
+      - Let's go further back in the past : let's meet Russell Wittgenstein Von Neumann Turing 
+      - No further : Poincaré Pascal Leibniz Descartes
+      - More : Pythagore Euclide
+      - Mo more : Let's go to India China Babylone
+      - Let's go to Africa where everything started : 
+      - Hi Lucy !!! What's up !!! All good !!!
+***                                                                   :slide:
+***                                                                   :slide:
+go 
+***                                                                   :slide:
+go to 
+***                                                                   :slide:
+go to Geneva 
+***                                                                   :slide:
+go to Geneva now 
+***                                                                   :slide:
+go to Geneva now by train
+***                                                                   :slide:
+(go to Geneva now by train)
+*** Some Linguistic                                                   :slide:
+**** Verbicid is a myth
+**** Noun and Verb are tied together
+**** [[http://www.odilejacob.com/catalogue/by-authors/claude-hagege/][Read Claude Hagège]]
+**** 
+*** Comparativ Linguistic                                             :slide:
+**** English like german are sattelite-framed languages
+**** Ich muss nach Berlin
+**** English is complecting
+**** Turn left Right now
+**** More in [[http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php][Against Uniform Thinking by claude Hagège]]
+*** Nothing but List                                                  :slide:
+
+The list is the origin of culture. It’s part of the history of art and
+literature. What does culture want? To make infinity comprehensible…
+And how, as a human being, does one face infinity? How does one
+attempt to grasp the incomprehensible? Through lists…
+
+- Umberto Eco
+
+from [[http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works][The Origin of The Todo list... by Buffer]]
+*** Plan (in-progress)                                                :slide:
+**** Data and Functions
+**** Computation Abstraction 
+   - for, protocols, some monads and monoids..
+**** Concurrency and design of systems
+   - atom OK, STM ?
+   - core.async
+   - queues
+**** Datalog (datomic and cascalog)
+**** cljs and web stuffs
+**** core.logic
+*** Clojure Landscape                                                 :slide:
 **** List Processing : core.seq
 **** NewSQL : datomic
-**** Big Data : strom, cascalog, lambda architecture 
-**** Web : Ring clojurescript
-**** Logic/constraint Programming : core.logic
-**** Music programming : Overtone
-**** Further : core.async core.typed core.match CinC
-*** Events :slide:
+**** Big Data : strom, cascalog, lambda architecture.
+**** Web : ring, clojurescript
+**** Devops : pallet, riemman
+**** Logic/Constraint Programming : core.logic
+**** Creative Programming : overtone, quil
+**** Further : core.async core.typed core.match CinC...
+**** Interop : all the best from java or javascript world
+
+*** seq abstraction                                                   :slide:
+**** Best
+**** One Interface : first, next
+**** Many Functions : map filter reduce keep concat...
+*** Bowling Scorer                                                    :slide:
+#+begin_src clojure
+(defn strike? [rolls] (= 10 (first rolls)))
+
+(defn spare? [rolls]
+  (and
+    (= 10 (apply + (take 2 rolls)))
+    (> 10 (first rolls))))
+
+(defn balls-to-score [rolls]
+  (cond
+    (strike? rolls) 3
+    (spare? rolls) 3
+    :else 2))
+
+(defn frame-advance [rolls] (if (strike? rolls) 1 2))
+
+(defn frames [rolls]
+  (when-let [rolls (seq rolls)]
+    (lazy-seq (cons (take (balls-to-score rolls) rolls)
+                (frames (drop (frame-advance rolls) rolls))))))
+
+(defn score [frames]
+  (reduce + (map (partial reduce + ) frames)))
+#+end_src
+*** COMMENT Monoids better than monads
+*** No indices
+**** matrix algo with incanter
+**** classical algos (sorting,...)
+*** Clojure Books                                                     :slide:
+**** Starter : by @stuartHalloway
+**** Main : by @cgrand, @cemerick
+**** Dessert : joy of clojure by @fogus @chouser (2nd edition almost done)
+**** Coming : clojure cookbook 
+*** COMMENT Events                                                    :slide:
 **** Euro Clojure @ Berlin 14-15 Oct. 2013
 **** Clojure Day and more @ Soft-shake Geneva 24-25 Oct. 2013 
 *** Speaker                                                           :slide:
 **** Maximilien Rzepka
-**** Programmer who learn programming with clojure
 **** Organizer of Clojure Zürich Meetup
-**** @maxrzepka on twitter, github
+**** @maxrzepka on twitter, github...
+*** Thanks                                                            :slide:
+**** My starred : @cgrand @mpenet
+**** Special Thanks to @tgkristensen 
+**** TODO Listen Sun by Two Door Cinema Club
 * Footer
 
-#+TAGS: slide(s)
+#+TAGS: slide(s) footer
 
 #+STYLE: <link rel="stylesheet" type="text/css" href="common.css" />
 #+STYLE: <link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
