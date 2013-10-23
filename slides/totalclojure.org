@@ -7,146 +7,81 @@
    - How to split vertically slide : text | image
    - image with title and on click redirect or view inline a video related to it
 ** Slides
-** Clojure and Data : introduction to datascience                     :slide:
-Data Science = Art of Processing Data
-** Caution                                                            :slide:
-**** My personal way for (re-)learning programming 
-**** Driven by my readings, thoughts and personal experience
-**** COMMENT Not strictly Computer Science Content
-**** Highly Referencial as open as possible
+
+*** Caution                                                           :slide:
+**** My personal way of (re-)learning how to program
+**** More about "Make you To Think" than about "Show you How To do"
+**** Keep questioning your knowledge
 **** I don't know what I'm doing - [[https://vimeo.com/71278954][Bret Victor]]
-
-Fehler sind wie Berge, man steht auf dem Gipfel seiner eigenen und redet über die der anderen. 
-
-[[http://de.wikiquote.org/wiki/Afrikanische_Sprichw%C3%B6rter#F][Sprichwort der Hausa]]
-*** ?? Use of Metaphor ??                                             :slide:
-**** Association between fields that usually have nothing in common
-**** TODO Rich Hickey one of his latest talk use Instrument Bartok Coltrane as metaphors
-**** Let's try ski
-*** Carving Ski                                                       :slide:
-**** Easy to learn
-**** Speed
-**** Full protection needed
-**** Prepared slope
-**** High Accident Rate
-**** TODO img + video 
-*** Mogul Ski                                                         :slide:
-**** Technical and challenging
-**** Master of Moguls
-**** Master of All Mountains
-**** The secret : absorption of the moguls
-**** Moguls are your friends ??link to vimeo video??
-[[file:images/mikael-kingsbury-deer_valley.jpg]]
-**** COMMENT mogul links
-http://www.live2times.com/1992-edgar-grospiron-devient-le-premier-champion-olympique-du-ski-de-bosses-e--7457/
-http://www.lapresse.ca/sports/ski-et-surf/ski-acrobatique/201301/31/01-4617244-kingsbury-et-bilodeau-realisent-un-double-a-deer-valley.php
-*** COMMENT American Football                                         :slide:
-**** Well Organized
-**** Fully Protected
-**** High Mortality Rate
-**** TODO img + video 
-*** COMMENT Australian Football                                       :slide:
-**** Blazing fast
-**** Athletic
-**** No Constraints
-**** TODO img + video 
-
-*** COMMENT Total Immersion                                           :slide:
-**** Make Complex Things Possible
-**** Swimming is Complex
-**** Total Immersion makes everyone a great swimmer
-**** TODO img an video to total immersion (4x100 )
-*** COMMENT Swimming Beauty                                           :slide:
-**** 4x100m Freestly Relay Final World Barcelona 2013
-**** Jeremy Stravius Underwater Part
-*** COMMENT Coder Meditation
-    - To start the journey we need to forget everything to start from scratch.
-    - Travel into the past :
-      - forget about your mobile, tablet, laptop, Internet
-      - forget about your favourite Operating System : Mac Windows Linux Unix
-      - forget about your favourite editor : intelJ Eclipse Emacs Vi Ed
-      - forget about your favourite programming language : Scala Haskell Ruby Java C++ Smalltalk Prolog C Lisp Fortran Assembler
-      - Let's go further back in the past : let's meet Russell Wittgenstein Von Neumann Turing 
-      - No further : Poincaré Pascal Leibniz Descartes
-      - More : Pythagore Euclide
-      - Even more : Let's go to India China Babylon
-      - Let's go to Africa where everything started : 
-      - Hi Lucy !!! What's up !!! All good !!!
-*** Meaning of Life                                                   :slide:
-*** Meaning of Life                                                   :slide:
-**** Human are designed for action
-**** Human Goal is to maximize reward function or minimize our pain function
-**** More Henri Laborit
-*** Meaning of Life                                                   :slide:
-go 
-*** Meaning of Life                                                                  :slide:
-go to Geneva 
-*** Meaning of Life                                                                  :slide:
-go to Geneva now 
-*** Meaning of Life                                                                  :slide:
+*** What Data Science means ?                                         :slide:
+"Data Science incorporates various fields ... with the goal of extracting meaning from data and creating data products." from  [[http://en.wikipedia.org/wiki/Data_science][Wikipedia]]
+**** Data Science = Art of Processing Data
+**** Ordinateur = Receive / Store / Treat / Emit Information
+**** Computer Science < Science of Information (Informatique in French)
+**** Information Technology
+*** Simple Example                                                    :slide:
 go to Geneva now by train
-*** Meaning of Life                                                                  :slide:
+*** Simple Example                                                    :slide:
 (go to Geneva now by train)
-*** Meaning of Life                                                                  :slide:
-(go to Geneva now by train)
-
-(take (buy (first (train geneva))))
-*** Meaning of Life                                                                  :slide:
+*** Simple Example                                                    :slide:
 (go to Geneva now by train)
 
 (take (buy (first (train geneva))))
+*** Simple Example                                                    :slide:
+(go to Geneva now by train)
 
+(take (buy (first (train geneva))))
+
+#+begin_src clojure
+(take 
+  (buy 
+    (first 
+      (train geneva))))
+#+end_src
+*** Simple Example                                                    :slide:
+(go to Geneva now by train)
+
+#+COMMENT go translates into train first buy take
+(take (buy (first (train geneva))))
+
+#+begin_src clojure
+(take 
+  (buy 
+    (first 
+      (train geneva))))
+#+end_src
 (-> geneva train first buy take)
 *** LISt Processing                                                   :slide:
-
-The list is the origin of culture. It’s part of the history of art and
-literature. What does culture want? To make infinity comprehensible…
-And how, as a human being, does one face infinity? How does one
-attempt to grasp the incomprehensible? Through lists…
-
-- Umberto Eco from [[http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works][The Origin of The Todo list... by Buffer]]
-*** Ethymology                                                        :slide:
-**** Computer means the one who computes
-**** Ordinateur in French means the one who orders
-**** Informatique is more accurate than Computer Science
-**** As explained in this [[http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres][communication]] by Michel Serres
-*** Clojure Language for Everyone                                     :slide:
-**** The world is a set connected lists
-**** Lists help to order the world
+**** Simple syntax reveals the shape of your program
 **** Sequence Abstraction : first next
-**** One data structure , many functions : for map filter reduce keep concat into...
-*** Linguistic Perspective                                            :slide:
-**** Object-Oriented Languages are on the nouns side
-**** Functional Programming are on the verbs side
-**** False debate because verb can come from noun and vice-versa
-#+COMMENT Some are talking of [[http://www.youtube.com/watch?v=cidchWg74Y4][Verbicide]] when Nouns and  as said
-More details [[http://www.puf.com/Que_sais-je:La_structure_des_langues][La structure des langues]] by [[http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=Claude+Hag%C3%A8ge][Claude Hagège]] page 69
-**** English like german are [[http://en.wikipedia.org/wiki/Verb_framing][satellite-framed]] languages
-   - I talked myself out of a job
-   - 
-#+COMMENT   - Turn left Right now
-**** English is about facts French is about understanding
-Taken from [[http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php][Against Uniform Thinking by Claude Hagège]] 
-
-#+COMMENT Pull Request : french as language of communication because French is =complecting= less than English =REFUSED=
-**** [[https://twitter.com/maxrzepka/status/391563166653902848][However many languages you know, that much of a human you are. - Armenian proverb]]
-*** Let's practice                                                    :slide:
-**** Bowling Scorer Logic
+One data structure with many functions : for map filter reduce keep concat into...
+**** List Driven Development : The world is a set of connected lists 
+My presentation are a list of lists with links to the WWW.
+**** Flexibility to create new abstractions
+#+COMMENT core.async , condamned to be intellingent
+*** Let's practice : Bowling Scorer                                   :slide:
 #+begin_src clojure
-rolls (2 3 0 0 10 9 1 5 0)
+Roll : nb of pins knocked down
 
-frames ((2 3) (0 0) (10) (9 1) (5 0))
+(2 3 0 0 10 9 1 5 0)
 
-"scored" frames ((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
+Frame
+
+((2 3) (0 0) (10) (9 1) (5 0))
+
+"scored" frames 
+
+((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
 #+end_src
-**** An implementation in Java as an XP episode
+**** An implementation in Java as [[http://www.objectmentor.com/resources/articles/xpepisode.htm][XP episode]] and [[http://www.objectmentor.com/resources/articles/xpepisode.htm][thread]] discussing clojure solution.
 *** Bowling Scorer I                                                  :slide:
-https://github.com/stuarthalloway/clojure-bowling/blob/master/src/bowling_game.clj
 #+begin_src clojure
 (defn frames [rolls]
-  (when-let [rolls (seq rolls)]
-    (lazy-seq (cons (take (balls-to-score rolls) rolls)
-                (frames (drop (frame-advance rolls) rolls))))))
+   (cons (take (balls-to-score rolls) rolls)
+         (frames (drop (frame-advance rolls) rolls))))
+
+(defn score [frames]
+  (reduce + (map (partial reduce +) frames)))
 #+end_src
 *** Bowling Scorer II                                                 :slide:
 #+begin_src clojure
@@ -165,47 +100,83 @@ https://github.com/stuarthalloway/clojure-bowling/blob/master/src/bowling_game.c
 
 (defn frame-advance [rolls] (if (strike? rolls) 1 2))
 #+end_src
-*** Bowling Scorer III                                                :slide:
-#+begin_src clojure
-(defn score [frames]
-  (reduce + (map (partial reduce + ) frames)))
-#+end_src
-**** Example of a list driven development
-
 *** Where are my indices ?                                            :slide:
-**** From Clojure Programming Chapter 3 written by Christophe Grand
-**** Many algoritms can be written without indices
-**** Game of life
+Using Sequence Abstraction helps to build better program and many algorithms can be written without indices.
+Like in the [[http://en.wikipedia.org/wiki/Conway's_Game_of_Life][Game of Life]] written by Christophe Grand in [[http://www.clojurebook.com/][Clojure Programming]] Chapter 3
 #+begin_src clojure
-(defn step)
+(defn step
+  [cells]
+  (set (for [[loc n] (frequencies (mapcat neighbours cells))
+            :when (or (= n 3) (and (= n 2) (cells loc)))]
+        loc)))
+
+(defn neighbours
+  [[x y]]
+  (for [dx [-1 0 1] dy [-1 0 1] :when (not= 0 dx dy)] 
+    [(+ dx x) (+ dy y)]))
 #+end_src
-**** COMMENT matrix algo with incanter in forma-clj
-*** Declarative Way I                                                 :slide:
-**** enlive
-Select and transform Tree-Data (HTML). Scraping and Templating as use cases among others.
+**** COMMENT matrix manipulation with incanter in forma-clj
+*** Declarative Way I  [[https://github.com/cgrand/enlive][Enlive]]                                                :slide:
+Select and transform Tree-Data (HTML). Scraping and Templating are use cases among others.
 #+begin_src clojure
-TODO
+[:li :a]
+[:li [:a (attr= :class "special")]]
 #+end_src
-   - enlive by example
-   - 
-*** Declarative Way II                                                :slide:
-**** cascalog
+Outter [] means inclusion, Inner [] means conjunction
+#+begin_src html
+<div>
+ <ul>
+  <li><a class="special">ll1</a></li>
+  <li><a href="/">index</a></li>
+ </ul>
+</div>
+#+end_src
+#+COMMENT (attr= :class "special") is a function
+#+COMMENT More example here : [[http://cold-dusk-9608.herokuapp.com/][Enlive by Example]]
+*** Declarative Way II  [[http://cascalog.org/][Cascalog]]                                               :slide:
 Query Language for Hadoop MapReduce
 #+begin_src clojure
-TODO
+(<- [?word ?count] 
+    (my-source ?text) 
+    (split ?text :> ?word) 
+    (c/count ?count))
+
+(defmapcatop split [text] 
+   (seq (.split text #"\\s+")))
 #+end_src
-*** Declarative Way III                                               :slide:
-**** moustache
-Define routes of a web application
+*** Visual Comparison                                                 :slide:
+Scalding : cascalog sibling in scala.
+#+COMMENT visual comparison
+#+begin_src scala
+TextLine("inFile")
+  .flatMap { l => l.split("\\s+").map((_, 1L)) }
+  .sumByKey
+  .write(TypedTsv[(String,Long)]("outFile"))
+#+end_src
+Less declarative more focused on how to do things.
+
+More details in Paco Nathan's latest book [[http://shop.oreilly.com/product/0636920028536.do][Enterprise Data Workflows with Cascading]]
+*** Declarative Way III [[https://github.com/cgrand/moustache][Moustache]]                                     :slide: 
+Define routes of web application.
+#+COMMENT uri maps naturally to a list
 #+begin_src clojure
-TODO
+(app 
+  ["my" "long" "path"] {:get view-it}
+  ["order" [id integer]] {:get view-order :post change-order})
 #+end_src
-*** Declarative Way IV                                                :slide:
+#+COMMENT compare with Sinatra
+*** Declarative Way IV [[https://github.com/clojure/core.logic][core.logic]]                                     :slide:
 Logic Programming in clojure 
-**** core.logic
+#+COMMENT find solutions satisfying a set of constraint
+#+COMMENT explain simple example    [[http://michaelrbernste.in/2013/05/12/featurec-and-maps.html][featurec]]
 #+begin_src clojure
-TODO
+(run [q]
+  (appendo [1 2] q [1 2 3 4 5]))
 #+end_src
+gives an unique solution [3 4 5]
+#+COMMENT ?? featurec constraint on data strucutres
+
+Constaints on data structures , on finite domains to resolve linear equations...
 *** COMMENT Declarative Way V                                         :slide:
 **** datomic
 #+begin_src clojure
@@ -223,13 +194,14 @@ TODO
 **** for, protocols, some monads and monoids..
 **** Design pattern, DSL, Category Theory are mostly just some [[http://fr.wiktionary.org/wiki/agencer][agencements]] of (high-order) functions
 **** Monoids better than monads
-*** The New Art of Data Processing                                    :slide:
-**** Extract Transform Load with cascalog as in Paco Nathan's book or Nathan Marz's Big Data
-**** Machine Learning is just a set of algorithms part of [[http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming][The Art of Computer Programming]]
-**** Functional Database : datomic
-    - Entity/Attribute/Value/Transaction (E/A/V/Tx)
-    - http://www.infoq.com/presentations/datomic-functional-database
-*** COMMENT Functional Database Datomic                               :slide:
+*** New Art of Processing Data                                        :slide:
+**** Concepts : Immutability [[http://www.infoq.com/presentations/Value-Values][Value]] Function
+**** Lambda Architecture presented in [[http://www.manning.com/marz/][Big Data]]
+   - Always append Never delete
+   - Query is function over all the data
+**** [[http://www.infoq.com/presentations/datomic-functional-database][Functional Database]] : [[http://www.datomic.com/][datomic]]
+   - Value and Function
+   - Fact : Entity/Attribute/Value/Transaction (E/A/V/Tx)
 *** Clojure Landscape                                                 :slide:
 **** NewData : datomic storm cascalog lambda architecture
 **** Web : ring edn clojurescript
@@ -242,20 +214,49 @@ TODO
 **** And Much More : incanter core.matrix core.match CinC...
 *** Clojure Books                                                     :slide:
 **** Starter : Programming Clojure by Halloway
-**** Main : Clojure Programming by Carper Emerick Grand
-**** Dessert : Joy of Clojure by Fogus Houser (2nd edition almost done)
-**** In-Progress : Clojure Cookbook by
+**** Main : Clojure Programming by Carper, Emerick and Grand
+**** Dessert : Joy of Clojure by Fogus and Houser (2nd edition almost done)
+**** In-Progress : [[http://clojure-cookbook.com/][Clojure Cookbook]] collected by VanderHart and Neufeld.
 *** Clojure Events                                                    :slide:
 **** [[http://euroclojure.com/2013/programme/][Euro Clojure]] 14-15 Oct. 2013, Berlin DE
 **** Clojure sessions @ [[http://soft-shake.ch/2013/fr/conference/sessions.html#13_fun_prog][Soft-shake]] Oct 24-25 2013, Geneva CH 
-**** Clojure sessions @ FP Days Oct 24-25 2013, Cambridge UK 
+**** Clojure sessions @ [[http://fpdays.net/2013/][FP Days]] Oct 24-25 2013, Cambridge UK 
 **** [[http://clojure-conj.org/][Clojure Conj]] Nov 14-16 2013, Washington DC US
 **** [[http://skillsmatter.com/event/java-jee/clojure-exchange-2013][Clojure Exchange]] Dec 06 2013, London UK
+**** Swiss Clojure Meetups in Geneva, Zürich 
+**** Training in Europe with lambda-next and clojure workshop
 *** Speaker                                                           :slide:
 **** Maximilien Rzepka
 **** Organizer of Clojure Zürich Meetup
 **** @maxrzepka on twitter github ...
 **** COMMENT Source of Inspiration : [[https://twitter.com/RichHickey][Rich Hickey]] [[https://twitter.com/cgrand][Christophe Grand]] [[https://twitter.com/worrydream][Bret Victor]] [[https://twitter.com/nathanMarz][Nathan Marz]] [[https://twitter.com/swannodette][David Nolen]] [[https://twitter.com/ztellman][Zach Tellman]] and many others
+*** References (1/3)                                                  :slide:
+(All the things I couln't put in my slides and possible tweets)
+
+  - [[http://www.youtube.com/watch?v%3DXYKRVNQ_MqE][Lecture 1a: Overview and Introduction to Lisp]] by Hal Abelson : Art/Engineer of Processes
+  - [[https://www.coursera.org/course/programdesign][Introduction to Systematic Program Design]] by Gregor Kiczales : [[http://htdp.org/][How to design program]] with racket (another LISP dialect)
+  - Computer = Receive / Store / Treat / Emit Information in [[https://soundcloud.com/maximilien-rzepka/conf-rence-de-michel-serres][Conférence de Michel Serres]]
+  - About Information Technologies in [[http://www.infoq.com/presentations/Value-Values][Value of Values]] by Rich Hickey
+  - Fehler sind wie Berge, man steht auf dem Gipfel seiner eigenen und redet über die der anderen. [[http://de.wikiquote.org/wiki/Afrikanische_Sprichw%C3%B6rter#F][Sprichwort der Hausa]]
+
+*** References (2/3)                                                  :slide:
+  - OO vs FP , nouns vs verbs is a wrong debate cf [[http://www.puf.com/Que_sais-je:La_structure_des_langues][La structure des langues]] by [[http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=Claude+Hag%C3%A8ge][Claude Hagège]] page 69
+  - English like german are [[http://en.wikipedia.org/wiki/Verb_framing][satellite-framed]] languages (I talked myself out of a job / I talked myself into a job) page 160
+  - English is about facts French is about understanding in [[http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php][Against Uniform Thinking by Claude Hagège]] Chapter 5
+#+COMMENT  - Pull Request : French as language of communication because French is =complecting= less than English. =REFUSED=
+  - [[https://twitter.com/maxrzepka/status/391563166653902848][However many languages you know, that much of a human you are. - Armenian proverb]]
+  - [[http://www.college-de-france.fr/site/gerard-berry/][Gérard Berry]] Algorithmes, machines et langages from Collège De France
+
+*** References (3/3)                                                  :slide:
+The list is the origin of culture. It’s part of the history of art and
+literature. What does culture want? To make infinity comprehensible…
+And how, as a human being, does one face infinity? How does one
+attempt to grasp the incomprehensible? Through lists…
+
+Umberto Eco from [[http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works][The Origin of The Todo list... by Buffer]]
+
+  - [[http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres][Communication]] (fr) by Michel Serres on univeral machines.
+  - [[http://www.youtube.com/watch?v=Ipjrhue5bXs][Human-Fault-Tolerance]] - Nathan Marz
 * Footer
 
 #+TAGS: slide(s) footer

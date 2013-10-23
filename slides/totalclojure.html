@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Total Clojure "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-21T22:23+0200"/>
+<meta name="generated" content="2013-10-23T07:18+0200"/>
 <meta name="author" content="Maximilien Rzepka"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -36,40 +36,33 @@
 <ul>
 <li><a href="#sec-1">1 Clojure : Practical Approach to Data Processing</a>
 <ul>
-<li><a href="#sec-1-1">1.1 Slides</a></li>
-<li><a href="#sec-1-2">1.2 Clojure and Data : introduction to datascience</a></li>
-<li><a href="#sec-1-3">1.3 Caution</a>
+<li><a href="#sec-1-1">1.1 Slides</a>
 <ul>
-<li><a href="#sec-1-3-1">1.3.1 ?? Use of Metaphor ??</a></li>
-<li><a href="#sec-1-3-2">1.3.2 Carving Ski</a></li>
-<li><a href="#sec-1-3-3">1.3.3 Mogul Ski</a></li>
-<li><a href="#sec-1-3-4">1.3.4 Meaning of Life</a></li>
-<li><a href="#sec-1-3-5">1.3.5 Meaning of Life</a></li>
-<li><a href="#sec-1-3-6">1.3.6 Meaning of Life</a></li>
-<li><a href="#sec-1-3-7">1.3.7 Meaning of Life</a></li>
-<li><a href="#sec-1-3-8">1.3.8 Meaning of Life</a></li>
-<li><a href="#sec-1-3-9">1.3.9 Meaning of Life</a></li>
-<li><a href="#sec-1-3-10">1.3.10 Meaning of Life</a></li>
-<li><a href="#sec-1-3-11">1.3.11 Meaning of Life</a></li>
-<li><a href="#sec-1-3-12">1.3.12 Meaning of Life</a></li>
-<li><a href="#sec-1-3-13">1.3.13 LISt Processing</a></li>
-<li><a href="#sec-1-3-14">1.3.14 Ethymology</a></li>
-<li><a href="#sec-1-3-15">1.3.15 Clojure Language for Everyone</a></li>
-<li><a href="#sec-1-3-16">1.3.16 Linguistic Perspective</a></li>
-<li><a href="#sec-1-3-17">1.3.17 Let's practice</a></li>
-<li><a href="#sec-1-3-18">1.3.18 Bowling Scorer I</a></li>
-<li><a href="#sec-1-3-19">1.3.19 Bowling Scorer II</a></li>
-<li><a href="#sec-1-3-20">1.3.20 Bowling Scorer III</a></li>
-<li><a href="#sec-1-3-21">1.3.21 Where are my indices ?</a></li>
-<li><a href="#sec-1-3-22">1.3.22 Declarative Way I</a></li>
-<li><a href="#sec-1-3-23">1.3.23 Declarative Way II</a></li>
-<li><a href="#sec-1-3-24">1.3.24 Declarative Way III</a></li>
-<li><a href="#sec-1-3-25">1.3.25 Declarative Way IV</a></li>
-<li><a href="#sec-1-3-26">1.3.26 The New Art of Data Processing</a></li>
-<li><a href="#sec-1-3-27">1.3.27 Clojure Landscape</a></li>
-<li><a href="#sec-1-3-28">1.3.28 Clojure Books</a></li>
-<li><a href="#sec-1-3-29">1.3.29 Clojure Events</a></li>
-<li><a href="#sec-1-3-30">1.3.30 Speaker</a></li>
+<li><a href="#sec-1-1-1">1.1.1 Caution</a></li>
+<li><a href="#sec-1-1-2">1.1.2 What Data Science means ?</a></li>
+<li><a href="#sec-1-1-3">1.1.3 Simple Example</a></li>
+<li><a href="#sec-1-1-4">1.1.4 Simple Example</a></li>
+<li><a href="#sec-1-1-5">1.1.5 Simple Example</a></li>
+<li><a href="#sec-1-1-6">1.1.6 Simple Example</a></li>
+<li><a href="#sec-1-1-7">1.1.7 Simple Example</a></li>
+<li><a href="#sec-1-1-8">1.1.8 LISt Processing</a></li>
+<li><a href="#sec-1-1-9">1.1.9 Let's practice : Bowling Scorer</a></li>
+<li><a href="#sec-1-1-10">1.1.10 Bowling Scorer I</a></li>
+<li><a href="#sec-1-1-11">1.1.11 Bowling Scorer II</a></li>
+<li><a href="#sec-1-1-12">1.1.12 Where are my indices ?</a></li>
+<li><a href="#sec-1-1-13">1.1.13 Declarative Way I  Enlive</a></li>
+<li><a href="#sec-1-1-14">1.1.14 Declarative Way II  Cascalog</a></li>
+<li><a href="#sec-1-1-15">1.1.15 Visual Comparison</a></li>
+<li><a href="#sec-1-1-16">1.1.16 Declarative Way III Moustache</a></li>
+<li><a href="#sec-1-1-17">1.1.17 Declarative Way IV core.logic</a></li>
+<li><a href="#sec-1-1-18">1.1.18 New Art of Processing Data</a></li>
+<li><a href="#sec-1-1-19">1.1.19 Clojure Landscape</a></li>
+<li><a href="#sec-1-1-20">1.1.20 Clojure Books</a></li>
+<li><a href="#sec-1-1-21">1.1.21 Clojure Events</a></li>
+<li><a href="#sec-1-1-22">1.1.22 Speaker</a></li>
+<li><a href="#sec-1-1-23">1.1.23 References (1/3)</a></li>
+<li><a href="#sec-1-1-24">1.1.24 References (2/3)</a></li>
+<li><a href="#sec-1-1-25">1.1.25 References (3/3)</a></li>
 </ul></li>
 </ul>
 </li>
@@ -90,213 +83,80 @@
 <h3 id="sec-1-1"><span class="section-number-3">1.1</span> Slides</h3>
 <div class="outline-text-3" id="text-1-1">
 
-</div>
+
 
 </div>
 
-<div id="outline-container-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Clojure and Data : introduction to datascience &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h3>
-<div class="outline-text-3" id="text-1-2">
-
-<p>Data Science = Art of Processing Data
-</p></div>
-
-</div>
-
-<div id="outline-container-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Caution &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h3>
-<div class="outline-text-3" id="text-1-3">
+<div id="outline-container-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Caution &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-1">
 
 <ul>
-<li id="sec-1-3-1">My personal way for (re-)learning programming<br/>
+<li id="sec-1-1-1-1">My personal way of (re-)learning how to program<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-2">Driven by my readings, thoughts and personal experience<br/>
-
+<li id="sec-1-1-1-2">More about "Make you To Think" than about "Show you How To do"<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-3">Highly Referencial as open as possible<br/>
+<li id="sec-1-1-1-3">Keep questioning your knowledge<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-4">I don't know what I'm doing - <a href="https://vimeo.com/71278954">Bret Victor</a><br/>
-
-<p>
-Fehler sind wie Berge, man steht auf dem Gipfel seiner eigenen und redet über die der anderen. 
-</p>
-<p>
-<a href="http://de.wikiquote.org/wiki/Afrikanische_Sprichwörter#F">Sprichwort der Hausa</a>
-</p></li>
-</ul>
-
-</div>
-
-<div id="outline-container-1-3-1" class="outline-4">
-<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> ?? Use of Metaphor ?? &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-1">
-
-<ul>
-<li id="sec-1-3-1-1">Association between fields that usually have nothing in common<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-1-2"><span class="todo TODO">TODO</span> Rich Hickey one of his latest talk use Instrument Bartok Coltrane as metaphors<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-1-3">Let's try ski<br/>
+<li id="sec-1-1-1-4">I don't know what I'm doing - <a href="https://vimeo.com/71278954">Bret Victor</a><br/>
 </li>
 </ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-2" class="outline-4">
-<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> Carving Ski &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-2">
+<div id="outline-container-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> What Data Science means ? &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-2">
 
-<ul>
-<li id="sec-1-3-2-1">Easy to learn<br/>
+<p>"Data Science incorporates various fields &hellip; with the goal of extracting meaning from data and creating data products." from  <a href="http://en.wikipedia.org/wiki/Data_science">Wikipedia</a>
+</p><ul>
+<li id="sec-1-1-2-1">Data Science = Art of Processing Data<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-2-2">Speed<br/>
+<li id="sec-1-1-2-2">Ordinateur = Receive / Store / Treat / Emit Information<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-2-3">Full protection needed<br/>
+<li id="sec-1-1-2-3">Computer Science &lt; Science of Information (Informatique in French)<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-2-4">Prepared slope<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-2-5">High Accident Rate<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-2-6"><span class="todo TODO">TODO</span> img + video<br/>
+<li id="sec-1-1-2-4">Information Technology<br/>
 </li>
 </ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-3" class="outline-4">
-<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> Mogul Ski &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-3">
-
-<ul>
-<li id="sec-1-3-3-1">Technical and challenging<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-3-2">Master of Moguls<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-3-3">Master of All Mountains<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-3-4">The secret : absorption of the moguls<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-3-5">Moguls are your friends ??link to vimeo video??<br/>
-<img src="images/mikael-kingsbury-deer_valley.jpg"  alt="images/mikael-kingsbury-deer_valley.jpg" />
-
-
-
-
-
-
-
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-4" class="outline-4">
-<h4 id="sec-1-3-4"><span class="section-number-4">1.3.4</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-4">
-
-</div>
-
-</div>
-
-<div id="outline-container-1-3-5" class="outline-4">
-<h4 id="sec-1-3-5"><span class="section-number-4">1.3.5</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-5">
-
-<ul>
-<li id="sec-1-3-5-1">Human are designed for action<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-5-2">Human Goal is to maximize reward function or minimize our pain function<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-5-3">More Henri Laborit<br/>
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-6" class="outline-4">
-<h4 id="sec-1-3-6"><span class="section-number-4">1.3.6</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-6">
-
-<p>go 
-</p></div>
-
-</div>
-
-<div id="outline-container-1-3-7" class="outline-4">
-<h4 id="sec-1-3-7"><span class="section-number-4">1.3.7</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-7">
-
-<p>go to Geneva 
-</p></div>
-
-</div>
-
-<div id="outline-container-1-3-8" class="outline-4">
-<h4 id="sec-1-3-8"><span class="section-number-4">1.3.8</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-8">
-
-<p>go to Geneva now 
-</p></div>
-
-</div>
-
-<div id="outline-container-1-3-9" class="outline-4">
-<h4 id="sec-1-3-9"><span class="section-number-4">1.3.9</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-9">
+<div id="outline-container-1-1-3" class="outline-4">
+<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> Simple Example &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-3">
 
 <p>go to Geneva now by train
 </p></div>
 
 </div>
 
-<div id="outline-container-1-3-10" class="outline-4">
-<h4 id="sec-1-3-10"><span class="section-number-4">1.3.10</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-10">
+<div id="outline-container-1-1-4" class="outline-4">
+<h4 id="sec-1-1-4"><span class="section-number-4">1.1.4</span> Simple Example &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-4">
 
 <p>(go to Geneva now by train)
 </p></div>
 
 </div>
 
-<div id="outline-container-1-3-11" class="outline-4">
-<h4 id="sec-1-3-11"><span class="section-number-4">1.3.11</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-11">
+<div id="outline-container-1-1-5" class="outline-4">
+<h4 id="sec-1-1-5"><span class="section-number-4">1.1.5</span> Simple Example &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-5">
 
 <p>(go to Geneva now by train)
 </p>
@@ -306,178 +166,128 @@ Fehler sind wie Berge, man steht auf dem Gipfel seiner eigenen und redet über d
 
 </div>
 
-<div id="outline-container-1-3-12" class="outline-4">
-<h4 id="sec-1-3-12"><span class="section-number-4">1.3.12</span> Meaning of Life &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-12">
+<div id="outline-container-1-1-6" class="outline-4">
+<h4 id="sec-1-1-6"><span class="section-number-4">1.1.6</span> Simple Example &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-6">
 
 <p>(go to Geneva now by train)
 </p>
 <p>
 (take (buy (first (train geneva))))
 </p>
+
+
+
+<pre class="example">(take 
+  (buy 
+    (first 
+      (train geneva))))
+</pre>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-1-7" class="outline-4">
+<h4 id="sec-1-1-7"><span class="section-number-4">1.1.7</span> Simple Example &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-7">
+
+<p>(go to Geneva now by train)
+</p>
+<p>
+(take (buy (first (train geneva))))
+</p>
+
+
+
+<pre class="example">(take 
+  (buy 
+    (first 
+      (train geneva))))
+</pre>
+
 <p>
 (-&gt; geneva train first buy take)
 </p></div>
 
 </div>
 
-<div id="outline-container-1-3-13" class="outline-4">
-<h4 id="sec-1-3-13"><span class="section-number-4">1.3.13</span> LISt Processing &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-13">
-
-
-<p>
-The list is the origin of culture. It’s part of the history of art and
-literature. What does culture want? To make infinity comprehensible…
-And how, as a human being, does one face infinity? How does one
-attempt to grasp the incomprehensible? Through lists…
-</p>
-<ul>
-<li>Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works">The Origin of The Todo list&hellip; by Buffer</a>
-</li>
-</ul>
-
-</div>
-
-</div>
-
-<div id="outline-container-1-3-14" class="outline-4">
-<h4 id="sec-1-3-14"><span class="section-number-4">1.3.14</span> Ethymology &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-14">
+<div id="outline-container-1-1-8" class="outline-4">
+<h4 id="sec-1-1-8"><span class="section-number-4">1.1.8</span> LISt Processing &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-8">
 
 <ul>
-<li id="sec-1-3-14-1">Computer means the one who computes<br/>
+<li id="sec-1-1-8-1">Simple syntax reveals the shape of your program<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-14-2">Ordinateur in French means the one who orders<br/>
+<li id="sec-1-1-8-2">Sequence Abstraction : first next<br/>
+One data structure with many functions : for map filter reduce keep concat into&hellip;
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-14-3">Informatique is more accurate than Computer Science<br/>
+<li id="sec-1-1-8-3">List Driven Development : The world is a set of connected lists<br/>
+My presentation are a list of lists with links to the WWW.
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-14-4">As explained in this <a href="http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres">communication</a> by Michel Serres<br/>
+<li id="sec-1-1-8-4">Flexibility to create new abstractions<br/>
 </li>
 </ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-15" class="outline-4">
-<h4 id="sec-1-3-15"><span class="section-number-4">1.3.15</span> Clojure Language for Everyone &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-15">
-
-<ul>
-<li id="sec-1-3-15-1">The world is a set connected lists<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-15-2">Lists help to order the world<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-15-3">Sequence Abstraction : first next<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-15-4">One data structure , many functions : for map filter reduce keep concat into&hellip;<br/>
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-16" class="outline-4">
-<h4 id="sec-1-3-16"><span class="section-number-4">1.3.16</span> Linguistic Perspective &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-16">
-
-<ul>
-<li id="sec-1-3-16-1">Object-Oriented Languages are on the nouns side<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-16-2">Functional Programming are on the verbs side<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-16-3">False debate because verb can come from noun and vice-versa<br/>
-More details <a href="http://www.puf.com/Que_sais-je:La_structure_des_langues">La structure des langues</a> by <a href="http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias=aps&amp;field-keywords=Claude+Hagège">Claude Hagège</a> page 69
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-16-4">English like german are <a href="http://en.wikipedia.org/wiki/Verb_framing">satellite-framed</a> languages<br/>
-<ul>
-<li>I talked myself out of a job
-</li>
-<li>
-</li>
-</ul>
-
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-16-5">English is about facts French is about understanding<br/>
-Taken from <a href="http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php">Against Uniform Thinking by Claude Hagège</a> 
-
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-16-6"><a href="https://twitter.com/maxrzepka/status/391563166653902848">However many languages you know, that much of a human you are. - Armenian proverb</a><br/>
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-17" class="outline-4">
-<h4 id="sec-1-3-17"><span class="section-number-4">1.3.17</span> Let's practice &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-17">
-
-<ul>
-<li id="sec-1-3-17-1">Bowling Scorer Logic<br/>
+<div id="outline-container-1-1-9" class="outline-4">
+<h4 id="sec-1-1-9"><span class="section-number-4">1.1.9</span> Let's practice : Bowling Scorer &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-9">
 
 
 
-<pre class="example">rolls (2 3 0 0 10 9 1 5 0)
 
-frames ((2 3) (0 0) (10) (9 1) (5 0))
+<pre class="example">Roll : nb of pins knocked down
 
-"scored" frames ((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
+(2 3 0 0 10 9 1 5 0)
+
+Frame
+
+((2 3) (0 0) (10) (9 1) (5 0))
+
+"scored" frames 
+
+((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
 </pre>
 
-</li>
-</ul>
 <ul>
-<li id="sec-1-3-17-2">An implementation in Java as an XP episode<br/>
+<li id="sec-1-1-9-1">An implementation in Java as <a href="http://www.objectmentor.com/resources/articles/xpepisode.htm">XP episode</a> and <a href="http://www.objectmentor.com/resources/articles/xpepisode.htm">thread</a> discussing clojure solution.<br/>
 </li>
 </ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-18" class="outline-4">
-<h4 id="sec-1-3-18"><span class="section-number-4">1.3.18</span> Bowling Scorer I &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-18">
+<div id="outline-container-1-1-10" class="outline-4">
+<h4 id="sec-1-1-10"><span class="section-number-4">1.1.10</span> Bowling Scorer I &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-10">
 
-<p><a href="https://github.com/stuarthalloway/clojure-bowling/blob/master/src/bowling_game.clj">https://github.com/stuarthalloway/clojure-bowling/blob/master/src/bowling_game.clj</a>
-</p>
+
 
 
 <pre class="example">(defn frames [rolls]
-  (when-let [rolls (seq rolls)]
-    (lazy-seq (cons (take (balls-to-score rolls) rolls)
-                (frames (drop (frame-advance rolls) rolls))))))
+   (cons (take (balls-to-score rolls) rolls)
+         (frames (drop (frame-advance rolls) rolls))))
+
+(defn score [frames]
+  (reduce + (map (partial reduce +) frames)))
 </pre>
 
 </div>
 
 </div>
 
-<div id="outline-container-1-3-19" class="outline-4">
-<h4 id="sec-1-3-19"><span class="section-number-4">1.3.19</span> Bowling Scorer II &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-19">
+<div id="outline-container-1-1-11" class="outline-4">
+<h4 id="sec-1-1-11"><span class="section-number-4">1.1.11</span> Bowling Scorer II &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-11">
 
 
 
@@ -502,131 +312,172 @@ frames ((2 3) (0 0) (10) (9 1) (5 0))
 
 </div>
 
-<div id="outline-container-1-3-20" class="outline-4">
-<h4 id="sec-1-3-20"><span class="section-number-4">1.3.20</span> Bowling Scorer III &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-20">
+<div id="outline-container-1-1-12" class="outline-4">
+<h4 id="sec-1-1-12"><span class="section-number-4">1.1.12</span> Where are my indices ? &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-12">
+
+<p>Using Sequence Abstraction helps to build better program and many algorithms can be written without indices.
+Like in the <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Game of Life</a> written by Christophe Grand in <a href="http://www.clojurebook.com/">Clojure Programming</a> Chapter 3
+</p>
 
 
+<pre class="example">(defn step
+  [cells]
+  (set (for [[loc n] (frequencies (mapcat neighbours cells))
+            :when (or (= n 3) (and (= n 2) (cells loc)))]
+        loc)))
 
-
-<pre class="example">(defn score [frames]
-  (reduce + (map (partial reduce + ) frames)))
-</pre>
-
-<ul>
-<li id="sec-1-3-20-1">Example of a list driven development<br/>
-
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-21" class="outline-4">
-<h4 id="sec-1-3-21"><span class="section-number-4">1.3.21</span> Where are my indices ? &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-21">
-
-<ul>
-<li id="sec-1-3-21-1">From Clojure Programming Chapter 3 written by Christophe Grand<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-21-2">Many algoritms can be written without indices<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-21-3">Game of life<br/>
-
-
-
-<pre class="example">(defn step)
+(defn neighbours
+  [[x y]]
+  (for [dx [-1 0 1] dy [-1 0 1] :when (not= 0 dx dy)] 
+    [(+ dx x) (+ dy y)]))
 </pre>
 
 
-</li>
-</ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-22" class="outline-4">
-<h4 id="sec-1-3-22"><span class="section-number-4">1.3.22</span> Declarative Way I &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-22">
+<div id="outline-container-1-1-13" class="outline-4">
+<h4 id="sec-1-1-13"><span class="section-number-4">1.1.13</span> Declarative Way I  <a href="https://github.com/cgrand/enlive">Enlive</a> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-13">
 
-<ul>
-<li id="sec-1-3-22-1">enlive<br/>
-Select and transform Tree-Data (HTML). Scraping and Templating as use cases among others.
-
+<p>Select and transform Tree-Data (HTML). Scraping and Templating are use cases among others.
+</p>
 
 
-<pre class="example">TODO
+<pre class="example">[:li :a]
+[:li [:a (attr= :class "special")]]
 </pre>
 
-<ul>
-<li>enlive by example
-</li>
-<li>
-</li>
-</ul>
-
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-23" class="outline-4">
-<h4 id="sec-1-3-23"><span class="section-number-4">1.3.23</span> Declarative Way II &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-23">
-
-<ul>
-<li id="sec-1-3-23-1">cascalog<br/>
-Query Language for Hadoop MapReduce
+<p>
+Outter [] means inclusion, Inner [] means conjunction
+</p>
 
 
-
-<pre class="example">TODO
+<pre class="example">&lt;div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;&lt;a class="special"&gt;ll1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/"&gt;index&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/div&gt;
 </pre>
 
-</li>
-</ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-24" class="outline-4">
-<h4 id="sec-1-3-24"><span class="section-number-4">1.3.24</span> Declarative Way III &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-24">
+<div id="outline-container-1-1-14" class="outline-4">
+<h4 id="sec-1-1-14"><span class="section-number-4">1.1.14</span> Declarative Way II  <a href="http://cascalog.org/">Cascalog</a> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-14">
 
-<ul>
-<li id="sec-1-3-24-1">moustache<br/>
-Define routes of a web application
-
+<p>Query Language for Hadoop MapReduce
+</p>
 
 
-<pre class="example">TODO
+<pre class="example">(&lt;- [?word ?count] 
+    (my-source ?text) 
+    (split ?text :&gt; ?word) 
+    (c/count ?count))
+
+(defmapcatop split [text] 
+   (seq (.split text #"\\s+")))
 </pre>
 
-</li>
-</ul>
 </div>
 
 </div>
 
-<div id="outline-container-1-3-25" class="outline-4">
-<h4 id="sec-1-3-25"><span class="section-number-4">1.3.25</span> Declarative Way IV &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-25">
+<div id="outline-container-1-1-15" class="outline-4">
+<h4 id="sec-1-1-15"><span class="section-number-4">1.1.15</span> Visual Comparison &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-15">
+
+<p>Scalding : cascalog sibling in scala.
+</p>
+
+
+<pre class="example">TextLine("inFile")
+  .flatMap { l =&gt; l.split("\\s+").map((_, 1L)) }
+  .sumByKey
+  .write(TypedTsv[(String,Long)]("outFile"))
+</pre>
+
+<p>
+Less declarative more focused on how to do things.
+</p>
+<p>
+More details in Paco Nathan's latest book <a href="http://shop.oreilly.com/product/0636920028536.do">Enterprise Data Workflows with Cascading</a>
+</p></div>
+
+</div>
+
+<div id="outline-container-1-1-16" class="outline-4">
+<h4 id="sec-1-1-16"><span class="section-number-4">1.1.16</span> Declarative Way III <a href="https://github.com/cgrand/moustache">Moustache</a> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-16">
+
+<p>Define routes of web application.
+</p>
+
+
+<pre class="example">(app 
+  ["my" "long" "path"] {:get view-it}
+  ["order" [id integer]] {:get view-order :post change-order})
+</pre>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-1-17" class="outline-4">
+<h4 id="sec-1-1-17"><span class="section-number-4">1.1.17</span> Declarative Way IV <a href="https://github.com/clojure/core.logic">core.logic</a> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-17">
 
 <p>Logic Programming in clojure 
-</p><ul>
-<li id="sec-1-3-25-1">core.logic<br/>
+</p>
 
 
-
-<pre class="example">TODO
+<pre class="example">(run [q]
+  (appendo [1 2] q [1 2 3 4 5]))
 </pre>
 
+<p>
+gives an unique solution [3 4 5]
+</p>
+<p>
+Constaints on data structures , on finite domains to resolve linear equations&hellip;
+</p>
 
+</div>
+
+</div>
+
+<div id="outline-container-1-1-18" class="outline-4">
+<h4 id="sec-1-1-18"><span class="section-number-4">1.1.18</span> New Art of Processing Data &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-18">
+
+<ul>
+<li id="sec-1-1-18-1">Concepts : Immutability <a href="http://www.infoq.com/presentations/Value-Values">Value</a> Function<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-2">Lambda Architecture presented in <a href="http://www.manning.com/marz/">Big Data</a><br/>
+<ul>
+<li>Always append Never delete
+</li>
+<li>Query is function over all the data
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-18-3"><a href="http://www.infoq.com/presentations/datomic-functional-database">Functional Database</a> : <a href="http://www.datomic.com/">datomic</a><br/>
+<ul>
+<li>Value and Function
+</li>
+<li>Fact : Entity/Attribute/Value/Transaction (E/A/V/Tx)
+</li>
+</ul>
 
 </li>
 </ul>
@@ -634,27 +485,124 @@ Define routes of a web application
 
 </div>
 
-<div id="outline-container-1-3-26" class="outline-4">
-<h4 id="sec-1-3-26"><span class="section-number-4">1.3.26</span> The New Art of Data Processing &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-26">
+<div id="outline-container-1-1-19" class="outline-4">
+<h4 id="sec-1-1-19"><span class="section-number-4">1.1.19</span> Clojure Landscape &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-19">
 
 <ul>
-<li id="sec-1-3-26-1">Extract Transform Load with cascalog as in Paco Nathan's book or Nathan Marz's Big Data<br/>
+<li id="sec-1-1-19-1">NewData : datomic storm cascalog lambda architecture<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-26-2">Machine Learning is just a set of algorithms part of <a href="http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming">The Art of Computer Programming</a><br/>
+<li id="sec-1-1-19-2">Web : ring edn clojurescript<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-3-26-3">Functional Database : datomic<br/>
-<ul>
-<li>Entity/Attribute/Value/Transaction (E/A/V/Tx)
-</li>
-<li><a href="http://www.infoq.com/presentations/datomic-functional-database">http://www.infoq.com/presentations/datomic-functional-database</a>
+<li id="sec-1-1-19-3">Devops : leiningen pallet riemman<br/>
 </li>
 </ul>
+<ul>
+<li id="sec-1-1-19-4">Logic/Constraint Programming : core.logic<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-5">Creative Programming : overtone quil<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-6">Concurrency &amp; co : atom STM core.async<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-7">Type System : core.typed schema<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-8">Interop : all the best from java or javascript world<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-19-9">And Much More : incanter core.matrix core.match CinC&hellip;<br/>
+</li>
+</ul>
+</div>
 
+</div>
+
+<div id="outline-container-1-1-20" class="outline-4">
+<h4 id="sec-1-1-20"><span class="section-number-4">1.1.20</span> Clojure Books &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-20">
+
+<ul>
+<li id="sec-1-1-20-1">Starter : Programming Clojure by Halloway<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-20-2">Main : Clojure Programming by Carper, Emerick and Grand<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-20-3">Dessert : Joy of Clojure by Fogus and Houser (2nd edition almost done)<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-20-4">In-Progress : <a href="http://clojure-cookbook.com/">Clojure Cookbook</a> collected by VanderHart and Neufeld.<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-21" class="outline-4">
+<h4 id="sec-1-1-21"><span class="section-number-4">1.1.21</span> Clojure Events &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-21">
+
+<ul>
+<li id="sec-1-1-21-1"><a href="http://euroclojure.com/2013/programme/">Euro Clojure</a> 14-15 Oct. 2013, Berlin DE<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-2">Clojure sessions @ <a href="http://soft-shake.ch/2013/fr/conference/sessions.html#13_fun_prog">Soft-shake</a> Oct 24-25 2013, Geneva CH<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-3">Clojure sessions @ <a href="http://fpdays.net/2013/">FP Days</a> Oct 24-25 2013, Cambridge UK<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-4"><a href="http://clojure-conj.org/">Clojure Conj</a> Nov 14-16 2013, Washington DC US<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-5"><a href="http://skillsmatter.com/event/java-jee/clojure-exchange-2013">Clojure Exchange</a> Dec 06 2013, London UK<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-6">Swiss Clojure Meetups in Geneva, Zürich<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-21-7">Training in Europe with lambda-next and clojure workshop<br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-22" class="outline-4">
+<h4 id="sec-1-1-22"><span class="section-number-4">1.1.22</span> Speaker &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-22">
+
+<ul>
+<li id="sec-1-1-22-1">Maximilien Rzepka<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-22-2">Organizer of Clojure Zürich Meetup<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-22-3">@maxrzepka on twitter github &hellip;<br/>
 
 </li>
 </ul>
@@ -662,122 +610,74 @@ Define routes of a web application
 
 </div>
 
-<div id="outline-container-1-3-27" class="outline-4">
-<h4 id="sec-1-3-27"><span class="section-number-4">1.3.27</span> Clojure Landscape &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-27">
+<div id="outline-container-1-1-23" class="outline-4">
+<h4 id="sec-1-1-23"><span class="section-number-4">1.1.23</span> References (1/3) &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-23">
 
+<p>(All the things I couln't put in my slides and possible tweets)
+</p>
 <ul>
-<li id="sec-1-3-27-1">NewData : datomic storm cascalog lambda architecture<br/>
+<li><a href="http://www.youtube.com/watch?v=XYKRVNQ_MqE">Lecture 1a: Overview and Introduction to Lisp</a> by Hal Abelson : Art/Engineer of Processes
+</li>
+<li><a href="https://www.coursera.org/course/programdesign">Introduction to Systematic Program Design</a> by Gregor Kiczales : <a href="http://htdp.org/">How to design program</a> with racket (another LISP dialect)
+</li>
+<li>Computer = Receive / Store / Treat / Emit Information in <a href="https://soundcloud.com/maximilien-rzepka/conf-rence-de-michel-serres">Conférence de Michel Serres</a>
+</li>
+<li>About Information Technologies in <a href="http://www.infoq.com/presentations/Value-Values">Value of Values</a> by Rich Hickey
+</li>
+<li>Fehler sind wie Berge, man steht auf dem Gipfel seiner eigenen und redet über die der anderen. <a href="http://de.wikiquote.org/wiki/Afrikanische_Sprichwörter#F">Sprichwort der Hausa</a>
 </li>
 </ul>
-<ul>
-<li id="sec-1-3-27-2">Web : ring edn clojurescript<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-3">Devops : leiningen pallet riemman<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-4">Logic/Constraint Programming : core.logic<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-5">Creative Programming : overtone quil<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-6">Concurrency &amp; co : atom STM core.async<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-7">Type System : core.typed schema<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-8">Interop : all the best from java or javascript world<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-27-9">And Much More : incanter core.matrix core.match CinC&hellip;<br/>
-</li>
-</ul>
+
+
 </div>
 
 </div>
 
-<div id="outline-container-1-3-28" class="outline-4">
-<h4 id="sec-1-3-28"><span class="section-number-4">1.3.28</span> Clojure Books &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-28">
+<div id="outline-container-1-1-24" class="outline-4">
+<h4 id="sec-1-1-24"><span class="section-number-4">1.1.24</span> References (2/3) &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-24">
 
 <ul>
-<li id="sec-1-3-28-1">Starter : Programming Clojure by Halloway<br/>
+<li>OO vs FP , nouns vs verbs is a wrong debate cf <a href="http://www.puf.com/Que_sais-je:La_structure_des_langues">La structure des langues</a> by <a href="http://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias=aps&amp;field-keywords=Claude+Hagège">Claude Hagège</a> page 69
+</li>
+<li>English like german are <a href="http://en.wikipedia.org/wiki/Verb_framing">satellite-framed</a> languages (I talked myself out of a job / I talked myself into a job) page 160
+</li>
+<li>English is about facts French is about understanding in <a href="http://www.odilejacob.com/catalogue/human-sciences/linguistics-psycholinguistics/against-uniform-thinking_9782738125637.php">Against Uniform Thinking by Claude Hagège</a> Chapter 5
 </li>
 </ul>
-<ul>
-<li id="sec-1-3-28-2">Main : Clojure Programming by Carper Emerick Grand<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-28-3">Dessert : Joy of Clojure by Fogus Houser (2nd edition almost done)<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-28-4">In-Progress : Clojure Cookbook by<br/>
-</li>
-</ul>
-</div>
-
-</div>
-
-<div id="outline-container-1-3-29" class="outline-4">
-<h4 id="sec-1-3-29"><span class="section-number-4">1.3.29</span> Clojure Events &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-29">
 
 <ul>
-<li id="sec-1-3-29-1"><a href="http://euroclojure.com/2013/programme/">Euro Clojure</a> 14-15 Oct. 2013, Berlin DE<br/>
+<li><a href="https://twitter.com/maxrzepka/status/391563166653902848">However many languages you know, that much of a human you are. - Armenian proverb</a>
+</li>
+<li><a href="http://www.college-de-france.fr/site/gerard-berry/">Gérard Berry</a> Algorithmes, machines et langages from Collège De France
 </li>
 </ul>
-<ul>
-<li id="sec-1-3-29-2">Clojure sessions @ <a href="http://soft-shake.ch/2013/fr/conference/sessions.html#13_fun_prog">Soft-shake</a> Oct 24-25 2013, Geneva CH<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-29-3">Clojure sessions @ FP Days Oct 24-25 2013, Cambridge UK<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-29-4"><a href="http://clojure-conj.org/">Clojure Conj</a> Nov 14-16 2013, Washington DC US<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-29-5"><a href="http://skillsmatter.com/event/java-jee/clojure-exchange-2013">Clojure Exchange</a> Dec 06 2013, London UK<br/>
-</li>
-</ul>
+
+
 </div>
 
 </div>
 
-<div id="outline-container-1-3-30" class="outline-4">
-<h4 id="sec-1-3-30"><span class="section-number-4">1.3.30</span> Speaker &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
-<div class="outline-text-4" id="text-1-3-30">
+<div id="outline-container-1-1-25" class="outline-4">
+<h4 id="sec-1-1-25"><span class="section-number-4">1.1.25</span> References (3/3) &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
+<div class="outline-text-4" id="text-1-1-25">
 
+<p>The list is the origin of culture. It’s part of the history of art and
+literature. What does culture want? To make infinity comprehensible…
+And how, as a human being, does one face infinity? How does one
+attempt to grasp the incomprehensible? Through lists…
+</p>
+<p>
+Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works">The Origin of The Todo list&hellip; by Buffer</a>
+</p>
 <ul>
-<li id="sec-1-3-30-1">Maximilien Rzepka<br/>
+<li><a href="http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres">Communication</a> (fr) by Michel Serres on univeral machines.
+</li>
+<li><a href="http://www.youtube.com/watch?v=Ipjrhue5bXs">Human-Fault-Tolerance</a> - Nathan Marz
 </li>
 </ul>
-<ul>
-<li id="sec-1-3-30-2">Organizer of Clojure Zürich Meetup<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-30-3">@maxrzepka on twitter github &hellip;<br/>
-</li>
-</ul>
-<ul>
-<li id="sec-1-3-30-4">Source of Inspiration : <a href="https://twitter.com/RichHickey">Rich Hickey</a> <a href="https://twitter.com/cgrand">Christophe Grand</a> <a href="https://twitter.com/worrydream">Bret Victor</a> <a href="https://twitter.com/nathanMarz">Nathan Marz</a> <a href="https://twitter.com/swannodette">David Nolen</a> <a href="https://twitter.com/ztellman">Zach Tellman</a> and many others<br/>
-</li>
-</ul>
+
 </div>
 </div>
 </div>
@@ -803,7 +703,7 @@ Define routes of a web application
 </div>
 
 <div id="postamble">
-<p class="date">Date: 2013-10-21T22:23+0200</p>
+<p class="date">Date: 2013-10-23T07:18+0200</p>
 <p class="author">Author: Maximilien Rzepka</p>
 <p class="creator">Org version 7.8.09 with Emacs version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
