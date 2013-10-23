@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Total Clojure "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-23T07:18+0200"/>
+<meta name="generated" content="2013-10-23T17:42+0200"/>
 <meta name="author" content="Maximilien Rzepka"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -77,6 +77,7 @@
 
 
 
+
 </div>
 
 <div id="outline-container-1-1" class="outline-3">
@@ -96,7 +97,7 @@
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-1-2">More about "Make you To Think" than about "Show you How To do"<br/>
+<li id="sec-1-1-1-2">"Make you Think" style rather than "Show you How To do" style<br/>
 </li>
 </ul>
 <ul>
@@ -105,6 +106,7 @@
 </ul>
 <ul>
 <li id="sec-1-1-1-4">I don't know what I'm doing - <a href="https://vimeo.com/71278954">Bret Victor</a><br/>
+
 </li>
 </ul>
 </div>
@@ -121,7 +123,7 @@
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-2-2">Ordinateur = Receive / Store / Treat / Emit Information<br/>
+<li id="sec-1-1-2-2">Ordinateur = Receive / Store / Process / Emit Information<br/>
 </li>
 </ul>
 <ul>
@@ -130,6 +132,8 @@
 </ul>
 <ul>
 <li id="sec-1-1-2-4">Information Technology<br/>
+
+
 </li>
 </ul>
 </div>
@@ -221,17 +225,17 @@
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-2">Sequence Abstraction : first next<br/>
-One data structure with many functions : for map filter reduce keep concat into&hellip;
+<li id="sec-1-1-8-2">List Driven Development : The world is a set of connected lists<br/>
+My presentation is a list of lists with links to the WWW.
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-3">List Driven Development : The world is a set of connected lists<br/>
-My presentation are a list of lists with links to the WWW.
+<li id="sec-1-1-8-3">Flexibility to create new abstractions<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-4">Flexibility to create new abstractions<br/>
+<li id="sec-1-1-8-4">Ready to approach real-world complexity<br/>
+
 </li>
 </ul>
 </div>
@@ -249,11 +253,11 @@ My presentation are a list of lists with links to the WWW.
 
 (2 3 0 0 10 9 1 5 0)
 
-Frame
+Frame : rolls (max. of 2) to knock down 10 pins
 
 ((2 3) (0 0) (10) (9 1) (5 0))
 
-"scored" frames 
+"scored" Frames 
 
 ((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
 </pre>
@@ -316,8 +320,8 @@ Frame
 <h4 id="sec-1-1-12"><span class="section-number-4">1.1.12</span> Where are my indices ? &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
 <div class="outline-text-4" id="text-1-1-12">
 
-<p>Using Sequence Abstraction helps to build better program and many algorithms can be written without indices.
-Like in the <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Game of Life</a> written by Christophe Grand in <a href="http://www.clojurebook.com/">Clojure Programming</a> Chapter 3
+<p>Using Sequence Abstraction helps to build better program &hellip; without indices.
+Perfect example is <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Game of Life</a> written by Christophe Grand in <a href="http://www.clojurebook.com/">Clojure Programming</a> Chapter 3
 </p>
 
 
@@ -415,12 +419,12 @@ More details in Paco Nathan's latest book <a href="http://shop.oreilly.com/produ
 <h4 id="sec-1-1-16"><span class="section-number-4">1.1.16</span> Declarative Way III <a href="https://github.com/cgrand/moustache">Moustache</a> &nbsp;&nbsp;&nbsp;<span class="tag"><span class="slide">slide</span></span></h4>
 <div class="outline-text-4" id="text-1-1-16">
 
-<p>Define routes of web application.
+<p>Define the routes of a web application.
 </p>
 
 
 <pre class="example">(app 
-  ["my" "long" "path"] {:get view-it}
+  ["my" "long" "uri"] {:get view-it}
   ["order" [id integer]] {:get view-order :post change-order})
 </pre>
 
@@ -464,7 +468,7 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 <ul>
 <li>Always append Never delete
 </li>
-<li>Query is function over all the data
+<li>A Query is a function over all the data
 </li>
 </ul>
 
@@ -490,39 +494,39 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 <div class="outline-text-4" id="text-1-1-19">
 
 <ul>
-<li id="sec-1-1-19-1">NewData : datomic storm cascalog lambda architecture<br/>
+<li id="sec-1-1-19-1">NewData : <a href="http://www.datomic.com/">datomic</a> <a href="http://storm-project.net/">storm</a> <a href="http://cascalog.org/">cascalog</a> <a href="http://www.manning.com/marz/">Lambda architecture</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-2">Web : ring edn clojurescript<br/>
+<li id="sec-1-1-19-2">Web : <a href="https://github.com/ring-clojure">ring</a> <a href="https://github.com/edn-format/edn">edn</a> <a href="https://github.com/clojure/clojurescript">clojurescript</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-3">Devops : leiningen pallet riemman<br/>
+<li id="sec-1-1-19-3">Devops : <a href="http://leiningen.org/">leiningen</a> <a href="http://palletops.com/">pallet</a> <a href="http://riemann.io/">riemann</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-4">Logic/Constraint Programming : core.logic<br/>
+<li id="sec-1-1-19-4">Logic/Constraint Programming : <a href="https://github.com/clojure/core.logic">core.logic</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-5">Creative Programming : overtone quil<br/>
+<li id="sec-1-1-19-5">Creative Programming : <a href="http://overtone.github.io/">overtone</a> <a href="https://github.com/quil/quil">quil</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-6">Concurrency &amp; co : atom STM core.async<br/>
+<li id="sec-1-1-19-6">Concurrency &amp; co : <a href="http://clojure.org/concurrent_programming">atom STM</a> <a href="https://github.com/clojure/core.async">core.async</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-7">Type System : core.typed schema<br/>
+<li id="sec-1-1-19-7">Type System : <a href="https://github.com/clojure/core.typed">core.typed</a> <a href="https://github.com/Prismatic/schema">schema</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-8">Interop : all the best from java or javascript world<br/>
+<li id="sec-1-1-19-8">Interop : all the best from java or javascript worlds<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-19-9">And Much More : incanter core.matrix core.match CinC&hellip;<br/>
+<li id="sec-1-1-19-9">And Much More : <a href="http://incanter.org/">incanter</a> <a href="https://github.com/mikera/core.matrix">core.matrix</a> <a href="https://github.com/clojure/core.match">core.match</a> <a href="#Https-github.com-Bronsa-CinC">CinC</a>&hellip;<br/>
 </li>
 </ul>
 </div>
@@ -534,19 +538,19 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 <div class="outline-text-4" id="text-1-1-20">
 
 <ul>
-<li id="sec-1-1-20-1">Starter : Programming Clojure by Halloway<br/>
+<li id="sec-1-1-20-1">Starter : <a href="http://pragprog.com/book/shcloj2/programming-clojure">Programming Clojure</a> by Halloway and Bedra<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-20-2">Main : Clojure Programming by Carper, Emerick and Grand<br/>
+<li id="sec-1-1-20-2">Main : <a href="http://www.clojurebook.com/">Clojure Programming</a> by Carper, Emerick and Grand<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-20-3">Dessert : Joy of Clojure by Fogus and Houser (2nd edition almost done)<br/>
+<li id="sec-1-1-20-3">Dessert : <a href="http://joyofclojure.com/">Joy of Clojure</a> by Fogus and Houser (2nd edition almost done)<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-20-4">In-Progress : <a href="http://clojure-cookbook.com/">Clojure Cookbook</a> collected by VanderHart and Neufeld.<br/>
+<li id="sec-1-1-20-4">In-Progress : <a href="http://clojure-cookbook.com/">Clojure Cookbook</a> collected by VanderHart and Neufeld<br/>
 </li>
 </ul>
 </div>
@@ -578,11 +582,11 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-21-6">Swiss Clojure Meetups in Geneva, Zürich<br/>
+<li id="sec-1-1-21-6">Swiss Clojure Meetups in <a href="https://groups.google.com/forum/#!forum/clojurassic">Geneva</a>, <a href="http://www.meetup.com/zh-clj-Zurich-Clojure-User-Group/">Zürich</a><br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-21-7">Training in Europe with lambda-next and clojure workshop<br/>
+<li id="sec-1-1-21-7">Training in Europe with  <a href="http://lambdanext.eu/">lambda-next</a> and <a href="http://clojureworkshop.de/">clojure workshop</a><br/>
 </li>
 </ul>
 </div>
@@ -672,7 +676,7 @@ attempt to grasp the incomprehensible? Through lists…
 Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works">The Origin of The Todo list&hellip; by Buffer</a>
 </p>
 <ul>
-<li><a href="http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres">Communication</a> (fr) by Michel Serres on univeral machines.
+<li><a href="http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres">Communication</a> (fr) by Michel Serres on univeral machines : receive/store/process/emit information.
 </li>
 <li><a href="http://www.youtube.com/watch?v=Ipjrhue5bXs">Human-Fault-Tolerance</a> - Nathan Marz
 </li>
@@ -703,7 +707,7 @@ Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list
 </div>
 
 <div id="postamble">
-<p class="date">Date: 2013-10-23T07:18+0200</p>
+<p class="date">Date: 2013-10-23T17:42+0200</p>
 <p class="author">Author: Maximilien Rzepka</p>
 <p class="creator">Org version 7.8.09 with Emacs version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>

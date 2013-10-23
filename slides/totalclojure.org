@@ -6,21 +6,43 @@
 ** COMMENT technical todo list
    - How to split vertically slide : text | image
    - image with title and on click redirect or view inline a video related to it
+** COMMENT description
+The presentation introduces the key aspects of Clojure with real-world examples and shows why Clojure 
+is a good fit for Data Science.
+
+The slides of the talk can be found http://maxrzepka.github.io/slides/totalclojure.html
+
+The speaker @maxrzepka welcomes your questions and remarks to enrich discussions before, during and after the talk.
+
+
+To make the talk even 
+It explains the main concepts of language with real-world examples why Clojure 
+
+the main concepts of language with real-world examples 
 ** Slides
 
 *** Caution                                                           :slide:
 **** My personal way of (re-)learning how to program
-**** More about "Make you To Think" than about "Show you How To do"
+**** "Make you Think" style rather than "Show you How To do" style
 **** Keep questioning your knowledge
 **** I don't know what I'm doing - [[https://vimeo.com/71278954][Bret Victor]]
+**** COMMENT full of try and fail
 *** What Data Science means ?                                         :slide:
 "Data Science incorporates various fields ... with the goal of extracting meaning from data and creating data products." from  [[http://en.wikipedia.org/wiki/Data_science][Wikipedia]]
 **** Data Science = Art of Processing Data
-**** Ordinateur = Receive / Store / Treat / Emit Information
+**** Ordinateur = Receive / Store / Process / Emit Information
 **** Computer Science < Science of Information (Informatique in French)
 **** Information Technology
+**** COMMENT Universal Machine 
+Data Science Useful 
+computer science is more reductive than accurate
+
+Given this broad definition, as We have set our problem now we need to express it
+Here comes in play the syntax , grammar of programming language
+
 *** Simple Example                                                    :slide:
 go to Geneva now by train
+#+COMMENT , ; . indentation are introduced
 *** Simple Example                                                    :slide:
 (go to Geneva now by train)
 *** Simple Example                                                    :slide:
@@ -53,23 +75,24 @@ go to Geneva now by train
 (-> geneva train first buy take)
 *** LISt Processing                                                   :slide:
 **** Simple syntax reveals the shape of your program
-**** Sequence Abstraction : first next
-One data structure with many functions : for map filter reduce keep concat into...
 **** List Driven Development : The world is a set of connected lists 
-My presentation are a list of lists with links to the WWW.
+My presentation is a list of lists with links to the WWW.
 **** Flexibility to create new abstractions
-#+COMMENT core.async , condamned to be intellingent
+**** Ready to approach real-world complexity
+**** COMMENT Sequence Abstraction : first next
+One data structure with many functions : for map filter reduce keep concat into...
+#+COMMENT core.async 
 *** Let's practice : Bowling Scorer                                   :slide:
 #+begin_src clojure
 Roll : nb of pins knocked down
 
 (2 3 0 0 10 9 1 5 0)
 
-Frame
+Frame : rolls (max. of 2) to knock down 10 pins
 
 ((2 3) (0 0) (10) (9 1) (5 0))
 
-"scored" frames 
+"scored" Frames 
 
 ((2 3) (0 0) (10 9 1) (9 1 5) (5 0))
 #+end_src
@@ -101,8 +124,8 @@ Frame
 (defn frame-advance [rolls] (if (strike? rolls) 1 2))
 #+end_src
 *** Where are my indices ?                                            :slide:
-Using Sequence Abstraction helps to build better program and many algorithms can be written without indices.
-Like in the [[http://en.wikipedia.org/wiki/Conway's_Game_of_Life][Game of Life]] written by Christophe Grand in [[http://www.clojurebook.com/][Clojure Programming]] Chapter 3
+Using Sequence Abstraction helps to build better program ... without indices.
+Perfect example is [[http://en.wikipedia.org/wiki/Conway's_Game_of_Life][Game of Life]] written by Christophe Grand in [[http://www.clojurebook.com/][Clojure Programming]] Chapter 3
 #+begin_src clojure
 (defn step
   [cells]
@@ -115,7 +138,8 @@ Like in the [[http://en.wikipedia.org/wiki/Conway's_Game_of_Life][Game of Life]]
   (for [dx [-1 0 1] dy [-1 0 1] :when (not= 0 dx dy)] 
     [(+ dx x) (+ dy y)]))
 #+end_src
-**** COMMENT matrix manipulation with incanter in forma-clj
+**** COMMENT This solution does not go through all cells of the grid
+matrix manipulation with incanter in forma-clj
 *** Declarative Way I  [[https://github.com/cgrand/enlive][Enlive]]                                                :slide:
 Select and transform Tree-Data (HTML). Scraping and Templating are use cases among others.
 #+begin_src clojure
@@ -157,11 +181,11 @@ Less declarative more focused on how to do things.
 
 More details in Paco Nathan's latest book [[http://shop.oreilly.com/product/0636920028536.do][Enterprise Data Workflows with Cascading]]
 *** Declarative Way III [[https://github.com/cgrand/moustache][Moustache]]                                     :slide: 
-Define routes of web application.
+Define the routes of a web application.
 #+COMMENT uri maps naturally to a list
 #+begin_src clojure
 (app 
-  ["my" "long" "path"] {:get view-it}
+  ["my" "long" "uri"] {:get view-it}
   ["order" [id integer]] {:get view-order :post change-order})
 #+end_src
 #+COMMENT compare with Sinatra
@@ -198,33 +222,33 @@ TODO
 **** Concepts : Immutability [[http://www.infoq.com/presentations/Value-Values][Value]] Function
 **** Lambda Architecture presented in [[http://www.manning.com/marz/][Big Data]]
    - Always append Never delete
-   - Query is function over all the data
+   - A Query is a function over all the data
 **** [[http://www.infoq.com/presentations/datomic-functional-database][Functional Database]] : [[http://www.datomic.com/][datomic]]
    - Value and Function
    - Fact : Entity/Attribute/Value/Transaction (E/A/V/Tx)
 *** Clojure Landscape                                                 :slide:
-**** NewData : datomic storm cascalog lambda architecture
-**** Web : ring edn clojurescript
-**** Devops : leiningen pallet riemman
-**** Logic/Constraint Programming : core.logic
-**** Creative Programming : overtone quil
-**** Concurrency & co : atom STM core.async
-**** Type System : core.typed schema
-**** Interop : all the best from java or javascript world
-**** And Much More : incanter core.matrix core.match CinC...
+**** NewData : [[http://www.datomic.com/][datomic]] [[http://storm-project.net/][storm]] [[http://cascalog.org/][cascalog]] [[http://www.manning.com/marz/][Lambda architecture]]
+**** Web : [[https://github.com/ring-clojure][ring]] [[https://github.com/edn-format/edn][edn]] [[https://github.com/clojure/clojurescript][clojurescript]]
+**** Devops : [[http://leiningen.org/][leiningen]] [[http://palletops.com/][pallet]] [[http://riemann.io/][riemann]]
+**** Logic/Constraint Programming : [[https://github.com/clojure/core.logic][core.logic]]
+**** Creative Programming : [[http://overtone.github.io/][overtone]] [[https://github.com/quil/quil][quil]]
+**** Concurrency & co : [[http://clojure.org/concurrent_programming][atom STM]] [[https://github.com/clojure/core.async][core.async]]
+**** Type System : [[https://github.com/clojure/core.typed][core.typed]] [[https://github.com/Prismatic/schema][schema]]
+**** Interop : all the best from java or javascript worlds
+**** And Much More : [[http://incanter.org/][incanter]] [[https://github.com/mikera/core.matrix][core.matrix]] [[https://github.com/clojure/core.match][core.match]] [[Https://github.com/Bronsa/CinC][CinC]]...
 *** Clojure Books                                                     :slide:
-**** Starter : Programming Clojure by Halloway
-**** Main : Clojure Programming by Carper, Emerick and Grand
-**** Dessert : Joy of Clojure by Fogus and Houser (2nd edition almost done)
-**** In-Progress : [[http://clojure-cookbook.com/][Clojure Cookbook]] collected by VanderHart and Neufeld.
+**** Starter : [[http://pragprog.com/book/shcloj2/programming-clojure][Programming Clojure]] by Halloway and Bedra
+**** Main : [[http://www.clojurebook.com/][Clojure Programming]] by Carper, Emerick and Grand
+**** Dessert : [[http://joyofclojure.com/][Joy of Clojure]] by Fogus and Houser (2nd edition almost done)
+**** In-Progress : [[http://clojure-cookbook.com/][Clojure Cookbook]] collected by VanderHart and Neufeld
 *** Clojure Events                                                    :slide:
 **** [[http://euroclojure.com/2013/programme/][Euro Clojure]] 14-15 Oct. 2013, Berlin DE
-**** Clojure sessions @ [[http://soft-shake.ch/2013/fr/conference/sessions.html#13_fun_prog][Soft-shake]] Oct 24-25 2013, Geneva CH 
-**** Clojure sessions @ [[http://fpdays.net/2013/][FP Days]] Oct 24-25 2013, Cambridge UK 
+**** Clojure sessions @ [[http://soft-shake.ch/2013/fr/conference/sessions.html#13_fun_prog][Soft-shake]] Oct 24-25 2013, Geneva CH
+**** Clojure sessions @ [[http://fpdays.net/2013/][FP Days]] Oct 24-25 2013, Cambridge UK
 **** [[http://clojure-conj.org/][Clojure Conj]] Nov 14-16 2013, Washington DC US
 **** [[http://skillsmatter.com/event/java-jee/clojure-exchange-2013][Clojure Exchange]] Dec 06 2013, London UK
-**** Swiss Clojure Meetups in Geneva, Zürich 
-**** Training in Europe with lambda-next and clojure workshop
+**** Swiss Clojure Meetups in [[https://groups.google.com/forum/#!forum/clojurassic][Geneva]], [[http://www.meetup.com/zh-clj-Zurich-Clojure-User-Group/][Zürich]]
+**** Training in Europe with  [[http://lambdanext.eu/][lambda-next]] and [[http://clojureworkshop.de/][clojure workshop]]
 *** Speaker                                                           :slide:
 **** Maximilien Rzepka
 **** Organizer of Clojure Zürich Meetup
@@ -255,8 +279,10 @@ attempt to grasp the incomprehensible? Through lists…
 
 Umberto Eco from [[http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-how-to-design-one-that-works][The Origin of The Todo list... by Buffer]]
 
-  - [[http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres][Communication]] (fr) by Michel Serres on univeral machines.
+  - [[http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres][Communication]] (fr) by Michel Serres on univeral machines : receive/store/process/emit information.
   - [[http://www.youtube.com/watch?v=Ipjrhue5bXs][Human-Fault-Tolerance]] - Nathan Marz
+#+COMMENT  - Datalog is SQL before string conversion
+#+COMMENT  - Make complex things possible in swimming and in mogul ski
 * Footer
 
 #+TAGS: slide(s) footer
