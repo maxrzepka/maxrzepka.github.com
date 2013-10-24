@@ -22,11 +22,13 @@ the main concepts of language with real-world examples
 ** Slides
 
 *** Caution                                                           :slide:
-**** My personal way of (re-)learning how to program
+**** My personal take on what means programming : Science or Art ?
 **** "Make you Think" style rather than "Show you How To do" style
 **** Keep questioning your knowledge
 **** I don't know what I'm doing - [[https://vimeo.com/71278954][Bret Victor]]
-**** COMMENT full of try and fail
+**** COMMENT How I'm seeing myself as a programmer 
+ My personal way of (re-)learning how to program
+full of try and fail
 *** What Data Science means ?                                         :slide:
 "Data Science incorporates various fields ... with the goal of extracting meaning from data and creating data products." from  [[http://en.wikipedia.org/wiki/Data_science][Wikipedia]]
 **** Data Science = Art of Processing Data
@@ -34,7 +36,8 @@ the main concepts of language with real-world examples
 **** Computer Science < Science of Information (Informatique in French)
 **** Information Technology
 **** COMMENT Universal Machine 
-Data Science Useful 
+Official one is a mashups of things
+Here some definitions 
 computer science is more reductive than accurate
 
 Given this broad definition, as We have set our problem now we need to express it
@@ -74,7 +77,8 @@ go to Geneva now by train
 #+end_src
 (-> geneva train first buy take)
 *** LISt Processing                                                   :slide:
-**** Simple syntax reveals the shape of your program
+**** Simple syntax reveals the shape of your program 
+**** Abstract syntax independant of how machines work
 **** List Driven Development : The world is a set of connected lists 
 My presentation is a list of lists with links to the WWW.
 **** Flexibility to create new abstractions
@@ -185,7 +189,7 @@ Define the routes of a web application.
 #+COMMENT uri maps naturally to a list
 #+begin_src clojure
 (app 
-  ["my" "long" "uri"] {:get view-it}
+  ["my" "long" "uri"] view-it
   ["order" [id integer]] {:get view-order :post change-order})
 #+end_src
 #+COMMENT compare with Sinatra
@@ -219,13 +223,14 @@ TODO
 **** Design pattern, DSL, Category Theory are mostly just some [[http://fr.wiktionary.org/wiki/agencer][agencements]] of (high-order) functions
 **** Monoids better than monads
 *** New Art of Processing Data                                        :slide:
-**** Concepts : Immutability [[http://www.infoq.com/presentations/Value-Values][Value]] Function
-**** Lambda Architecture presented in [[http://www.manning.com/marz/][Big Data]]
+**** Concepts : [[http://www.infoq.com/presentations/Value-Values][Value]]s (ie something that doesn't change) Functions
+**** Lambda Architecture presented in [[http://www.manning.com/marz/][Big Data]] by Nathan Marz
+   - [[http://www.youtube.com/watch?v=Ipjrhue5bXs][Human-Fault-Tolerance]] System
    - Always append Never delete
    - A Query is a function over all the data
-**** [[http://www.infoq.com/presentations/datomic-functional-database][Functional Database]] : [[http://www.datomic.com/][datomic]]
-   - Value and Function
-   - Fact : Entity/Attribute/Value/Transaction (E/A/V/Tx)
+**** [[http://www.infoq.com/presentations/datomic-functional-database][Functional Database]] : [[http://www.datomic.com/][datomic]] created by Rich Hickey
+   - Database as Value
+   - Fact = datom = Entity/Attribute/Value/Transaction (E/A/V/Tx)
 *** Clojure Landscape                                                 :slide:
 **** NewData : [[http://www.datomic.com/][datomic]] [[http://storm-project.net/][storm]] [[http://cascalog.org/][cascalog]] [[http://www.manning.com/marz/][Lambda architecture]]
 **** Web : [[https://github.com/ring-clojure][ring]] [[https://github.com/edn-format/edn][edn]] [[https://github.com/clojure/clojurescript][clojurescript]]
@@ -281,6 +286,7 @@ Umberto Eco from [[http://blog.bufferapp.com/the-origin-of-the-to-do-list-and-ho
 
   - [[http://www.academie-francaise.fr/actualites/communication-de-m-michel-serres][Communication]] (fr) by Michel Serres on univeral machines : receive/store/process/emit information.
   - [[http://www.youtube.com/watch?v=Ipjrhue5bXs][Human-Fault-Tolerance]] - Nathan Marz
+  - [[http://stackoverflow.com/questions/3008411/clojure-seq-cons-vs-list-conj/3009747#3009747][cons/conj explained]] by Michal Marczyk
 #+COMMENT  - Datalog is SQL before string conversion
 #+COMMENT  - Make complex things possible in swimming and in mogul ski
 * Footer

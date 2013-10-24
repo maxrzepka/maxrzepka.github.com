@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="Total Clojure "/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-23T17:42+0200"/>
+<meta name="generated" content="2013-10-24T08:07+0200"/>
 <meta name="author" content="Maximilien Rzepka"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -93,7 +93,7 @@
 <div class="outline-text-4" id="text-1-1-1">
 
 <ul>
-<li id="sec-1-1-1-1">My personal way of (re-)learning how to program<br/>
+<li id="sec-1-1-1-1">My personal take on what means programming : Science or Art ?<br/>
 </li>
 </ul>
 <ul>
@@ -225,16 +225,20 @@
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-2">List Driven Development : The world is a set of connected lists<br/>
+<li id="sec-1-1-8-2">Abstract syntax independant of how machines work<br/>
+</li>
+</ul>
+<ul>
+<li id="sec-1-1-8-3">List Driven Development : The world is a set of connected lists<br/>
 My presentation is a list of lists with links to the WWW.
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-3">Flexibility to create new abstractions<br/>
+<li id="sec-1-1-8-4">Flexibility to create new abstractions<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-8-4">Ready to approach real-world complexity<br/>
+<li id="sec-1-1-8-5">Ready to approach real-world complexity<br/>
 
 </li>
 </ul>
@@ -424,7 +428,7 @@ More details in Paco Nathan's latest book <a href="http://shop.oreilly.com/produ
 
 
 <pre class="example">(app 
-  ["my" "long" "uri"] {:get view-it}
+  ["my" "long" "uri"] view-it
   ["order" [id integer]] {:get view-order :post change-order})
 </pre>
 
@@ -460,12 +464,14 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 <div class="outline-text-4" id="text-1-1-18">
 
 <ul>
-<li id="sec-1-1-18-1">Concepts : Immutability <a href="http://www.infoq.com/presentations/Value-Values">Value</a> Function<br/>
+<li id="sec-1-1-18-1">Concepts : <a href="http://www.infoq.com/presentations/Value-Values">Value</a>s (ie something that doesn't change) Functions<br/>
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-18-2">Lambda Architecture presented in <a href="http://www.manning.com/marz/">Big Data</a><br/>
+<li id="sec-1-1-18-2">Lambda Architecture presented in <a href="http://www.manning.com/marz/">Big Data</a> by Nathan Marz<br/>
 <ul>
+<li><a href="http://www.youtube.com/watch?v=Ipjrhue5bXs">Human-Fault-Tolerance</a> System
+</li>
 <li>Always append Never delete
 </li>
 <li>A Query is a function over all the data
@@ -475,11 +481,11 @@ Constaints on data structures , on finite domains to resolve linear equations&he
 </li>
 </ul>
 <ul>
-<li id="sec-1-1-18-3"><a href="http://www.infoq.com/presentations/datomic-functional-database">Functional Database</a> : <a href="http://www.datomic.com/">datomic</a><br/>
+<li id="sec-1-1-18-3"><a href="http://www.infoq.com/presentations/datomic-functional-database">Functional Database</a> : <a href="http://www.datomic.com/">datomic</a> created by Rich Hickey<br/>
 <ul>
-<li>Value and Function
+<li>Database as Value
 </li>
-<li>Fact : Entity/Attribute/Value/Transaction (E/A/V/Tx)
+<li>Fact = datom = Entity/Attribute/Value/Transaction (E/A/V/Tx)
 </li>
 </ul>
 
@@ -680,6 +686,8 @@ Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list
 </li>
 <li><a href="http://www.youtube.com/watch?v=Ipjrhue5bXs">Human-Fault-Tolerance</a> - Nathan Marz
 </li>
+<li><a href="http://stackoverflow.com/questions/3008411/clojure-seq-cons-vs-list-conj/3009747#3009747">cons/conj explained</a> by Michal Marczyk
+</li>
 </ul>
 
 </div>
@@ -707,7 +715,7 @@ Umberto Eco from <a href="http://blog.bufferapp.com/the-origin-of-the-to-do-list
 </div>
 
 <div id="postamble">
-<p class="date">Date: 2013-10-23T17:42+0200</p>
+<p class="date">Date: 2013-10-24T08:07+0200</p>
 <p class="author">Author: Maximilien Rzepka</p>
 <p class="creator">Org version 7.8.09 with Emacs version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
