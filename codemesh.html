@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>CodeMesh 2013</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="title" content="CodeMesh 2013"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-12-04T07:12+0100"/>
+<meta name="author" content="Maximilien"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="toread.css" />
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">CodeMesh 2013</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">codemesh 2013</a>
+<ul>
+<li><a href="#sec-1-1">Schedule</a></li>
+<li><a href="#sec-1-2">Wednesday 10:20 - 11:10</a>
+<ul>
+<li><a href="#sec-1-2-1">Grisp: Building Space Ships With Erlang by Peer Stritzinger</a></li>
+<li><a href="#sec-1-2-2">Snake Bitten - Danger and Misfortune in the Evolution of Programming Languages</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-3">Wednesday 11:15 - 12:00</a>
+<ul>
+<li><a href="#sec-1-3-1">Apache CouchDB Internals, Now and Then by Klaus Trainer</a></li>
+<li><a href="#sec-1-3-2">Refactoring Functional Programs: Past and Future</a></li>
+<li><a href="#sec-1-3-3">Julia: Fast Performance, Distributed Computing &amp; Multiple Dispatch</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-4">Wednesday 13:35 - 14:25</a>
+<ul>
+<li><a href="#sec-1-4-1">Fault Tolerance 101</a></li>
+<li><a href="#sec-1-4-2">Functional Algebra by Example</a></li>
+<li><a href="#sec-1-4-3">An API for Distributed Computing</a></li>
+<li><a href="#sec-1-4-4">Graph database</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-5">Wednesday 14:30-15:20</a>
+<ul>
+<li><a href="#sec-1-5-1">End to End Reactive Programming at Netflix</a></li>
+<li><a href="#sec-1-5-2">Data Types for Eventually Consistent Databases</a></li>
+<li><a href="#sec-1-5-3">With a Hammer in your Hand… Elasticsearch</a></li>
+<li><a href="#sec-1-5-4">Software As Biology</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-6">Wednesday 15:40-16:30</a>
+<ul>
+<li><a href="#sec-1-6-1">PuppetDB: A Story of Immutable Infrastructure</a></li>
+<li><a href="#sec-1-6-2">Erjang - With the JVM under the Hood</a></li>
+<li><a href="#sec-1-6-3">When Code Reacts to Data</a></li>
+<li><a href="#sec-1-6-4">+Writing-wroom and Content Delivery API, the 10 Fundamentals of Fixing Modern Content Management Problems</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-7">Wednesday 16:35-17:25</a>
+<ul>
+<li><a href="#sec-1-7-1">Ecto: A language integrated query for Elixir</a></li>
+<li><a href="#sec-1-7-2">Building a Distributed Data Ingestion System with RabbitMQ</a></li>
+<li><a href="#sec-1-7-3">Exploring Football Data and Ranking Systems with Clojure, Neo4j and Friends</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-8">Thursday 10:20-11:10</a>
+<ul>
+<li><a href="#sec-1-8-1">Querying Events</a></li>
+<li><a href="#sec-1-8-2">Haskell in the Newsroom</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-9">Thursday 11:15-12:05</a>
+<ul>
+<li><a href="#sec-1-9-1">Game of Threads - You Spawn or You Die</a></li>
+<li><a href="#sec-1-9-2">Meta-Programming in Logic Programming</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-10">Thursday 13:35-14:25</a></li>
+<li><a href="#sec-1-11">Thursday 14:30-15:20</a>
+<ul>
+<li><a href="#sec-1-11-1">Akka in Heterogenous Environments</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-12">Thursday 15:40-16:30</a>
+<ul>
+<li><a href="#sec-1-12-1">Rust: Safe Systems Programming with the Fun of FP</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-13">Keynotes</a>
+<ul>
+<li><a href="#sec-1-13-1">The Joy of Flying Robots with Clojure</a></li>
+<li><a href="#sec-1-13-2">50 Shades of Green (with José Valim)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">codemesh 2013</h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1">Schedule</h3>
+<div class="outline-text-3" id="text-1-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-3">
+<h3 id="sec-1-2">Wednesday 10:20 - 11:10</h3>
+<div class="outline-text-3" id="text-1-2">
+
+
+</div>
+
+<div id="outline-container-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1">Grisp: Building Space Ships With Erlang by Peer Stritzinger</h4>
+<div class="outline-text-4" id="text-1-2-1">
+
+<ul>
+<li id="sec-1-2-1-1">description<br/>
+This talk will describe the Grisp Project the port of Erlang to RTEMS.
+RTEMS is a open-source hard-realtime operating system for small
+embedded systems. It is used in the aerospace industry flying on
+satellites and planetary probes - currently its also driving around on
+Mars and on the Gallileo Satellites. Porting Erlang to RTEMS opens the
+way to new application areas, like in the current use case a
+intelligent RFID system for Industry 4.0 and Internet of Things
+applications.
+</li>
+</ul>
+<ul>
+<li id="sec-1-2-1-2">Peer Stritzinger (@peerstr)<br/>
+got bored with writing the second version
+of his automotive flashing product in C again so he tried Erlang. 
+After four weeks into the project there was no going back. 
+That was in 2007, since then he is implementing a increasing
+percentage of embedded systems code in Erlang. 
+Initially mastered in Physics (Technical University Munich) Peer has
+broad experience from low level device drivers to functional languages 
+in industrial and automotive applications. 
+He has worked self employed as developer since 1987 and since over 10
+years as designer, 
+developer and manufacturer of industrial products. 
+He did consulting work in applied cryptography and protocol design and
+implementation. 
+Erlang is a natural fit for all these applications, so it was
+inevitable for Erlang to become his favourite language. 
+Peer is currently living and working in the nice countryside west of Munich, Bavaria.
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2">Snake Bitten - Danger and Misfortune in the Evolution of Programming Languages</h4>
+<div class="outline-text-4" id="text-1-2-2">
+
+
+<p>
+The introduction of Smalltalk in the mid 1970s ushered in a series of
+thought experiments that would eventually popularize the object
+oriented programming model with several of the most successful
+languages of all time. At the peak of popularity, object oriented
+programming in C++ and Java has changed the way we code, the way we
+visualize problems, and even the way we think. Not all of the changes
+have been for the better. This talk seeks to crystallize the problems
+with the object oriented languages and programming model. It also will
+explore specific ways that other languages remedy these problems.
+We'll see anecdotes from in Java, Ruby, Scala, Clojure, Erlang, and
+Haskell.
+</p>
+<p>
+Talk objectives:
+New language adoption is moving faster than it has at any point in the
+last twenty years. This talk seeks to help us understand why. Learn
+how current programming language evolution, by satisfying needs in the
+marketplace, evolved. Attendees will better understand:
+</p>
+<ul>
+<li>What characteristics made the most successful languages popular?
+
+</li>
+<li>What will modern languages need to succeed?
+
+</li>
+<li>What forces are pushing language designers today?
+</li>
+</ul>
+
+
+
+<p>
+Target audience:
+</p><ul>
+<li>A knowledge of object oriented programming concepts is helpful but
+  not necessary. This talk will be helpful to programmers.
+</li>
+</ul>
+
+
+<p>
+About Bruce
+</p>
+<p>
+Bruce Tate (@redrapids) is an author and CTO from Austin, Texas. As
+Chief Technology Officer of Sentient Services, he is responsible for
+building the market research platform iCanMakeItBetter. His focus is
+using small productive teams to bring complex applications to the
+marketplace.
+</p>
+<p>
+As an author and speaker, he has written more than ten books including
+two JOLT award winners, most recently the book Seven Languages in
+Seven Weeks. He is the editor for the Seven in Seven line of books,
+including Seven Databases in Seven Weeks, with several other books
+under development.
+</p>
+<p>
+When he is not coding, Bruce is an avid kayaker, climber, and mountain biker.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-3">
+<h3 id="sec-1-3">Wednesday 11:15 - 12:00</h3>
+<div class="outline-text-3" id="text-1-3">
+
+
+</div>
+
+<div id="outline-container-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1">Apache CouchDB Internals, Now and Then by Klaus Trainer</h4>
+<div class="outline-text-4" id="text-1-3-1">
+
+
+<p>
+Interested in CouchDB and wondering how its storage engine, the
+JavaScript query server, or its peer-to-peer replication actually
+work? Wondering how the merge with BigCouch is affecting CouchDB's
+architecture? If your answer to one or both of these question is
+"yes", then this talk is for you!
+</p>
+<p>
+Talk objectives: 
+To give insight into CouchDB's architecture and internals.
+Target audience: 
+Everybody who's interested in the architecture and internals of Apache
+CouchDB.
+About Klaus
+</p>
+<p>
+While studying Computer Science, Klaus fell in love with Erlang/OTP
+and CouchDB at the same time. To learn more about both, he quickly
+started contributing to the Apache CouchDB project. He knows not only
+quite a bit about CouchDB internals, but has successfully been using
+Apache CouchDB for several projects at Ubilabs, where he's working as
+a developer building web applications. Klaus is interested in all
+things that help people to build decentralized applications that are
+both usable and secure.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2">Refactoring Functional Programs: Past and Future</h4>
+<div class="outline-text-4" id="text-1-3-2">
+
+
+<p>
+Refactoring is the process of modifying how a program works without
+changing what it does. Functional programs, because of their lack of
+(uncontrolled) side-effects, are particularly amenable to being
+refactoring. We'll show this through a set of examples from Haskell
+and Erlang, some of them implemented in our tools HaRe and Wrangler.
+In the second part of the talk we'll look at how to take refactoring
+of functional programs to the next level, and show some prototype
+ideas we're working with.
+To set out an agenda of future challenges for functional refactoring
+over the next 10 years.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>To convey what is distinctive about refactoring for functional
+  programming;
+
+</li>
+<li>To communicate this through a collection of examples from Haskell
+  and Erlang;
+
+</li>
+<li>To demonstrate the tools that we have built: HaRe and Wrangler;
+
+</li>
+<li>To set out an agenda of future challenges for functional refactoring
+  over the next 10 years.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Developers who work in functional languages, and researchers and
+  engineers who build tools to help them.
+</li>
+</ul>
+
+
+<p>
+About Simon
+</p>
+<p>
+Simon (@thompson<sub>si</sub>) is a professor in the School of Computing at the
+University of Kent, where he teaches beginners and more advanced
+students. He has been teaching functional programming for a long time:
+first in Haskell, and from 2014 in Erlang, but also enjoys teaching
+across the curriculum.
+</p>
+<p>
+His recent research has been based on refactoring for functional
+programs, and in this Simon has worked closely with Huiqing Li. He is
+also interested in logic, including diagrammatic reasoning,
+property-based testing and model inference, and also pedagogy. In real
+life he relaxes by hiking and making bread.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-3-3" class="outline-4">
+<h4 id="sec-1-3-3">Julia: Fast Performance, Distributed Computing &amp; Multiple Dispatch</h4>
+<div class="outline-text-4" id="text-1-3-3">
+
+
+<p>
+Julia is a high-level, high-performance dynamic language carefully
+designed to be excellent for technical computing. It has been gaining
+traction as a an alternative to Matlab, R and NumPy – especially in
+performance-critical areas such as machine learning, “big statistics”,
+linear algebra and image analysis. But it's also a general purpose
+language that you can use for anything from serving web pages to
+writing games. This talk will explore some of Julia's unique design
+features, especially how it maintains high-level ease-of-use, while
+giving you performance and control traditionally only found in
+low-level languages like C and Fortran. Another unusal feature is that
+Julia's core paradigm is multiple dispatch: Julia programs are
+organized around generic functions – first-class function objects to
+which methods can be added, allowing them to operate on new data
+types. Generic functions thus bridge the gap between object-oriented
+and functional paradigms, allowign the notorious "expression problem"
+to be solved in a particularly intuitive and elegant way. The talk
+will include lots of live coding and demos of everything from data
+analysis, to distributed computing, to defining new fast numeric
+primitives.
+</p>
+<p>
+Talk objectives:
+The talk will start with a brief introduction to the Julia language:
+the way it looks and feels, how and why it was designed the way it
+was. It will continue with an introduction to the "expression problem"
+and why it's important for writing composable, reusable software. It
+will also provide examples of how to load and visualized data, and
+trivially run a computation on a cluster of machines.
+</p>
+<p>
+Target audience:
+</p><ul>
+<li>Anyone with an interest in and some knowledge of language design and
+  data analysis – especially the intersection of the two.
+</li>
+</ul>
+
+
+<p>
+About Stefan
+</p>
+<p>
+Stefan Karpinski (@StefanKarpinski) is one of the co-creators and core
+developers of the Julia language. He is an applied mathematician and
+data scientist by trade, having worked at Akamai, Citrix Online, and
+Etsy, but is currently a research scientist at MIT, focused on
+advancing Julia’s design, performance, scalability, documentation, and community.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-4" class="outline-3">
+<h3 id="sec-1-4">Wednesday 13:35 - 14:25</h3>
+<div class="outline-text-3" id="text-1-4">
+
+
+</div>
+
+<div id="outline-container-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1">Fault Tolerance 101</h4>
+<div class="outline-text-4" id="text-1-4-1">
+
+
+<p>
+This lecture is an introduction to fault tolerant computing.
+</p>
+<p>
+How can we make systems that are resilient to hardware and software
+faults?
+</p>
+<p>
+Systems can fail for a number of reasons, the hardware can fail or the
+software can fail. In this lecture I'll talk about the foundations of
+fault tolerant computation and the basic properties a system should
+have in order to be able to function in an adequate manner despite the
+occurrence of hardware and software errors.
+</p>
+<p>
+We'll see how concurrency and scalability are intimately related to
+fault tolerance and and take a quick peep at shared memory and message
+passing concurrency.
+</p>
+<p>
+I'll also summaries the key features of Erlang and show how they can
+be used for programming fault-tolerant and scalable systems on
+multi-core clusters.
+</p>
+<p>
+About Joe
+</p>
+<p>
+Joe Armstrong (@joeerl) is one of the inventors of Erlang. When at the
+Ericsson computer science lab in 1986, he was part of the team who
+designed and implemented the first version of Erlang. He has written
+several Erlang books including Programming Erlang. Joe held the first
+ever Erlang course and has taught Erlang to hundreds of programmers
+and held many lectures and keynotes describing the technology.
+</p>
+<p>
+Joe has a PhD in computer science from the Royal Institute of
+Technology in Stockholm, Sweden and is an expert in the construction
+of fault tolerant systems. Joe was the chief software architect of the
+project which produced the Erlang OTP system. He has worked as an
+entrepreneur in one of the first Erlang startups (Bluetail) and has
+worked for over 30 years in industry and research.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2">Functional Algebra by Example</h4>
+<div class="outline-text-4" id="text-1-4-2">
+
+
+<p>
+When we first discover functional programming, we learn to declare
+what our programs should do (rather than how). We appreciate simpler
+models for concurrency, and we get excited about its conciseness.
+However, many developers with an Object Oriented (OO) background find
+it hard to model richer domains in functional languages, or don't know
+where to start. This hands-on talk will explore examples of using
+algebraic abstractions to model various domains and show that this can
+keep the developer closer to the domain and more focused on
+functionality than boilerplate. Evolving code examples will be used to
+explore the power of these abstractions with less formal emphasis of
+exactly how the code maps back to algebraic concepts. Example code in
+Scala, Haskell, and Erlang.
+</p>
+<p>
+Talk objectives:
+Provide motivating examples of domain modeling with algebraic
+abstractions with algebraic data types.
+</p>
+<p>
+Target audience:
+Basic understanding of passing functions around as values and
+willingness to revisit algebraic concepts. Typically OO or former OO
+developers.
+</p>
+<p>
+About Susan
+</p>
+<p>
+Susan (@SusanPotter) has built software in a number of environments,
+languages, and paradigms. She has worked in application as well as
+systems development at SaaS startups, and developed software for
+front- and middle- office systems at trading firms before that.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-4-3" class="outline-4">
+<h4 id="sec-1-4-3">An API for Distributed Computing</h4>
+<div class="outline-text-4" id="text-1-4-3">
+
+
+<p>
+We have defined an API and built an open-source platform for dealing
+with in-memory distributed data. We've used it to built
+state-of-the-art predictive modeling and analytics (e.g. GLMNET, GBM,
+Random Forest) that's 1000x faster than the disk-bound alternatives,
+and 100x faster than R (we love R but it's tooo slow on big data!).
+We're building our newest algorithms in a few weeks, start to finish,
+because the platform makes Big Math easy. We routinely test on 100G
+datasets, have customers using 200G datasets, and have lab tested even
+more.
+</p>
+<p>
+This talk is about a coding style &amp; API that lets us seamlessly deal
+with datasets from 1K to 1TB without changing a line of code, lets us
+use clusters ranging from your laptop to 50 server clusters with many
+many TB of ram and hundreds of CPUs.
+</p>
+<p>
+Talk objectives:
+Learn about a platform &amp; API for doing in-memory analytics.
+</p>
+<p>
+Target audience:
+People who got data, and want to do fast predictive modeling and
+analytics&hellip; or just need a platform that lets them code to Big Data
+naturally.
+</p>
+<p>
+About Cliff
+</p>
+<p>
+Cliff Click (@hexadata) is the CTO and Co-Founder of 0xdata, a firm
+dedicated to creating a new way to think about web-scale data storage
+and real-time analytics. Cliff wrote his first compiler when he was 15
+(Pascal to TRS Z-80!), although his most famous compiler is the
+HotSpot Server Compiler (the Sea of Nodes IR). He helped Azul Systems
+build an 864 core pure-Java mainframe that keeps GC pauses on 500Gb
+heaps to under 10ms, and worked on all aspects of that JVM. Before
+that Cliff worked on HotSpot at Sun Microsystems, and is at least
+partially responsible for bringing Java into the mainstream.
+</p>
+<p>
+Cliff is invited to speak regularly at industry and academic
+conferences and has published many papers about HotSpot technology. He
+holds a PhD in Computer Science from Rice University and about 15
+patents.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-4-4" class="outline-4">
+<h4 id="sec-1-4-4">Graph database</h4>
+<div class="outline-text-4" id="text-1-4-4">
+
+
+<p>
+As the industry awakens to the abuse of relational data modelling, the
+graph datastore arises as a compelling choice for many data needs.
+This may not be extremely obvious to those who have been raised in the
+RDBMS era, for use beyond modelling social networks. Even if you
+aren’t working at Facebook or in a similar space (or even with jvm
+languages), there are many reasons you may want to look at a graph for
+your data needs, specifically Neo4j.
+</p>
+<p>
+In this session I will discuss Neo4j, how it works, and when to use
+it. We’ll talk about what makes it different from aggregate data
+stores and then look at the query language, Cypher. Hopefully by the
+end of this session you will see graph data stores as one of the tools
+for your polyglot persistence needs.
+</p>
+<p>
+Talk objectives
+</p>
+<p>
+In this session I will discuss Neo4j, how it works, and when to use
+it. We’ll talk about what makes it different from aggregate data
+stores and then look at the query language, Cypher. Hopefully by the
+end of this session you will see graph data stores as one of the tools
+for your polyglot persistence needs.
+</p>
+<p>
+Target audience
+</p>
+<p>
+Anyone who works with data.
+</p>
+<p>
+About Amanda
+</p>
+<p>
+Amanda Laucher (@pandamonial) has been working with technology her
+entire life. Some of her favorite childhood memories include working
+with punch cards alongside her grandmother or learning Morse code from
+her dad. Solving complex business problems with code is her passion,
+mostly using statically typed FP languages. After many years in
+consulting she decided that making some old rich guy more money wasn’t
+satisfying so she took on the Enterprise Architect role at Measured
+Progress. Currently she's at Neo4j. When she isn't busy building
+software to advance educational technology, you can probably find her
+in a bar discussing intricacies of languages, development processes or
+American football.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-5" class="outline-3">
+<h3 id="sec-1-5">Wednesday 14:30-15:20</h3>
+<div class="outline-text-3" id="text-1-5">
+
+
+</div>
+
+<div id="outline-container-1-5-1" class="outline-4">
+<h4 id="sec-1-5-1">End to End Reactive Programming at Netflix</h4>
+<div class="outline-text-4" id="text-1-5-1">
+
+
+<p>
+What is the difference between a database query and drag-and-drop
+event? The answer: nothing. They're both queries, and can be coded
+using the exact same programming model. A newly discovered type has
+given us new insight into the dual relationship between synchronous
+and asynchronous programming. You'll be surprised to learn that the
+sequence operations you already know (map, filter, reduce, merge, zip,
+etc.) can to be used to build everything from GUIs to high
+performance, non-blocking servers. Come see how Netflix uses
+functional composition over this amazing new type to build reactive
+multi-tier systems. You may never approach programming the same way
+again.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Teach developers to think about events as collections. Demonstrate
+  some basic collection operations that can be applied to both arrays
+  and events. Use these collection operations together to express
+  complex asynchronous programs as simple expressions.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>This talk is geared towards cloud developers and user-interface
+  developers.
+</li>
+</ul>
+
+
+<p>
+About Jafar
+</p>
+<p>
+Jafar Husain (@jhusain) has been working as a software developer for
+15 years. He's developed software for companies like GE, Microsoft,
+and Netflix. Most recently he designed the RESTful data access
+framework that powers Netflix UIs. His interests include programming
+languages, functional reactive programming, and user interface design
+patterns.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-5-2" class="outline-4">
+<h4 id="sec-1-5-2">Data Types for Eventually Consistent Databases</h4>
+<div class="outline-text-4" id="text-1-5-2">
+
+
+<p>
+Eventually Consistent Databases, like Riak, buy you a lot: highly
+available, simple scaling, geo-replication: but the developer pays the
+price, with little to no guarantees, and only folklore for data
+modelling. This talk describes one weapon in the developers armoury:
+CRDTs. A CRDT is Data Type that converges to a single, deterministic
+value no matter how many replicas are modified concurrently. CRDTs
+offer a principled approach to Eventually Consistent data modelling,
+and greatly simplify the task of programming applications that use
+Eventually Consistent Databases.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Bring state based CRDTs to the attention of developers;
+
+</li>
+<li>Describe the value of CRDTs;
+
+</li>
+<li>Be realistic about their limitations.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Software practitioners who find themselves working with eventually
+  consistent systems
+</li>
+</ul>
+
+
+<p>
+About Joel
+</p>
+<p>
+Joel (@JoelJacobson) is part of the Technical Evangelism team at Basho
+technologies, where he helps build the Riak community in Europe. Prior
+to Basho he worked with Neo Technologies and others as part of his
+role at the consultancy OpenCredo.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-5-3" class="outline-4">
+<h4 id="sec-1-5-3">With a Hammer in your Hand… Elasticsearch</h4>
+<div class="outline-text-4" id="text-1-5-3">
+
+
+<p>
+Elasticsearch combines the power of Apache Lucene (NoSQL since 2001)
+and the movement of distributed, scalable high-performance NoSQL
+solutions into easy to use schema free search engine that can serve
+full-text search request, key-value lookups, schema free analytics
+requests, facets or even suggestions in real-time. This talk will give
+an introduction to the key features of Elasticsearch with live
+examples.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>The talk won’t be an exhaustive feature presentation but rather an
+  overview of what and how Elasticsearch can do for you. It's a live
+  demo and can be cloned on github to give it a try afterwards!
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Engineers and Technical Managers curious in live demos of damn cool
+  software!
+</li>
+</ul>
+
+
+<p>
+About Simon
+</p>
+<p>
+Simon Willnauer (@s1m0nw) is an Apache Lucene core committer (since
+2006), a co-founder of ElasticSearch and an Apache Software Foundation
+Member.
+</p>
+<p>
+Simon has contributed to several other open source projects within and
+outside the Apache Software Foundation, and has led the design and
+implementation of numerous scalable software systems and search
+infrastructures.
+</p>
+<p>
+A popular speaker at conferences in Germany, Europe and beyond, Simon
+is also the co-founder of the Berlin Buzzwords Conference.
+</p>
+<p>
+Simon’s main interests are performance optimizations, Information
+Retrieval and non-blocking / wait-free concurrency.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-5-4" class="outline-4">
+<h4 id="sec-1-5-4">Software As Biology</h4>
+<div class="outline-text-4" id="text-1-5-4">
+
+
+<p>
+What's the best mental model for software construction? The prevailing
+model draws heavily from physical construction. Terms like
+architecture, foundation, plumbing &ndash; even "design" &ndash; come from our
+history of building real structures like houses, roads, and bridges.
+While they often dominate our thinking about software, should they?
+Are there other models that are more helpful?
+</p>
+<p>
+In this talk Garrett will argue that biology is a more useful model
+for software construction. Understanding how organisms function and
+evolve opens up thinking that's informed by the universe's most
+complex and successful systems. Innovations like DNA, complex cells,
+photosynthesis, sex and even death contain remarkably useful patterns
+that we can apply in our day-to-day work as programmers.
+</p>
+<p>
+Target Audience
+</p>
+<p>
+If you're interested in the process of software construction, this
+talk will spark new ideas for you and your team. Garrett will draw
+from his 20 years of professional experience to present concrete
+examples &ndash; including source code &ndash; of how patterns of biology can be
+harnessed to build better software, faster and with less risk.
+</p>
+<p>
+About Garrett
+</p>
+<p>
+Garrett (@gar1t) is programmer at CloudBees, a leading
+platform-as-a-service vendor, where he leads the use of Erlang to
+manage platform services and infrastructure. He has over 20 years
+development experience and specializes in distributed systems and
+reliable software. Garrett organizes the Chicago Erlang User Group and
+an occasionally teaches Erlang classes. He's the author of the e2, an
+Erlang library that simplifies the process of writing correct OTP
+application.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-6" class="outline-3">
+<h3 id="sec-1-6">Wednesday 15:40-16:30</h3>
+<div class="outline-text-3" id="text-1-6">
+
+
+</div>
+
+<div id="outline-container-1-6-1" class="outline-4">
+<h4 id="sec-1-6-1">PuppetDB: A Story of Immutable Infrastructure</h4>
+<div class="outline-text-4" id="text-1-6-1">
+
+
+<p>
+Managing a fleet of servers looks eerily similar to managing complex
+software. Embracing immutability in our code can help with
+parallelism, improve correctness through invariants, and foster
+modularity; I contend those benefits are as important to the practice
+of systems administration as they are to writing code.
+</p>
+<p>
+Puppet is an open-source system automation tool. It makes managing
+thousands of systems easy by letting users specify invariants about
+their infrastructure: they tell Puppet how systems should behave, and
+Puppet automatically enforces that behavior. PuppetDB is a centralized
+storage system for those invariants. It's written in Clojure, and is
+currently in production use at many thousands of datacenters around
+the world.
+</p>
+<p>
+In this talk, I will discuss a few major topics: the concept of
+"immutable infrastructure" and how PuppetDB helps users express
+complex invariants about their systems, how PuppetDB is internally
+architected, the experience of bringing Clojure to a Ruby shop, and
+what we've learned from having thousands of non-developers consuming
+our Clojure code.
+About Deepak
+</p>
+<p>
+Deepak (@grim<sub>radical</sub>) is Director of Engineering at Puppet Labs and
+the lead engineer for PuppetDB. Prior to joining Puppet Labs, he was
+Principal Engineer at Dell/MessageOne, using Puppet to manage
+thousands of production systems.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-6-2" class="outline-4">
+<h4 id="sec-1-6-2">Erjang - With the JVM under the Hood</h4>
+<div class="outline-text-4" id="text-1-6-2">
+
+
+<p>
+Erjang is a JVM-based Erlang VM. It runs the latest Erlang release
+with quite comprehensive compatibility with BEAM: networking, hot code
+replacement, tail calls, super-light processes, NIF compatibility and
+more. In this talk I'll explain how all this works, walk though some
+of the interesting challenges of making Erjang real, and some of the
+those that lie ahead.
+About Kresten
+</p>
+<p>
+Kresten Krab Thorup (@drkrab) is CTO at Trifork, co-creator of the
+QCon and GOTO conferences, author of the JVM-based Erlang VM "Erjang",
+and contributor to numerous other open source projects. Kresten
+received his Ph.D. in Computer Science from University of Aarhus.
+Before joining Trifork, Kresten spent three years at NeXT in San
+Francisco working on the Objective-C tool chain and core libraries.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-6-3" class="outline-4">
+<h4 id="sec-1-6-3">When Code Reacts to Data</h4>
+<div class="outline-text-4" id="text-1-6-3">
+
+
+<p>
+Data these days: there's a crapton of it, and a lot of it is crap. We
+need efficiency, we need resource management, and we need to react to
+surprises. Can we get just-in-time processing AND secure error
+handling AND a modular flexibility like OO has never seen?
+Welcome to a new world of data streaming. You want multiple sources?
+You want asynchronous, isolated I/O? You want on-the-fly decisions? We
+have it all!
+This talk introduces reactive data processing, in Scala. See code that
+modifies its flow at runtime. Scalaz-streams (emphasis on the zed)
+showcases Scala's confluence of OO+FP with a productively lazy,
+reassuringly safe, purely functional style. And modularity! I think
+code re-use is overrated, except like this. In this session, be on the
+watch for advanced FP patterns disguised in ordinary English. You may
+never think about richly decadent type systems the same way again.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Introduce a different way of thinking about I/O, with all
+  side-effects delayed to the end.
+
+</li>
+<li>Illustrate manipulating code as data, and at the same time letting
+  data influence the code.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Experienced developers, especially ones who have tried functional
+  programming and been frustrated by the jargon.
+</li>
+</ul>
+
+
+<p>
+About Jessica
+</p>
+<p>
+Jessica (@jessitron) writes Scala for a living. She's still recovering
+from ten years of Enterprise Java. For entertainment, she blogs and
+speaks about functional programming and git, sneaking in a little
+cognitive science. Jessica is a native of StrangeLoop - I mean, St.
+Louis. In between user groups, she leads two children on crazy adventures.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-6-4" class="outline-4">
+<h4 id="sec-1-6-4">+Writing-wroom and Content Delivery API, the 10 Fundamentals of Fixing Modern Content Management Problems</h4>
+<div class="outline-text-4" id="text-1-6-4">
+
+
+<p>
+Content is everywhere. When you are creating a website, a web
+application, a game or a native mobile app - big or small, you have to
+deal with content at some point. Which inevitably has you asking
+questions: where do I store content? How can I modify texts? Fix
+typos, evolve and expand my work?
+Traditionally, the industry's answer to these questions has been to
+adopt a Content Management System. This answer is particularly
+dissatisfying, not only because of the inherent limitations of
+available CMS's offerings, but because there is a fundamental problem
+with the concept of a CMS: it has the wrong focus, and it does too
+many things. Imposing a traditional CMS has inevitably big negative
+implications on developers and designers' productivity and tools.
+For solving content management challenges, we need to approach the
+problem differently. Writing-wroom &amp; Content Delivery API is a new
+approach to the problem. This talk will go through the different
+content management challenges, and will introduce the 10 fundamentals
+for addressing these challenges in a Writing-wroom &amp; Content Delivery
+API platform:
+</p><ul>
+<li>Structured Content with a comfy text and media editor
+</li>
+<li>Versioning and changes tracking
+</li>
+<li>Release oriented and previews
+</li>
+<li>Simplified collaboration workflow
+</li>
+<li>Content delivery API with fulltext search capabilities
+</li>
+<li>Developers tools: API browser and development kits
+</li>
+<li>Scalability, Cacheability and Low Response time
+</li>
+<li>High Availability
+</li>
+<li>Security and authorisations
+</li>
+</ul>
+
+
+<p>
+Talk objectives:
+</p><ul>
+<li>Analyse traditional Content Management Systems problems and
+  introducing fundamentals of the Writing-wroom &amp; Content Delivery API
+  approach;
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Developers of applications, websites, games with content envolved;
+</li>
+</ul>
+
+
+<p>
+About Sadek
+</p>
+<p>
+Sadek (@sadache) is co-creator of (Play2) web server and framework and
+co-founder of (prismic.io) where he is focused on solving the content problem.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-7" class="outline-3">
+<h3 id="sec-1-7">Wednesday 16:35-17:25</h3>
+<div class="outline-text-3" id="text-1-7">
+
+
+</div>
+
+<div id="outline-container-1-7-1" class="outline-4">
+<h4 id="sec-1-7-1">Ecto: A language integrated query for Elixir</h4>
+<div class="outline-text-4" id="text-1-7-1">
+
+
+<p>
+A language integrated query allows developers to query data using the
+native language syntax. An implementation called LINQ was first
+introduced by Microsoft into its .NET framework and later adapted to
+other languages, like Slick in Scala, and now Ecto in Elixir.
+In its current iteration, Ecto allows developers to query relational
+databases using Elixir features to guarantee your queries are fast,
+secure and type safe.
+This talk will give a quick introduction to Ecto and its main
+components while discussing the design decisions behind the library.
+Discussing Ecto is a great opportunity to see the use of many Elixir
+features in practice like macros, providing the foundation for the
+Ecto syntax, and protocols, which guarantees our queries expressions
+are extensible and composable.
+Talk objectives:
+</p><ul>
+<li>Introduce developers to the Ecto library and to more advanced Elixir
+  features
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Developers interested to learn more about the Elixir programming
+  language
+</li>
+</ul>
+
+
+<p>
+About José
+</p>
+<p>
+José Valim (@josevalim) is a member of the Ruby on Rails Core Team and
+a writer for Pragmatic Programmers. Software developer for 8 years, he
+graduated in Engineering from the São Paulo University, Brazil and has
+a Master of Science from Politecnico di Torino, Italy. He is also the
+lead-developer of Plataformatec, a consultancy firm based in Brazil,
+an active member of the Open Source community and is frequently
+travelling and speaking at conferences.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-7-2" class="outline-4">
+<h4 id="sec-1-7-2">Building a Distributed Data Ingestion System with RabbitMQ</h4>
+<div class="outline-text-4" id="text-1-7-2">
+
+
+<p>
+Your company has servers distributed around the world and you need to
+process data in a centralised location. The data is produced by
+applications using different technology stacks and comes from various
+sources, from web servers to sensors. How could you solve this
+problem? Enter RabbitMQ.
+</p>
+<p>
+In this talk we are going to show how to build a system that can
+ingest data produced at separate geo located areas (think AWS and it's
+many regions) and replicate it to a central cluster where it can be
+further processed and analysed.
+</p>
+<p>
+We will present an example of how to build a system like this one by
+using RabbitMQ Federation to replicate data across AWS Regions and
+RabbitMQ support for many protocols to produce/consume data.
+</p>
+<p>
+To help with scalability we are going to show an interesting way to
+implement sharded queues with RabbitMQ by using the Consistent Hash
+Exchange.
+</p>
+<p>
+If you want to learn what else has RabbitMQ to offer beyond simple
+messaging and queueing, then this is the talk for you.
+</p>
+<p>
+Talk objectives:
+Our goal is to show that over the years RabbitMQ has gone way beyond a
+"simple" AMQP server to be able to have federated brokers, HA queues
+and support for many protocols and languages.
+</p>
+<p>
+Target audience:
+</p><ul>
+<li>Developers interested in building a data ingestion platform that
+  spans many locations across the world.
+
+</li>
+<li>Developers that have built these kind of solutions already but are
+  interested in learning about alternatives.
+
+</li>
+<li>Developers interested in RabbitMQ and Messaging in general.
+</li>
+</ul>
+
+
+
+<p>
+About Alvaro
+</p>
+<p>
+Alvaro Videla (@old<sub>sound</sub>) works as Developer Advocate for
+RabbitMQ/Pivotal. Before moving to Europe he used to work in Shanghai
+where he helped building one of Germany biggest dating websites. He
+co-authored the book "RabbitMQ in Action" for Manning Publishing. Some
+of his open source projects can be found here. Apart from code related
+stuff he likes traveling with his wife, listening/playing music and
+reading books.
+Syntax Matters - What Programmers can learn from the World of
+Linguistics
+</p>
+<p>
+Syntax tends to get people unusually upset in the programming world.
+Heck, virtually any introductory talk on Erlang (Haskell, Clojure,
+whatever) invariably contains a self-deprecatory quote about the
+syntax. The thing people forget is that this isn't new. Syntax has
+been upsetting hominids since the first australopithecus said "Urghk"
+instead of "Oook" - getting thumped for its pains - and has continued
+to the present day (Look up "French is better than" on The Googles)
+</p>
+<p>
+In this talk, I will explore the similarities between spoken and
+programming languages, with particular emphasis on the process of
+learning them, as well as the almost reflexive hatred of this process
+in most cultures. You'll learn to appreciate the role of syntax in
+languages, how it can help - or hinder! - your understanding of the
+semantics, and most importantly, how to appreciate syntax as an
+element of the language that is valuable in its own right.
+About Mahesh
+</p>
+<p>
+Mahesh Paolini-Subramanya (@dieswaytoofast) is a V.P. of R&amp;D at
+Ubiquiti Networks - a manufacturer of disruptive technology platforms
+for emerging markets. He has been involved in ‘Internet Stuff’ since
+Day Zero (remember Gopher?), and has spent the recent past building
+out Erlang-based massively concurrent Cloud Services and VoIP
+platforms.
+</p>
+<p>
+He has the - dubious - honor of being involved in creating the first
+web/e-commerce system, the first Java based financial services
+platform, as well as the first Erlang-based cloud PBX, three products
+he may never live down. He was previously the CTO of Vocalocity after
+its merger with Aptela(where he was a founder and CTO). Before that,
+he was V.P. of Development at Neoglyphics Inc, and CTO of Proxicom
+where he also led the Technology practice. He holds a B. Tech from the
+Indian Institute of Technology - Kanpur, and an M.S. in Electrical
+Engineering from the University of Notre Dame.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-7-3" class="outline-4">
+<h4 id="sec-1-7-3">Exploring Football Data and Ranking Systems with Clojure, Neo4j and Friends</h4>
+<div class="outline-text-4" id="text-1-7-3">
+
+
+<p>
+In this talk, we'l look at how graph data and Neo4j can be used to
+model the English Premier League. We'll see how the graph model and
+Cypher query language makes it natural and fun to query
+multidimensional semi-structured data.
+We'll also see how graphs encourage discoverability so that we can
+spot interesting correlations and become king of the arcane football
+facts at your local pub quiz.
+In the second half of the talk we'll bring clojure into the mix and
+apply the Elo and Glicko ranking algorithms to Champions League
+matches to see which teams really were the best in a given season.
+</p>
+<p>
+Talk objectives:
+After this talk the audience will:
+</p><ul>
+<li>Show people how to model complex/messy data in a graphy way and then
+  write queries to gain insight.
+
+</li>
+<li>Encourage the use of clojure/enlive for data scrapping tasks where a
+  quick feedback loop is needed.
+
+</li>
+<li>Get people excited about building data driven applications by
+  showing how easy it is to do when you have tools suited to the job.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>This talk is aimed at data scientists or developers with an interest
+  in data. You won't need to be an expert in clojure or neo4j to know
+  what's going on, I'll explain everything from first principles. I
+  imagine some background in programming would make it easier to
+  follow along.
+</li>
+</ul>
+
+
+<p>
+About Mark
+</p>
+<p>
+Mark (@markhneedham) is a graph advocate and field engineer for Neo
+Technology, the company behind the Neo4j graph database. As a field
+engineer, Mark helps customers embrace graph data and Neo4j building
+sophisticated solutions to challenging data problems. When he's not
+with customers Mark is a developer on Neo4j and writes his experiences
+of being a graphista on a popular blog.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-8" class="outline-3">
+<h3 id="sec-1-8">Thursday 10:20-11:10</h3>
+<div class="outline-text-3" id="text-1-8">
+
+
+</div>
+
+<div id="outline-container-1-8-1" class="outline-4">
+<h4 id="sec-1-8-1">Querying Events</h4>
+<div class="outline-text-4" id="text-1-8-1">
+
+
+<p>
+In recent years Complex Event Processing (CEP) has been becoming more
+mainstream. Most however use CEP for processing near real-time data
+exclusively though. CEP has however other uses especially in Event
+Sourced systems namely that it can be used as a query language for
+temporal correlation queries as well as machine learning. This session
+will look at a language that does just this and how it can be used to
+scale to millions of events/second.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Look at using CEP as a querying model for historical data;
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Anyone using messaging (Erlang, Akka, Event Sourcing, Transaction
+  Logs, Datomic, etc);
+</li>
+</ul>
+
+
+<p>
+About Greg
+</p>
+<p>
+Greg (@gregyoung) is an independent consultant and entrepreneur. He is
+always involved with many concurrent projects, currently these include
+building out a distributed event store and mighty moose (a continuous
+test runner). In his free time he is known to on a whim organize a
+large conference, really. For periods of years Greg has been known to
+stop living anywhere and just travel though he now resides (when not
+travelling) in Vilnius Lithuania.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-8-2" class="outline-4">
+<h4 id="sec-1-8-2">Haskell in the Newsroom</h4>
+<div class="outline-text-4" id="text-1-8-2">
+
+
+<p>
+In the past several years, newsrooms have enthusiastically embraced
+dynamic, object-oriented languages such as Ruby and Python. The
+traditional wisdom tells that these flexible, forgiving languages have
+allowed for fast iteration because there's no compiling, there's a
+simple mapping between the "things" in the code (objects) and the
+"things" of the news report, and the syntaxes and environments are
+friendly to novices. Recently, though, at the New York Times, we have
+begun to take a synthetic approach to our app-making. While keeping
+the presentation and app-code in Ruby and Javascript, we have begun to
+shift some of the analysis and processing work to Haskell. This allows
+us to be more flexible, the speed and multi-core optimizations of
+Haskell letting us iterate and test more fine-tunings on larger data
+without ever leaving our laptops. This talk will focus on the
+successes and failures of both trying to start a cultural shift in the
+newsroom to accept Haskell as not-just-an-oddball-novelty and trying
+to create these synthetic apps with Haskell at their core. The talk
+will cover our fashion fingerprint visual analysis of fashion week,
+the various Twitter projects in which we used Haskell to analyze
+trends in reader tweets, and a forthcoming project in which Haskell is
+used to pore over our entire collection of book reviews.
+About Erik
+</p>
+<p>
+Erik Hinton (@erikhinton) is an interactive news developer at The New
+York Times. Before that he worked for Talking Points Memo where a
+great cast of characters showed him the ropes. Erik enjoys programming
+in Haskell, studying analytic philosophy, writing experimental fiction
+for no one's enjoyment at all and finding ever-stranger ways to exercise.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-9" class="outline-3">
+<h3 id="sec-1-9">Thursday 11:15-12:05</h3>
+<div class="outline-text-3" id="text-1-9">
+
+
+</div>
+
+<div id="outline-container-1-9-1" class="outline-4">
+<h4 id="sec-1-9-1">Game of Threads - You Spawn or You Die</h4>
+<div class="outline-text-4" id="text-1-9-1">
+
+
+<p>
+Erlang was tuned to writing distributed, concurrent systems and as
+such it has a set of core primivites for doing exactly that.
+</p>
+<p>
+However, it falls short performance wise when it comes to dealing with
+compute intensive problems due to the lack of floating point numeric
+operations within the VM and lack of GPU awareness. Another problem is
+that when you are playing a game of threads you have to manually spawn
+and manage processes, which can become unwieldly.
+</p>
+<p>
+This talk will show how we have gone from offloading work via OpenCL
+to the creation of an intensional DSL to eliminate the burden of
+thinking about process management and coordination whilst writing
+parallel algorithms.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Introduce developers to intensional programming as a means of
+  achieving expressive and efficient parallelism within Erlang. 
+</li>
+<li>Make people aware of where the concurrency primitives of Erlang are
+  a good match and how to augment Erlang with intensional programming
+  when needed.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+Developers who wants to run compute intensive parallel algorithms
+without having to write a lot of boilerplate code.
+</p>
+<p>
+About Torben
+</p>
+<p>
+Torben has been working with Erlang in Motorola and Issuu as technical
+architect and developer since 2006. He has talked about his Motorola
+achievements at Erlang eXchange 2008 and EUC 2010. Before becoming an
+Erlanger he worked with software quality assurance, process
+improvement and people management.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-9-2" class="outline-4">
+<h4 id="sec-1-9-2">Meta-Programming in Logic Programming</h4>
+<div class="outline-text-4" id="text-1-9-2">
+
+
+<p>
+Lispers, Haskellers, and other functional programmers have long
+claimed superiority of their languages for writing meta programs, such
+as interpreters. However, any experienced Prolog programmer knows
+meta-programming techniques which put Clojure, Scheme, and Haskell to
+shame. In this talk we will demonstrate the use of Prolog-style
+meta-interpreters in miniKanren, for introspection, monitoring and
+debugging, and more.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>To introduce functional programmers to a powerful form of
+  meta-programming largely unknown outside of logic programming
+  circles.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Anyone interested in logic programming! Knowledge of functional
+  meta-interpreters as introduced in SICP a plus.
+</li>
+</ul>
+
+
+<p>
+About William
+</p>
+<p>
+William E. Byrd (@webyrd) is a Postdoctoral Researcher in the School
+of Computing at the University of Utah. He is co-author of The
+Reasoned Schemer, and co-designer of several declarative languages:
+miniKanren (logic programing), Harlan (GPU programming), and Kanor
+(cluster programming). His StarCraft 2 handle is 'Rojex' (character
+code 715).
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-10" class="outline-3">
+<h3 id="sec-1-10">Thursday 13:35-14:25</h3>
+<div class="outline-text-3" id="text-1-10">
+
+<p>Idris: Programming with Dependent Types
+</p>
+<p>
+Idris is an experimental functional programming language with full
+spectrum dependent types, meaning that types can be predicated on any
+value. Its syntax is influenced by Haskell. As well as full dependent
+types it supports records, type classes, tactic based theorem proving,
+totality checking, and an optimising compiler with a foreign function
+interface. One of the goals of the Idris project is to bring
+type-based program verification techniques to programming
+practitioners while still supporting efficient systems programming via
+an optimising compiler and interaction with external libraries.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>The main objective is to explain why software correctness,
+  particularly non-functional correctness, is important, and show how
+  modern expressive type systems can support this without imposing too
+  much burden on application developers.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Practitioners interested in verification of non-functional
+  properties (particularly resource usage such as files, memory,
+  network protocols, etc). Familiarity with a functional programming
+  language such as Haskell or F# will be useful, but will not be
+  assumed.
+</li>
+</ul>
+
+
+<p>
+About Edwin
+</p>
+<p>
+Edwin Brady (@edwinbrady) is a Lecturer in Computer Science at the
+University of St Andrews in Scotland, UK. His research interests there
+include programming language design, in particular type systems and
+domain specific languages. Since 2008, he has been designing and
+implementing the Idris programming language, a general purpose
+functional programming language with dependent types, which he uses to
+implement verified domain specific languages. When he’s not doing
+that, he’s likely to be playing a game of Go, wrestling with the
+crossword, or stuck on a train somewhere in Britain.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-11" class="outline-3">
+<h3 id="sec-1-11">Thursday 14:30-15:20</h3>
+<div class="outline-text-3" id="text-1-11">
+
+
+</div>
+
+<div id="outline-container-1-11-1" class="outline-4">
+<h4 id="sec-1-11-1">Akka in Heterogenous Environments</h4>
+<div class="outline-text-4" id="text-1-11-1">
+
+
+<p>
+Jan will show how to use RabbitMQ to connect components on different
+platforms. After a few introductory slides explaining the main
+concepts, the rest of the talk will be live code. The coding will
+begin by showing simple Scala / Akka code to connect to RabbitMQ to
+send and receive messages&ndash;think "java.lang.String" values back and
+forth to start with. We will then increase the complexity of the
+messages and marshal the messages into JSON. Jan will then show the
+real power of messaging infrastructures by replacing the RPC server
+component by native code in C++: we will write image processing
+component. To make matters even better&ndash;faster&ndash;we will then use CUDA
+to perform the image processing.
+Come to Jan's talk and demo if you want to find out how to use Scala,
+Akka and RabbitMQ in the core of your application, especially if your
+application needs to tie together code on completely different
+platforms and if it performs heavy number crunching or image
+processing. You do not need to have deep knowledge of Scala, Akka,
+RabbitMQ, Boost, OpenCV, &hellip;; all that you will need is your 
+<span style="text-decoration:underline;">inner<sub>geek</sub></span>.
+About Jan
+</p>
+<p>
+Jan (@honzam399) is the technical director at Cake Solutions, author
+of Pro Spring 2.5, Pro Spring and other books and articles. He
+regularly works on open source projects; he is the author of Specs2
+Spring, Scalad, Spock Spring Integration and Spring Workflow
+Extension. Jan's technical interests and expertise include lightweight
+JVM-based applications in Scala and Java with asynchronous, resilient
+and scalable messaging.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-12" class="outline-3">
+<h3 id="sec-1-12">Thursday 15:40-16:30</h3>
+<div class="outline-text-3" id="text-1-12">
+
+
+</div>
+
+<div id="outline-container-1-12-1" class="outline-4">
+<h4 id="sec-1-12-1">Rust: Safe Systems Programming with the Fun of FP</h4>
+<div class="outline-text-4" id="text-1-12-1">
+
+
+<p>
+Rust is a new programming language for developing reliable and
+efficient systems. It is designed to support concurrency and
+parallelism in building platforms that take full advantage of modern
+hardware. Its static type system is safe and expressive and it
+provides strong guarantees about isolation, concurrency execution and
+memory safety.
+Rust combines powerful and flexible modern programming constructs with
+a clear performance model to make program efficiency predictable and
+manageable. One important way it achieves this is by allowing
+fine-grained control over memory allocation through contiguous records
+and stack allocation. This control is balanced with the absolute
+requirement of safety: Rust’s type system and runtime guarantee the
+absence of data races, buffer overflow, stack overflow or access to
+uninitialized or deallocated memory.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Provide an overview of Rust, as well as examples of how its static
+  type system ensures stronger compile-time guarantees than that
+  provided by C/C++ compilers
+
+</li>
+<li>Describe how Rust supports a mixture of imperative procedural,
+  concurrent actor-based, object-oriented and functional styles of
+  programming.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Developers that need the speed or native interoperability of C/C++,
+  but yearn for more static guarantees of soundness.
+</li>
+</ul>
+
+
+<p>
+About Felix
+</p>
+<p>
+Felix Klock II (@pnkfelix) is a research engineer at Mozilla. He works
+on enhancing the SpiderMonkey JavaScript virtual machine, and also on
+the development of Rust, a safe, concurrent, and practical systems
+language being used at Mozilla to prototype experimental browser
+architectures (namely Servo).
+</p>
+<p>
+Prior to working at Mozilla, Felix worked at Adobe Systems on Tamarin,
+the virtual machine for the ActionScript language. He also worked at
+Green Hills Software on compilers for static languages (C/C++/Fortran)
+targeting embedded systems.
+</p>
+<p>
+Felix is also one of the developers of Larceny, an implementation of
+the Scheme language that is a testbed for research on garbage
+collection and compiler optimizations. Felix holds a PhD in Computer
+Science from Northeastern University.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-13" class="outline-3">
+<h3 id="sec-1-13">Keynotes</h3>
+<div class="outline-text-3" id="text-1-13">
+
+
+</div>
+
+<div id="outline-container-1-13-1" class="outline-4">
+<h4 id="sec-1-13-1">The Joy of Flying Robots with Clojure</h4>
+<div class="outline-text-4" id="text-1-13-1">
+
+
+<p>
+Experience the joy of flying the Parrot AR Drone using the power of
+Clojure.
+We will take a journey that begins with a child's dream of having a
+"real" robot friend. Along the way, we will discover the blessings of
+a functional language, the power of the Clojure language, the thrill
+of flying with a REPL, and maybe even gems of wisdom long lost under
+the snow of the AI Winter.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Show how Clojure can be used for fun robotics projects. Also explore
+  John McCarthy's AI concept for ascribing beliefs and goals to
+  machines;
+</li>
+</ul>
+
+
+<p>
+About Carin
+</p>
+<p>
+Carin (@carinmeier) started off as a professional ballet dancer,
+studied Physics in college, and has been developing software for both
+the enterprise and entrepreneur ever since. She has a thing for
+Clojure and can be usually found with a cup of tea in her hand,
+hacking on her Roomba and AR Parrot Drone.
+</p></div>
+
+</div>
+
+<div id="outline-container-1-13-2" class="outline-4">
+<h4 id="sec-1-13-2">50 Shades of Green (with José Valim)</h4>
+<div class="outline-text-4" id="text-1-13-2">
+
+
+<p>
+Ludwig Wittgenstein said "The limits of language are the limits of my
+world." As developers, we're constantly bumping in to these limits.
+Much of the effort of programming is getting our solutions to fit the
+constraints of our environments. We work with a limited set of idioms.
+But what if we can break down those walls?
+</p>
+<p>
+Keynote objectives:
+In this talk, José and Dave will look at how idioms affect the way we
+think about programming, and show how new idioms can change our
+approach to development. We'll also look further, at a world where you
+can create your own idioms
+</p>
+<p>
+Keynote audience:
+All attendees!
+</p></div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author: Maximilien</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>
