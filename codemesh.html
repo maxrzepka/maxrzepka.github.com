@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <meta name="title" content="CodeMesh 2013"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-12-04T07:12+0100"/>
+<meta name="generated" content="2013-12-05T09:20+0100"/>
 <meta name="author" content="Maximilien"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -158,21 +158,46 @@
 <li><a href="#sec-1-9-2">Meta-Programming in Logic Programming</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-10">Thursday 13:35-14:25</a></li>
-<li><a href="#sec-1-11">Thursday 14:30-15:20</a>
+<li><a href="#sec-1-10">Thursday 13:35-14:25</a>
 <ul>
-<li><a href="#sec-1-11-1">Akka in Heterogenous Environments</a></li>
+<li><a href="#sec-1-10-1">Fighting Bit Rot with your Mind</a></li>
+<li><a href="#sec-1-10-2">F# in Social Gaming</a></li>
+</ul></li>
 </ul>
 </li>
-<li><a href="#sec-1-12">Thursday 15:40-16:30</a>
+<li><a href="#sec-2">Efficiency</a></li>
+<li><a href="#sec-3">Correctness</a></li>
+<li><a href="#sec-4">Complexity</a></li>
+<li><a href="#sec-5">Time to Market</a>
 <ul>
-<li><a href="#sec-1-12-1">Rust: Safe Systems Programming with the Fun of FP</a></li>
+<li>
+<ul>
+<li><a href="#sec-5-1">Idris: Programming with Dependent Types</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-13">Keynotes</a>
+<li><a href="#sec-5-1">Thursday 14:30-15:20</a>
 <ul>
-<li><a href="#sec-1-13-1">The Joy of Flying Robots with Clojure</a></li>
-<li><a href="#sec-1-13-2">50 Shades of Green (with José Valim)</a></li>
+<li><a href="#sec-5-1-1">Akka in Heterogenous Environments</a></li>
+</ul>
+</li>
+<li><a href="#sec-5-2">Thursday 15:40-16:30</a>
+<ul>
+<li><a href="#sec-5-2-1">Practicing at the Cutting Edge: Learning and Unlearning about Performance</a></li>
+<li><a href="#sec-5-2-2">Rust: Safe Systems Programming with the Fun of FP</a></li>
+</ul>
+</li>
+<li><a href="#sec-5-3">Thursday 16:35-17:25</a>
+<ul>
+<li><a href="#sec-5-3-1">When your only Hammer is a Keyboard, Everything looks like a Tool</a></li>
+<li><a href="#sec-5-3-2">The Programming Language as a Musical Instrument</a></li>
+<li><a href="#sec-5-3-3">Tutorial: Google Go - Fast, Lean, Scalable and Fun</a></li>
+<li><a href="#sec-5-3-4">Clojure Core.Async</a></li>
+</ul>
+</li>
+<li><a href="#sec-5-4">Keynotes</a>
+<ul>
+<li><a href="#sec-5-4-1">The Joy of Flying Robots with Clojure</a></li>
+<li><a href="#sec-5-4-2">50 Shades of Green (with José Valim)</a></li>
 </ul>
 </li>
 </ul>
@@ -308,7 +333,8 @@ including Seven Databases in Seven Weeks, with several other books
 under development.
 </p>
 <p>
-When he is not coding, Bruce is an avid kayaker, climber, and mountain biker.
+When he is not coding, Bruce is an avid kayaker, climber, and mountain
+biker.
 </p></div>
 </div>
 
@@ -578,7 +604,23 @@ Susan (@SusanPotter) has built software in a number of environments,
 languages, and paradigms. She has worked in application as well as
 systems development at SaaS startups, and developed software for
 front- and middle- office systems at trading firms before that.
-</p>
+</p><ul>
+<li id="sec-1-4-2-1">notes<br/>
+<ul>
+<li>faces everywhere 
+</li>
+<li>algebra ( continuous , infinite)
+</li>
+<li>real-world (discrete, finite)
+</li>
+</ul>
+
+
+<p> 
+ class Contravariant f where
+  contramap (b &gt; a) -&gt; f a -&gt; f b
+</p></li>
+</ul>
 </div>
 
 </div>
@@ -748,7 +790,7 @@ About Jafar
 <p>
 Jafar Husain (@jhusain) has been working as a software developer for
 15 years. He's developed software for companies like GE, Microsoft,
-and Netflix. Most recently he designed the RESTful data access
+and Netflix. Most r§ecently he designed the RESTful data access
 framework that powers Netflix UIs. His interests include programming
 languages, functional reactive programming, and user interface design
 patterns.
@@ -1554,8 +1596,147 @@ code 715).
 <h3 id="sec-1-10">Thursday 13:35-14:25</h3>
 <div class="outline-text-3" id="text-1-10">
 
-<p>Idris: Programming with Dependent Types
+
+</div>
+
+<div id="outline-container-1-10-1" class="outline-4">
+<h4 id="sec-1-10-1">Fighting Bit Rot with your Mind</h4>
+<div class="outline-text-4" id="text-1-10-1">
+
+
+<p>
+The process of software maintenance starts just after the very first
+bits of code have been written. Lets face it, very few of us enjoy
+chasing bugs, trying to make sense out of tagliatelle code, finding
+inconsistencies in how things are built, fixing the same bug in 50
+different places due to copy-paste-coding, not feeling confident in
+our own modifications due to sub-par tests and having none or broken
+documentation. As a software project grows, and time passes, it is
+very common for bugs to be harder to find, changes to be harder to
+make, and new features harder to integrate. Sounds painfully familiar?
+Don't worry, in this talk we'll explore ways of dealing with these
+issue before they even become a problem.
+Talk objectives:
+</p><ul>
+<li>Share core ideas regarding how to create software that is a joy to
+  work with.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Anyone in the software industry.
+</li>
+</ul>
+
+
+<p>
+About Viktor
 </p>
+<p>
+Viktor "the legend of" Klang (@viktorklang) — Director of Engineering
+at Typesafe and former Tech Lead for the Akka project — has a long
+background on the JVM and currently has a passion for distributed,
+resilient, programming. Personal heroes are, including but not limited
+to: Doug Lea, Walter Sobchak and Daniel Spiewak
+</p></div>
+
+</div>
+
+<div id="outline-container-1-10-2" class="outline-4">
+<h4 id="sec-1-10-2">F# in Social Gaming</h4>
+<div class="outline-text-4" id="text-1-10-2">
+
+
+<p>
+Over the past couple of years we have seen F# gradually being adopted
+across the software industry. Whilst that adoption has been largely
+centred around the financial industry, F# on its own is an incredibly
+versatile and expressive language and enables you to solve a wide
+array of problems succinctly and efficiently.
+This talk illustrates, with real examples, how the GameSys social team
+is using F# to build the backend services that supports around 1
+million Daily Active Users (DAU) across its social games on both
+mobile and web platforms.
+</p>
+<p>
+Talk objectives:
+</p><ul>
+<li>Demonstrate the use of F# to write clean, concise game logic as well
+  as infrastructure code, the same techniques and concepts can be
+  easily applied to other domains;
+
+</li>
+<li>Demonstrate how F# can help tackle recurring business problems of:
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Efficiency</h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Correctness</h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">Complexity</h2>
+<div class="outline-text-2" id="text-4">
+
+
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Time to Market</h2>
+<div class="outline-text-2" id="text-5">
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Developers. No F# knowledge necessary, I'll be explaining the code
+  examples in the talk.
+</li>
+</ul>
+
+
+<p>
+About Yan
+</p>
+<p>
+Yan (@theburningmonk) works as a server side developer at GameSys
+where he develops scalable backend services for GameSys's social games
+on mobile and Facebook. He's a co-author of the upcoming book F# Deep
+Dives for Manning Publishing. His open source projects can be found here.
+</p>
+</div>
+
+<div id="outline-container-5-1" class="outline-4">
+<h4 id="sec-5-1">Idris: Programming with Dependent Types</h4>
+<div class="outline-text-4" id="text-5-1">
+
+
 <p>
 Idris is an experimental functional programming language with full
 spectrum dependent types, meaning that types can be predicated on any
@@ -1607,16 +1788,16 @@ crossword, or stuck on a train somewhere in Britain.
 
 </div>
 
-<div id="outline-container-1-11" class="outline-3">
-<h3 id="sec-1-11">Thursday 14:30-15:20</h3>
-<div class="outline-text-3" id="text-1-11">
+<div id="outline-container-5-1" class="outline-3">
+<h3 id="sec-5-1">Thursday 14:30-15:20</h3>
+<div class="outline-text-3" id="text-5-1">
 
 
 </div>
 
-<div id="outline-container-1-11-1" class="outline-4">
-<h4 id="sec-1-11-1">Akka in Heterogenous Environments</h4>
-<div class="outline-text-4" id="text-1-11-1">
+<div id="outline-container-5-1-1" class="outline-4">
+<h4 id="sec-5-1-1">Akka in Heterogenous Environments</h4>
+<div class="outline-text-4" id="text-5-1-1">
 
 
 <p>
@@ -1653,16 +1834,79 @@ and scalable messaging.
 
 </div>
 
-<div id="outline-container-1-12" class="outline-3">
-<h3 id="sec-1-12">Thursday 15:40-16:30</h3>
-<div class="outline-text-3" id="text-1-12">
+<div id="outline-container-5-2" class="outline-3">
+<h3 id="sec-5-2">Thursday 15:40-16:30</h3>
+<div class="outline-text-3" id="text-5-2">
 
 
 </div>
 
-<div id="outline-container-1-12-1" class="outline-4">
-<h4 id="sec-1-12-1">Rust: Safe Systems Programming with the Fun of FP</h4>
-<div class="outline-text-4" id="text-1-12-1">
+<div id="outline-container-5-2-1" class="outline-4">
+<h4 id="sec-5-2-1">Practicing at the Cutting Edge: Learning and Unlearning about Performance</h4>
+<div class="outline-text-4" id="text-5-2-1">
+
+
+<p>
+They say that wisdom comes with age. Like many concepts in software,
+we have an imperfect proxy here. Age being the imperfect proxy for
+experience, discovery, and learning. When pushing a technology to the
+limits of performance one has a lot to learn and then unlearn over
+time as the language, runtime, operating systems, and hardware
+evolves.
+Martin will reflect on his experience with building high performance
+systems and how it has impacted his appreciation for different design
+approaches and programming paradigms.
+Starting with building financial GUIs in the early 90s, then the era
+of Servlets and J2EE, streaming data and media concurrently to
+thousands of devices, processing and indexing the largest
+catalogues,LMAX and the Disruptor, and the current generation of
+low-latency trading applications that must cope with millions of
+events per second with latency measured in the microseconds. The talk
+will cover the major steps in the evolution of Java and how it
+contrasts to alternative technologies.
+We will also cover the challenges of pushing the limits of performance
+and how we need to collaborate with industry experts and organise our
+teams, which often stands at odds with the development culture in many
+industries and organisations.
+Talk objectives:
+</p><ul>
+<li>To convey the hard learned lessons of what really matters when
+  building high-performance scalable systems.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+</p><ul>
+<li>Anyone who cares about the performance of their systems.
+</li>
+</ul>
+
+
+
+<p>
+About Martin
+</p>
+<p>
+Martin (@mjpt777) is a high-performance and low-latency specialist,
+with experience gained over two decades working on large scale
+transactional and big-data systems. He believes in Mechanical
+Sympathy, i.e. applying an understanding of the hardware to the
+creation of software as being fundamental to delivering elegant
+high-performance solutions. The Disruptor framework is just one
+example of what his mechanical sympathy has created. Martin was the
+co-founder and CTO of LMAX. He blogs at
+mechanical-sympathy.blogspot.com, and can be found giving training
+courses on performance and concurrency, or hacking code to make
+systems better.
+</p></div>
+
+</div>
+
+<div id="outline-container-5-2-2" class="outline-4">
+<h4 id="sec-5-2-2">Rust: Safe Systems Programming with the Fun of FP</h4>
+<div class="outline-text-4" id="text-5-2-2">
 
 
 <p>
@@ -1731,16 +1975,273 @@ Science from Northeastern University.
 
 </div>
 
-<div id="outline-container-1-13" class="outline-3">
-<h3 id="sec-1-13">Keynotes</h3>
-<div class="outline-text-3" id="text-1-13">
+<div id="outline-container-5-3" class="outline-3">
+<h3 id="sec-5-3">Thursday 16:35-17:25</h3>
+<div class="outline-text-3" id="text-5-3">
 
 
 </div>
 
-<div id="outline-container-1-13-1" class="outline-4">
-<h4 id="sec-1-13-1">The Joy of Flying Robots with Clojure</h4>
-<div class="outline-text-4" id="text-1-13-1">
+<div id="outline-container-5-3-1" class="outline-4">
+<h4 id="sec-5-3-1">When your only Hammer is a Keyboard, Everything looks like a Tool</h4>
+<div class="outline-text-4" id="text-5-3-1">
+
+
+<p>
+A discussion of how a small team of developers with some big projects
+to do choose and use technology. How we've made technology choices and
+why we chose certain technologies and not others. What we've learned
+from going full polyglot, what we'd do differently in future. How we
+mitigate risk and deliver value in a multi-technology environment. How
+we talk to 'management' about technology choices and the balance
+between autonomy and responsibility.
+</p>
+<p>
+Talk objectives:
+After this talk the audience will:
+</p><ul>
+<li>Understand better how to build and manage systems written in
+  multiple languages.
+
+</li>
+<li>Have a vocabulary to talk about technology choices.
+
+</li>
+<li>Have an improved idea of what technology options are available and
+  how to assess them.
+</li>
+</ul>
+
+
+<p>
+Target audience:
+Developers, architects, sysops/devops and anyone responsible for
+software development and delivery.
+</p>
+<p>
+About Darren
+</p>
+<p>
+Darren (@darrenhobbs) has been working in the software industry for 15
+years. He has written software for search engines, retail POS,
+insurance, banking, warehouse automation and a mobile-phone video
+startup. Always on the lookout for the 'perfect' programming language,
+Darren has tried Java, C#, Perl, Python, Ruby, Smalltalk, Lisp,
+Node.js, Go, Objective-C, Erlang and Haskell.
+</p></div>
+
+</div>
+
+<div id="outline-container-5-3-2" class="outline-4">
+<h4 id="sec-5-3-2">The Programming Language as a Musical Instrument</h4>
+<div class="outline-text-4" id="text-5-3-2">
+
+
+<p>
+The term "programming language" is often used to describe the medium
+we use to build software. However, to what extent can we also consider
+programming languages as interfaces in their own right? Are they
+sufficiently expressive, interactive and dynamic to, say, control a
+musical instrument? What if the programming language was the musical
+instrument? How might that challenge our perception of programming
+language and tools in general. For example, what happens when we
+consider the act of programming as a performance? What might a music
+programming environment which has sufficient liveness, rapid feedback
+and tolerance of failure look like? What benefits would such a style
+of programming offer business? Could live coding be beneficial for
+rapid prototyping, exploring big data sets, and even communicating
+formal business ideas?
+Weaving Immutable Data Structures into Ephemeral Sounds - Conference
+Party
+</p>
+<p>
+Armed with laptops, monomes and number of simple MIDI Kontrollers, we
+harness the full power of the SuperCollider synthesis engine through
+the incredible Overtone platform. We don't just use our laptops to
+tweak GUI sliders and pots, we write raw Clojure code into Emacs live
+in our performances. We also generate real-time visualisations
+perfectly synchronised to the sound with Quil and Shadertone. All the
+code for our sets is open source and available for you to play with:
+Meta-eX Ignite.
+</p>
+<p>
+Live Hacking allows us to generate music on-the-fly enabling us to
+change the direction of the sound and respond to our environment at a
+whim. Our sounds aren't pre-recorded and tweaked on-stage, they're
+coded and generated live in real time. We produce a real raw noise
+rather than manufactured industry-polished pseudo-perfection. Our
+sound isn't hardcore, breakcore or speedcore - it's multi-core and
+fully hyper-threaded.
+</p>
+
+<p>
+About Sam
+</p>
+<p>
+Sam (@samaaron) Sam is interested in domain specific languages, the
+aesthetics of programming languages and the more general concept of
+language oriented programming. He is inspired by people who look
+further afield than the traditional literature to bring powerful new
+ideas and concepts back to the field of computing. As such, he's
+currently performing postdoctoral research at the University of
+Cambridge exploring the combination of low-level efficient real-time
+systems with high-level expressive languages and interfaces towards
+the creation of new systems for the improvisation of music.
+</p></div>
+
+</div>
+
+<div id="outline-container-5-3-3" class="outline-4">
+<h4 id="sec-5-3-3">Tutorial: Google Go - Fast, Lean, Scalable and Fun</h4>
+<div class="outline-text-4" id="text-5-3-3">
+
+
+<p>
+This tutorial will explore Google Go with an emphasis on writing the
+kind of high-productivity code which is typical of dynamically typed
+languages whilst retaining the precise control over runtime
+performance and resource usage that static type checking enables.
+</p>
+<p>
+The treatment will be divided into several sections, starting with an
+introduction to Go's standard toolchain and basic semantics, including
+testing and benchmarking. We'll then venture deeper into Go's type
+system, memory model and CSP-based concurrency.
+</p>
+<p>
+Along the way we'll meet the distinction between reference and value
+types, slices and maps, and the user-defined types which form the
+basis of Go's object model. This will lead naturally to Go's interface
+types and the method-based type inference which forms the basis of
+duck typing.
+</p>
+<p>
+We'll complete our coverage of Go's type system by studying
+first-class functions, closures and goroutines along with the CSP
+concurrency model they support. This will demonstrate that Go is a
+powerful general purpose programming language suited to writing
+flexible, scalable, maintainable applications for modern multi-core
+and distributed environments.
+</p>
+<p>
+Next we'll discuss integrating Go code with existing dynamic libraries
+written in C and at how to directly incorporate C and assembly
+language at compile time.
+</p>
+<p>
+During the course of the tutorial examples will be drawn from a
+variety of topics including virtual machine implementation, iterators
+and advanced memory manipulation.
+</p>
+<p>
+By the end of the tutorial you should have a reasonable grasp of how
+Go stacks up for real-world development and a firm foundation from
+which to explore further.
+</p>
+<p>
+Going Loopy: Iteration in Go
+</p>
+<p>
+Talk Abstract:
+</p>
+<p>
+Go is a statically compiled systems programming language aimed at
+C/C++ developers which draws its inspiration from the low-ceremony of
+popular dynamic languages. It is very easy to learn and particularly
+well-suited to implementing concurrency.
+</p>
+<p>
+Talk Objectives:
+</p>
+<p>
+In this session we'll learn the basic syntax and semantics of the
+language by examining the flexible for{} construct, starting with the
+most basic C-like forms and building through type assertion, closures,
+channels and reflection to demonstrate the basics of generalised
+iteration. Testing and benchmarking will also be covered, imparting
+sufficient knowledge to begin using the language for practical
+development.
+</p>
+<p>
+Target Audience:
+</p>
+<p>
+This talk is suitable for moderately experienced developers and does
+not require any familiarity with Go.
+</p>
+<p>
+About Eleanor
+</p>
+<p>
+London-based hacker Ellie (@feyeleanor) has a passion for the esoteric
+corners of programming stretching back to her misspent teenage years.
+During the course of her career she's worked on mission critical
+systems ranging from avionics to banking security and now devotes her
+time to writing digital romances in Ruby and Go.
+</p>
+<p>
+As a responsible parent she enjoys polyhedral dice, home brewing and
+gothic music.
+</p></div>
+
+</div>
+
+<div id="outline-container-5-3-4" class="outline-4">
+<h4 id="sec-5-3-4">Clojure Core.Async</h4>
+<div class="outline-text-4" id="text-5-3-4">
+
+
+<p>
+Core.Async is a library for asynchronous programming in Clojure. This
+talk will cover the motivation behind the library, and how it can be
+use to decouple subsystems in an application. The discussion will
+start with an overview of the rationale behind the library and then
+move to a brief overview of the implementation. The talk will finish
+with examples given in both Clojure and ClojureScript.
+</p>
+<p>
+Talk Objectives:
+</p>
+<p>
+The goals of this talk are to: a) Introduce core.async, b) explain how
+it can be used to decouple subsystems, c) demonstrate how the library
+can be used to write concise asynchronous code.
+</p>
+<p>
+Target Audience:
+</p>
+<p>
+While beginners will gain much from this talk, it is designed to
+appeal to the more experienced programmer who is looking for methods
+to mitigate the pain caused by asynchronicity in large applications.
+</p>
+<p>
+About Timothy
+</p>
+<p>
+Timothy Baldridge (@timbaldridge) is a developer with Cognitect Inc.
+He hails from the mountain regions of Denver Colorado (USA). Timothy
+is a polyglot programmer with experience in Clojure, C#, Python, and
+Erlang. Most recently he was deeply involved in the development of
+Clojure's Core.Async library, where he designed, implemented, and
+maintains the state-machine code rewriting macro known as "go".
+</p>
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5-4" class="outline-3">
+<h3 id="sec-5-4">Keynotes</h3>
+<div class="outline-text-3" id="text-5-4">
+
+
+</div>
+
+<div id="outline-container-5-4-1" class="outline-4">
+<h4 id="sec-5-4-1">The Joy of Flying Robots with Clojure</h4>
+<div class="outline-text-4" id="text-5-4-1">
 
 
 <p>
@@ -1775,9 +2276,9 @@ hacking on her Roomba and AR Parrot Drone.
 
 </div>
 
-<div id="outline-container-1-13-2" class="outline-4">
-<h4 id="sec-1-13-2">50 Shades of Green (with José Valim)</h4>
-<div class="outline-text-4" id="text-1-13-2">
+<div id="outline-container-5-4-2" class="outline-4">
+<h4 id="sec-5-4-2">50 Shades of Green (with José Valim)</h4>
+<div class="outline-text-4" id="text-5-4-2">
 
 
 <p>
