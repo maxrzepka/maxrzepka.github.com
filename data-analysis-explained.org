@@ -1,6 +1,6 @@
 #+TITLE: Data Analysis Explained While Kaggling
 #+DESCRIPTION: Data Analysis Explained While Kaggling
-#+KEYWORDS:
+#+KEYWORDS: python numpy datascience svm
 #+LANGUAGE:  en
 # -*- org-export-html-postamble:t; -*-
 #+OPTIONS:   H:3 num:nil creator:nil timestamp:nil
