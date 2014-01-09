@@ -1,0 +1,1849 @@
+#+TITLE:     Sur la toile
+#+OPTIONS:   H:3 num:nil creator:nil timestamp:nil toc:1
+#+STYLE: <link rel="stylesheet" type="text/css" href="toread.css" />
+
+* Work
+** http://www.psychologicalscience.org/index.php/publications/observer/2010/april-10/improving-classroom-performance-by-challenging-student-misconceptions-about-learning.html
+** Easier Decision-Making: Conduct Experiments By Leo Babauta http://zenhabits.net/test
+** The science of time perception: stop it slipping away by doing new things http://blog.bufferapp.com/the-science-of-time-perception-how-to-make-your-days-longer
+** Buufer : A blog about productivity, life hacks, writing, user experience, customer happiness and business. http://blog.bufferapp.com/
+** 27 Productivity Tips & Lifehacks from the Pros http://contactzilla.com/blog/27-productivity-tips-lifehacks-from-the-pros/
+** The Top 5 Questions A Data Scientist Should Ask During a Job Interview http://datacommunitydc.org/blog/2013/07/the-top-n-questions-every-budding-data-scientist-should-ask-during-a-job-interview/
+** coworking http://www.copass.org/ https://goodcoworking.com/
+** series of articles about the challenges of growing an organization http://mdzlog.alcor.net/2013/06/20/scaling-human-systems-organizational-design-and-growth/
+** Record Your Terminal Share it with no fuss http://ascii.io/
+** About concentrating http://www.howtogetfocused.com/chapters/8-things-everybody-ought-to-know-about-concentrating
+** The Importance of Scheduling Nothing by Jeff Weiner CEO at LinkedIn http://www.linkedin.com/today/post/article/20130403215758-22330283-the-importance-of-scheduling-nothing
+** The tech industry is a meritocracy. We hire people based on their skills alone. http://aphyr.com/posts/275-meritocracy-is-short-sighted
+** Your life is too short and too valuable to fritter away in work. http://www.brainpickings.org/index.php/2012/12/14/how-to-avoid-work/
+** how to increase productivity with evernote http://trunk.evernote.com/en
+** http://les-ressources-du-changement.fr/les-4-piliers-dune-confiance-en-soi-permanente/
+** http://blog.zololabs.com/2012/10/16/the-10-secrets-that-make-networking-easy-fun-and-ridiculously-effective/
+You have to earn the right to be heard about what you do and what you want to accomplish.
+People really don’t care about what you do until they know that you care about what they do.
+Secret #1: Assume the burden of other people’s discomfort
+Secret #2: Give and expect nothing in return
+Secret #3: Be proud of who you are
+Secret #4: Compliment early and often
+Secret #5: Look for common ground immediately
+Secret #6: Tap your sphere of influence cautiously
+Secret #7: Do not keep your personal and professional lives separate
+Secret #8: Pull—never push
+Secret #9: Include social media into your networking
+Secret #10: Lose control of your marketing
+** Tips and tricks for conf attendee
+If a hallway conversation stalls, ask what they're working on. Discover the project they're passionate about.
+@chrishouser
+
+1. take notes in Emacs/Vim/etc.
+2. meet people and go to the evening events and such to have good conversations.
+@Baranosky
+
+It helps tremendously to read up on the topics before a presentation, so that you aren't entering cold.
+@AustinTHaas
+
+take notes. revisit the notes. read them again. then write about them.
+@darevay
+
+My two rules: leave the laptop at hotel and introduce yourself to everyone. It opens so many doors to learning.
+@jackdanger
+
+the talks will be great, but the hallway conversations are better.
+be aggressive about meeting people. Take advantage of the face time.
+@jimduey
+
+Talk to people about the presentations during the breaks. Meeting people is the most rewarding part.
+@ericnormand
+** The Patent Protection Racket http://www.joelonsoftware.com/items/2013/04/02.html
+** Hirel like starts up http://blogs.hbr.org/cs/2013/05/to_attract_new_grads_hire_like.html
+* Agile
+** TDD, where did it all go wrong? https://groups.google.com/forum/#!topic/growing-object-oriented-software/Hxp8cVfE4gI
+** A Flexible Git Workflow For Teams http://blog.buildbettersoftware.com/post/55281071972/a-flexible-git-workflow-for-teams
+** Two months without Twitter http://bjeanes.com/2013/05/two-months-without-twitter
+** 3 approaches to do remote pairing http://blog.cloudcitydevelopment.com/2013/05/22/three-approaches-to-remote-pair-programming-draft/
+** The easiest way to teach yourself C++ in 21 days http://abstrusegoose.com/249
+** Estimates in Software Development. New Frontiers. http://agile.dzone.com/articles/estimates-software-development
+** mumble Low-latency, high-quality voice communication for gamers http://mumble.sourceforge.net/
+http://gspadmin.com/how-tos/voice-servers/how-to-install-mumble-linux/
+** property-based testing http://blog.jessitron.com/2013/04/property-based-testing-what-is-it.html
+Writing tests first forces you to think about the problem you're solving. Writing property-based tests forces you to think way harder.
+** pairing experience http://stevenjackson.github.com/2013/02/09/pairing/
+** Know your next commit http://programmer.97things.oreilly.com/wiki/index.php/Know_Your_Next_Commit
+** Gerrit web based code review system https://code.google.com/p/gerrit/ 
+** gerrit better than github http://julien.danjou.info/blog/2013/rant-about-github-pull-request-workflow-implementation
+* devops
+** Marelle logic programming (prolog) for devops  http://quietlyamused.org/blog/2013/11/09/marelle-for-devops/
+** Pull Requests Maintainers Won't Hate http://www.booleanknot.com/blog/2013/09/07/pull-requests.html
+** A Ruby JMX Feed for Riemann http://ianrumford.github.io/blog/2013/01/15/a-ruby-jmx-feed-for-riemann/
+** First Steps Using Pallet, VMFest and VirtualBox (VBox) 4.2 http://ianrumford.github.io/blog/2012/10/24/first-steps-using-pallet-with-vmfest-and-virtualbox-4-dot-2/
+** openstack thoughts by Alex Gaynor http://alexgaynor.net/2013/jul/11/thoughts-openstack/
+** expert panel of guests to discuss DevOps and Continuous Delivery leveraging Cloud http://expertintegratedsystemsblog.com/index.php/2013/06/opinionated-infrastructure-devops-and-continuous-delivery-leveraging-cloud
+** openstack university http://buildacloud.org/blog/259-cloudstack-university.html http://www.youtube.com/playlist?list=PLb899uhkHRoZCRE00h_9CRgUSiHEgFDbC 
+http://www.youtube.com/user/DIYCloudComputing
+** cloudmonkey : command line interface for Apache CloudStack  http://rohityadav.in/logs/cloudmonkey/
+** OpenStack, Puppet used to build cloud for world's largest particle accelerator. http://arstechnica.com/information-technology/2013/05/150000-cloud-virtual-machines-will-help-solve-mysteries-of-the-universe
+** Mohs’ law  hadoop is hard https://rsts11.wordpress.com/2013/05/14/mohs-law-and-big-data-rsts11/
+** SaaS reflections http://nosql.mypopescu.com/post/50474394560/this-is-why-big-data-is-the-sweet-spot-for-saas-and
+** stackato compared to cloudfoundry http://www.activestate.com/stackato/compare-with-cloud-foundry
+** The Cloudcast: From DevOps to Private PaaS http://architects.dzone.com/articles/cloudcast-devops-private-paas
+** devopsDays London 2013 http://scribes.tweetscriber.com/RealGeneKim/114
+** openstack EPEL http://fedoraproject.org/wiki/Getting_started_with_OpenStack_EPEL
+** Cloud foundry open PAAS http://de.slideshare.net/chanezon/cloud-foundry-the-open-platform-as-a-service
+** Ansible is the easiest way to deploy, manage, and orchestrate computer systems you've ever seen http://ansible.cc/
+** virtiual machine with pallet : vmfest https://gist.github.com/tbatchelli/867526 https://github.com/pallet/vmfest-playground
+https://github.com/pallet/pallet-vmfest
+** logging solutions http://www.miyagijournal.com/articles/five-steps-application-logging/
+** dotcloud https://www.dotcloud.com/static/paas_under_the_hood_printversion.pdf
+** http://www.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/
+** Monitoring setup of amara (riemann , graphite better than nagios) http://labs.amara.org/2012-07-16-metrics.html
+** riemann video http://vimeo.com/45807716
+** list of  monitoring tools http://blog.lusis.org/blog/2012/06/05/monitoring-sucking-just-a-little-bit-less/  https://github.com/monitoringsucks/tool-repos
+
+** deploy clojure with capistrano http://coffeenco.de/articles/how_to_deploy_clojure_code.html
+** comparison config management puppet chef pallet http://java.dzone.com/articles/comparing-flavors-config http://bitfieldconsulting.com/puppet-vs-chef
+** puppet webtuesday http://webtuesday.ch/meetings/20130108/
+** puppet + jenkins http://mig5.net/content/testing-puppet-jenkins-deploying.html
+** configuration with clj https://github.com/sonian/carica  https://github.com/weavejester/environ
+Two ways: one is to use .clj data files on the classpath and take
+advantage of the fact that different profiles put different resources
+directories on the classpath. This is the approach taken by Carica
+(https://github.com/sonian/carica) and works great if you have complex
+config with nested values.
+
+The other approach is to use environment variables; the best tool for
+that is Environ: https://github.com/weavejester/environ
+** bug tracker https://github.com/ragnard/clj-squash with squash
+** http://logstash.net/ better than splunk ? send data to graphite , librato , gnaglia or graylog ?
+** deploy made easy http://docs.vagrantup.com/v1/docs/getting-started/index.html
+** http://www.niclas-meier.de/2013/02/bootstrapping-ec2-servers-with-puppet/
+* innovation
+** Big Data : nouvelle étape de l’informatisation du monde http://www.internetactu.net/2013/05/14/big-data-nouvelle-etape/
+** converstion with Alan Kay http://queue.acm.org/detail.cfm?id=1039523
+** Education http://www.sophia.org/online-courses-tutorials
+** http://memeburn.com/2013/04/computer-pioneer-alan-kay-silicon-valley-is-running-out-of-innovation-video/
+* design
+** http://www.servicedesigntools.org/
+** Pattern Matemorphosis http://www.behance.net/gallery/Pattern-Metamorphosis/9737427
+* hardware
+** [Kultpfunzel: Kult=cult. Funzel=dim light.] macht hell & ist hackable http://kultpfunzel.ch/
+** clj on raspberry pi by @gonzih http://blog.gonzih.me/blog/2013/04/14/clojure-on-raspberry-pi-openjdk-vs-oracle-java-8/
+** school for poetic computation  http://sfpc.io/index.html
+** A Hardware Accelerated Regular Expression Matcher http://bkase.github.io/CUDA-grep/finalreport.html
+** How-to build your own GPS Receiver http://www.holmea.demon.co.uk/GPS/Main.htm
+ASM Embedded CPU FORTH
+Verilog Spartan 3 FPGA
+C++ Raspberry Pi
+** Fablab
+*** Fablab Boombox http://fab.cba.mit.edu/classes/863.11/people/matthew.keeter/fab_boombox/ http://fab.cba.mit.edu/content/projects/boombox/ 
+*** fablab class http://fab.cba.mit.edu/classes/MAS.863/
+*** fablab makezine http://makezine.com/2012/01/02/fab-lab-boombox/
+** Dual Boot Windows/Android 2.2 Tablet Straight Out Of Shenzhen http://www.gizchina.com/2011/03/18/dual-boot-windowsandroid-22-tablet-straight-shenzhen/
+** Tablet billiger : alpentab odys http://tablet-billiger.com/products-page/odys-13-zoll/odys-aeon-android-4-1-133zoll-15ghz/
+** Tech Preis Vergleich http://www.heise.de/preisvergleich
+** AI / Robots
+*** nao robot with clojure http://nakkaya.com/2010/04/26/simple-robocup-simspark-agent-in-clojure/
+* linux
+** eurosport on linux http://johnthelutheran.tumblr.com/post/174706307/eurosport-on-linux
+** delete from line 3 up to and including first blank line: sed 3,/^$/d filename
+** Bash part 3 : all about redirections http://www.catonmat.net/blog/bash-one-liners-explained-part-three/
+** Major Linux Vs UNIX Kernel Differences http://www.thegeekstuff.com/2012/01/linux-unix-kernel/
+** mutt 
+*** gmail setup 
+http://lifehacker.com/5574557/how-to-use-the-fast-and-powerful-mutt-email-client-with-gmail
+http://www.jlime.com/wiki/documentation/user/general/howtos/gmail_mutt
+http://7h0ma5.org/2010/12/gmail-mutt-imap/
+*** usage
+http://www.techrepublic.com/blog/opensource/my-number-one-reason-to-use-mutt-managing-multiple-profiles/3113
+http://bouliiii.blogspot.it/2012/02/mutt-and-auto-complete.html
+http://bouliiii.blogspot.it/2012/02/mutt-and-auto-complete.html
+http://sheet.shiar.nl/mutt
+** sed one liners http://www-rohan.sdsu.edu/doc/sed.html
+** Read-only Guest tmux Sessions http://brianmckenna.org/blog/guest_tmux
+** cli for monitoring http://net.tutsplus.com/tutorials/15-command-line-tools-for-monitoring-linux-systems/
+** Latex on the moon https://www.writelatex.com/ https://www.sharelatex.com/ http://jasalguero.com/ledld/general/latex-on-the-cloud/http://www.cstr.ed.ac.uk/projects/festival/
+** TextToSpeech https://help.ubuntu.com/community/TextToSpeech
+** Festival TextToSpeech  http://www.cstr.ed.ac.uk/projects/festival/
+** FEstival To build own voice http://festvox.org/
+** Festival TTS for polish http://nshmyrev.blogspot.fr/2009/08/release-of-polish-voice-for-festival.html
+** http://www.thegeekstuff.com/tag/sed-tips-and-tricks/
+** find http://www.eriwen.com/productivity/find-is-a-beautiful-tool/
+** xmonad explained http://www.youtube.com/watch?v=63MpfyZUcrU
+** book on zsh http://www.bash2zsh.com/
+**  http://everythingsysadmin.com/2012/09/unorthodoxunix.html
+    - grep . *.txt
+    - more * | cat
+    - "fmt -1" (split lines into individual words)
+    -  gnt-job list | egrep --color=always 'running|waiting'
+** linux performance http://insidehpc.com/2013/03/02/video-brendan-gregg-presents-on-linux-performance-analysis-and-tools/
+* networks
+** Source Multiplayer Networking for multi-players games https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking
+** IRC commands http://www.ircbeginner.com/ircinfo/ircc-commands.html connect ot IRC http://irc.lc/freenode/
+** Programming Distributed Computing Systems A Foundational Approach By Carlos A. Varela https://mitpress.mit.edu/books/programming-distributed-computing-systems
+** localize IP address http://www.maxmind.com/en/news_localizaton 
+** network neutrality http://neubot.org/ http://en.wikipedia.org/wiki/Neubot http://data.neubot.org/ http://www.measurementlab.net/fr
+** The network is reliable by aphyr http://aphyr.com/posts/288-the-network-is-reliable
+** RICON East 2013 review https://gist.github.com/hectcastro/186e567830fe131a1ef1
+** safety liveness http://www.bailis.org/blog/safety-and-liveness-eventual-consistency-is-not-safe/
+** http://www.cubrid.org/blog/dev-platform/understanding-tcp-ip-network-stack/
+** protobuff faster http://kentonv.github.com/capnproto/
+** network partition http://damienkatz.net/2013/05/dynamo_sure_works_hard.html
+ Amazon Dynamo Paper. It has some very interesting concepts, but ultimately fails to provide a good balance of reliability, performance and cost.
+
+* Web Dev
+** angularjs
+*** angularjs blig  http://codingsmackdown.tv/blog/tag/angularjs/
+http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/
+** Static sites are fast, secure, easy to deploy, and manageable using version control http://jaspervdj.be/hakyll/
+** REST in practice http://de.slideshare.net/guilhermecaelum/rest-in-practice
+** html
+*** The Story of the Teapot in DHTML http://queue.acm.org/detail.cfm?id=2436698
+*** native HTML dropdowm http://css.dzone.com/articles/making-html-dropdowns-not-suck
+** css
+*** Animation of How CSS Triangles Work http://css-tricks.com/animation-css-triangles-work/
+*** Absolute Horizontal And Vertical Centering In CSS By Stephen Shaw http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/
+*** color brewer http://bl.ocks.org/mbostock/5577023
+*** css with less for a better HTML / CSS dev http://www.lispcast.com/cascading-separation-abstraction
+*** 22 css frameworks http://designshack.net/articles/css/which-is-right-for-me-22-responsive-css-frameworks-and-boilerplates-explained/
+** Landing Page Design http://blog.hubspot.com/principles-of-conversion-centered-landing-page-design
+** Extending REST APIs with API Aggregator http://3scale.github.io/2013/04/18/accelerate-your-mobile-api-with-nginx-and-lua/
+** check elm-lang presentation
+** erlang web framework : ezwebframe
+** aloha https://github.com/ztellman/aloha webserver on top of netty
+** benchmarks on async http server https://github.com/ptaoussanis/clojure-web-server-benchmarks
+** https://github.com/shenfeng/http-kit clj web server used by http://rssminer.net/
+** https://github.com/shenfeng/async-ring-adapter on top of Netty
+** check https://github.com/xavi/noir-auth-app for authtentification https://groups.google.com/forum/?fromgroups=#!topic/enlive-clj/mR8rnmCi5_Y
+** REST guidance http://blog.mugunthkumar.com/articles/restful-api-server-doing-it-the-right-way-part-1/
+** http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-better-front-end-engineer-in-2013
+** slides in HMTL5 http://www.htmlfivewow.com/
+** Reactive Demand Programming (RDP) http://awelonblue.wordpress.com/2012/10/21/local-state-is-poison/ https://github.com/dmbarbour/Sirea
+** complete web site example clojars https://github.com/ato/clojars-web
+** web deploy with jetty + lein https://groups.google.com/forum/?fromgroups=#!topic/clojure/lNvdKzbhPDY
+** friend + openid https://groups.google.com/forum/?fromgroups=#!topic/clojure/g35bhIpQ3ME
+** friend screencast http://www.clojurewebdevelopment.com/videos/friend-interactive-form
+** web reload https://groups.google.com/forum/?fromgroups=#!topic/clojure/WlSMwIQ_yHU
+** page landing http://en.wikipedia.org/wiki/Landing_page
+** headless web testing with Gecko https://github.com/laurentj/slimerjs
+* search
+** https://github.com/sonian/elasticsearch-jetty
+** distributed programming
+*** strong eventual consistency http://pagesperso-systeme.lip6.fr/Marc.Shapiro/pubs.html
+*** Call me maybe Series by Aphyr : zookeeper kafka cassandra nuaDB http://aphyr.com/posts/291-call-me-maybe-zookeeper
+*** Distributed systems in GO http://da-data.blogspot.ch/2013/02/teaching-distributed-systems-in-go.html
+
+* programming
+** Learn [clojure|elixir|go|haskell|...] in Y minutes http://learnxinyminutes.com/
+** Type System
+*** Moand Transformers http://functionaltalks.org/2013/10/27/tony-morris-monad-transformers/
+*** clj core.type / haskell http://adambard.com/blog/core-typed-vs-haskell/
+*** static typing http://scientopia.org/blogs/goodmath/2013/01/20/static-typing-give-me-a-break/ http://brehaut.net/blog/2013/static_types
+** Free books on Computer Science by  @okalotieno http://hackershelf.com/browse/
+** The Original 'Lambda Papers' by Guy Steele and Gerald Sussman http://library.readscheme.org/page1.html
+** The Anti-Human Consequences of Static Typing by  Jay McCarthy http://jeapostrophe.github.io/2013-08-12-types-post.html
+** Teach Yourself Programming in Ten Years http://norvig.com/21-days.html
+** Python compared to Ocaml Haskell http://roscidus.com/blog/blog/2013/06/20/replacing-python-round-2/
+** Name your arguments by Jamie Wong http://jamie-wong.com/2011/11/28/name-your-arguments/
+** Learnable Programming : Designing a programming system for understanding programsBret Victor http://worrydream.com/LearnableProgramming/
+** Part of a series exploring  Concepts, Techniques, and Models of Computer Programming. http://michaelrbernste.in/2013/06/20/what-is-declarative-programming.html
+** The Definitive Reference To Why Maybe Is Better Than Null (error handling) http://nickknowlson.com/blog/2013/04/16/why-maybe-is-better-than-null/
+** Scala vs. Haskell vs. Python http://blog.samibadawi.com/2013/02/scala-vs-haskell-vs-python.html
+** Bertrand Meyer's blog http://bertrandmeyer.com/
+** What does FP mean http://dl.dropboxusercontent.com/u/7810909/docs/what-does-fp-mean/what-does-fp-mean/html/index.html
+** fundamentals of OO coding http://blog.learnstreet.com/fundamentals-of-coding/
+** tern : editor-independent static analysis engine in javascript http://ternjs.net/ http://marijnhaverbeke.nl/blog/tern.html
+** VM optimizations http://blog.headius.com/2013/05/on-languages-vms-optimization-and-way.html
+** Go and Rust — objects without class http://lwn.net/Articles/548560/
+** Bloom language http://www.bloom-lang.net/ Testing distributed systems by Neil Conway
+Design patterns -> theorems -> Language & tool support
+"When I see patterns in my programs, I consider it a sign of
+trouble... a sign that I'm not using abstractions that aren't enough powerful" Paul Graham
+Consistency As Logical Monotinicity 
+** Brian McKenna blog http://brianmckenna.org/blog/
+** Building a Lisp to Javascript compiler http://honza.ca/2013/05/building-a-lisp-to-javascript-compiler
+** Turing complete http://en.wikipedia.org/wiki/Turing_completeness
+The notion of Turing-completeness does not apply to languages such as
+XML, JSON, YAML and S-expressions, because they are typically used to
+represent structured data, not describe computation. 
+** The fruits of misunderstanding by prof.dr.Edsger W.Dijkstra http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD854.html
+How anthropomorphism and analogies make concepts in computer programming harder to understand:
+** My growing Lisp book collection @reddit http://www.reddit.com/r/lisp/comments/1d4zv6/my_growing_lisp_book_collection/
+** http://stackoverflow.com/questions/432922/significant-new-inventions-in-computing-since-1980
+** http://en.wikipedia.org/wiki/Computational_geometry
+** http://scientopia.org/blogs/goodmath/2013/01/20/static-typing-give-me-a-break/
+** A Glimpse of the Future of Scientific Programming http://bit.ly/15yeIjw
+http://www.computer.org/portal/web/computingnow/content?g=53319&type=article&urlTitle=a-glimpse-of-the-future-of-scientific-programming&lf1=267408692c637116407312f6779968
+**  http://cstheory.stackexchange.com/questions/1168/what-papers-should-everyone-read
+** monads in OO http://ericlippert.com/2013/02/25/monads-part-two/
+** blog http://eng.42go.com/
+ http://eng.42go.com/pattern-matching-in-scala/
+http://eng.42go.com/a-simple-time-decaying-approximate-membership-filter/
+** density succinct http://blog.josephwilk.net/software-craftmanship/the-aesthetics-of-density.html
+** style guide https://google-styleguide.googlecode.com/svn/trunk/ watch Norvig videos http://www.lispcast.com/google-common-lisp-style-guide
+** http://www.infoq.com/interviews/erik-meijer-programming-language-design-effects-purity
+   Erlang has very cheap threads now you can use concurrency as a control structure  very close to object oriented programming and dynamic dispatch.
+   what the Reactive framework is, it’s just the continuation monad ...  it is the observer observable is the dual of enumerable enumerator
+** concatenative (applicative) programming http://blog.fogus.me/2013/01/06/pesto5-a-concatenative-programming-library-in-5-lines-of-clojure/
+** interview of Alan Kay http://www.drdobbs.com/architecture-and-design/interview-with-alan-kay/240003442
+** shen language in clojure https://github.com/hraberg/shen.clj http://www.shenlanguage.org/learn-shen/tutorials/shen_in_15mins.html#shen-in-15mins
+** Joe Armstrong on languages http://www.codewiz51.com/blog/post/2013/01/24/Post-from-John-Armstrong-inventor-of-Erlang.aspx
+What would I recommend learning?
+
+    - C
+    - Prolog
+    - Erlang (I'm biased)
+    - Smalltalk
+    - Javascript
+    - Hakell / ML /OCaml
+    - LISP/Scheme/Clojure
+
+A couple of years should be enough (PER LANGUAGE).
+
+Notice there is no quick fix here - if you want a quick fix go buy "learn
+PHP in ten minutes"
+and spend the next twenty years googling for "how do I compute the length
+of a string"
+
+The crazy think is we still are extremely bad at fitting things together -
+still the best
+way of fitting things together is the unix pipe
+
+    find ... | grep | uniq | sort | ...
+
+and the *fundamental* reason for this is that components should be separated
+by well-defined protocols in a universal intermediate language.
+
+Fitting things together by message passing is the way to go - this is basis
+of
+OO programming - but done badly in most programming languages.
+
+If ALL applications in the world were interfaced by (say) sockets + lisp S
+expressions
+and had the semantics of the protocol written down in a formal notation -
+then we could
+reuse things (more) easily.
+
+Today there is an unhealthy concentration on language and efficiency and
+NOT on how things fit together and protocols - teach protocols and not
+languages.
+
+And teach ALGORITHMS.
+** rust http://www.rust-lang.org/ http://static.rust-lang.org/doc/tutorial.html
+Rust is a curly-brace, block-structured expression language.
+It visually resembles the C language family, but differs significantly in syntactic and semantic details.
+Its design is oriented toward concerns of “programming in the large”,
+that is, of creating and maintaining boundaries – both abstract and operational – that preserve large-system integrity, availability and concurrency.
+It supports a mixture of imperative procedural, concurrent actor, object-oriented and pure functional styles.
+Rust also supports generic programming and metaprogramming, in both static and dynamic styles.
+*** http://brson.github.com/2013/02/02/redesigning-the-rust-runtime/
+** Learning How To Learn Programming http://michaelrbernste.in/2013/02/23/notes-on-teaching-with-the-kernel-language-approach.html
+from Van Roy and Haridi's book
+** data parallezisation : incremental datalog computation http://research.microsoft.com/en-us/projects/naiad/
+http://channel9.msdn.com/posts/Frank-McSherry-Introduction-to-Naiad-and-Differential-Dataflow
+Naiad is an investigation of data-parallel dataflow computation in
+the spirit of Dryad and DryadLINQ, but with a focus on incremental
+computation. Naiad introduces a new computational model, differential
+dataflow, operating over collections of differences rather than
+collections of records, and resulting in very efficient
+implementations of programming patterns that are expensive in existing
+systems.
+
+var text.SelectMany(x => x.Split(' '))
+        .Count(y => y, (k, c) => k " : " c)
+        .subscribe(l => {foreach (var element in l) Console.writeLine(element)})
+
+** concurrency / parallelism http://www.maymounkov.org/clash-concurrency-parallelism-practice
+Concurrency is a property of the algorithm that you are designing.
+It determines which parts of your data-processing logic are intrinsically independent (under all inputs and circumstances).
+
+Parallelism is a property of the realization of your algorithm.
+This is not your source code, but the final executable or — even more abstractly — the behavior of your program when executed.
+** ioke folding language http://ioke.org/ http://sam.aaron.name/2010/03/29/conway-s-game-of-life-in-ioke.html
+* creative coding
+** Image manipulation
+*** Dither effect http://gmic.sourceforge.net/
+
+A dithering effect with it:
+http://gmic.sourceforge.net/slides/res_039.jpg
+http://sourceforge.net/mailarchive/forum.php?thread_name=352429786.899012.1288825011855.JavaMail.root%40sz0023a.westchester.pa.mail.comcast.net&forum_name=graphicsmagick-help
+** animation
+*** dessin animé http://www.youtube.com/watch?feature=player_embedded&v=yJZx99-lSnc how to do it ?
+*** codelife - glsl live-coding editor test #5 http://vimeo.com/51993089
+*** https://www.shadertoy.com/view/lsl3zr
+*** http://www.hakantuzunsengun.com/index.php/work/doubt-is-better/
+*** minimum games maximum fun http://www.java4k.com/index.php?action=home
+** Julia Buntaine‘s artwork provides conceptual footholds for issues in neuroscience http://thebeautifulbrain.com/2013/07/interview-julia-buntaine/
+** http://weavesilk.com/
+** http://www.catodo.net/
+**  IMPULSTANZ festival https://vimeo.com/44812164 http://www.impulstanz.com/
+** Fork Bomb http://jaromil.dyne.org/journal/forkbomb_art.html
+**  phenomenon of creative computing http://10print.org/
+** creator of Processing : Casey Reas http://reas.com/
+** Processing 
+*** OpenCV for processing http://urbanhonking.com/ideasfordozens/2013/07/10/announcing-opencv-for-processing/ https://github.com/atduskgreg/opencv-processing
+*** hardware : kinect (detect human motion windows-based) arduino, touchOSC, Monome, Leap motion ()
+*** Leap motion https://www.leapmotion.com/ 
+*** Generative Art Matt Pearson. / Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction Daniel Shiffman.
+*** Algorithms for Visual Design Using the Processing Language Kostas Terzidis
+* concurrency
+** Adopting Ideas from Erlang and Clojure for a Highly Concurrent, Simple and Maintainable Application http://blog.paralleluniverse.co/post/64210769930/spaceships2
+** Locks Actors STM http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
+** RiconEast distributed system http://www.jkemp.net/blog/review-ricon-east/
+** Parallelism and concurrency need different tools http://www.yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html
+** Erlang (and Go) in Clojure (and Java) http://blog.paralleluniverse.co/post/49445260575/quasar-pulsar
+https://github.com/puniverse/pulsar
+** great explanation of concurrency concepts in clojure http://www.youtube.com/watch?v=wASCH_gPnDw at the End
+   - CAS semantics : Atom
+   - Coordinated change inside a transaction : ref
+** go in clojure http://thornydev.blogspot.fr/2013/01/go-concurrency-constructs-in-clojure4.html
+** http://blog.jayfields.com/2013/02/synchronizing-snapshots-and.html
+* probabilistic programming
+** Church Intro http://videolectures.net/aaai2012_tenenbaum_grow_mind/
+** probabilitic programming in clojure by Nils Bertschinger bertschi@mis.mpg.de https://github.com/bertschi/ProbClojureNice
+https://groups.google.com/forum/?fromgroups=#!topic/clojure/9NhsFga4D9s
+
+* haskell
+** Conquering Folds by Edward Kmett https://www.fpcomplete.com/user/edwardk/conquering-folds
+** data science in Haskell http://izbicki.me/blog/category/computer-science/haskell/hlearn
+** The polar game in haskell : code commented http://praisecurseandrecurse.blogspot.fr/2013/07/the-polar-game-in-haskell-day-5-12.html
+** compiler https://github.com/dfeltey/CompilersFromScratch
+http://sebfisch.github.io/haskell-regexp/
+http://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/
+http://www.mpi-sws.org/~turon/re-deriv.pdf
+http://matt.might.net/articles/cek-machines/
+http://www.cs.tufts.edu/~nr/cs257/archive/doaitse-swierstra/combinator-parsing-tutorial.pdf
+The parsing library for this workshop follows the implementation of
+the basic combinators in the above paper.
+http://www.brics.dk/RS/03/14/BRICS-RS-03-14.pdf
+The CEK machine built in this workshop is based on the derivation in
+the above paper, extended with printing, if statements, and binary operations.
+** some bloggers : http://donsbot.wordpress.com/  http://blog.ezyang.com/
+** Haskell from C: Where are the for Loops? https://www.fpcomplete.com/blog/2013/06/haskell-from-c
+** lenses http://www.haskellforall.com/2013/05/program-imperatively-using-haskell.html https://www.fpcomplete.com/school/pick-of-the-week/basic-lensing
+** haskell code review http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up
+** School of Haskell https://www.fpcomplete.com/
+** Beautiful concurrency https://www.fpcomplete.com/user/simonpj/beautiful-concurrency
+** HTML http://adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
+** anatomy of programming language http://www.cs.utexas.edu/~wcook/anatomy/anatomy.pdf
+** Thompson book http://www.cs.kent.ac.uk/people/staff/sjt/craft2e/
+** Programming in Haskell, Graham Hutton http://www.cs.nott.ac.uk/~gmh/book.html
+** blog http://www.haskellforall.com/
+comonad and OO Design pattern http://www.haskellforall.com/2013/02/you-could-have-invented-comonads.html
+ http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html
+
+** type http://www.haskell.org/haskellwiki/Typeclassopedia
+* c#
+** Top10 count words in LINQ  http://scottchamberlin.tumblr.com/post/55152416452/linqinterview
+* go
+**  http://dehora.net/journal/2013/06/01/on-go/
+** The examples from Tony Hoare's seminal 1978 paper "Communicating sequential processes" implemented in Go. http://godoc.org/github.com/thomas11/csp
+** Go introduction http://cowlark.com/2009-11-15-go/
+** Rob Pike Why Go is boring http://www.infoq.com/presentations/Go-Google
+* python
+** 3D plot wth Matplotlib  http://jakevdp.github.io/blog/2013/07/10/XKCD-plots-in-matplotlib/
+** Learn Python The Hard Way http://learnpythonthehardway.org/book
+** python data structures tutorial http://net.tutsplus.com/tutorials/advanced-python-data-structures/
+** recognizing numbers http://www.johndcook.com/blog/2013/04/30/recognizing-numbers/
+>>> from sympy import *
+>>> nsimplify(4.242640687119286)
+3*sqrt(2)
+** python and panda top 10 http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
+** redo: a top-down software build system https://github.com/apenwarr/redo
+** Writing clean, testable, high quality code in Python http://www.ibm.com/developerworks/aix/library/au-cleancode/
+* scala
+** Java to Scale Cheatsheet http://techblog.realestate.com.au/java-to-scala-cheatsheet/
+** Applicatives are too restrictive, breaking Applicatives and introducing Functional Builders http://sadache.tumblr.com/post/30955704987/applicatives-are-too-restrictive-breaking-applicatives
+** Composing Type classes http://scalapenos.com/2013/07/11/composing-type-classes.html 
+** Designing scala librairies (slides) http://scalapenos.com/2013/04/26/scala-presentation.html
+** Ztream is POC P2P-assisted Web music streaming built with WebRTC, Media Source API, AngularJS, Play, ReactiveMongo http://ztream.atamborrino.cloudbees.net/
+**  easy to write MapReduce jobs in Hadoop on top of cascading https://github.com/twitter/scalding/wiki
+** Gabbler, a Reactive Chat App – part 2 by hseeberger http://hseeberger.github.io/blog/2013/07/10/gabbler-part2/
+** Abstract Algebra for Scala https://github.com/twitter/algebird
+ approximate set size (in much less memory with HyperLogLog), approximate item counting (using CountMinSketch)
+** Play angularjs elasticsearch http://responsiblysourced.wordpress.com/2013/07/08/reactive-real-time-log-search-with-play-akka-angularjs-and-elasticsearch/
+** scala event sourcing http://jonasboner.com/2009/02/12/event-sourcing-using-actors/
+** Jscala blog 
+** Twitter-server http://twitter.github.io/twitter-server/
+** Odersky Talk Devoox Paris 2013 http://parleys.com/play/51704efce4b095cc56d8d4b5/chapter0/about
+http://cdn.parleys.com/p/51704efce4b095cc56d8d4b5/51700fa4a360c_1366298459509.pdf
+** Hack scala CLI http://dev.bizo.com/2013/04/scala-command-line-hacks.html
+** Programmer Fast Track in Atomic Scala book http://www.atomicscala.com/
+* javascript
+** Roundup of HTML-Based Slide Deck Toolkits http://www.impressivewebs.com/html-slidedeck-toolkits/
+   - fathomjs http://markdalgleish.com/projects/fathom/
+   - csss
+   - 5lide
+   - reveal.js 
+   - slidedown http://nakajima.github.com/slidedown/#0
+   - impressjs (inspired by prezi.com)
+   - dzslides 
+   - jmpressjs http://jmpressjs.github.io/jmpress.js/examples/automatic-layout/
+** json editor http://jsonlint.com/
+** angularjs
+*** angular-js tips http://joelhooks.com/blog/2013/05/22/lessons-learned-kicking-off-an-angularjs-project/
+*** angularjs for big apps http://briantford.com/blog/huuuuuge-angular-apps.html
+*** http://blog.appfog.com/angularjs-the-beauty-of-concision/
+*** http://angular-tips.com/blog/2013/08/why-does-angular-dot-js-rock/
+** deploy JS apps http://alexsexton.com/blog/2013/03/deploying-javascript-applications/
+** JavaScript Library for Mobile-Friendly Interactive Maps http://leafletjs.com/
+** Editor scripted https://github.com/scripted-editor/scripted
+http://blog.cloudfoundry.org/2012/10/11/using-the-new-scripted-javascript-editor-for-node-js-development/
+* Algo
+** Dijkstra's Algorithm as a Sequence (clojure implementation) http://hueypetersen.com/posts/2013/07/09/dijkstra-as-a-sequence/
+** search algorithms in vizu http://qiao.github.io/PathFinding.js https://github.com/qiao/PathFinding.js
+** Create perfect maze : Eller's Algorithm  http://www.neocomputer.org/projects/eller.html
+**  Purely Functional Data Structures in clj http://www.leonardoborges.com/writings/2013/02/03/purely-functional-data-structures-in-clojure-leftist-heaps/
+** http://java.dzone.com/articles/algorithm-week-aho-corasick
+** blog http://jonisalonen.com/
+http://jonisalonen.com/2013/mathematical-foundations-of-computer-integers/ http://jonisalonen.com/2013/why-we-use-2s-complement/
+** Implementations of Monoids for interesting approximation algorithms, such as Bloom filter, HyperLogLog and CountMinSketch https://github.com/twitter/algebird
+** http://craftsmanship.sv.cmu.edu/exercises/coin-change-kata
+** http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/ in storm
+** http://architects.dzone.com/articles/algorithm-week-multiplication-0 Kruskal algo in ruby
+** algo feeds http://architects.dzone.com/category/dzone-taxonomy/computer-science/algorithms
+** Multivariate Change of Variables in Integration Theorem (MCVIT, that’s a mouthful http://onehappybird.com/2012/12/03/whats-the-most-important-theorem/
+** Pascal's Triangle http://www.mathsisfun.com/pascals-triangle.html http://en.wikipedia.org/wiki/Pascal's_triangle
+** Math ∩ Programming A place for elegant solutions http://jeremykun.com/2013/01/22/depth-and-breadth-first-search/
+** Dijkstra algo http://www.nimbustier.net/publications/djikstra/djikstra.html
+** search algo astar  http://clj-me.cgrand.net/2010/09/04/a-in-clojure/ https://github.com/aria42/mochi/blob/master/src/mochi/search.clj
+** http://awelonblue.wordpress.com/2013/01/24/exponential-decay-of-history-improved/ @cgrand implementation https://gist.github.com/cgrand/4722914
+Exponential decay of history is a pattern that competes with ring-buffers, least-recently-used heuristics,
+and other techniques that represent historical information in a limited space.
+** data mining top 10 algos http://www.cs.uvm.edu/~icdm/algorithms/10Algorithms-08.pdf
+** spam filtering algo http://airccse.org/journal/jcsit/0211ijcsit12.pdf
+** multi bandit algo  http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html
+http://fr.wikipedia.org/wiki/Test_A/B  http://oobaloo.co.uk/multi-armed-bandit-optimisation-in-clojure
+John Myles White talk vimeo.com/54970619
+http://www.feynmanlectures.info/exercises/Feynmans_restaurant_problem.html
+* Math
+** Data Driven: The New Big Science https://www.simonsfoundation.org/quanta/20131004-the-mathematical-shape-of-things-to-come/
+Topologic Data Analysis , NBA example (Ayasdi)
+** Probability (Theory) Tutorials by Noel Vaillant http://www.probability.net/
+** Classical Mechanics: A Computational Approach by Jack Wisdom Gerald Jay Sussman  http://groups.csail.mit.edu/mac/users/gjs/6946/
+** Counting selections with replacement ((n k)) http://www.johndcook.com/select_with_replacement.html
+** The theorems of Frobenius and Suzuki on finite groups by Terence Tao http://terrytao.wordpress.com/2013/04/12/the-theorems-of-frobenius-and-suzuki-on-finite-groups/
+** The Probabilistic Method : How many lights can you turn on? http://www.johndcook.com/blog/2013/06/04/how-many-lights-can-you-turn-on/
+** Blog I wasnt prepared to work http://symbo1ics.com/blog/?p=1803
+** Bezier curves and Picasso http://jeremykun.com/2013/05/11/bezier-curves-and-picasso/
+** Week in Number Theory http://blogs.ams.org/blogonmathblogs/2013/05/16/week-in-number-theory/
+** Goldback variations http://blogs.scientificamerican.com/roots-of-unity/2013/05/15/goldbach-variations/
+** Math Primer for programmers http://jeremykun.com/primers/
+** Math with Bad Drawings : blog http://mathwithbaddrawings.com/
+** Graph Partitioning and Expanders http://venture-lab.stanford.edu/expanders
+algorithms for graph partitioning and clustering, constructions of expander graphs, and analysis of random walks
+** blog Norman Wildberger http://njwildberger.wordpress.com
+** Type Theory http://golem.ph.utexas.edu/category/2013/01/from_set_theory_to_type_theory.html
+** The Life and Times of the Central Limit Theorem (History of Mathematics) William J. Adams
+** topology optimisation http://jordanburgess.com/post/41386795824/topology-optimisation
+** linear algebra http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/
+** bayes rule http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/
+** Vedic maths http://www.hinduism.co.za/vedic.htm http://www.vedicmaths.org/Home%20Page.asp
+http://www.vedicmaths.org/Bookstores/Manual%201.pdf
+** divine proportion http://web.maths.unsw.edu.au/~norman/
+The new form of trigonometry developed here is called rational trigonometry, to
+distinguish it from classical trigonometry, the latter involving cos θ, sin θ and the many
+trigonometric relations currently taught to students. An essential point of rational
+trigonometry is that quadrance and spread, not distance and angle, are the right
+concepts for metrical geometry (i.e. a geometry in which measurement
+is involved).
+* AI 
+** Hacking Robot http://www.instructables.com/id/Hacking-Your-iRobot/ 
+** Robopedia http://www.robotappstore.com/Robopedia/
+** OSCON 2013: Carin Meier "The Joy of Flying Robots with Clojure" http://www.youtube.com/watch?v=Ty9QDqV-_Ak with roomba, drone https://github.com/gigasquid/clj-drone
+https://github.com/gigasquid/roomba-drone-friends
+* UI
+** http://www.uie.com/brainsparks/ http://www.esri.com/events/devsummit/agenda/keynote
+** APIs: The Future Is Now http://www.uie.com/articles/api_future/
+* Category theory in practice
+**  http://www.philandstuff.com/2011/10/25/learning-monads-in-clojure-a-warning.html
+** category theoretic approach to optimizing MapReduce-like pipelines http://blog.ezyang.com/2013/05/category-theory-for-loop-optimizations/
+** You Could Have Invented Monads! (And Maybe You Already Have.) http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html?m=1
+** jim duey article on functors https://github.com/jduey/Functors http://www.clojure.net/2013/01/19/Functors
+**  monad http://www.clojure.net/2012/06/03/Monad-Protocols
+** monad in python http://www.infoq.com/presentations/Monads-Code http://www.dustingetz.com/2012/10/07/monads-in-python-identity-maybe-error
+** cat & glory http://yogsototh.github.io/Category-Theory-Presentation/#slide-2
+** monads in picture http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+* Distributed System
+** Distributed Systems Archaeology: Works Cited by Michael R. Bernste http://michaelrbernste.in/2013/11/06/distributed-systems-archaeology-works-cited.html
+* Messaging
+** Call me maybe: Kafka http://aphyr.com/posts/293-call-me-maybe-kafka
+** Retrospective on SEDA (July 2010) http://matt-welsh.blogspot.ru/2010/07/retrospective-on-seda.html
+** Scaling rabbitMQ @ soundcloud http://www.erlang-factory.com/conference/ErlangUserConference2013/speakers/SebastianOhm
+** Parallel approaches in next-generation sequencing analysis pipelines http://bcbio.wordpress.com/2011/09/10/parallel-approaches-in-next-generation-sequencing-analysis-pipelines/
+** event sourcing for functional programmers http://danielwestheide.com/talks/flatmap2013/slides/index.html#/ 
+** RabbitMQ on the cloud AWS http://www.cloudamqp.com/
+** Rabbit farms is a standalone service for publish RabbitMQ messages https://github.com/erlang-china/rabbit_farms
+** Rabbitmq vs. kafka http://www.quora.com/RabbitMQ/RabbitMQ-vs-Kafka-which-one-for-durable-messaging-with-good-query-features
+   - but clearly large amounts of persistent messages sitting in the broker was not the main design case for AMQP in general."
+   - (It's contrasted with Kafka, which is "designed for holding and distributing large volumes of messages"
+   -  longer-lived work queues are really more of a Hadoop thing, not an in-memory queue thing
+
+Use Kafka if you have a fire hose of events (100k+/sec) you need delivered in partitioned order 'at least once' with a mix of online and batch consumers,
+you want to be able to re-read messages,
+you can deal with current limitations around node-level HA (or can use trunk code),
+and/or you don't mind supporting incubator-level software yourself via forums/IRC.
+
+Use RabbitMQ if you have messages (20k+/sec) that need to be routed in complex ways to consumers,
+you want per-message delivery guarantees,
+you don't care about ordered delivery,
+you need HA at the cluster-node level now, and/or you need 24x7 paid support in addition to forums/IRC.
+
+** kafka + HDFS at uswitchs http://oobaloo.co.uk/kafka-for-uswitchs-event-pipeline
+** kafka papers https://cwiki.apache.org/confluence/display/KAFKA/Kafka+papers+and+presentations
+** rabbitmq partition http://next.rabbitmq.com/partitions.html
+** Benchmarking http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/
+** MQTT Mosquito broker http://jpmens.net/2013/02/25/lots-of-messages-mqtt-pub-sub-and-the-mosquitto-broker/
+** Choose your messaging protocol http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html
+** rabbitmq use case http://blogs.vmware.com/vfabric/2013/01/messaging-architecture-using-rabbitmq-at-the-worlds-8th-largest-retailer.html
+** rabbitmq simulator http://blogs.vmware.com/vfabric/2013/03/introducing-the-rabbitmq-simulator-video-open-source-bits.html
+https://github.com/RabbitMQSimulator/RabbitMQSimulator
+http://vimeo.com/51363470
+** An Express + Socket.io based chat app that uses Redis as session store & RabbitMQ for PubSub https://github.com/rajaraodv/rabbitpubsub
+** AMQP http://kellabyte.com/2012/10/20/clarifying-amqp/
+** AMQP resources
+AMQP resources:
+
+  Servers:
+    RabbitMQ (Rabbit Technologies, Erlang/OTP, MPL) - http://rabbitmq.com
+    ZeroMQ   (iMatix/FastMQ/Intel, C++, GPL3)       - http://www.zeromq.org
+    OpenAMQ  (iMatix, C, GPL2)                      - http://openamq.org
+    ActiveMQ (Apache Foundation, Java, apache2)     - http://activemq.apache.org
+
+  Steve Vinoski explains AMQP in his column, Towards Integration
+    http://steve.vinoski.net/pdf/IEEE-Advanced_Message_Queuing_Protocol.pdf
+
+  John O'Hara on the history of AMQP
+    http://www.acmqueue.org/modules.php?name=Content&pa=showpage&pid=485
+
+  Dmitriy's presentation on RabbitMQ/AMQP
+    http://somic-org.homelinux.org/blog/2008/07/31/slides-for-my-amqprabbitmq-talk/
+
+  ZeroMQ's analysis of the messaging technology market
+    http://www.zeromq.org/whitepapers:market-analysis
+
+  Pieter Hintjens's background to AMQP
+    http://www.openamq.org/doc:amqp-background
+
+  Barry Pederson's py-amqplib
+    http://barryp.org/software/py-amqplib/
+
+  Ben Hood on writing an AMQP client
+    http://hopper.squarespace.com/blog/2008/6/21/build-your-own-amqp-client.html
+
+  Dmitriy Samovskiy introduces Ruby + QPid + RabbitMQ
+    http://somic-org.homelinux.org/blog/2008/06/24/ruby-amqp-rabbitmq-example/
+
+  Ben Hood's as3-amqp
+    http://github.com/0x6e6562/as3-amqp
+    http://hopper.squarespace.com/blog/2008/7/4/server-side-as3.html
+    http://hopper.squarespace.com/blog/2008/3/24/as3-amqp-client-first-cut.html
+
+  RabbitMQ's protocol code generator
+    http://hg.rabbitmq.com/rabbitmq-codegen/
+
+  Erlang Exchange presentation on the implementation of RabbitMQ
+    http://skillsmatter.com/podcast/erlang/presenting-rabbitmq-an-erlang-based-implementatio-nof-amqp
+    http://www.lshift.net/blog/2008/07/01/slides-from-our-erlang-exchange-talk
+
+  Jonathan Conway's series on RabbitMQ and using it with Ruby/Merb
+    http://jaikoo.com/2008/3/20/daemonize-rabbitmq
+    http://jaikoo.com/2008/3/14/oh-hai-rabbitmq
+    http://jaikoo.com/2008/2/29/friday-round-up-2008-02-29
+    http://jaikoo.com/2007/9/4/didn-t-you-get-the-memo
+
+  Open Enterprise's series on messaging middleware and AMQP
+    http://www1.interopsystems.com/analysis/can-amqp-break-ibms-mom-monopoly-part-1.html
+    http://www1.interopsystems.com/analysis/can-amqp-break-ibms-mom-monopoly-part-2.html
+    http://www1.interopsystems.com/analysis/can-amqp-break-ibms-mom-monopoly-part-3.html
+
+Messaging and distributed systems resources:
+
+  A Critique of the Remote Procedure Call Paradigm
+    http://www.cs.vu.nl/~ast/publications/euteco-1988.pdf
+
+  A Note on Distributed Computing
+    http://research.sun.com/techrep/1994/smli_tr-94-29.pdf
+
+  Convenience Over Correctness
+    http://steve.vinoski.net/pdf/IEEE-Convenience_Over_Correctness.pdf
+
+  Metaprotocol Taxonomy and Communications Patterns
+    http://hessian.caucho.com/doc/metaprotocol-taxonomy.xtp
+
+  Joe Armstrong on Erlang messaging vs RPC
+    http://armstrongonsoftware.blogspot.com/2008/05/road-we-didnt-go-down.html
+
+  SEDA: scalable internet services using message queues
+  http://www.eecs.harvard.edu/~mdw/papers/seda-sosp01.pdf)
+** A Node.js app that shows the power for RabbitMQ's Work-queue https://github.com/rajaraodv/rabbitworkers
+** Node-js rabbitmq http://www.erlang-factory.com/conference/Munich2013/speakers/AlvaroVidela
+* Erlang
+** A Week with Elixir http://joearms.github.io/2013/05/31/a-week-with-elixir.html
+** scheme on erlang VM http://the-concurrent-schemer.github.io/scm-doc/
+** green callbacks http://joearms.github.com/2013/04/02/Red-and-Green-Callbacks.html
+** elixir intro http://devintorr.es/blog/2013/01/22/the-excitement-of-elixir/
+** erlang GPU CUDA http://gpuscience.com/cs/erlang-and-cuda-concurrent-and-fast/
+* Java
+** http://nealford.com/memeagora/2013/01/22/why_everyone_eventually_hates_maven.html
+* Data NLP
+** Natural Language Toolkit for python  http://nltk.org/
+** gensim http://radimrehurek.com/gensim/tutorial.html
+** The World's Best Grammar Checker http://www.grammarly.com/
+* Open Data
+** Open data et tourisme : un potentiel qui reste à transformer http://www.lagazettedescommunes.com/195963/open-data-et-tourisme-un-potentiel-qui-reste-a-transformer/
+** Common Crawl : 6 billion web documents https://commoncrawl.atlassian.net/wiki/display/CRWL/About+the+Data+Set
+** Our aim is to track every government financial transaction across the world  http://openspending.org/
+** Open Knowledge Foundation Labs http://okfnlabs.org/  http://blog.okfn.org/2013/07/09/introducing-open-knowledge-foundation-labs/
+** Open Data in Italy http://www.istat.it/en/ http://www.dati.piemonte.it/
+** Digital Public Library of America http://dp.la
+** Europe : think culture http://europeana.eu/
+** opendata blog (in french) http://donneesouvertes.info/2013/05/02/donnee-brute-ou-donnee-contextualisee/
+** opendata + visualization : http://opendata.hauts-de-seine.net/jeu-de-donnees/cadastre-vert-les-arbres#ressources
+http://data.nantes.fr/donnees/detail/offres-de-services-des-parkings-publics-de-la-ville-de-nantes-1/?visualization=2
+** FORMA Forest Monitoring for Action project in cascalog https://github.com/reddmetrics/forma-clj
+** GDELT Global Data on Events, Location and Tone : data for historians http://eventdata.psu.edu/data.dir/GDELT.html
+** GDELT usage http://nbviewer.ipython.org/urls/raw.github.com/dmasad/GDELT_Intro/master/Getting_Started_with_GDELT.ipynb
+** Thoughts on GDELT http://johnbeieler.org/blog/2013/04/12/gdelt/ http://badhessian.org/2013/04/gdelt-and-social-movements/
+Data tells you whether to use A or B. Science tells you what A and B should be in the first place.
+** Politis Data : Militarized Interstate Disputes http://www.correlatesofwar.org/COW2%20Data/MIDs/MID310.html
+** Aaron Swartz https://aaronsw.jottit.com/howtoget http://www.aaronsw.com/
+** open data CH money ideas http://make.opendata.ch/forum/discussion/69/financebudgetmoney-apps-inspirations
+** swiss tax viz proposal  http://make.opendata.ch/forum/discussion/72/project-idea-vis-4-tax-freedom-day#Item_1
+   http://www.estv2.admin.ch/d/dokumentation/zahlen_fakten/tax_freedom_day/2011/index.htm
+* Data
+** financial, economic and social datasets http://www.quandl.com/
+** The Free Wiki World Map http://www.openstreetmap.org/
+** The MNIST database of handwritten digits http://yann.lecun.com/exdb/mnist/ 
+** The Harvard Dataverse Network social science research data http://dvn.iq.harvard.edu/dvn/
+** dataset contains contains 1,362,109 reviews of Amazon products http://www.mblondel.org/data/
+http://www.mblondel.org/data/amazon7.pkl.tar.bz2
+try:
+    import joblib
+except ImportError:
+    from sklearn.externals import joblib
+
+data = joblib.load("amazon7.pkl")
+X = data["X"]
+y = data["y"]
+print X.shape
+print y.shape
+print data["categories"]
+** Data Mining Community's Top Resource kdnuggets http://www.kdnuggets.com/2013/05/added-to-kdnuggets-in-april.html
+** Forget big data, small data is the real revolution http://m.guardian.co.uk/news/datablog/2013/apr/25/forget-big-data-small-data-revolution
+** Data Science of the Facebook World http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/
+** datasets http://www.kdnuggets.com/datasets/ http://archive.ics.uci.edu/ml/
+** the industry's online resource for big data practitioners http://www.datasciencecentral.com/
+** machine learning for NBA http://neuroecology.wordpress.com/2013/03/18/neuroscience-is-useful-nba-edition/
+** http://gigaom.com/2013/03/22/structuredata-2013-recap/
+** 5-part video series: Exploring the @IBMbigdata #BigData Accelerator for Machine Data #Analytics http://www.youtube.com/watch?v=qnCtMKpYt3E
+** data analytics stories blog http://www.analyticstory.com/kovas-boguta/
+** linked data RDF book http://www.manning.com/dwood/
+** LDB: The BigData In-Memory database built with Erlang, C and LISP http://www.erlang-factory.com/conference/SFBay2013/speakers/JohnVlachoyiannis
+** Fogus references about events and history ariadne
+*** [Out of the Tarpit](http://lambda-the-ultimate.org/node/1446) by Marks and Moseley
+*** [CQRS](http://martinfowler.com/bliki/CQRS.html), [event sourcing](http://martinfowler.com/eaaDev/EventSourcing.html), [MemoryImage](http://martinfowler.com/bliki/MemoryImage.html) and [the LMAX architecture](http://martinfowler.com/articles/lmax.html) by Martin Fowler
+*** [Fundamental concepts of plugin infrastructures](http://eli.thegreenplace.net/2012/08/07/fundamental-concepts-of-plugin-infrastructures/) by Eli Bendersky
+*** [Jess in Action](http://www.jessrules.com/jesswiki/view?JessInAction) by Ernest Friedman-Hill
+*** [Why not events](http://awelonblue.wordpress.com/2012/07/01/why-not-events/) and [Exponential decay of history](http://awelonblue.wordpress.com/2012/08/20/exponential-decay-of-history/) by David Barbour
+*** [Dedalus: Datalog in Time and Space](http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-173.html)
+** storm http://www.michael-noll.com/blog/2012/10/16/understanding-the-parallelism-of-a-storm-topology/
+** hadoop tuto http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/
+** storm starter https://github.com/nathanmarz/storm-starter
+** commoncrawler http://mashable.com/2013/01/24/common-crawl-google/ http://commoncrawl.org/announcing-the-winners-of-the-code-contest/
+** drake from factual https://github.com/Factual/drake http://blog.factual.com/introducing-drake-a-kind-of-make-for-data
+** innovative data companies http://www.zdnet.com/are-these-the-worlds-most-innovative-big-data-companies-7000011135/
+Operations-improver Splunk
+Tech-trend tracker Quid
+Data scientist tournament host Kaggle
+Credit rating revolutionary ZestFinance
+Electronic medical record streamliner Apixio
+Business intelligence visualizer Datameer
+Marketing modeler BlueKai
+Enterprise social media simplifier Gnip
+Brick-and-mortar customer analyzer RetailNext
+Compliance catalyst Recommind
+** strata data session http://strataconf.com/strata2013/public/schedule/topic/909
+** Supersonic is intended to be used as a back-end for various data warehousing projects https://code.google.com/p/supersonic/
+Supersonic is an ultra-fast, column oriented query engine library written in C++.
+It provides a set of data transformation primitives which make heavy use of cache-aware algorithms,
+SIMD instructions and vectorised execution, allowing it to exploit the capabilities and resources of modern, hyper pipelined CPUs.
+It is designed to work in a single process.
+** financial dataset http://www.quandl.com
+** search dataset http://www.zanran.com/q/  Open data @CTIC
+** data mining news http://paper.li/data_nerd/1306264508
+** linkedin data system http://gigaom.com/2013/03/03/how-and-why-linkedin-is-becoming-an-engineering-powerhouse/
+ Kafka, another open source tool that Kreps called “the big data equivalent of a message broker.”
+http://engineering.linkedin.com/data-replication/open-sourcing-databus-linkedins-low-latency-change-data-capture-system
+opensource project http://data.linkedin.com/opensource/bob
+* Data Analysis
+** UK Diabetes with cascalog http://openhealthdata.cdehub.org/  https://groups.google.com/forum/#!topic/cascalog-user/8BvYufJpMpI
+** Transportation optimization starts with math --> understanding human behavior. http://nautil.us/issue/3/in-transit/unhappy-truckers-and-other-algorithmic-problems
+** cloudera-ml solution https://github.com/cloudera/ml/tree/master/examples/kdd99 to a network intrusion detector http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+** Analysis on Github data http://www.fastcolabs.com/3008621/tracking/github-reveals-a-formula-for-your-hacker-persona
+** A Statistical Analysis of Nerf Blasters and Darts By Shawn O'Neil http://shawntoneil.com/index.php/pages/nerftest1
+** videos from datagotham conference http://www.datagotham.com/videos/
+** Twitter data analysis  http://irevolution.net/2013/07/10/crisis-hashtags-dashboard/
+**  http://nycbigapps.com/
+** Zeitfenster  http://nycbigapps.com/project/111/Zeitfenster-New-York-Time-Travel-App
+** Netflix Use Case :recommandation system http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html 
+http://techblog.netflix.com/2012/06/netflix-recommendations-beyond-5-stars.html
+** http://datadrivenjournalism.net/featured_projects/is_it_really_worth_it_the_map_of_italian_journalists_facing_threats
+** The Dangers of Overfitting or How to Drop 50 spots in 1 minute http://blog.kaggle.com/2012/07/06/the-dangers-of-overfitting-psychopathy-post-mortem/
+** implementation for a Restricted Boltzmann Machine and a Deep Belief Network http://tjake.github.io/blog/2013/02/18/resurgence-in-artificial-intelligence/
+https://github.com/tjake/rbm-dbn-mnist
+** ML at Khan academy http://derandomized.com/post/51729670543/khan-academy-machine-learning-measurable-learning
+http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html
+** Mobile Phone Data Proves Humans Are Predictable During Chaos http://www.fastcolabs.com/3009706/mobile-phone-data-proves-humans-are-predictable-during-chaos
+** http://www.kaggle.com/c/challenges-in-representation-learning-the-black-box-learning-challenge
+** inclass challenge https://inclass.kaggle.com/
+** Hadoop assignement on azure http://homes.cs.washington.edu/~billhowe/bigdatacloud/lecture3/assignment3.html
+* Data API
+** Using OpenRefine http://openrefine.org/ to Clean Multiple Documents in the Same Way http://schoolofdata.org/2013/07/26/using-openrefine-to-clean-multiple-documents-in-the-same-way/
+** Machine Learning API : mashape http://blog.mashape.com/post/48074869493/list-of-40-machine-learning-apis
+** NLP in APIs http://blog.mashape.com/post/48946187179/15-natural-language-processing-apis
+* Data Computing
+** Play Framework Grid Deployment with Mesos http://typesafe.com/blog/play-framework-grid-deployment-with-mesos
+** GO BEYOND "DEBUG": WIRE TAP YOUR APP FOR KNOWLEDGE WITH HADOOP by leg Zhurakousky http://oredev.org/2013/wed-fri-conference/go-beyond-debug-wire-tap-your-app-for-knowledge-with-hadoop
+** jsi http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html
+** How to write a crawler by Emanuele Minotto http://www.emanueleminotto.it/how-to-write-a-crawler
+** Auto-Scaling with Apache Helix and Apache YARN http://engineering.linkedin.com/cluster-management/auto-scaling-apache-helix-and-apache-yarn
+** Quick tour of hive pigh data scientists tools via hortonworks http://hortonworks.com/get-started/analyze/
+** Evolutionary Computing with Push http://faculty.hampshire.edu/lspector/push.html
+** Amazon EMR / S3
+*** http://www.datasciencecentral.com/profiles/blogs/s3-as-input-or-output-for-hadoop-mr-jobs
+*** Usage of elasticmapreduce script http://sujee.net/tech/articles/hadoop/amazon-emr-beyond-basics/
+*** s3cmd : command line S3 client http://s3tools.org/s3cmd
+** ETL tools
+   - AMPLab -- Mesos, plus BDAS Berkeley Data Analytics Stack 
+   - Cascading/Cascalog/Scalding, not limited to Hadoop since other topologies are possibles; 
+   - Twitter -- Summingbird, Storm, etc.; 
+   - Facebook -- Presto; 
+   - Anaconda/IPython/Pandas; 
+   - Actian/ParAccel/Knime, 
+** Mesos framework for long running services https://github.com/mesosphere/marathon
+** Hive
+*** HOWTO use Hive to SQLize your own Tweets Part II http://hortonworks.com/blog/howto-use-hive-to-sqlize-your-own-tweets-part-two-loading-hive-sql-queries/
+*** Hive Cheat-sheet http://hortonworks.com/blog/hive-cheat-sheet-for-sql-users/
+** Why all this interest in Spark? by Denny Lee http://dennyglee.com/2013/08/19/why-all-this-interest-in-spark/
+** MINI BATCH K-MEANS  http://algorithmicthoughts.wordpress.com/2013/07/26/machine-learning-mini-batch-k-means/
+** Difference between Crunch and Cascading http://www.quora.com/Apache-Hadoop/What-are-the-differences-between-Crunch-and-Cascading
+** Python library for dealing with messy tabular data in several formats, guessing types and detecting headers. https://messytables.readthedocs.org/en/latest/
+** Stream summarizer and cardinality estimator in java https://github.com/clearspring/stream-lib 
+** R basic tutorials http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
+** hRaven collects run time data and statistics from MapReduce jobs in an easily queryable format https://github.com/twitter/hraven
+**  Open Platform for Visual Analytics http://www.datapad.io/
+** cascading Paco Nathan http://hadoopsummit.org/san-jose-blog/speaker-interview-paco-nathan/
+"That workflow abstraction is important. For example, PMML has
+excellent features for ensembles and other complex patterns
+encountered in the more competitive areas of industry."
+** Introduction to Data Processing with Python http://opentechschool.github.io/python-data-intro/
+** Apache Hadoop YARN, NameNode HA, HDFS Federation http://de.slideshare.net/AdamKawa/apache-hadoop-yarn-namenode-ha-hdfs-federation
+** Building a Classification Framework with Hive and Python http://www.impermium.com/blog/building-a-classification-network-with-hive-python/
+** how twitter uses nosql : FlockDB pig http://readwrite.com/2011/01/02/how-twitter-uses-nosql
+** DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas. https://code.google.com/p/deap/
+** Big Data Cloud Classes by Bill Howe http://homes.cs.washington.edu/~billhowe/bigdatacloud/
+** mrjob : Run MapReduce jobs on Hadoop or Amazon Web Service https://github.com/Yelp/mrjob
+** A set of tutorial codes about matrix methods in Hadoop with mrjob https://github.com/dgleich/matrix-hadoop-tutorial
+** Implementation of some deep learning algorithms (python C) build on top of cudamat https://github.com/nitishsrivastava/deepnet
+** Trident-ML is a realtime online machine learning library built on top storm https://github.com/pmerienne/trident-ml
+** map-reduce algorithms explained slides http://de.slideshare.net/amundtveit/mapreduce-algorithms
+** Machine Learning with Storm + Redis @ skillsmatter http://skillsmatter.com/podcast/java-jee/machine-learning-with-storm-redis/
+https://github.com/yods/storm-ml-play http://skillsmatter.com/event/java-jee/machine-learning-with-storm-redis https://github.com/MastodonC/r4f-data
+** Heka, a tool for high performance data gathering, analysis, monitoring, and reporting http://blog.mozilla.org/services/2013/04/30/introducing-heka
+Main component hekad http://hekad.readthedocs.org/en/latest/
+** Hacking Redis series http://www.starkiller.net/hacking-redis/
+** Hacking Redis (data structure server): Adding Interval Sets http://www.starkiller.net/2013/05/03/hacking-redis-adding-interval-sets
+** R integration in strom https://github.com/quintona/storm-r
+** SAMOA Scalable Advanced Massive Online Analysis based on storm + S4 http://samoa-project.net/ 
+http://melmeric.files.wordpress.com/2013/04/samoa-a-platform-for-mining-big-data-streams.pdf
+** Hadoop ecosystem overview http://www.analyticbridge.com/profiles/blogs/hadoop-herd-when-to-use-what?buffer_share=b5608
+** Big Data Architecture http://adamfowlerml.wordpress.com/2013/04/29/thoughts-on-nosql-big-data-architecture/
+** Manual Octave http://math.jacobs-university.de/oliver/teaching/iub/resources/octave/octave-intro/octave-intro.html
+** Top 20 R packages http://datascientistinsights.com/2013/02/25/20-r-packages-that-should-impact-every-data-scientist/
+** Hadoop intro http://www.drdobbs.com/database/hadoop-the-lay-of-the-land/240150854
+** Hadoop flume usage http://blog.guident.com/2013/05/streaming-twitter-into-the-hortonworks-data-platform-1-2/
+** Hadoop virtualization http://nosql.mypopescu.com/post/49258558385/hadoop-virtualization
+** Recommandation with Mahout http://blog.comsysto.com/2013/03/04/building-an-online-recommendation-engine-with-mongodb-and-mahout/
+http://blog.comsysto.com/2013/04/03/background-of-collaborative-filtering-with-mahout/
+** Modeling ML algorithms with Hadoop http://de.slideshare.net/hadoop/modeling-with-hadoop-kdd2011
+** Machine Learning with scikit-learn (python) http://datasciencelondon.org/machine-learning-python-scikit-learn-ipython-dsldn-data-science-london-kaggle/
+https://github.com/amueller/sklearn_tutorial/blob/master/ml_with_sklearn_notebook.ipynb
+http://nbviewer.ipython.org/5115540/Model%20Selection%20for%20the%20Nystroem%20Method.ipynb
+** HP research : Presto Distributed R for big data http://www.hpl.hp.com/research/documentation.htm
+** Data Analysis with the Unix Shell http://blog.comsysto.com/2013/04/25/data-analysis-with-the-unix-shell/
+** Serengeti to enable the rapid deployment of Hadoop clusters on a virtual platform. http://serengeti.cloudfoundry.com/
+** Hadoop ecosystem explained http://smartdatacollective.com/mtariq/120791/hadoop-toolbox-when-use-what
+** Impala presentation similar to drill http://gigaom.com/2013/04/30/with-impala-now-ga-clouderas-ceo-sizes-up-the-sql-on-hadoop-market/
+** Large Scale Math with Hadoop MapReduce @hortonworks http://de.slideshare.net/hortonworks/large-scale-math-with-hadoop-mapreduce
+** Twitter search use case : storm + kafka +  Mechanical Turk http://engineering.twitter.com/2013/01/improving-twitter-search-with-real-time.html
+** Big data definition @Hortonworks : http://hortonworks.com/blog/big-data-defined-part-deux-value-definition/ http://hortonworks.com/blog/big-data-defined/
+** Hadoop and the Data Warehouse: When to Use Which http://hortonworks.com/blog/hadoop-and-the-data-warehouse-when-to-use-which/
+** Hadoop @revelytix white papers http://www.revelytix.com/?q=content/revelytix-white-papers
+** Index Sorting with Lucene http://shaierera.blogspot.com/2013/04/index-sorting-with-lucene.html
+** Apache Hadoop NextGen MapReduce (YARN) http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html
+** Doug Cutting interview http://blog.cloudera.com/blog/2013/04/meet-the-project-founder-doug-cutting-first-in-a-series/
+** Hadoop prefect for OpenStack : http://hortonworks.com/blog/hadoop-perect-app-for-openstack/
+** Data locality : Hadoop rant http://blogs.splunk.com/2013/04/24/hadoop-rant/
+** Hadoop YARN + Storm @yahoo http://developer.yahoo.com/blogs/ydn/storm-hadoop-convergence-big-data-low-latency-processing-54503.html
+** linkedin archtecture : kafka , hadoop , voldemort , nodejs http://engineering.linkedin.com/mobile/linkedin-mobile-introducing-personalized-navigation
+** Hadoop interview QA http://www.pappupass.com/class/index.php/hadoop/hadoop-interview-questions
+** Hadoop mapReduce in python http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/index.html
+** DB architecture http://nosql.mypopescu.com/post/48612962822/typical-big-data-architecture
+** Shark real-time http://telruptive.com/2012/08/15/hadoop-for-real-time-spark-shark-spark-streaming-bagel-etc-will-be-2012s-new-buzzwords/
+** Hadoop made simple with jydoop http://benjamin.smedbergs.us/blog/2013-04-09/introducing-jydoop-fast-and-sane-map-reduce/
+** Parquet columnar storage http://blog.cloudera.com/blog/2013/03/introducing-parquet-columnar-storage-for-apache-hadoop/
+**  http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/
+**  Free Hadoop book: http://www.hadoopilluminated.com/
+** Saddle is a data manipulation library for Scala  http://saddle.github.com/doc/index.html
+** nathan Marz views on data systems http://www.odbms.org/blog/2013/04/on-innovation-interview-with-nathan-marz/
+
+* Data Science
+** Text Feature Extraction (td-idf) part-2 by Christian S. Perone http://pyevolve.sourceforge.net/wordpress/?p=1747
+** Estimating User Lifetimes : pyMCMC by Cam Davidson-Pilon @cmrn_dp  http://blog.yhathq.com/posts/estimating-user-lifetimes-with-pymc.html
+** Towards Linked Statistical Data Analysis http://csarven.ca/linked-statistical-data-analysis
+** Can someone explain Kernel Trick intuitively? http://www.reddit.com/r/MachineLearning/comments/1joh9v/can_someone_explain_kernel_trick_intuitively/
+** alternating direction method of multipliers is well suited to distributed convex optimization http://www.stanford.edu/~boyd/papers/admm_distr_stats.html
+** 3 Big Data Tech Talks You Can’t Miss by Christos Faloutsos Deepak Agarwal Jay Kreps http://engineering.linkedin.com/event/video-3-big-data-tech-talks-you-can%E2%80%99t-miss
+** Block Coordinate Descent Algorithms for Large-scale Sparse Multiclass Classification by Mathieu Blondel http://www.mblondel.org/code/mlj2013/ 
+** Machine Learning in python : blog http://www.mblondel.org/
+** The World’s Top 7 Data Scientists before there was Data Science http://conductrics.com/the-worlds-7-top-data-scientists-before-there-was-datascience/
+** The Multi-Armed Bandit Problem with examples and visualization http://camdp.com/blogs/multi-armed-bandits
+** NLP
+***  NAACL 2013 http://naacl2013.naacl.org/ videos http://techtalks.tv/events/312/573/
+*** NLP for machine learning Starta 2013 http://strata.oreilly.com/2013/03/natural-language-annotation-for-machine-learning.html
+** Recommendation System
+*** myrrix succesor of mahout ? http://myrrix.com/quick-start/
+java -Dmodel.features=100 -Dmodel.als.lambda=2 -Xmx512m -jar myrrix-serving-1.0.1.jar --port 8080
+*** How Hacker News ranking algorithm works in Paul raham lisp http://amix.dk/blog/post/19574
+*** Deconstructing Recommender Systems : Amazon and Netflix use cases http://spectrum.ieee.org/computing/software/deconstructing-recommender-systems
+*** LensKit is an open source toolkit . http://lenskit.grouplens.org/ https://bitbucket.org/grouplens/lenskit/wiki/Home
+** Deep Learning
+*** Rocher Socher tutorial on Deep Learning http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial
+*** Deep Learning Comes of Age by Gary Anthes http://cacm.acm.org/magazines/2013/6/164601-deep-learning-comes-of-age/fulltext
+*** Recent Developments in Deep Learning http://www.youtube.com/watch?v=VdIURAu1-aU
+*** Deep Neural Networks for Speech and Image Processing http://www.youtube.com/watch?v=DYu9D1M5rII
+*** Deep Learning tutorial http://deeplearning.net/tutorial/
+*** Google deep learning http://www.youtube.com/watch?v=JBtfRiGEAFI
+** Graph / Network
+*** Apache Giraph : scalable iterative graph processing system  open-source counterpart to Pregel  http://giraph.apache.org/
+** distance metric
+*** Sorensen http://en.wikipedia.org/wiki/S%C3%B8rensen_similarity_index 
+*** string metric : Levenshtein  http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance   
+Hamming http://en.wikipedia.org/wiki/Hamming_distance
+*** Jacard Tanimoto http://en.wikipedia.org/wiki/Jaccard_index
+*** Pearson / correlation  http://en.wikipedia.org/wiki/Correlation
+** Probabilistic Data Structures for Web Analytics and Data Mining http://highlyscalable.wordpress.com/2012/05/01/probabilistic-structures-web-analytics-data-mining/
+loglog counting , 
+Frequency Estimation: Count-Min Sketch, 
+Heavy Hitters: Stream-Summary
+Range Query: Array of Count-Min Sketches
+Membership Query: Bloom Filter
+** causality : causal calculus http://www.michaelnielsen.org/ddi/if-correlation-doesnt-imply-causation-then-what-does/ 
+ http://en.wikipedia.org/wiki/Randomized_controlled_trial http://www.amazon.com/Causality-Reasoning-Inference-Judea-Pearl/dp/0521773628
+** Why every statistician should know about cross-validation http://robjhyndman.com/hyndsight/crossvalidation/
+** Distance Metric Learning  https://sites.google.com/site/yiqunhu/Home/distance-metric-learning http://www.cs.cmu.edu/~liuy/distlearn.htm
+http://en.wikipedia.org/wiki/Large_Margin_Nearest_Neighbor http://en.wikipedia.org/wiki/Neighbourhood_components_analysis
+** Machine learning at lambdajam https://github.com/strangeloop/lambdajam2013/tree/master/jams/learning https://twitter.com/search?q=%23lambdajam&src=hash
+kNN classifier to recognize digits
+** http://en.wikipedia.org/wiki/Discriminative_model vs http://en.wikipedia.org/wiki/Generative_model
+** Best way to analyze data  http://simplystatistics.org/2013/06/27/what-is-the-best-way-to-analyze-data/ 
+http://simplystatistics.org/2012/08/27/a-deterministic-statistical-machine/
+** Truthy is a research project that helps you understand how communication spreads on Twitter http://truthy.indiana.edu/
+** AI web-site about agent, neural network, genetic algo http://ai-junkie.com/
+** extensive list of SVM tutorials http://svms.org/tutorials/
+** clustering with Neural Networks : Kohonen's Self Organizing Feature Maps http://ai-junkie.com/ann/som/som1.html
+** machine learning classifier gallery http://home.comcast.net/~tom.fawcett/public_html/ML-gallery/pages/
+** Andrew Ng - Machine Learning via Large-scale Brain Simulations http://www.youtube.com/watch?v=5elcmFNRCWk
+** masters of machine learning "The Large Scale Learning class"  http://cilvr.cs.nyu.edu/doku.php?id=courses:bigdata:slides:start
+introduction: nline linear learning:
+Lecture 2
+2nd order methods and analysis of convergence:
+Demos in Torch BFGS and Limited Storage BFGS:
+Lecture 3
+Online learning for non-linear/non-convex models:
+Boosted decision trees (guest lecture by Tong Zhang)
+Example code in R
+Lecture 4 Hadoop All-Reduce;
+Lecture 5
+Torch tutorial; torch basics; machine learning tutorial; video
+CUDA tutorial (by Matthew Zeiler); PDF part 1; PDF part 2; video;
+video for Torch 7 CUDA demo
+Lecture 6 Feature learning, representation learning;
+Lecture 7 Feature learning, deep learning;
+
+Lecture 8
+Inverted Indicies and predictive indexing, hashing
+Project ideas description video
+John Langford's projects
+Xiang Zhang's projects
+Yann LeCun's projects
+Lecture 9 The ad problem, advertising placement and such (guest lecturer: Leon
+Bottou, Microsoft Research)
+Lecture 10 Classic and advanced bandits (John Langford)
+Lecture 11
+Counterfactual reasoning (Leon Bottou)
+Advanced topics (John Langford)
+Lecture 12 Active Learning, Indexing (John Langford)
+Slides: PDF
+Video
+Lecture 13 Deep Learning in Text and Speech Recognition
+Lecture 14 : Many Classes, Logarithmic-Time Prediction
+** Videos of Machine Learning Summit 2013 http://research.microsoft.com/en-us/um/cambridge/events/mls2013/virtual-streaming/virtualmachinelearningsummit.aspx
+** Analyze Text Similarity with R: Latent Semantic Analysis and Multidimentional Scaling http://bodongchen.com/blog/?p=301
+** Latent Dirichlet Allocation in python http://www.mblondel.org/journal/2010/08/21/latent-dirichlet-allocation-in-python/
+** Project: Supervised Classification for Sentiment Analysis http://www.umiacs.umd.edu/~resnik/ling773_sp2009/project/sentiment_project.html
+** Random Forrest in Python http://blog.yhathq.com/posts/random-forests-in-python.html
+** Web Analytics http://www.analytics20.org/ http://www.kaushik.net/avinash/web-analytics-2-0-avinash-kaushik/
+faces http://www.facegroup.com/casestudies/o2-real-time-o2
+** Le Macroscope by Joal Rosnay http://fr.wikipedia.org/wiki/Le_Macroscope
+** 1-click Random Decision Forests http://blog.bigml.com/2013/04/29/1-click-random-decision-forests
+** Real time analytics by Dan McKinley http://mcfunley.com/whom-the-gods-would-destroy-they-first-give-real-time-analytics
+** Statistical graphics http://vis.supstat.com/ http://vis.supstat.com/2013/04/bean-machine
+** What are the Top 10 Problems in Machine Learning for 2013? http://www.quora.com/Machine-Learning/What-are-the-Top-10-Problems-in-Machine-Learning-for-2013
+Churn Prediction , Sentiment Analysis, Truth Veracity ,Recommendations,  online Ads, News Aggregations, Scalability , Content Discovery/Search
+Inteligent learning , medicine
+** A Very Short History Of Data Science http://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/
+** Classifying Websites with Neural Networks http://blog.datafiniti.net/?p=34
+** Numerical optimizers for Logistic Regression in python : Trust Region better than BFGS http://fa.bianp.net/blog/2013/numerical-optimizers-for-logistic-regression/
+
+** Great introduction of macho
+** CART explained with R as laternatives to logistic regression http://statistical-research.com/a-brief-tour-of-the-trees-and-forests/
+** Free resources http://ift6266h13.wordpress.com/home/resources/
+** Free Data Science books http://www.p-value.info/2012/11/free-datascience-books.html
+** Hacker News data analysis http://mayank.lahiri.me/writing/hackernews/index.html
+** real experiment using conditional probabilities http://nerds.airbnb.com/location-relevance/
+** kNN in racket http://spin.atomicobject.com/2013/05/06/k-nearest-neighbor-racket/#.UYnAIGaYoCs.twitter
+** Concordance and Discordance in Logistic Regression http://statour.blogspot.ch/2012/12/concordance-and-discordance-in-logistic.html
+** Machine learning in-depth tutorial based on scikit-learn http://scikit-learn.org/dev/user_guide.html
+** Matrix decomposition  http://scikit-learn.org/dev/modules/decomposition.html https://sites.google.com/site/igorcarron2/matrixfactorizations
+** Naives Bayes for sentiment analysis http://phpir.com/bayesian-opinion-mining
+** Support Vector Machine in PHP http://phpir.com/support-vector-machines-in-php
+** Deep Unsupervised learning with sparse filtering applied to Kaggle : Black Box http://fastml.com/deep-learning-made-easy/
+ https://github.com/jngiam/sparseFiltering
+** Job salary prediction at Kaggle resolved with logistic regression http://fastml.com/regression-as-classification/
+** Best Open Source Data Mining Software : Weka Orange RapidMiner Knime JHepWork http://www.junauza.com/2010/11/free-data-mining-software.html
+** ML counter-examples http://camdp.com/blogs/machine-learning-counterexamples-pt2-post-pca-regr
+** From chaos to clusters - statistical modeling without model http://www.analyticbridge.com/profiles/blogs/from-chaos-to-clusters-statistical-modeling-without-models
+** Alex Smola slides http://alex.smola.org/slides.html
+** Data Mining: Practical Machine Learning Tools and Techniques by Hall Witten Frank http://www.cs.waikato.ac.nz/ml/weka/book.html
+** Data science blog @Cmrn_DP http://camdp.com/blogs/
+** Neuro Science @coursera  https://coursera.org/compneuro based on :
+Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems by Peter Dayan and Larry Abbott  http://www.gatsby.ucl.ac.uk/~dayan/book/
+** Network science journal http://journals.cambridge.org/action/displayJournal?jid=NWS
+** Temporal Networks by Petler Holme http://arxiv.org/abs/1108.1780
+** netsci conference : http://tdn2013.wix.com/tdn2013
+** socio patterns : http://www.sociopatterns.org/2013/06/sociopatterns-at-netsci/
+** Online Learning withStream Mining http://de.scribd.com/doc/137991394/Online-Learning-with-Stream-Mining
+** Scalable Machine Learning by Alex Smola http://alex.smola.org/teaching/berkeley2012/index.html
+** Free book : Bayesian Computation with R (Use R) http://www.amazon.com/Bayesian-Computation-Use-ebook/dp/B001E5C56W/ref=tmm_kin_title_popover
+** Data Analysis cousera class by Jeff Leek  on youtube http://blog.revolutionanalytics.com/2013/04/coursera-data-analysis-course-videos.html
+** gradient descent blog from Daniel Duckworth http://stronglyconvex.com/blog.html
+** Yurii Nesterov established the Accelerated Gradient Method http://stronglyconvex.com/blog/accelerated-gradient-descent.html
+** Andrew Ng course + assignments http://see.stanford.edu/see/lecturelist.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1
+ http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning
+https://class.coursera.org/ml/lecture/preview
+** Microsoft Focus in France on Machine Learning http://research.microsoft.com/en-us/news/features/mlsqa-042213.aspx
+** causality http://www.causality.inf.ethz.ch/cause-effect.php?page=help
+** reservoir sampling http://blog.cloudera.com/blog/2013/04/hadoop-stratified-randosampling-algorithm/
+** regression videos http://www.salford-systems.com/videos/tutorials/805-the-evolution-of-regression-modeling-part-1
+** berkeley intro data science course : material http://datascienc.es/schedule/
+** Abusing hash kernels for wildly unprincipled machine learning https://github.com/jeremydhoon/hashkernel
+http://en.wikipedia.org/wiki/Deep_learning#Deep_Learning_in_Artificial_Neural_Networks
+ http://jeremydhoon.github.io/2013/03/19/abusing-hash-kernels-for-wildly-unprincipled-machine-learning/
+** 30 Most Influential Data Scientists on Twitter http://storify.com/Kalido/most-influential-data-scientists-on-twitter
+** Conditional (Partitioned) Probability — A Primer http://jeremykun.com/2013/03/28/conditional-partitioned-probability-a-primer/
+** clustering algos http://architects.dzone.com/articles/machine-learning-algorithms
+** de Bruijn Graphs for Genome Assembly http://www.homolog.us/Tutorials/index.php?p=1.1
+** wise.io http://venturebeat.com/2013/03/19/data-science-nerds-bring-machine-learning-to-the-masses-exclusive/
+** Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems http://www.princeton.edu/~sbubeck/book.html
+** Random topics on optimization, probability, and statistics. By Sébastien Bubeck https://blogs.princeton.edu/imabandit/
+** Data Science for Social Good http://www.ci.uchicago.edu/datasciencefellowship/
+** Slides: The Evolution of Regression [Part 1] from @salfordsystems http://1.salford-systems.com/blog/bid/273493/Video-The-Evolution-of-Regression-Part-1
+** data mining book in python http://guidetodatamining.com/
+** gensim : topic modelling for humans  http://radimrehurek.com/gensim/wiki.html#latent-dirichlet-allocation
+** blog http://aicoder.blogspot.ch/ Neal Richter
+** Understanding the Bias-Variance Tradeoff http://scott.fortmann-roe.com/docs/BiasVariance.html
+** Accurately Measuring Model Prediction Error http://scott.fortmann-roe.com/docs/MeasuringError.html
+** Top-down particle filtering for Bayesian decision trees http://arxiv.org/abs/1303.0561
+** spam filtering http://paulgraham.com/spam.html
+** graph best data structure http://hortonworks.com/blog/big-graph-data-on-hortonworks-data-platform/
+** panorama and useful links http://conductrics.com/data-science-resources/
+** MLE logical regression http://www.johnmyleswhite.com/notebook/2012/12/14/what-is-correctness-for-statistical-software/
+** Paul Lam cascalog data scientist http://www.quantisan.com/  incanter  for the future
+** cascading for impatient http://www.cascading.org/category/impatient/  https://github.com/Quantisan/Impatient/tree/cascalog/)
+** last page of http://nosql.mypopescu.com/post/17941632965/lightning-talk-on-cascalog*** last page of http://nosql.mypopescu.com/post/17941632965/lightning-talk-on-cascalog
+** http://www.infoq.com/interviews/meijer-big-data http://channel9.msdn.com/posts/Expert-to-Expert-Erik-Meijer-and-Rich-Hickey-Clojure-and-Datomic
+** good blog http://followthedata.wordpress.com/
+** get dataset http://datakind.org/
+** data tools as unix tools http://www.cascading.org/multitool/
+** http://www.r-bloggers.com/100-most-read-r-posts-for-2012-stats-from-r-bloggers-big-data-visualization-data-manipulation-and-other-languages/
+** hadoop with python http://blog.cloudera.com/blog/2013/01/a-guide-to-python-frameworks-for-hadoop/
+** lambda archi with impala http://jameskinley.tumblr.com/post/37398560534/the-lambda-architecture-principles-for-architecting
+  http://zurichtechtalks.ch/post/37339409724/an-introduction-to-cloudera-impala-sql-on-top-of
+  meetup http://www.bigdata-usergroup.ch/item/372881
+** kaggle interview http://techcrunch.com/2013/01/10/in-the-studio-kaggles-anthony-goldbloom-is-building-a-new-kind-of-marketplace/
+** Andrew Ng deep learning http://techtalks.tv/talks/machine-learning-and-ai-via-brain-simulations/57862/
+** programming R http://www.programmingr.com/content/sparql-with-r/
+** interview http://metamarkets.com/2013/data-scientist-interview-florian-leibert-of-airbnb/
+** Thoughts on Statistics and Machine Learning http://normaldeviate.wordpress.com/
+** Machine learning for hackers : several chapters commented http://slendrmeans.wordpress.com/
+http://slendrmeans.wordpress.com/2013/02/08/will-it-python-machine-learning-for-hackers-chapter-6-regression-models-with-regularization/
+** bayes basic probabilistic modelling language  http://randomcomputation.blogspot.ch/2013/02/primer-probability-as-basic-modelling.html
+** machine learning in clojure http://blog.bigml.com/2013/02/11/streaming-histograms-for-clojure-and-java/
+** family of mapreduce http://nosql.mypopescu.com/post/43066595175/the-family-of-mapreduce-and-large-scale-data-processing
+** Test-Driven Development for Big Data http://www.youtube.com/watch?v=wB5BPM6eNIs&feature=youtu.be
+** overview of cascading http://vimeo.com/59610496 (Paco Nathan) scalding http://vimeo.com/59610497 from Chicago Hadoop User Group
+** fastml blog http://fastml.com/dimensionality-reduction-for-sparse-binary-data/
+* R
+** finance use case : Minimal variance asset allocation for Stocks ISA http://www.quantisan.com/minimal-variance-asset-allocation-for-stocks-isa/
+** glm gam forrest http://www.r-bloggers.com/a-brief-tour-of-the-trees-and-forests
+** http://datascientistinsights.com/2013/02/25/20-r-packages-that-should-impact-every-data-scientist/
+** R on hadoop http://blog.cloudera.com/blog/2013/02/how-to-resample-from-a-large-data-set-in-parallel-with-r-on-hadoop/
+** R book https://github.com/hadley/devtools/wiki/Functional-programming
+** apply articles http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega
+http://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/
+* database
+** MongoDB basics for everyone – Part 5 Using find() and findOne() http://paulscott.co.za/blog/mongodb-basics-for-everyone-part-5-using-find-and-findone/
+** Distributed Algorithms in NoSQL Databases  http://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
+data consistency , data placement, system coordination
+** datomic
+*** Learn datalog today https://github.com/jonase/learndatalogtoday
+*** Component Entities http://blog.datomic.com/2013/06/component-entities.html
+** Inside HyperLevelDB : makes LevelDB faster http://hackingdistributed.com/2013/06/17/hyperleveldb/
+** NoSQL Distilled to an hour - Martin Fowler http://vimeo.com/66052102 http://martinfowler.com/bliki/PolyglotPersistence.html
+** Videos coming http://2013.nosql-matters.org/cgn/abstracts/ 
+** Tour of datomic query http://blog.datomic.com/2013/05/a-whirlwind-tour-of-datomic-query_16.html
+** Building Cloud Storage Services with Riak http://architects.dzone.com/articles/building-cloud-storage
+** graphlab distributed graph DB http://graphlab.com/ http://techcrunch.com/2013/05/14/graphlab-raises-6-75m-for-data-analysis-tool-used-for-consumer-recommendation-services/
+** atomic commit explained : http://www.sqlite.org/atomiccommit.html
+** cassandra by example : data modeling by Eric Evans http://de.slideshare.net/jericevans/cassandra-by-example-data-modelling-with-cql3
+** Using Elastic Search as a Key Value store http://www.jillesvangurp.com/2013/01/15/using-elastic-search-as-a-key-value-store/
+** Next Generation Databases  http://nosql-database.org/
+** NoSQL matters 2013 conf http://2013.nosql-matters.org/cgn/agenda/
+** google F1 The Fault-Tolerant Distributed RDBM  http://research.google.com/pubs/pub38125.html
+** cassandra intro http://nosql.mypopescu.com/post/44771946824/brief-intro-to-cassandra-in-27-slides
+** graph DB comparison http://nosql.mypopescu.com/post/40759505554/a-comparison-of-7-graph-databases
+   https://docs.google.com/spreadsheet/ccc?key=0AlHPKx74VyC5dERyMHlLQ2lMY3dFQS1JRExYQUNhdVE#gid=0
+* Data Visualization
+** Kepler’s Tally of Planets http://www.nytimes.com/interactive/science/space/keplers-tally-of-planets.html?smid=tw-share
+** Sparpaket des Kantons Bern visualisiert by  Thomas Preusse und Oleg Lavrovsky http://www.stuermer.ch/maemst/2013/07/asp-2014/
+** Python interactive visualization library for large dataset https://github.com/ContinuumIO/Bokeh based on https://github.com/JosephCottam/Stencil
+** Twitter hastags viz by QuatarComputingResearchIinstitute http://scd1.qcri.org/tca/
+** JS graph libraries 
+*** http://dimplejs.org/
+*** http://code.shutterstock.com/rickshaw/
+*** http://www.flotcharts.org/ 
+*** http://sigmajs.org/ 
+*** http://www.oesmith.co.uk/morris.js/
+*** http://dygraphs.com/
+** JS data projects from okfnlabs http://okfnlabs.org/projects/
+*** JS bubble tree lib by Gregor Aisch  https://github.com/okfn/bubbletree/wiki/Bubble-Tree-Documentation
+*** Recline.js : relax with your data  http://okfnlabs.org/recline/docs/
+*** Timeliner http://timeliner.okfnlabs.org/
+** GED VIZ is a new online-tool for visualizing complex economic relations http://viz.ged-project.de/?lang=en
+** eyeo festival https://vimeo.com/channels/544709/69448223
+** gnuplot
+*** gnuplot demos http://gnuplot.sourceforge.net/demo/index.html
+*** Frequency Plot explained http://psy.swansea.ac.uk/staff/carter/gnuplot/gnuplot_frequency.htm
+** plotting
+*** violin plot http://en.wikipedia.org/wiki/Violin_plot http://pyinsci.blogspot.fr/2009/09/violin-plot-with-matplotlib.html
+*** boxplot http://glowingpython.blogspot.fr/2012/09/boxplot-with-matplotlib.html http://flowingdata.com/2008/02/15/how-to-read-and-use-a-box-and-whisker-plot/
+http://www.purplemath.com/modules/boxwhisk3.htm
+*** Dashboard gallery http://econsultancy.com/au/blog/62844-24-beautifully-designed-web-dashboards-that-data-geeks-will-love
+** Jason Davies's blog http://www.jasondavies.com/
+** financial map viz : between map and flowchart http://opencorporates.com/viz/financial/index.html
+** maps
+*** GDAL - Geospatial Data Abstraction Library http://www.gdal.org/ : translator library for raster geospatial data formats
+*** Best maps tools  http://bashooka.com/freebie/great-tools-for-building-interactive-maps/
+    - leafletjs 
+    - mapbox 
+    - polymaps 
+    - maptales 
+    - modestmaps 
+    - INTERACTIVE WORLD MAPS worldpress plugin
+    - JQUERY INTERACTIVE SVG MAP PLUGIN
+    - POINT OF INTEREST (POI) AUTO MAP
+    - zeemaps
+    - MAPS.STAMEN.COM
+    - Kartograph
+*** A circular subway map for NYC by Max Roberts http://www.creativereview.co.uk/cr-blog/2013/july/nyc-subway-map-max-roberts
+*** D3 geo effects explained http://techslides.com/d3-world-maps-tooltips-zooming-and-queue/
+*** Geospatial Education Portfolio @ Penn State University http://www.worldcampus.psu.edu/gep?cm_mmc=Geospatial-Ed+12-13-_-MOOC-_-Online:Banner:Other-_-GEP+Tracking+URL+(PEN43102)
+*** US healthy map http://www.washingtonpost.com/wp-srv/special/health/us-life-expectancies/
+*** Compare Urban Life Around the Globe With New Side-by-Side City Maps http://www.wired.com/wiredscience/2013/07/urban-observatory/
+*** map blog from wired http://www.wired.com/wiredscience/maplab/
+*** heat map example by yelp http://flowingdata.com/2013/07/02/yelp-maps-words-used-in-reviews/
+*** other heat map example http://datadrivenjournalism.net/featured_projects/no_time_for_anger_a_reportage_on_fukushima_two_years_after_the_triple_disas
+*** Sattelite raster http://www.jasondavies.com/maps/raster/satellite/  
+But remember this started with vector tiles. And the vector tiles are
+in the Mercator projection. It’s much harder to take Mercator tiles
+and reproject them to a different projection because you don’t know
+which tiles are visible.
+
+Hard problems like this are Jason Davies’ bread and butter. Jason saw
+the above examples and set out to determine which tiles would be
+visible in an arbitrary projection. He then created the above visual
+demonstration of his algorithm. The red tiles are the ones that are
+visible, and as you zoom in and out, you can see it recalculate the
+set of needed tiles instantly.
+***  making the OpenStreetMap data accessible in tile format http://openstreetmap.us/~migurski/vector-datasource/ 
+explanation http://mike.teczno.com/notes/postgreslessness-mapnik-vectiles.html
+*** cartodb http://developers.cartodb.com/
+*** How to Map Where You've Mapped in OpenStreetMap with tilemill http://www.mapbox.com/blog/how-to-map-contributions-openstreetmap/
+*** data.stories on maps with Mike Migurski http://datastori.es/data-stories-20-maps-migurski/
+*** modestmaps js library for maps made by stamen team http://modestmaps.com/
+*** maps conf http://stateofthemap.us/
+*** crimespotting http://oakland.crimespotting.org
+*** Transforming the Places We Live With Open Data http://m.theatlanticcities.com/technology/2013/03/our-12-favorite-ideas-transforming-places-we-live-open-data/5083/
+*** Twitter maps http://www.mapbox.com/labs/twitter-gnip/languages/
+*** Stamen a design and technology studio in San Francisco maps and data visualization. The next most obvious thing. http://stamen.com/
+*** Stamen people http://ericrodenbeck.tumblr.com/ http://content.stamen.com/
+*** Maps Layout form stamaen : burning maps http://content.stamen.com/announcing_burningmap 
+toner maps https://github.com/Citytracking/toner
+watercolor http://maps.stamen.com/#watercolor/12/37.7706/-122.3782
+*** Maps Applications http://fieldpapers.org/ http://www.dotspotting.org/faq http://citytracking.org/
+*** help maps to be better http://walking-papers.org/ by Michal Migurski http://mike.teczno.com/
+*** Convert Address to long,lat http://www.gpsvisualizer.com/geocoder/
+*** OpenStreetMap's new iD editor http://www.mapbox.com/blog/new-map-editor-launches-openstreetmap/
+*** satellite maps explained by MapBox http://www.wired.com/design/2013/05/a-cloudless-atlas/ 
+*** satellite maps http://dev.geosprocket.com/d3/sat/
+** Jerome Cukier's blog : communicating with data http://www.jeromecukier.net/
+** twitter graph viz : egyptian revolution  http://datavisualization.ch/showcases/egyptian-revolution/ http://www.kovasboguta.com/1/post/2011/02/first-post.html
+** vizu sparse matrices http://www.cise.ufl.edu/~davis/matrices.html
+http://www2.research.att.com/~yifanhu/software.html
+** Great contributions to visualization 
+*** First graph http://en.wikipedia.org/wiki/William_Playfair
+*** example inspired by E. Marley train schedule http://www.c82.net/posts.php?id=66
+*** A Tour through the Visualization Zoo http://queue.acm.org/detail.cfm?id=1805128
+*** http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html
+*** Out of Sight, Out of Mind. http://drones.pitchinteractive.com/
+*** Salary vs. Performance http://fathom.info/salaryper
+*** exploratory graphs http://www.theglobeandmail.com/news/world/gun-control-in-america-a-state-by-state-breakdown/article6465107/
+*** most commont words in corpus http://similardiversity.net/project/
+*** El Patrón de los Números Primos https://www.jasondavies.com/primos/
+*** wind map http://hint.fm/wind/
+** http://www.evolutionoftheweb.com/
+** the prefuse visualization toolkit http://prefuse.org/
+** Brett Victor videos http://worrydream.com/May2013/
+** NBA stats vizu http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html?ref=sports&_r=0
+@wardnyt
+Sports Graphics Editor http://nytimes.com
+Matthew Ericson
+@mericson
+Deputy Graphics Director at The New York Times
+New York, NY · ericson.net
+Jeremy White
+@blueshirt
+Graphics editor for The New York Times, while also pursuing a PhD in
+geography with an emphasis on interactive cartography
+New York City · blueshirt.com
+** INEQUALITY AND NEW YORK’S SUBWAY http://www.newyorker.com/sandbox/business/subway.html http://dangrover.github.io/sf-transit-inequality/
+** The Art of Data Visualization by Edward Tufle  http://datascientistinsights.com/2013/05/10/the-art-of-data-visualization/
+http://www.openculture.com/2013/05/the_art_of_data_visualization_.html
+Data Visualization History goes together with Science history ( Maps, Galileo ...)
+** top 20 vizu tools http://www.netmagazine.com/features/top-20-data-visualisation-tools
+** matplotlib examples http://matplotlib.org/xkcd/gallery.html
+** essential feature for visual data analysis http://strata.oreilly.com/2013/05/11-essential-features-that-visual-analysis-tools-should-have.html
+** Creating a hexagonal cartogram by Ralph Straumann http://www.ralphstraumann.ch/blog/2013/05/creating-a-hexagonal-cartogram/
+** A (personal) blog of data sketches from the New York Times Graphics Department http://chartsnthings.tumblr.com/
+** Transit Patterns @schemadesign http://visualizing.org/galleries/big-data-week-2013
+** How to make a sparktweet http://zachholman.com/spark/ http://quantifiedself.com/2013/04/how-to-make-a-sparktweet/
+** Visualize big graph data by mathieu-bastian http://de.slideshare.net/mathieu-bastian/visualize-big-graph-data
+** Viz example : Location of Every Photo From the InternationalSpaceStation  http://natronics.github.io/ISS-photo-locations/
+source viz in python cairo https://github.com/natronics/ISS-photo-locations/
+** Vis for riemann https://github.com/TouchType/Friedrich
+** Bigdata vis in R https://github.com/hadley/bigvis
+http://blog.revolutionanalytics.com/2013/04/extending-revoscaler-for-mining-big-data.html
+http://blog.revolutionanalytics.com/2013/04/visualize-large-data-sets-with-the-bigvis-package.html
+** Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. https://github.com/trifacta/vega/wiki
+** visu example http://flowingdata.com/2013/04/03/how-a-cab-driver-makes-money/
+** Nathan Yau Data Points Visualization that Means Something http://flowingdata.com/book/
+** Functional Art : An introduction to information graphics and visualization by Alberto Cairo fhttp://www.thefunctionalart.com/
+ http://www.peachpit.com/store/functional-art-an-introduction-to-information-graphics-9780321834737
+** github challenge https://github.com/blog/1450-the-github-data-challenge-ii
+** Languages usage in github http://langpop.corger.nl/
+** regression research design http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003uc
+http://www.edwardtufte.com/tufte/dapp/
+** processing
+*** http://natureofcode.com/ http://vimeo.com/channels/natureofcode/
+*** in quil https://github.com/mudphone/natureofclojure
+*** processing https://www.youtube.com/watch?v=eBV14-3LT-g&feature=youtube_gdata_player
+** javascript
+*** http://gnuplot.respawned.com/ gnuplot in JS
+*** https://github.com/mbostock/topojson https://github.com/mbostock/topojson/wiki
+*** A streaming parser for the ESRI Shapefile spatial data format https://github.com/mbostock/shapefile
+*** The reference http://bost.ocks.org/mike/
+*** simple console for learning and experimenting with d3.js data nesting.  http://bl.ocks.org/d/4748131/
+** D3
+*** Climbing the d3.js Visualisation Stack : rCharts cubism ... http://schoolofdata.org/2013/08/12/climbing-the-d3-js-visualisation-stack/
+*** D3 gallery with description http://visualizing.org/galleries/made-d3js
+*** UTM zones with D3.js http://bl.ocks.org/turban/5866872
+*** plotting the sensors in my Android phone with d3.js and three.js http://enja.org/2012/12/08/plotting-the-sensors-in-my-android-phone-with-d3-js-and-three-js/
+*** http://www.d3noob.org/
+*** Margin convention http://bl.ocks.org/mbostock/3019563
+*** vega clickme http://timelyportfolio.blogspot.ch/2013/04/d3-lifeline-from-vega-and-clickme.html
+*** Binify + topoJSON + D3 = How to create awesome binned hexagon maps  http://mechanicalscribe.com/notes/binify-d3-topojson-tutorial/
+*** How selection works http://bost.ocks.org/mike/selection/
+*** online book "Interactive Data Visualization for the Web" http://ofps.oreilly.com/titles/9781449339739/
+** c2 http://www.infoq.com/presentations/Visual-Interfaces
+** Handbook of Graph Drawing and Visualization , Roberto Tamassia http://cs.brown.edu/~rt/gdhandbook/
+** finance visu example http://make.opendata.ch/forum/discussion/comment/167
+** topoJSON https://github.com/mbostock/us-atlas http://bost.ocks.org/mike/map/
+install gdal to be able to convert shape file into GeoJSON :
+~/dev/misc/gdal-1.9.2/apps/ogr2ogr  -f GeoJSON   -where "iso_a2 = 'CH' AND SCALERANK < 8"   ch_places.json   ~/tmp/ne_10m/ne_10m_populated_places.shp
+to get shapefiles : http://gadm.org/download
+** http://vis4.net/blog/ kartograph http://kartograph.org/docs/kartograph.js/
+* constraint programming
+** CP for the impatient http://www.info.ucl.ac.be/~pschaus/cp4impatient/
+** medium-level constraint modelling language http://www.minizinc.org/ student job : http://t.co/UntuMZ1sRG
+** Scalar models http://yetanothermathprogrammingconsultant.blogspot.ch/2013/05/scalar-models.html
+** wormsudoku  Alldiff with precedence http://cp-is-fun.blogspot.ch/2013/01/worm-sudoku-application-for-alldiff.html?spref=tw
+** Pierre Schaus operational research in scala https://bitbucket.org/oscarlib/oscar/wiki/Home
+** regular expression with crosswords  http://nedbatchelder.com/blog/201302/a_regular_crossword.html
+** clojure constraint prog https://github.com/maxtuno/Clojure---JSR-331---Puzzles http://mx-clojure.blogspot.com/
+** programmation par contraintes rencontres http://www.lsis.org/jfpc-jiaf2013/jfpc/
+* core.logic
+** core.logic queries + datomic https://groups.google.com/forum/#!topic/clojure/pVQndAvR8IQ
+** nice usae case of featurec http://stackoverflow.com/questions/15821718/how-do-i-de-structure-a-map-in-core-logic
+** featurec explained http://michaelrbernste.in/2013/05/12/featurec-and-maps.html
+** thread to generate strings https://groups.google.com/forum/?fromgroups=#!topic/clojure/uJnr33vm8iI
+**  http://minikanren.org/
+** hangout minikaren https://www.youtube.com/watch?v=vRrgaibcTYs
+** core.logic overrated http://programming-puzzler.blogspot.ch/2013/03/logic-programming-is-overrated.html
+** partial-maps break the transitivity of unification https://groups.google.com/forum/?fromgroups=#!topic/clojure/6n7Y7D4Hbc4 http://dev.clojure.org/jira/browse/LOGIC-76
+** countdown numbers game https://groups.google.com/forum/?fromgroups=#!topic/clojure/lT-eaWA2szU
+** generate maps with specific constraints http://tsdh.wordpress.com/2012/01/06/using-clojures-core-logic-with-custom-data-structures/
+http://objectcommando.com/blog/2011/11/04/the-magical-island-of-kanren-core-logic-intro-part-1/
+datalog for lucene query https://groups.google.com/forum/?fromgroups=#!topic/clojure/_M73qeHNFe8 https://gist.github.com/3060305
+** future dev works https://github.com/clojure/core.logic/wiki/Development
+** Nominal Logic Programming http://swannodette.github.com/Nominal%20Logic/2013/02/08/the-simply-typed-lambda-calculus-in-20-lines-redux/
+** persistent database in core.logic https://github.com/threatgrid/pldb
+** http://de.slideshare.net/stevensreinout/qwalkeko-a-history-querying-tool
+** Path expressions through graphlike structures for clojure using core.logic https://github.com/ReinoutStevens/damp.qwal
+** Applicative logic meta-programming using Clojure's core.logic against an Eclipse workspace https://github.com/cderoove/damp.ekeko
+* cascalog
+** top tuples per group by Nathan Marz  https://groups.google.com/forum/#!msg/cascalog-user/ih8yqyCqiT4/SqSeez15TBsJ
+Usage of name-vars
+
+(?- (stdout)
+     (c/first-n (name-vars age ["?person" "?age"])
+                  10
+                  :sort "?age"
+                  :reverse true))
+
+The name-vars portion is necessary because the age dataset is just a
+vector without named fields.
+** Hacking Scrabble with Cascalog http://compsocsci.blogspot.ch/2013/03/hacking-scrabble-with-cascalog.html
+** Description of def macros https://groups.google.com/forum/#!msg/cascalog-user/_J_cmvj1mtY/1bBaQv59MwsJ http://jimdrannbauer.com/2011/02/04/cascalog-made-easier/
+** cascalog real-world example by Ian Rumford http://ianrumford.github.io/blog/2012/09/29/using-cascalog-for-extract-transform-and-load/
+** cascalog graph https://github.com/jeroenvandijk/cascalog-graph
+** multiple taps https://groups.google.com/forum/#!msg/cascalog-user/Ceq-gBFmjDI/BDWOEelUJS0J
+** cascalog intro by factual  http://blog.factual.com/clojure-on-hadoop-a-new-hope
+** defmapcatop question https://groups.google.com/forum/?fromgroups=#!topic/cascalog-user/oPUd6UVreB8
+** Viz cascading flow https://github.com/nathanmarz/cascalog/wiki/Cascading-Flow-visualization
+** pairwise computation in cascalog https://groups.google.com/forum/?fromgroups=#!topic/cascalog-user/P4VS2r0UwJA
+** Cascalog and approximate unique count  https://groups.google.com/forum/#!topic/cascalog-user/l3H456kmhhQ
+
+* clj pratice
+** Prismatic's Engineering Practices  https://github.com/Prismatic/eng-practices
+* clj programming
+** [ANN] riddley: code-walking without caveats  https://groups.google.com/forum/#!topic/clojure/a68aThpvP4o
+ https://github.com/ztellman/riddley
+
+riddley.walk> (walk-exprs number? inc '(let [n 1] (+ n 1)))
+(let* [n 2] (. clojure.lang.Numbers (add n 2)))
+
+how to write a correct macroexpand-all (which requires a code walker) in Common Lisp:
+http://www.merl.com/publications/TR1993-017/
+* clj math
+** clj matrix https://github.com/mikera/matrix-api with 2 implementions https://github.com/mikera/vectorz-clj and native BLAS
+* clj API
+** [[https://gist.github.com/ahoy-jon/f15508509e183b5e9bc3][monoid in clj]] http://twdkz.wordpress.com/2013/05/31/data-analysis-with-monoids/
+** fold unfold : deep-merge
+I think functions like this become pretty clear if you pull out
+'unfold' and 'fold' utilites, like:
+https://github.com/Prismatic/plumbing/blob/master/src/plumbing/map.clj#L42
+
+Their 'flatten' generates a seq [path value] pairs, and 'unflatten'
+turns that back into a map.  With these, you can write your functions
+
+(defn to-map [kv-seq] (into {} kv-seq)) ;; utility
+
+
+(defn flatten-map [m kf vf]
+  (->> m
+       flatten
+       (map (fn [[ks v]] [(kf ks) (vf v)]))
+       to-map))
+
+
+(defn mapf [m f & args]
+  (->> m
+       flatten
+       (map (fn [[ks v]] [ks (apply f v args)]))
+       unflatten))
+
+(defn deep-merge-with [f & ms]
+  (->> ms
+       (map flatten)
+       (map to-map)
+       (reduce (fn [res m] (merge-with f res m))) ;; could use
+  'partial'
+       unflatten))
+
+(defn deep-merge [a b]
+  (deep-merge-with (fn [x y] y) a b))
+
+;; bonus: also useful for fns that don't return a map
+(defn max-depth [m]
+  (->> m
+       flatten
+       (map (comp count first))
+       (apply max 0)))
+** List of various clj article http://blog.safaribooksonline.com/2013/09/12/safaris-clojure-collection-of-post
+** Invariants via Immutability : typed clojure article http://frenchy64.github.io/typed/clojure,/core.typed,/clojure/2013/08/16/first-steps-with-core-typed.html
+** deep merge https://groups.google.com/forum/?fromgroups=#!topic/clojure/UdFLYjLvNRs
+(defn deep-merge
+  "Recursively merges maps. If keys are not maps, the last value wins."
+  [& vals]
+  (if (every? map? vals)
+    (apply merge-with deep-merge vals)
+    (last vals)))
+
+** understanding vars https://groups.google.com/forum/?fromgroups=#!topic/clojure/viz1nEURerc
+** Destructuring can expressions as key
+(let [{x (+ 1 1)} {2 "two"}] x)
+** arrows https://github.com/rplevy/swiss-arrows to compare with new threading macros as-> some-> cond->
+** [[https://groups.google.com/forum/?fromgroups=#!topic/clojure/pRla3_7vqvc][group-by proposition ]]
+** use of var in ring apps explained https://groups.google.com/forum/?fromgroups=#!topic/clojure/tZpNp0rEBKQ
+** fcts génériques and macros with cgrand https://groups.google.com/forum/?fromgroups=#!topic/clojure-fr/ZoDVW4urFRM
+https://github.com/cgrand/parsley/blob/master/src/net/cgrand/parsley/tree.clj#L15
+** memoize and concurrency in clj http://kotka.de/blog/2010/03/memoize_done_right.html
+** keywordize
+(into {} (for ...))
+(defn keywordize-keys
+  "Recursively transforms all map keys from strings to keywords."
+  {:added "1.1"}
+  [m]
+  (let [f (fn [[k v]]] (if (string? k) [(keyword k) v] [k v]))]
+    ;; only apply to maps
+    (postwalk (fn [x] (if (map? x) (into {} (map f x)) x)) m))
+
+** some clj patterns
+*** Union
+(set
+  (mapcat #(...
+    ...)
+
+monadic bind in the set monad ?
+
+(set (apply concat (for [...]
+                               [...])))
+
+(defn union-of [colls]
+  (reduce into #{} colls))
+
+*** zipmap
+(into {}
+      (map #(vector ...)))
+
+fmap in the hash-map functor ?
+
+*** remove empty?
+
+(filter seq ...)
+** load optional dependency
+https://github.com/sonian/carica/commit/eae079f4bfd1a0d50a75b11cd0f23ca73ec81797
+(require 'cheshire.core)
+(apply (ns-resolve (symbol "cheshire.core") (symbol "parse-stream")) args)
+** multimethod usage on config file
+(memfn getPath) instead of #(.getPath %)
+(defmulti load-config (comp second
+                            (partial re-find #"\.([^..]*?)$")
+                            (memfn getPath)))
+
+(defmethod load-config "clj" [resource])
+** load properties file
+(into {} (doto (java.util.Properties.)
+           (.load (-> (Thread/currentThread)
+                      (.getContextClassLoader)
+                      (.getResourceAsStream "log4j.properties")))))
+** reduce + lazy seq : blow up ? https://groups.google.com/forum/?fromgroups=#!topic/clojure/0pcSxK9reSc
+user> (defn test1 [coll] (reduce + coll))
+#'user/test1
+user> (test1 (take 10000000 (iterate inc 0)))
+49999995000000
+user>
+
+Now if we do:
+
+user> (defn test2 [coll] [(reduce + coll) (reduce + coll)])
+#'user/test2
+user> (test2 (take 10000000 (iterate inc 0)))
+OutOfMemoryError Java heap space  [trace missing]
+
+Clojure has a feature called locals clearing, which sets 'coll to nil before calling reduce in test1, because the compiler can prove it won't be used afterwards.
+In test2, coll has to be retained, because reduce is called a second time on it.
+ https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/Compiler.java#L3458
+
+** deep-merge-with http://clojuredocs.org/clojure_contrib/clojure.contrib.map-utils/deep-merge-with
+Like merge-with, but merges maps recursively, applying the given fn
+only when there's a non-map at a particular level.
+
+(deepmerge + {:a {:b {:c 1 :d {:x 1 :y 2}} :e 3} :f 4}
+{:a {:b {:c 2 :d {:z 9} :z 3} :e 100}})
+-> {:a {:b {:z 3, :c 3, :d {:z 9, :x 1, :y 2}}, :e 103}, :f 4}
+** core.reducers
+*** Improving your Clojure code with core.reducers http://adambard.com/blog/clojure-reducers-for-mortals/
+*** reducers by example http://ianrumford.github.io/blog/2013/08/25/some-trivial-examples-of-using-clojure-reducers/
+*** reducers https://github.com/cgrand/berlin-profiling/blob/master/src/berlin_profiling/life.clj
+http://clojure.com/blog/2012/05/15/anatomy-of-reducer.html
+http://clj-me.cgrand.net/2013/02/11/from-lazy-seqs-to-reducers-and-back/
+(defn reverse-conses
+  ([s tail]
+    (if (identical? (rest s) tail)
+      s
+      (reverse-conses s tail tail)))
+  ([s from-tail to-tail]
+    (loop [f s b to-tail]
+      (if (identical? f from-tail)
+        b
+        (recur (rest f) (cons (first f) b))))))
+
+(defn seq-seq [f s]
+  (let [f1 (reduce #(cons %2 %1) nil
+              (f (reify clojure.core.protocols.CollReduce
+                   (coll-reduce [this f1 init]
+                     f1))))]
+    ((fn this [s]
+       (lazy-seq
+         (when-let [s (seq s)]
+           (let [more (this (rest s))
+                 x (f1 more (first s))]
+             (if (reduced? x)
+               (reverse-conses @x more nil)
+               (reverse-conses x more)))))) s)))
+
+(defmacro seq->> [s & forms]
+  `(seq-seq (fn [n#] (->> n# ~@forms)) ~s))
+
+(take 2 (seq->> (range) (r/map #(str (doto % prn))) (r/take 25)
+(r/drop 5)))
+** core.typed
+*** Typed Clojure by Example http://nathanic.org/posts/2013/typed-clojure-tour/
+** clojure.edn/read and clojure.edn/read-string http://clojuredocs.org/clojure_core/clojure.core/read
+https://groups.google.com/forum/?fromgroups=#!topic/clojure/YBkUaIaRaow
+* clj concurrency
+** Pong Game Explained http://ragnard.github.io/2013/10/01/clojurecup-pong-async.html 
+** core.async rationale by Rich Hickey http://clojure.com/blog/2013/06/28/clojure-core-async-channels.html
+** promise future agent channels by tbc++ Timothy Baldrigde https://groups.google.com/forum/#!topic/clojure/e6Tg4wXLcug
+promise - creates a object that can be deref'd. The result of the
+promise can be delivered once, and deref-ing a undelivered will cause
+the deref-ing thread to block. A single producer can give a single
+value to multiple threads
+
+future - just like a promise, but it the delivering code is given to
+the future and the future will go off and execute that code in a
+different thread. Single producer delivers a single value produced in
+a undefined thread, to multiple consumers
+
+agents - couples a unbounded queue of functions with a single mutable
+value. Mutating that value is accomplished by enqueue'ing functions to
+be executed against that mutable state. Multiple producers use
+functions to modify a mutable ref. Can be deref-ed by may different
+consumers
+
+channels - allow multiple producers to provide data to multiple
+consumers on a one-to-one basis. That is to say, a single value put
+into a channel can only be taken by a single consumer. However,
+multiple values can be inflight at a single time. This is all
+delivered by a bounded queue (notice the difference with unbounded
+agents). This allows for back-pressure, where slow producers can block
+faster consumers. So perhaps the best way to think about channels is a
+bounded mutable queue of promises
+
+** What is a "state monad binding plan" (referring to code in core.async) https://groups.google.com/forum/#!searchin/clojure/core.async/clojure/soewFCS8dAI/kaJ09e_eA7gJ
+** http://swannodette.github.io/2013/08/23/make-no-promises/
+** In-depth article : CLOJURESCRIPT CORE.ASYNC DOTS GAME http://rigsomelight.com/2013/08/12/clojurescript-core-async-dots-game.html
+** CSP is Responsive Design by David Nolen http://swannodette.github.io/2013/07/31/extracting-processes/
+** The State Machines of core.async http://hueypetersen.com/posts/2013/08/02/the-state-machines-of-core-async/
+** 100k independent go blocks all running at the same time  http://swannodette.github.io/2013/08/02/100000-processes/
+** Hoare examples implemente with core.async https://github.com/nodename/async-plgd
+** core.async examples in clojuscript http://swannodette.github.io/2013/07/12/communicating-sequential-processes/ https://github.com/swannodette/async-tests
+** some games core.async examples http://tech.puredanger.com/2013/07/10/rps-core-async/ https://github.com/rkneufeld/rouge
+** core.async: communicating termination https://groups.google.com/forum/#!topic/clojure/_KzEoq0XcHQ
+** Dining Philosophers in core.async http://pepijndevos.nl/2013/07/11/dining-philosophers-in-coreasync.html
+** Clojure, core.async and the Lisp Advantage http://www.leonardoborges.com/writings/2013/07/06/clojure-core-dot-async-lisp-advantage/
+* clj image
+** Image analysis with Clojure and OpenCV: A face detection example http://nils-blum-oeste.net/image-analysis-with-clojure-up-and-running-with-opencv/#.UafoMfH2kuk
+** openCV wrapper http://nakkaya.com/2011/01/24/lane-detection-using-clojure-and-opencv/  http://nakkaya.com/vision.html
+* Music
+** overtone
+*** https://github.com/ctford/whelmed 
+*** Creating instruments with overtone by Joseph Wilk http://blog.josephwilk.net/clojure/creating-instruments-with-overtone.html
+*** overtone http://lifeisagraph.com/2010/03/15/clojure-event-system.html
+*** overtone stuff https://gist.github.com/rogerallen http://rogerallen.github.com/ using https://github.com/ctford/leipzig
+*** music composition example in overtone https://soundcloud.com/toxi/rukanos-space-organ http://hg.postspectacular.com/resonate-2013
+*** sam aaron demo : http://vimeo.com/60534305
+** coursera class on music technology https://www.coursera.org/course/musictech
+** Music books 
+*** http://music.columbia.edu/cmc/MusicAndComputers/ 
+*** Puckette: Theory and Techniques of Electronic Music. Online at: http://crca.ucsd.edu/~msp/techniques.htm
+*** The Computer Music Tutorial  http://www.chegg.com/textbooks/the-computer-music-tutorial-1st-edition-9780262680820-0262680823?trackid=c8c3f95d&ii=1&om_ss=1
+** Music in Python http://pyvideo.org/video/1769/music-theory-and-performance-analysis-with-sebast
+* clj devops
+** use leiningen for scala project scalding https://github.com/masverba/scalding-on-leiningen
+* clj data computation
+** Experimental combination of core.logic and core.matrix to allow reasoning with vectors / mathematical expressions https://github.com/clojure-numerics/expresso
+** Algebraic Expressions by Maik Schünemann http://kimavcrp.blogspot.de/2013/05/gsoc-project-algebraic-expressions-pre.html
+** Introducing HipHip (Array): Fast and flexible numerical computation in Clojure https://github.com/prismatic/hiphip
+http://blog.getprismatic.com/blog/2013/7/10/introducing-hiphip-array-fast-and-flexible-numerical-computation-in-clojure
+** client cassandra thrift  https://gist.github.com/daveray/5464943
+** matlab --> clojure example http://boss-level.com/?p=160 http://ejackson.github.com/inflow/
+
+** Using riemann to monitor python apps http://www.spootnik.org/tech/2013/05/21_using-riemann-to-monitor-python-apps.html
+** clojure event processing with esper http://patternhatch.com/2013/05/29/event-stream-processing-using-clojure-and-esper/
+** [[http://blog.getprismatic.com/blog/2012/10/1/prismatics-graph-at-strange-loop.html][graph from prismatic]] [[https://github.com/clojure/tools.namespace][namespace from ssierra]] using [[https://github.com/stuartsierra/flow][flow]] clone from graph
+** explained graph usage http://blog.getprismatic.com/blog/2013/2/1/graph-abstractions-for-structured-computation
+** discussion https://groups.google.com/forum/?fromgroups=#!topic/clojure/UYXcoK0bTNc http://news.ycombinator.com/item?id=5183236
+** behavior trees http://www.altdevblogaday.com/2011/02/24/introduction-to-behavior-trees/
+** http://en.wikipedia.org/wiki/Dataflow_programming
+** stats computation
+*** https://github.com/ReadyForZero/babbage https://groups.google.com/forum/?fromgroups=#!topic/clojure/TEtlhjRRRvk
+*** example with fingertree https://gist.github.com/672592  http://blog.sigfpe.com/2010/11/statistical-fingertrees.html
+    
+* clj java
+** jav.nio2 wrapper https://github.com/juergenhoetzel/clj-nio2
+(ns test.nio2.test.tail
+  (:use clojure.java.io nio2.io nio2.watch nio2.files))
+
+(defn tail [n p]
+  "Print the last n lines of path p to stdout"
+  (with-open [rdr (reader p)]
+    (doseq [l (take-last n (line-seq rdr))]
+      (println l))
+    (doseq [e (watch-seq (parent (real-path p)) :modify)]
+      (when (= (real-path (:path e)) (real-path p))
+        (while (.ready rdr) (println (.readLine rdr)))))))
+* clj libraries
+** DateTime Conversions in Clojure http://decomplecting.org/blog/2013/02/03/datetime-conversions-in-clojure/
+** A macro-based refactoring library for Clojure https://github.com/ctford/poker
+** Utility libraries and dependency hygiene https://groups.google.com/group/clojure/browse_frm/thread/5ae4b7d514a2cff0
+Parallel universes for namespaces  https://github.com/technomancy/metaverse 
+** Twitter-api [twitter-api "0.7.4"] https://github.com/adamwynne/twitter-api 
+** css DSL https://github.com/noprompt/garden
+** Geohash library for clojure by @sunng https://bitbucket.org/sunng/clojure-geohash
+* misc clj
+** http://www.brandonbloom.name/blog/2013/06/26/slurp-and-spit/
+** https://github.com/ztellman/byte-streams
+** unifiacation with macros core.contract http://blog.fogus.me/2013/04/23/using-unification-to-write-readable-macros/
+** jlatexmath in https://github.com/tgk/tex-service http://forge.scilab.org/index.php/p/jlatexmath/
+** detect language with com.cybozu.labs.langdetect.DetectorFactory https://gist.github.com/cemerick/5457242
+** clojure in clojure https://bitbucket.org/remleduff/cinc
+** stuart Halloway presentations https://github.com/stuarthalloway/presentations/wiki
+** typed clojure screencast by Ambrose BS  https://vimeo.com/55196903  https://vimeo.com/55215849  https://vimeo.com/55251041  https://vimeo.com/55280915
+** ssierra lib on namespace
+** namespacing https://groups.google.com/forum/?fromgroups=#!topic/clojure/GgPmRnmbIZQ
+** security group https://groups.google.com/group/clojure-sec?pli=1
+** https://github.com/clojure/clojure/blob/clojure-1.5.0-RC1/changes.md
+** slamhound to install on emacs to write require/import for you http://www.lispplusplus.com/2012/12/slamhound-130-cleaning-up-all-your.html
+** use slog4j http://blog.zololabs.com/2012/12/04/logging-in-clojure-jvm-part-2/
+** check logging in clj
+http://corfield.org/blog/post.cfm/real-world-clojure-logging
+http://www.paullegato.com/blog/log4j-clojure/
+http://gphil.net/posts/2012-09-04-logging-in-clojure.html simple concrete example
+** http://randomcomputation.blogspot.ch/2013/01/monte-carlo-tree-search-in-clojure.
+** fast idiomatic pretty-printer  https://github.com/brandonbloom/fipp
+** intro clojure http://www.unexpected-vortices.com/clojure/brief-beginners-guide/libs-management-and-use.html
+
+** write, transport , process logs http://blog.zololabs.com/2013/01/24/logging-in-clojure-jvm-part-4/
+** display vector , hash as ASCII table https://github.com/owainlewis/tabular clojure.pprint/print-table is for maps only
+** clojure table layout https://github.com/joegallo/doric
+** http://stevelosh.com/blog/2012/07/caves-of-clojure-01/ interact with terminals http://sjl.bitbucket.org/clojure-lanterna/
+** schema in clj https://github.com/runa-dev/clj-schema
+** http://hackaday.com/2013/02/07/gifsockets-websockets-using-animated-gif-files/
+** http://dev.clojure.org/display/community/Project+Ideas
+* clj machine learning
+** review code on levenshtein algo and memoization https://groups.google.com/forum/#!topic/clojure/w6SRYE4n6pc
+** clojure wrapper on top various nlp libs https://github.com/jimpil/hotel-nlp
+** Sentiment analysis in clojure http://kilotau.com/blog/2012/07/06/creating-a-simple-sentiment-analyzer-using-cl/ https://github.com/damionjunk/sentimental
+* clj server
+** event system explained in clojure (FSM + redis + rabbitmq)  http://www.quantisan.com/event-driven-finite-state-machine-for-a-distributed-trading-system/
+** Stuart Sierra about tools.namespace http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
+** http://paulosuzart.github.com/blog/2013/02/07/configuring-clojure-immutant-by-environment/
+* clj perf
+** Proteus: local mutable variables for the masses by Zach Tellman https://github.com/ztellman/proteus https://groups.google.com/forum/#!topic/clojure/7HNNiJJTte4
+** Clojure: Elegance vs. Performance? https://groups.google.com/forum/#!topic/clojure/-oPnklPSLx8
+** intrumenting clojure http://corfield.org/blog/post.cfm/instrumenting-clojure-for-new-relic-monitoring
+** quick-bench http://clojurefun.wordpress.com/2013/03/07/achieving-awesome-numerical-performance-in-clojure/
+** primes optimized http://loufranco.com/blog/20-days-of-clojure-day-15
+** A simple IO library for using Clojure's reducers  https://github.com/thebusby/iota/
+** list of useful links http://www.verious.com/board/AKumar/improving-performance-with-clojure/
+* clj webdev
+** webframework à la django https://github.com/caribou
+** Manual Clojure Deployment https://juxt.pro/articles/manual-clojure-deployment.html
+** enlive snippet use case https://groups.google.com/forum/#!topic/enlive-clj/h0Y2pYOe6o4 
+https://github.com/xavi/noir-auth-app/blob/master/src/noir_auth_app/views/admin.clj#L30-L102  https://groups.google.com/forum/#!topic/enlive-clj/EJWSH5G7rH0
+** websockets with http-kit https://github.com/cgmartin/clj-wamp
+** Parallel Processing with Pedestal https://github.com/pedestal/app-tutorial/wiki/Parallel-Processing
+** Pedestal Todo app https://github.com/konrad-garus/pedestal-todo
+** JSON on steroid inpired by EDN https://github.com/lynaghk/json-tagged-literals
+** Building an iOS weather app with Angular and ClojureScript http://keminglabs.com/blog/angular-cljs-mobile-weather-app/
+* clj GUI
+** http://nathanwilliams.github.io/2013/05/15/seesaw-gui-programming-the-clojure-way/
+** clojure IDE http://nightcode.info/
+* cljs
+** http://www.panoramap.org web-app with Leaflet  https://github.com/bzg/wlmmap
+** CljsFiddle http://cljsfiddle.net/fiddle/swannodette.test-logic code http://github.com/jonase/cljsfiddle
+** Purnam - AngularJs Language Extensions for Clojurescript Inspired by lispyscript, coffescript and clang https://github.com/zcaudate/purnam
+** cljs templating http://blog.getprismatic.com/blog/2013/1/14/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web https://github.com/Prismatic/dommy
+** cljs properties access http://dev.clojure.org/display/design/Unified+ClojureScript+and+Clojure+field+access+syntax
+good (.-MAX_NUMBER js/Math) and (.ceil js/Math 3.14)
+not clojure compatible js/Math.MAX_NUMBER and (js/Math.ceil 3.14)
+** testing in cljs https://groups.google.com/forum/?fromgroups=#!topic/clojurescript/a2WcxJvp8Qo
+ https://github.com/prismatic/cljs-test https://github.com/cemerick/yonder
+** clojurescript internal http://www.infoq.com/presentations/ClojureScript-Optimizations
+** FRP http://tailrecursion.com/blog/2013/02/15/introducing-javelin-an-frp-library-for-clojurescript/
+https://github.com/alandipert/enduro-todo
+** https://github.com/cemerick/clojurescript.test
+* parser
+** Grammar explained with regular expressions http://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html
+** Instaparse: Parsing With Clojure Is the New Black http://walkwithoutrhythm.net/blog/2013/05/16/instaparse-parsing-with-clojure-is-the-new-black/
+** incremental vector (instaparser) https://groups.google.com/group/clojure/browse_frm/thread/a43a6be002be83d
+** clj instaparser https://github.com/Engelberg/instaparse https://groups.google.com/forum/?fromgroups=#!topic/clojure/9U-0ZIWpMSg
+** a Groovy-like syntax atop Clojure pasing done with kern https://github.com/gavingroovygrover/grojure
+https://groups.google.com/forum/?fromgroups=#!topic/clojure/-kEXiuDRejE
+** PEG in JS http://pegjs.majda.cz/online
+** kern tuto https://github.com/blancas/morph/wiki/Writing-a-Simple-Parser
+** simple markdown parser http://deltadiaz.blogspot.ch/2012/04/parsing-with-haskell.html
+** Functional parsing library from chapter 8 of Programming in Haskell http://www.cs.nott.ac.uk/~gmh/Parsing.lhs
+** parser combinator  https://github.com/blancas/kern/wiki https://github.com/youngnh/parsatron https://groups.google.com/forum/?fromgroups=#!topic/clojure/hgMcvG8kWS4
+** parsley http://walkwithoutrhythm.net/blog/2012/12/29/parsing-is-fun-again/
+** lexer https://github.com/xsc/lexington
+** parser in smalltalk http://scg.unibe.ch/research/helvetia/petitparser
+
+** parser in cofescript https://github.com/JonAbrams/tomljs SQL parser https://gist.github.com/grncdr/5039898
+* IDE
+** Cursive is the Clojure IDE that understands your code http://cursiveclojure.com/
+** clojure IDE https://github.com/arthuredelstein/clooj
+** clojure debugging with ritz http://ianeslick.com/2013/05/17/clojure-debugging-13-emacs-nrepl-and-ritz/
+** emacs
+*** How to learn Emacs keyboard shortcuts http://sachachua.com/blog/2013/09/how-to-learn-emacs-keyboard-shortcuts-a-visual-tutorial-for-newbies/
+*** Learn #Emacs Lisp in 15 minutes http://bzg.fr/learn-emacs-lisp-in-15-minutes.html
+*** emacs wiki http://www.emacswiki.org/emacs/InteractiveSpell
+*** emacs find java source http://blog.jayfields.com/2013/04/emacs-lisp-find-java-sources.html?spref=tw
+*** emacs live tuto http://paradigmx.net/blog/2013/04/01/clojure-toolchain-reloaded/
+*** emacs org-mode and clojure http://kimavcrp.blogspot.ch/2012/05/literate-programming-in-clojure-table.html
+*** mastering emacs http://www.masteringemacs.org/
+** vim
+*** Vim is your new IDE @vrde http://tmp.devcharm.com/pages/vim-is-your-new-ide
+*** vim 7 best habits  http://www.moolenaar.net/habits.html
+*** dispatch vim http://thechangelog.com/introducing-dispatch-vim-the-asynchronous-build-and-test-dispatcher/
+*** vim repl debug mode https://github.com/dgrnbrg/vim-redl
+*** vim https://github.com/guns/vim-clojure-static vim plugins https://github.com/guns/screen https://bitbucket.org/kovisoft/paredit/overview
+*** http://michaelalynmiller.com/blog/2013/02/27/vim-tmux-clojure/
+
+** Structural editing http://alan.dipert.org/post/47461498337/structural-editing-apocrypha
+** stoke strutured editing http://alan.dipert.org/post/47444634908/structural-editing-revisited
+** vimscript book http://learnvimscriptthehardway.stevelosh.com/?published
+** LightTable IDE http://www.chris-granger.com/2012/12/11/anatomy-of-a-knockout/ http://www.chris-granger.com/2013/01/24/the-ide-as-data/
+** lein faster https://github.com/technomancy/leiningen/wiki/Faster
+Fast JVM launching without the hassle of persistent JVMs. https://github.com/flatland/drip/
+** lein startup https://groups.google.com/group/clojure/browse_thread/thread/7b96718933962f35
+> I take this to mean that there's no widely accepted solution.
+
+The widely-accepted solution is to leave a single process running. It
+certainly has limitations, but it's the way most people deal with the
+problem.
+> Really, I just want `lein run` to be faster. Can someone explain where all
+> this time is spent?
+
+Basically it comes from having to load two JVMs, one for Leiningen
+itself and one for the project. Leiningen itself is fairly optimized for
+this (fully AOTed, bytecode verification is turned off, fancy warm-up
+JIT techniques disabled) which is why it's possible to get `lein
+version` to return in under a second in some cases. But there are
+various compatibility issues that prevent us from being able to perform
+the same optimizations on project JVMs. These are documented on the
+"Faster" page of the Leiningen wiki, and you can do some testing to
+determine whether or not they affect your project in particular; if not
+then they should provide a good boost.
+But nothing will ever come close to the speed of keeping the JVM
+resident, which is why I'm working on `:eval-in :nrepl` and lein.el. For
+people who don't use Emacs, Jark is the only tool I'm aware of that is
+working towards this in a way that's decoupled from the editor. They
+could probably use some help both testing and implementing it.
+> I hear a lot of talk of compiling, but why would we re-compile things where
+> none of the dependencies have changed?
+
+Performing a full AOT of all your dependencies will help if you have a
+large project with lots of dependencies that get loaded at application
+boot. But that effect would be something along the lines of bringing
+boot down from 20s to 12s rather than bringing it from 5s to <1s.
+** org-mode tips
+#+begin_src clojure :exports both
+    (with-out-str (print-table [{:a 1 :b 2 :c 3} {:b 5 :a 7 :c "dog"}]))
+#+end_src
+
+(Using with-out-str is needed because print-table of course returns nil)
+
+But what I get when generating HTML (via "C-c C-e b") is not a table, but the literal text of the table markup. I.e. compiling the above source block yeilds:
+
+#+RESULTS: clojure-org-table
+
+** light table http://www.chris-granger.com/2013/02/27/light-table-030-experience/
+* Tech stuff
+**  http://petapixel.com/2013/09/29/newly-developed-software-helps-get-high-quality-photos-crappy-lenses/
+**  http://pitchmarathon.co/prizes/
+** Creating network and connecting from anywhere where people are interested. http://guifi.net/en/node/38392
+** Prism All your data, in one place http://prism.andrevv.com/
+** Artisan electronic device http://www.creativereview.co.uk/cr-blog/2013/may/yves-saint-laurent-meets-nasa
+** Tetris for ever http://tetrisconcept.net/wiki/Playing_forever
+** A [work-in-progress] self-hosted, anti-social RSS reader https://github.com/swanson/stringer
+** Best Content Discovery Application ?
+  Flipboard
+ Instapaper
+ Pinterest
+ Prismatic
+ Tumblr
+
+** openstack  http://techup.ch/925/2nd-swiss-openstack-ug-meeting
+** privacy and data http://gigaom.com/2013/02/06/think-europeans-are-more-into-data-privacy-than-americans-think-again/
+** opensource dropbox : owncloud5 seafile
+http://linuxaria.com/article/installation-of-seafile-open-source-dropbox-alternative-for-teams?lang=en
+http://techcrunch.com/2013/02/24/meet-owncloud-5-the-open-source-dropbox/
+* Fablab
+* Education
+** MOOC list http://www.mooc-list.com/categories/computer-science-artificial-intelligence-robotics-vision
+** Wonder How-To : math craft , origami, ... http://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/
+** programming school http://codeclub.org.uk/ 
+** puzzle game http://worrydream.com/AlligatorEggs/
+** experiments howto teachkids to programs scratch http://snapcircuits.net/  http://technomancy.us/167
+** speciatin vs. specialisation http://www.openculture.com/2013/05/ken_robinson_explains_how_to_escape_the_death_valley_of_american_education.html
+** mooc pedagogy http://edtechfrontier.com/2013/05/11/the-pedagogy-of-moocs/
+**  Data Science Apprenticeship http://www.datasciencecentral.com/profiles/blogs/the-face-of-the-new-university
+** Potential projects to be completed:  http://www.datasciencecentral.com/profiles/blogs/proposal-for-an-apprenticeship-in-data-science
+   - hacking and reverse-engineering projects (TBD)
+   - web crawling projects: how many Facebook accounts are duplicate or dead? Or categorize Tweets
+   - taxonomy creation or improving an existing taxonomy
+   - optimal pricing for bid keywords on Google
+   - create a web app that provide (in real time) better-than-average trading signals
+   - find low-frequency and Botnet fraud cases in a sea of data
+   - internship in computational marketing with a data science start-up
+   - automated plagiarism detection
+   - use web crawlers, assess whether Google Search favors
+      - (1) its products over competitors [is this an unfair business practice?],
+      - (2) local over non-local results and
+      - (3) returns different results to web robots and humans. Identify other bias and patterns in Google search results.
+** http://www.slate.com/articles/technology/top_right/2011/08/flipping_the_classroom.html
+Classroom flipping means assigning lectures as homework, leaving actual classroom time for hands-on instruction and group work.
+Ng told me his class at Stanford is already doing this, and he’s encouraging other professors to adopt the approach for their Coursera classes as well.
+** massive open online course MOOC
+*** http://www.slate.com/blogs/future_tense/2013/02/05/mooc_meltdown_coursera_course_on_fundamentals_of_online_education_ends_in.html
+*** http://www.slate.com/articles/technology/future_tense/2012/07/coursera_udacity_edx_will_free_online_ivy_league_courses_end_the_era_of_expensive_higher_ed_.html
+** http://codeacademy.com
+** http://www.code.org/learn/scratch
+* Research
+**  Douglas C. Engelbart A research for augmenting human Intellect http://sloan.stanford.edu/mousesite/1968Demo.html
+** http://en.wikipedia.org/wiki/J._C._R._Licklider
+* Jobs
+** Data Viz jobs mailing list https://groups.google.com/forum/?fromgroups#!forum/data-vis-jobs
