@@ -125,6 +125,9 @@ that is Environ: https://github.com/weavejester/environ
 ** http://www.servicedesigntools.org/
 ** Pattern Matemorphosis http://www.behance.net/gallery/Pattern-Metamorphosis/9737427
 * hardware
+** raspberryPI
+*** Media center raspbmc openelec xbian http://lifehacker.com/raspberry-pi-xbmc-solutions-compared-raspbmc-vs-openel-1394239600
+** On Hacking MicroSD Cards http://www.bunniestudios.com/blog/?p=3554
 ** [Kultpfunzel: Kult=cult. Funzel=dim light.] macht hell & ist hackable http://kultpfunzel.ch/
 ** clj on raspberry pi by @gonzih http://blog.gonzih.me/blog/2013/04/14/clojure-on-raspberry-pi-openjdk-vs-oracle-java-8/
 ** school for poetic computation  http://sfpc.io/index.html
@@ -232,8 +235,12 @@ http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-
 *** Distributed systems in GO http://da-data.blogspot.ch/2013/02/teaching-distributed-systems-in-go.html
 
 * programming
+
+** computer fundamentals ... http://cs-fundamentals.com/programming-tutorials-c-java-dsa-home.php
 ** Learn [clojure|elixir|go|haskell|...] in Y minutes http://learnxinyminutes.com/
 ** Type System
+*** Type-Level Programming in Scala http://apocalisp.wordpress.com/2010/06/08/type-level-programming-in-scala/
+*** Type-Level Programming in Haskell http://byorgey.wordpress.com/2010/06/29/typed-type-level-programming-in-haskell-part-i-functional-dependencies/
 *** Moand Transformers http://functionaltalks.org/2013/10/27/tony-morris-monad-transformers/
 *** clj core.type / haskell http://adambard.com/blog/core-typed-vs-haskell/
 *** static typing http://scientopia.org/blogs/goodmath/2013/01/20/static-typing-give-me-a-break/ http://brehaut.net/blog/2013/static_types
@@ -434,6 +441,7 @@ comonad and OO Design pattern http://www.haskellforall.com/2013/02/you-could-hav
 * c#
 ** Top10 count words in LINQ  http://scottchamberlin.tumblr.com/post/55152416452/linqinterview
 * go
+** Go on App Engine: tools, tests, and concurrency by The Go Blog http://blog.golang.org/appengine-dec2013
 **  http://dehora.net/journal/2013/06/01/on-go/
 ** The examples from Tony Hoare's seminal 1978 paper "Communicating sequential processes" implemented in Go. http://godoc.org/github.com/thomas11/csp
 ** Go introduction http://cowlark.com/2009-11-15-go/
@@ -554,6 +562,8 @@ https://github.com/gigasquid/roomba-drone-friends
 ** http://www.uie.com/brainsparks/ http://www.esri.com/events/devsummit/agenda/keynote
 ** APIs: The Future Is Now http://www.uie.com/articles/api_future/
 * Category theory in practice
+** Of Algebirds, Monoids, Monads, and Other Bestiary for Large-Scale Data Analytics http://www.michael-noll.com/blog/2013/12/02/twitter-algebird-monoid-monad-for-large-scala-data-analytics/
+** Algebra for Analytics by P. Oscar Boykin https://speakerdeck.com/johnynek/algebra-for-analytics
 **  http://www.philandstuff.com/2011/10/25/learning-monads-in-clojure-a-warning.html
 ** category theoretic approach to optimizing MapReduce-like pipelines http://blog.ezyang.com/2013/05/category-theory-for-loop-optimizations/
 ** You Could Have Invented Monads! (And Maybe You Already Have.) http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html?m=1
@@ -563,6 +573,7 @@ https://github.com/gigasquid/roomba-drone-friends
 ** cat & glory http://yogsototh.github.io/Category-Theory-Presentation/#slide-2
 ** monads in picture http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 * Distributed System
+** The Raft Consensus Algorithm http://raftconsensus.github.io/
 ** Distributed Systems Archaeology: Works Cited by Michael R. Bernste http://michaelrbernste.in/2013/11/06/distributed-systems-archaeology-works-cited.html
 * Messaging
 ** Call me maybe: Kafka http://aphyr.com/posts/293-call-me-maybe-kafka
@@ -775,6 +786,7 @@ It is designed to work in a single process.
 http://engineering.linkedin.com/data-replication/open-sourcing-databus-linkedins-low-latency-change-data-capture-system
 opensource project http://data.linkedin.com/opensource/bob
 * Data Analysis
+** Challenges of crowdsourcing: Analysis of Historypin http://www.idea.org/blog/2013/12/09/challenges-of-crowdsourcing-analysis-of-historypin/
 ** UK Diabetes with cascalog http://openhealthdata.cdehub.org/  https://groups.google.com/forum/#!topic/cascalog-user/8BvYufJpMpI
 ** Transportation optimization starts with math --> understanding human behavior. http://nautil.us/issue/3/in-transit/unhappy-truckers-and-other-algorithmic-problems
 ** cloudera-ml solution https://github.com/cloudera/ml/tree/master/examples/kdd99 to a network intrusion detector http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
@@ -823,6 +835,8 @@ http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-ass
 ** Hive
 *** HOWTO use Hive to SQLize your own Tweets Part II http://hortonworks.com/blog/howto-use-hive-to-sqlize-your-own-tweets-part-two-loading-hive-sql-queries/
 *** Hive Cheat-sheet http://hortonworks.com/blog/hive-cheat-sheet-for-sql-users/
+** cascading
+*** History, patterns and future of Scalding by P. Oscar Boykin https://speakerdeck.com/johnynek/history-patterns-and-future-of-scalding
 ** Why all this interest in Spark? by Denny Lee http://dennyglee.com/2013/08/19/why-all-this-interest-in-spark/
 ** MINI BATCH K-MEANS  http://algorithmicthoughts.wordpress.com/2013/07/26/machine-learning-mini-batch-k-means/
 ** Difference between Crunch and Cascading http://www.quora.com/Apache-Hadoop/What-are-the-differences-between-Crunch-and-Cascading
@@ -1102,6 +1116,8 @@ http://slendrmeans.wordpress.com/2013/02/08/will-it-python-machine-learning-for-
 ** apply articles http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega
 http://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/
 * database
+** RethinkDB to store JSON documents http://rethinkdb.com/docs/architecture/
+** Vertica : column store http://www.vertica.com/2010/04/22/column-store-vs-column-store/
 ** MongoDB basics for everyone – Part 5 Using find() and findOne() http://paulscott.co.za/blog/mongodb-basics-for-everyone-part-5-using-find-and-findone/
 ** Distributed Algorithms in NoSQL Databases  http://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
 data consistency , data placement, system coordination
@@ -1124,6 +1140,7 @@ data consistency , data placement, system coordination
 ** graph DB comparison http://nosql.mypopescu.com/post/40759505554/a-comparison-of-7-graph-databases
    https://docs.google.com/spreadsheet/ccc?key=0AlHPKx74VyC5dERyMHlLQ2lMY3dFQS1JRExYQUNhdVE#gid=0
 * Data Visualization
+** Music visualization http://www.printmag.com/daily-heller/music-visualization-1-0-johannes-gruger
 ** Kepler’s Tally of Planets http://www.nytimes.com/interactive/science/space/keplers-tally-of-planets.html?smid=tw-share
 ** Sparpaket des Kantons Bern visualisiert by  Thomas Preusse und Oleg Lavrovsky http://www.stuermer.ch/maemst/2013/07/asp-2014/
 ** Python interactive visualization library for large dataset https://github.com/ContinuumIO/Bokeh based on https://github.com/JosephCottam/Stencil
@@ -1293,6 +1310,7 @@ install gdal to be able to convert shape file into GeoJSON :
 to get shapefiles : http://gadm.org/download
 ** http://vis4.net/blog/ kartograph http://kartograph.org/docs/kartograph.js/
 * constraint programming
+** Using JuMP to Solve a TSP with Lazy Constraints  http://iaindunning.com/2013/mip-callback.html
 ** CP for the impatient http://www.info.ucl.ac.be/~pschaus/cp4impatient/
 ** medium-level constraint modelling language http://www.minizinc.org/ student job : http://t.co/UntuMZ1sRG
 ** Scalar models http://yetanothermathprogrammingconsultant.blogspot.ch/2013/05/scalar-models.html
@@ -1321,6 +1339,7 @@ datalog for lucene query https://groups.google.com/forum/?fromgroups=#!topic/clo
 ** Path expressions through graphlike structures for clojure using core.logic https://github.com/ReinoutStevens/damp.qwal
 ** Applicative logic meta-programming using Clojure's core.logic against an Eclipse workspace https://github.com/cderoove/damp.ekeko
 * cascalog
+** hyperloglog with cascalog http://screen6.github.io/blog/2013/11/13/hyperloglog-with-cascalog.html
 ** top tuples per group by Nathan Marz  https://groups.google.com/forum/#!msg/cascalog-user/ih8yqyCqiT4/SqSeez15TBsJ
 Usage of name-vars
 
@@ -1813,6 +1832,7 @@ http://linuxaria.com/article/installation-of-seafile-open-source-dropbox-alterna
 http://techcrunch.com/2013/02/24/meet-owncloud-5-the-open-source-dropbox/
 * Fablab
 * Education
+** Montessori links http://forum.magicmaman.com/magic03ans/portage-allaitement-naturel/montessori-activites-maison-sujet-1391-1.htm
 ** MOOC list http://www.mooc-list.com/categories/computer-science-artificial-intelligence-robotics-vision
 ** Wonder How-To : math craft , origami, ... http://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/
 ** programming school http://codeclub.org.uk/ 
@@ -1845,5 +1865,7 @@ Ng told me his class at Stanford is already doing this, and he’s encouraging o
 * Research
 **  Douglas C. Engelbart A research for augmenting human Intellect http://sloan.stanford.edu/mousesite/1968Demo.html
 ** http://en.wikipedia.org/wiki/J._C._R._Licklider
+* Security
+** Protegez vos sources by @manhack http://bugbrother.blog.lemonde.fr/2010/10/27/journalistes-protegez-vos-sources/
 * Jobs
 ** Data Viz jobs mailing list https://groups.google.com/forum/?fromgroups#!forum/data-vis-jobs

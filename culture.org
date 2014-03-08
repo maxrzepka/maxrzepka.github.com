@@ -1,0 +1,191 @@
+#+TITLE:     Sur la toile culturelle
+#+OPTIONS:   H:3 num:nil creator:nil timestamp:nil toc:1
+#+STYLE: <link rel="stylesheet" type="text/css" href="toread.css" />
+
+* Art
+** Brancusi filmed http://www.youtube.com/watch?v=yyC8QX7QaqE
+* Literature
+** Scott Fitzgerald http://www.openculture.com/2013/06/read_f_scott_fitzgeralds_story_may_day_and_nearly_all_of_his_other_work_free_online.html
+** http://www.openculture.com/2013/05/7_nobel_speeches_by_7_great_writers.html
+** Sci Fic http://www.openculture.com/2012/03/free_science_fiction_fantasy_dystopian_classics_on_the_web.html
+** Philip K. Dick http://www.openculture.com/2013/03/download_14_great_sci-fi_stories_by_philip_k_dick_as_free_audio_books_and_free_ebooks.html
+** Proust’s Previously Unknown Illustrated Poems http://www.brainpickings.org/index.php/2013/04/26/marcel-proust-collected-poems/
+** Nabokov http://www.openculture.com/2012/03/nabokov_reads_lolita_names_the_great_books_.html
+** Deleuze et la question de la vérité en littérature http://erea.revues.org/371#tocto1n13
+** Felûre Fitzerald Deleuze http://www.esquire.com/features/the-crack-up 
+http://ebooks.adelaide.edu.au/f/fitzgerald/f_scott/tender/chapter1.html
+http://arsenaldumidi.hautetfort.com/archive/2007/03/09/la-felure-deleuze-et-les-lignes.html
+http://www.revue-klesis.org/pdf/Klesis-Philosophie-et-litterature-7-Beaucamp.pdf
+** whitman reading http://www.openculture.com/2013/02/hear_walt_whitman_maybe_reading_the_first_four_lines_of_his_poem_america_1890.html
+** Nasreddin Hodja Tales of the Turkish Trickster
+http://www.readliterature.com/hodjastories.htm
+http://www.pitt.edu/~dash/hodja.html#foodsmell
+** Literature and Mathematics http://asymptotejournal.com/article.php?cat=Nonfiction&id=4
+* Cinema
+** Vertigo interpretation by Slavoj Zizek http://www.openculture.com/2012/09/philosopher_slavoj_zizek_interprets_hitchcocks_ivertigoi_in_ithe_perverts_guide_to_cinemai_2006.html
+** http://www.openculture.com/2013/04/david_lynch_explains_how_meditation_enhances_our_creativity.html
+** editing master class by Hitch http://www.openculture.com/2013/04/alfred_hitchcocks_seven-minute_editing_master_class.html
+** http://www.openculture.com/2011/01/orson_welles_the_stranger.html
+** http://www.openculture.com/2012/07/alfred_hitchcocks_rules_for_watching_ipsychoi.html
+** http://www.openculture.com/2011/07/the_39_steps_hitchcocks_1935_classic_online.html
+** http://www.openculture.com/2010/07/tarkovksy.html
+** Cinéma Italiano
+Donni : Ornela Muti, Monica Vitti, Stefania Sandrelli
+Manni : Pietrangli Scola Ferreri Bellochio Visconti Crialese Giordana
+   - http://en.wikipedia.org/wiki/Tales_of_Ordinary_Madness
+   - http://en.wikipedia.org/wiki/Divorce,_Italian_Style
+   - http://en.wikipedia.org/wiki/The_Best_of_Youth
+   - http://en.wikipedia.org/wiki/Dormant_Beauty
+   - http://en.wikipedia.org/wiki/Io_la_conoscevo_bene
+   - http://en.wikipedia.org/wiki/Ossessione
+   - http://en.wikipedia.org/wiki/Respiro
+   - http://en.wikipedia.org/wiki/The_Pizza_Triangle
+** 100 film italiani da salvare http://it.wikipedia.org/wiki/100_film_italiani_da_salvare
+* Religion
+** Egyptian Gods and Goddesses http://www.ancientegypt.co.uk/gods/explore/main.html and their story http://www.ancientegypt.co.uk/gods/story/main.html
+* Philosophy
+** Spinoza dans les chemins de la connaissance avec Bernard Pautrat https://www.mediafire.com/folder/jcisizcls0xb9//Spinoza%20(1632-1677)
+** Les cours de Deleuze http://www.webdeleuze.com/php/sommaire.html http://www.le-terrier.net/deleuze/
+** LEs mille plateaux Deleuze Guattari http://www.bumblenut.com/drawing/art/plateaus/
+http://head.hesge.ch/made/projet/files/2010/12/rhizome_lecture.pdf http://asso-rhizome.org/blog/46-reflexion/91-rhizome-limage-de-lidentite-plurielle
+** Maurice Blanchot  https://vimeo.com/27046752 from http://web.archive.org/web/20010627171622/www.france3.fr/emissions/ecrivain/auteurs/blanchot.html
+** Philosophy 139x: Heidegger: Being and Time by Harvard College http://isites.harvard.edu/icb/icb.do?keyword=k65010
+** http://www.openculture.com/2011/10/bertrand_russell_i_owe_my_life_to_smoking.html
+** http://www.slate.com/articles/health_and_science/new_scientist/2012/03/noam_chomsky_on_linguistics_and_climate_change_.single.html
+** Nietzsche
+Nietzsche's "Three Metamorphoses" by Jason Francois http://kubrickfilms.tripod.com/id71.html
+** Pierre Hadot : concentration sur le présent (comment )
+** Love explained by Platon : Aristophanes's Speech from Plato's Symposium  http://www.anselm.edu/homepage/dbanach/sym.htm http://home.vicnet.net.au/~hwaa/artemis2.html
+http://en.wikipedia.org/wiki/Symposium_(Plato) http://de.wikipedia.org/wiki/Kugelmenschen
+* Linguistics
+** Claude Hagège reçoit la Médaille d'or du CNRS 1995 http://www.cnrs.fr/cw/fr/nomi/prix/Or95/or95.html
+** German http://deutschesprachwelt.de/neuesteausgabe/ http://www.jabbalab.com/learn-german
+* Bandes Dessinées
+** fumetto http://www.fumetto.ch/07/international_f.cfm
+** gipi http://giannigipi.blogspot.it/ https://fr.wikipedia.org/wiki/Gian_Alfonso_Pacinotti
+* Essays
+** http://m.thebrowser.com/interviews/alain-de-botton-on-illuminating-essays
+** Jorge-Luis Borges
+"Je travaille avec le sérieux d'un enfant qui s'amuse" http://www.les-ernest.fr/transcript_this
+** 15 minutes pour changer notre vision du monde
+http://www.les-ernest.fr/programme http://www.les-ernest.fr/toutes_les_videos
+http://blip.tv/les-ernest-de-lens/rss
+http://www.fabriquedesens.net/Les-vraies-ruptures-d-Internet-par
+* Science
+**  Rita Levi-Montalcini  http://www.brandeins.de/magazin/gegessen-wird-immer/la-professoressa.html
+* Comedy
+** Andy Kaufman http://www.openculture.com/2013/01/a_look_back_at_andy_kaufman_absurd_comic_performance_artist_and_endearing_weirdo.html
+* Photography
+** 18 Drawings You'll Swear Are Actual Photographs http://mashable.com/2013/04/26/drawings-photographs/
+* History
+** History of the coffee http://www.openculture.com/2013/04/the_history_of_coffee_and_how_it_transformed_our_world.html
+* Psychology
+** Henri Laborit interviews https://archive.org/search.php?query=Laborit%20AND%20subject%3A%22Laborit%22
+** Psychologie sociale http://www.univ-lyon2.fr/culture-savoirs/podcasts/patricia-mercader-enseignement-de-psychologie-sociale-2013-2014-537207.kjsp?RH=podcasts
+** Binaural beats http://en.wikipedia.org/wiki/Binaural_beats
+** Sigmund Freud Voice http://www.openculture.com/2012/05/sigmund_freud_speaks_the_only_known_recording_of_his_voice_1938.html
+* Music
+** Impersonator by Majical Cloudz http://pitchfork.com/advance/109-impersonator/
+** Leonard Cohen http://www.openculture.com/2011/10/ladies_and_gentlemen_mr_leonard_cohen.html
+** Bill Evans http://www.openculture.com/2012/04/the_universal_mind_of_bill_evans_advice_on_learning_to_play_jazz.html
+** brian Eno http://www.openculture.com/2012/05/brian_eno_on_creating_music_and_art_as_imaginary_landscapes_1989.html
+** chanson francaise : Barbara Carlotti , Rover , C2C , Maissiat , Barbara Carlotti,  Maud Lübeck,
+** stop making sense - Talking Heads http://www.youtube.com/watch?v=PVUPAXDPFpg
+** generative music (markov chain) http://ocw.mit.edu/courses/music-and-theater-arts/21m-380-music-and-technology-algorithmic-and-generative-music-spring-2010/
+* Ski
+** portland ads
+K2 Triaxial 5500 8.1 Mountain Snow Ski , size 194 cm , comes with M41 Twin Cam bindings , size 2.5-9 .
+Made in the USA . They are 8.1 mm sidecut for smooth easy turns .
+They are in good over all condition , no cracks or nicks , just small light scratches from normal use .
+If you are interested in seeing them , 503-3O9 0 1 49 , thank you
+
+http://portland.wweek.com/SportsEquipForSale/60-pair-of-unused-k2-triaxial-skis/7866070
+
+** http://www.maryjanemogultour.com/Contact-Us.html
+** http://www.mogulskiing.net/index.php/shop.html
+** US top 3 :  Mary Jane in CO, Mount Ellen at Sugarbush in VT, and Sundown in CT
+** top mogul ski resorts
+Verbier/Nendaz http://www.nendaz.ch/tourism/webcams.html
+Zermatt http://www.zermatt.ch/en/page.cfm/service/webcams
+Flumsberger http://www.flumserberg.ch/winter/de/today/livecams.htm
+my top 3 in Switzerland for moguls
+Chamonix (Grand Montets sector) just close to the border ...
+
+On top of it, they  are among the most beautiful ski resorts in the alps.
+
+Cherry on the cake you can commute between them within 4 hours thanks to the best public transportation of the world :
+ Believe or not : you can one day skiing in Zermatt and the next one in Flums...
+
+I'm going soon to Mary Jane CO to check how bumps looks like in US. Can't wait.
+
+** shipping Winter Park
+COPY AND SHIP OF WINTER PARK
+78415 US HIGHWAY 40
+200-D
+WINTER PARK,CO,80482
+tel 970-726-0500
+** US online shop http://suburbanskiandbike.com/
+http://suburbanskiandbike.com/Dynastar-6th-Sense-Twister-11-12-DA1E701168/
+http://suburbanskiandbike.com/Look-Pivot-18-XXL-2013-FC2A002/
+** Portland ski shop
+426 SE Grand Ave Portland, OR 9721 http://www.yelp.com/biz/next-adventure-portland#query:Ski%20Shops
+
+U.S. Outdoor Store
+219 SW Broadway
+Portland, Oregon
+97205
+** Vancouver technique
+http://www.youtube.com/watch?v=-T3ki0yCYgU colas qualif vancouver 2010
+http://www.youtube.com/watch?v=4e-TxH7FR4U bilodeau finals vancouver 2010
+http://www.youtube.com/watch?v=RkNRcJGTVLc colas finals vancouver 2010
+** colas
+Je viens de visionner la finale Vancouver 2010.
+C'est hallucinant comme tu vas vite et si propre. Dommage pour le dernier saut. Bilodeau n'était pas mauvais non plus.
+Je suis un fan des bosses depuis toujours (> 30ans) mais seulement récemment
+j'ai appris l'absorption et tous le reste grâce aux videos de l'équipe canadienne et des américains.
+Tu devrais vraiment faire des vidéos comme celle de Patrik Deneen sur http://www.mogulskiing.net/index.php/videos/mogul-skiing-technique.html
+En francais ce serait une super publicité pour le sport.
+Pour moi, j'ai appris pas mal avec ces vidéos car trouver des vrais bosseurs cela ne court les pistes.
+Par chance cette année j'ai trouvé un ancien skieur coupe du monde, appris des tonnes et
+même avec mes K2 triaxial 1m90 je m'en sors pas mal (je ne suis pas encore passé au carving)
+https://www.dropbox.com/s/dsnhj2yqjwuqzjc/20130106_122542.mp4
+Mais c'est vrai on peut skier avec toi, ce serait un rêve... s'il y a une petite place je prends
+Tu passes aussi par la Suisse depuis 6ans en Suisse les beaux domaines avec des bosses ne manquent pas (Nendaz, Zermatt , Flums), je me régale...
+
+@maxrzepka sur twitter
+
+Ps : as-tu un bon plan pour trouver des skis de bosses ? sur www.mogulskiing.net il y a les twisters ...
+* Politics
+** Thatcher / Chavez http://jpfreire.com/post/47456704700/associated-press-praise-chavez-grouse-about-thatcher
+* Sport
+** http://fr.wikipedia.org/wiki/Lionel_Terray
+« Si vraiment aucune pierre, aucun sérac, aucune crevasse ne m'attend
+quelque part dans le monde pour arrêter ma course, un jour viendra où,
+vieux et las, je saurai trouver la paix parmi les animaux et les
+fleurs. Le cercle sera fermé, enfin je serai le simple pâtre qu'enfant
+je rêvais de devenir… » C'est ainsi qu'il conclut Les Conquérants de
+l'inutile.
+** Football with Nabokov Camus and Lampard  http://tomclarkblog.blogspot.co.uk/2010/05/vladimir-nabokov-keeper-of-secret.html 
+http://www.guardian.co.uk/theguardian/2013/jun/01/frank-lampard-interview-book-frankies-magic-football
+http://www.telegraph.co.uk/culture/books/6941924/Albert-Camus-thinker-goalkeeper.html
+* Radio
+** Téléchargement d'émissions de France Culture http://www.regardfc.com/h55-aspiv2
+* Buy
+** mini projector http://mini-projector-review.toptenreviews.com/ 
+*** m2 by aaxatech http://www.aaxatech.com/store/index.html http://mini-projector-review.toptenreviews.com/m2-micro-projector-review.html
+** vinyl https://www.hhv.de/
+** groups several sellers http://www.musicstack.com/
+** http://www.openculture.com/2013/02/ijazz_hoti_the_rare_1938_short_film_with_jazz_legend_django_reinhardt.html
+** audio media center http://box-designs.com/main.php?prod=streamboxds&cat=source&lang=de
+* meditation
+** http://accelerateme.net/meditation/free-guided-meditation-1-how-to-meditate/
+* Education
+** L'école vivante Montessori Freinet : livres http://ecole-vivante.com/librairie_pedagogie_active.html
+** Jouets
+*** Djeco http://www.djeco.com/blog/
+*** http://www.ebanggood.com  http://www.ebanggood.com/Engraved-Flower-Pattern-Kimono-Shyly-Smiling-Girl-Wooden-Kokeshi-Doll-Doll-Toys-64659.html
+*** Fine Wooden Toys : http://www.finewoodentoys.com/pro1426693.html by http://www.toydirectory.com/TrophyMusicCompany/
+*** Out of the blue KG, the wholesale company for gift, trend and joke articles https://en.ootb.de/products/wooden-items
+*** DIY origami mobile http://www.angiewashington.com/2010/08/diy-origami-mobile/
+*** DIY mobile http://www.designdazzle.com/2010/05/diy-decor-ideas/
+*** DIY ornaments http://www.scandinaviandeko.com/blog/diy-christmas-ornaments/ http://www.scandinaviandeko.com/blog/easy-cardboard-mobile/
