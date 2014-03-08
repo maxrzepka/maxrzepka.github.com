@@ -1806,10 +1806,6 @@ boot down from 20s to 12s rather than bringing it from 5s to <1s.
 (Using with-out-str is needed because print-table of course returns nil)
 
 But what I get when generating HTML (via "C-c C-e b") is not a table, but the literal text of the table markup. I.e. compiling the above source block yeilds:
-
-#+RESULTS: clojure-org-table
-
-** light table http://www.chris-granger.com/2013/02/27/light-table-030-experience/
 * Tech stuff
 **  http://petapixel.com/2013/09/29/newly-developed-software-helps-get-high-quality-photos-crappy-lenses/
 **  http://pitchmarathon.co/prizes/
