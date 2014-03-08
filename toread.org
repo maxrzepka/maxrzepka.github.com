@@ -1845,5 +1845,9 @@ Ng told me his class at Stanford is already doing this, and he’s encouraging o
 * Research
 **  Douglas C. Engelbart A research for augmenting human Intellect http://sloan.stanford.edu/mousesite/1968Demo.html
 ** http://en.wikipedia.org/wiki/J._C._R._Licklider
+* Marketing
+** Pay-Per-Click PPC
+*** https://econsultancy.com/blog/64466-how-do-you-beat-google-in-vertical-search
+*** Distribution of Clicks on Google’s SERPs http://www.seoresearcher.com/distribution-of-clicks-on-googles-serps-and-eye-tracking-analysis.htm
 * Jobs
 ** Data Viz jobs mailing list https://groups.google.com/forum/?fromgroups#!forum/data-vis-jobs
